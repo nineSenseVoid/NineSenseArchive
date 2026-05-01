@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>九境書庫｜劇本介紹</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body class="has-topbar" data-page-type="detail">
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a class="home-link" href="./index.html" aria-label="回 九境書庫首頁">
+          <span class="topbar-icon">⌂</span>
+          <span>九境書庫</span>
+        </a>
+        <nav class="breadcrumb" id="breadcrumbNav"></nav>
+      </div>
+      <div class="topbar-right">
+        <button class="theme-toggle" type="button" id="themeToggle" aria-label="切換深色與淺色">
+          <span class="topbar-icon" id="themeIcon">☾</span>
+          <span id="themeText">深色</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap page-pad">
+    <div class="script-detail-layout">
+      <!-- Detail Page V4 左側欄結構 -->
+      <aside class="detail-sidebar">
+
+        <!-- 作品卡 -->
+        <section class="panel work-card">
+          <div class="work-cover" id="workCover">
+            <div class="work-meta">
+              <div class="work-world" id="workWorld">未分類作品</div>
+              <h2 class="work-title" id="workTitle">讀取中...</h2>
+              <div class="work-sub">
+                <span id="workCharacter">角色</span>
+                <span id="workDate">日期</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="fav-btn" id="favBtn" type="button" aria-pressed="false">♡ 加入書櫃</button>
+        </section>
+
+
+        <!-- 章節列表 -->
+        <section class="panel side-group">
+          <button class="group-title toggle-btn" id="nodeToggle" type="button" aria-expanded="true">
+            <span>章節列表</span>
+            <span class="muted" id="nodeCount">0 個節點</span>
+            <span class="detail-collapse-icon">▾</span>
+          </button>
+
+          <div class="group-body detail-node-panel" id="nodePanel">
+            <div class="detail-node-list compact" id="nodeList"></div>
+          </div>
+        </section>
+
+        <!-- 作品資訊 -->
+        <section class="panel side-group">
+          <button class="group-title toggle-btn" id="metaToggle" type="button" aria-expanded="false">
+            <span>作品資訊</span>
+            <span class="detail-collapse-icon">▾</span>
+          </button>
+
+          <div class="group-body compact-info detail-meta-card is-collapsed" id="metaCard">
+            <div><label>角色</label><span id="metaCharacter">讀取中...</span></div>
+            <div><label>風格</label><span id="metaStyle">讀取中...</span></div>
+            <div><label>更新</label><span id="metaDate">讀取中...</span></div>
+            <div><label>ID</label><span id="pathBox">讀取中...</span></div>
+          </div>
+        </section>
+
+        <!-- 延伸探索 -->
+        <section class="panel side-group">
+           <button class="group-title toggle-btn" id="exploreToggle" type="button" aria-expanded="false">
+            <span>延伸探索</span>
+            <span class="detail-collapse-icon">▾</span>
+          </button>
+
+          <div class="group-body detail-explore-panel is-collapsed" id="explorePanel">
+
+            <!-- 搜尋 -->
+            <input class="search-box"
+                  id="leftSearch"
+                  type="text"
+                  placeholder="搜尋劇本、角色、標籤">
+
+            <!-- 世界觀 -->
+            <div class="mini-section">
+              <div class="mini-title">
+                世界觀
+                <span class="muted" id="worldCount">0 個世界觀</span>
+              </div>
+
+              <select class="world-select" id="worldQuickSelect">
+                <option value="">全部世界觀</option>
+              </select>
+            </div>
+
+            <div class="mini-section">
+              <div class="mini-title">結果</div>
+              <div class="detail-explore-results" id="exploreResults"></div>
+            </div>
+
+          </div>
+        </section>
+
+
+        <!-- 工具列 -->
+        <section class="tool-stack">
+          <!-- <button class="tool-btn">🎲 隨機一本到我臉上</button> -->
+          <button class="tool-btn" id="randomDetailBtn" type="button">🎲 讓命運隨機塞一本給你</button>
+          <a class="tool-btn ghost" href="./index.html">回 九境書庫首頁</a>
+        </section>
+
+      </aside>
+
+      <section class="panel detail-main">
+        <div class="detail-switch-notice" id="detailSwitchNotice" hidden></div>
+        <div class="detail-hero">
+          <div class="detail-kicker" id="readerKicker">讀取中...</div>
+          <div class="detail-hero-top">
+            <div>
+              <h1 id="readerTitle">讀取中...</h1>
+              <p class="detail-summary" id="readerSummary">讀取中...</p>
+            </div>
+            <!-- <a class="hero-badge detail-hero-cta" id="heroReadBtn" href="#">前往站內閱讀</a> -->
+          </div>
+        </div>
+
+        <div class="detail-guide-grid">
+          <section class="detail-guide-card">
+            <div class="guide-label">✦ 開場語氣</div>
+            <div class="guide-content" id="openingLine">讀取中...</div>
+            <div class="guide-speaker" id="openingSpeaker">角色</div>
+          </section>
+
+          <section class="detail-guide-card">
+            <div class="guide-label">✦ 使用方式</div>
+            <div class="guide-content" id="systemLine">讀取中...</div>
+            <div class="guide-speaker">系統提示</div>
+          </section>
+        </div>
+
+        <section class="detail-reading-block">
+          <div class="detail-reading-head">
+            <div>
+              <h3>小說式片段</h3>
+              <p class="muted">先讀一段氣味，再決定要不要往庫內閱讀或外部平台走。</p>
+            </div>
+            <span class="detail-date" id="readerDate"></span>
+          </div>
+
+          <div class="detail-reading-content" id="novelContent"></div>
+
+          <div class="chips detail-tag-chips" id="tagChips"></div>
+
+          <div class="btn-row detail-link-row" id="linkRow"></div>
+        </section>
+      </section>
+
+    </div>
+  </div>
+
+  <script>
+    const worldQuickSelect = document.getElementById('worldQuickSelect');
+    const worldCountEl = document.getElementById('worldCount');
+    const nodeCountEl = document.getElementById('nodeCount');
+    const leftSearch = document.getElementById('leftSearch');
+    const searchResults = document.getElementById('searchResults');
+    const nodeList = document.getElementById('nodeList');
+    const metaToggle = document.getElementById('metaToggle');
+    const metaCard = document.getElementById('metaCard');
+
+    const readerKicker = document.getElementById('readerKicker');
+    const readerTitle = document.getElementById('readerTitle');
+    const readerSummary = document.getElementById('readerSummary');
+    const openingLine = document.getElementById('openingLine');
+    const openingSpeaker = document.getElementById('openingSpeaker');
+    const systemLine = document.getElementById('systemLine');
+    const readerDate = document.getElementById('readerDate');
+    const novelContent = document.getElementById('novelContent');
+    const tagChips = document.getElementById('tagChips');
+    const linkRow = document.getElementById('linkRow');
+
+    const metaCharacter = document.getElementById('metaCharacter');
+    const metaStyle = document.getElementById('metaStyle');
+    const metaDate = document.getElementById('metaDate');
+    const pathBox = document.getElementById('pathBox');
+
+    const nodeToggle = document.getElementById('nodeToggle');
+    const nodePanel = document.getElementById('nodePanel');
+    const exploreResults = document.getElementById('exploreResults');
+    const exploreToggle = document.getElementById('exploreToggle');
+    const explorePanel = document.getElementById('explorePanel');
+
+    const workCover = document.getElementById('workCover');
+    const workWorld = document.getElementById('workWorld');
+    const workTitle = document.getElementById('workTitle');
+    const workCharacter = document.getElementById('workCharacter');
+    const workDate = document.getElementById('workDate');
+    const favBtn = document.getElementById('favBtn');
+    const randomDetailBtn = document.getElementById('randomDetailBtn');
+    const detailSwitchNotice = document.getElementById('detailSwitchNotice');
+
+    let items = [];
+    let activeId = null;
+    let activeWorld = '';
+    let exploreWorld = '';
+    let lastSwitchedTitle = '';
+    let switchNoticeTimer = null;
+
+    const esc = s => String(s ?? '').replace(/[&<>\"]/g, m => ({
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;'
+    }[m]));
+
+    function getDetailCoverVisual(item) {
+      const top = item.bookColorTop || '#7a5336';
+      const bottom = item.bookColorBottom || '#573924';
+
+    if (item.video) {
+        return `
+          <video
+            class="detail-cover-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="${esc(item.cover || '')}">
+            <source src="${esc(item.video)}" type="video/mp4">
+          </video>
+        `;
+      }
+
+      if (item.cover) {
+        return `
+          <img
+            src="${esc(item.cover)}"
+            alt="${esc(item.title)} 封面"
+            onerror="this.outerHTML = this.dataset.fallback"
+            data-fallback="${esc(getDetailFallbackCover(item))}"
+          >
+        `;
+      }
+
+      return getDetailFallbackCover(item);
+
+      /* return `
+        <div class="detail-cover-fallback" style="background:linear-gradient(180deg, ${top}, ${bottom});">
+          <span>${esc((item.title || item.character || '作品').slice(0, 8))}</span>
+        </div>
+      `; */
+    }
+
+    const getIdFromHash = () => decodeURIComponent(location.hash.replace('#', '').trim());
+
+    function setQueryId(id) {
+      history.replaceState({}, '', `#${encodeURIComponent(id)}`);
+    }
+
+    function scrollToDetailTop() {
+      const topbar = document.querySelector('.topbar');
+      const main = document.querySelector('.detail-main');
+      if (!main) return;
+
+      const offset = (topbar?.offsetHeight || 0) + 16;
+      const y = window.scrollY + main.getBoundingClientRect().top - offset;
+
+      window.scrollTo({
+        top: Math.max(0, y),
+        behavior: 'smooth'
+      });
+    }
+
+    function showDetailSwitchNotice(title) {
+      if (!detailSwitchNotice) return;
+
+      detailSwitchNotice.textContent = `已切換至：${title}`;
+      detailSwitchNotice.hidden = false;
+      detailSwitchNotice.classList.remove('is-show');
+      void detailSwitchNotice.offsetWidth;
+      detailSwitchNotice.classList.add('is-show');
+
+      clearTimeout(showDetailSwitchNotice._timer);
+      showDetailSwitchNotice._timer = setTimeout(() => {
+        detailSwitchNotice.classList.remove('is-show');
+        setTimeout(() => {
+          detailSwitchNotice.hidden = true;
+        }, 220);
+      }, 1800);
+    }
+
+    function getFilteredItems() {
+      const q = leftSearch.value.trim().toLowerCase();
+      return items.filter(item => {
+        const hay = [
+          item.title,
+          item.world,
+          item.character,
+          item.nodeTitle,
+          item.summary,
+          ...(item.tags || [])
+        ].join(' ').toLowerCase();
+
+        return !q || hay.includes(q);
+      });
+    }
+
+    function switchToItem(id) {
+      const next = items.find(item => item.id === id);
+      if (!next) return;
+
+      activeId = next.id;
+      activeWorld = next.world || '';
+      lastSwitchedTitle = next.nodeTitle || next.title || '未命名作品';
+      setQueryId(activeId);
+
+      if (switchNoticeTimer) {
+        clearTimeout(switchNoticeTimer);
+      }
+
+      render();
+
+      const detailMain = document.querySelector('.detail-main');
+      if (detailMain) {
+        detailMain.classList.remove('is-switching');
+        void detailMain.offsetWidth;
+        detailMain.classList.add('is-switching');
+      }
+
+      scrollToDetailTop();
+      showDetailSwitchNotice(lastSwitchedTitle);
+
+      switchNoticeTimer = setTimeout(() => {
+        lastSwitchedTitle = '';
+        renderExploreResults();
+      }, 2200);
+    }
+
+    function renderWorldDropdown(filtered) {
+      if (!worldQuickSelect || !worldCountEl) return;
+
+      const worldMap = new Map();
+
+      filtered.forEach(item => {
+        if (!item.world) return;
+        worldMap.set(item.world, (worldMap.get(item.world) || 0) + 1);
+      });
+
+      const worlds = [...worldMap.entries()];
+      worldCountEl.textContent = `${worlds.length} 個世界觀`;
+
+      const currentValue = exploreWorld || '';
+
+      worldQuickSelect.innerHTML = `
+        <option value="">全部世界觀</option>
+        ${worlds.map(([world, count]) => `
+          <option value="${esc(world)}">${esc(world)}（${count}本）</option>
+        `).join('')}
+      `;
+
+      worldQuickSelect.value = worlds.some(([world]) => world === currentValue)
+        ? currentValue
+        : '';
+
+      worldQuickSelect.classList.toggle(
+        'is-placeholder',
+        worldQuickSelect.value === ''
+      );
+    }
+
+    function renderNodeList(filtered) {
+      const nodes = filtered.filter(item => !activeWorld || item.world === activeWorld);
+      nodeCountEl.textContent = `${nodes.length} 個節點`;
+
+      if (!nodes.length) {
+        nodeList.innerHTML = '<div class="empty">這個世界觀沒有可用節點。</div>';
+        return;
+      }
+
+      nodeList.innerHTML = nodes.map(item => `
+        <button
+          class="detail-node-item ${item.id === activeId ? 'active' : ''}"
+          type="button"
+          data-id="${esc(item.id)}"
+        >
+          <span class="detail-node-title">${esc(item.nodeTitle)}</span>
+          <span class="detail-node-summary">${esc(item.nodeSummary || item.summary || '')}</span>
+        </button>
+      `).join('');
+
+      [...nodeList.querySelectorAll('.detail-node-item')].forEach(btn => {
+        btn.addEventListener('click', () => {
+          switchToItem(btn.dataset.id);
+        });
+      });
+    }
+
+    function renderSearchResults(filtered) {
+      searchResults.innerHTML = '';
+      searchResults.classList.remove('is-open');
+    }
+
+    function getExploreItems() {
+      const q = leftSearch.value.trim().toLowerCase();
+
+      return items.filter(item => {
+        const hay = [
+          item.title,
+          item.world,
+          item.character,
+          item.nodeTitle,
+          item.summary,
+          ...(item.tags || [])
+        ].join(' ').toLowerCase();
+
+        const okQ = !q || hay.includes(q);
+        const okWorld = !exploreWorld || item.world === exploreWorld;
+
+        return okQ && okWorld;
+      });
+    }
+
+   function renderExploreResults() {
+      const resultItems = getExploreItems();
+      const q = leftSearch.value.trim();
+      const worldLabel = exploreWorld ? `世界觀：${exploreWorld}` : '';
+      const keywordLabel = q ? `搜尋：${q}` : '';
+
+      if (!q && !exploreWorld) {
+        exploreResults.innerHTML = '';
+        return;
+      }
+
+      const filters = [worldLabel, keywordLabel].filter(Boolean);
+
+      if (!resultItems.length) {
+        exploreResults.innerHTML = `
+          <div class="explore-result-panel">
+            <div class="explore-result-head">
+              <strong>探索結果</strong>
+              <span class="muted">0 筆</span>
+            </div>
+            ${filters.length ? `
+              <div class="explore-result-filters">
+                ${filters.map(text => `<span class="explore-filter-pill">${esc(text)}</span>`).join('')}
+              </div>
+            ` : ''}
+            <div class="detail-search-empty">沒有符合的劇本</div>
+          </div>
+        `;
+        return;
+      }
+
+      exploreResults.innerHTML = `
+        <div class="explore-result-panel">
+          ${lastSwitchedTitle ? `
+            <div class="explore-switch-notice">
+              已切換至：${esc(lastSwitchedTitle)}
+            </div>
+          ` : ''}
+
+          <div class="explore-result-head">
+            <strong>探索結果</strong>
+            <span class="muted">${resultItems.length} 筆</span>
+          </div>
+
+          ${filters.length ? `
+            <div class="explore-result-filters">
+              ${filters.map(text => `<span class="explore-filter-pill">${esc(text)}</span>`).join('')}
+            </div>
+          ` : ''}
+
+          <div class="explore-result-list">
+            ${resultItems.slice(0, 8).map(item => `
+              <button
+                class="explore-result-item ${item.id === activeId ? 'is-current' : ''}"
+                type="button"
+                data-id="${esc(item.id)}"
+              >
+                <span class="explore-result-title">${esc(item.nodeTitle || item.title)}</span>
+                <span class="explore-result-meta">
+                  ${esc(item.world || '未分類')}・${esc(item.character || '未設定角色')}
+                </span>
+                <span class="explore-result-summary">
+                  ${esc(item.nodeSummary || item.summary || '這本還沒補摘要。')}
+                </span>
+              </button>
+            `).join('')}
+          </div>
+        </div>
+      `;
+
+      [...exploreResults.querySelectorAll('.explore-result-item')].forEach(btn => {
+        btn.addEventListener('click', () => {
+          switchToItem(btn.dataset.id);
+        });
+      });
+    }
+
+    function renderReader(item) {
+     
+      const kickerParts = [item.world, item.character].filter(Boolean);
+
+      readerKicker.textContent = kickerParts.join('・');
+      readerTitle.textContent = item.nodeTitle
+        ? `${item.title}・${item.nodeTitle}`
+        : item.title;
+      readerSummary.textContent = item.summary || '這本暫時還沒寫摘要。';
+
+      openingLine.textContent = item.openingLine || '這本目前沒有額外的開場語氣。';
+      openingSpeaker.textContent = [item.character, item.characterSummary].filter(Boolean).join('・') || '角色';
+      systemLine.textContent = item.nodeSummary || item.summary || '這一節目前沒有補充說明。';
+      readerDate.textContent = item.date || '';
+
+      novelContent.innerHTML = (item.novelExcerpt || [])
+        .map(p => `<p>${esc(p)}</p>`)
+        .join('') || '<p>這本目前沒有放入小說式片段。</p>';
+
+      tagChips.innerHTML = (item.tags || [])
+      .map(tag => `
+        <button class="chip detail-tag-chip" type="button" data-reader-tag="${esc(tag)}">
+          ${esc(tag)}
+        </button>
+      `)
+      .join('');
+
+      linkRow.innerHTML = `
+        <a class="btn primary" href="./reading.html#${encodeURIComponent(item.id)}">庫內閱讀</a>
+        ${(item.links || []).map(link => `
+          <a class="btn ghost" href="${esc(link.url)}" target="_blank" rel="noreferrer">${esc(link.name)}</a>
+        `).join('')}
+      `;
+
+      metaCharacter.textContent = item.character || '未設定角色';
+      metaStyle.innerHTML = (item.tags || []).length
+          ? (item.tags || []).slice(0, 3).map(tag => `
+              <button class="meta-style-tag" type="button" data-style-tag="${esc(tag)}">
+                ${esc(tag)}
+              </button>
+            `).join('')
+          : '<span class="meta-style-empty">未設定</span>';
+      metaDate.textContent = item.date || '未填寫';
+      pathBox.textContent = `reading.html#${item.id}`;
+
+      workCover.innerHTML = `
+        ${getDetailCoverVisual(item)}
+        <div class="work-meta">
+          <div class="work-world" id="workWorld">${esc(item.world || '未分類作品')}</div>
+          <h2 class="work-title" id="workTitle">${esc(item.nodeTitle || item.title || '未命名作品')}</h2>
+          <div class="work-sub">
+            <span id="workCharacter">${esc(item.character || '未設定角色')}</span>
+            <span id="workDate">${esc(item.date || '未填寫')}</span>
+          </div>
+        </div>
+      `;
+      /* workWorld.textContent = item.world || '未分類作品';
+      workTitle.textContent = item.nodeTitle || item.title || '未命名作品';
+      workCharacter.textContent = item.character || '未設定角色';
+      workDate.textContent = item.date || '未填寫'; */
+
+      document.title = item.nodeTitle ? `${item.title}｜${item.nodeTitle}` : item.title;
+      updateFavButton(item.id);
+    }
+
+    function render() {
+        const activeItem = items.find(item => item.id === activeId) || items[0];
+
+        if (!activeItem) {
+          readerKicker.textContent = '沒有資料';
+          readerTitle.textContent = '找不到可顯示的劇本';
+          readerSummary.textContent = '目前沒有可用內容。';
+          return;
+        }
+
+        activeWorld = activeItem.world || '';
+        
+        if (worldQuickSelect && worldCountEl) renderWorldDropdown(items);
+        if (nodeList && nodeCountEl) {
+          renderNodeList(items.filter(item => !activeWorld || item.world === activeWorld));
+        }
+        if (exploreResults) renderExploreResults();
+
+        renderReader(activeItem);
+    }
+
+    fetch('../../data/scripts/scripts.json')
+      .then(r => r.json())
+      .then(data => {
+        items = data;
+        /* activeId = getIdFromQuery() || items[0]?.id || ''; */
+        activeId = getIdFromHash() || items[0]?.id || '';
+        activeWorld = items.find(item => item.id === activeId)?.world || items[0]?.world || '';
+
+        if (worldQuickSelect) {
+          worldQuickSelect.classList.add('is-placeholder');
+        }
+
+        render();
+      });
+    
+    /* leftSearch .addEventListener('input', render);
+    leftSearch.addEventListener('input', renderExploreResults);*/
+    if (leftSearch) {
+      leftSearch.addEventListener('input', renderExploreResults);
+    }
+
+    if (worldQuickSelect) {
+      worldQuickSelect.addEventListener('change', () => {
+        exploreWorld = worldQuickSelect.value;
+
+        worldQuickSelect.classList.toggle(
+          'is-placeholder',
+          worldQuickSelect.value === ''
+        );
+
+        renderExploreResults();
+      });
+    }
+
+    if (nodeToggle && nodePanel) {
+      nodeToggle.addEventListener('click', () => {
+        const isCollapsed = nodePanel.classList.toggle('is-collapsed');
+        nodeToggle.setAttribute('aria-expanded', String(!isCollapsed));
+      });
+    }
+
+    if (metaToggle && metaCard) {
+      metaToggle.addEventListener('click', () => {
+        const isCollapsed = metaCard.classList.toggle('is-collapsed');
+        metaToggle.setAttribute('aria-expanded', String(!isCollapsed));
+      });
+    }
+
+    if (exploreToggle && explorePanel) {
+      exploreToggle.addEventListener('click', () => {
+        const isCollapsed = explorePanel.classList.toggle('is-collapsed');
+        exploreToggle.setAttribute('aria-expanded', String(!isCollapsed));
+      });
+    }
+
+    if (metaStyle) {
+      metaStyle.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-style-tag]');
+        if (!btn || !leftSearch) return;
+
+        const tag = btn.dataset.styleTag || '';
+
+        leftSearch.value = tag;
+        exploreWorld = '';
+        if (worldQuickSelect) {
+          worldQuickSelect.value = '';
+          worldQuickSelect.classList.add('is-placeholder');
+        }
+
+        if (explorePanel.classList.contains('is-collapsed')) {
+          explorePanel.classList.remove('is-collapsed');
+          exploreToggle.setAttribute('aria-expanded', 'true');
+        }
+
+        renderExploreResults();
+      });
+    }
+
+    if (tagChips) {
+      tagChips.addEventListener('click', (e) => {
+        const btn = e.target.closest('[data-reader-tag]');
+        if (!btn || !leftSearch) return;
+
+        const tag = btn.dataset.readerTag || '';
+
+        leftSearch.value = tag;
+        exploreWorld = '';
+
+        if (worldQuickSelect) {
+          worldQuickSelect.value = '';
+          worldQuickSelect.classList.add('is-placeholder');
+        }
+
+        if (explorePanel.classList.contains('is-collapsed')) {
+          explorePanel.classList.remove('is-collapsed');
+          exploreToggle.setAttribute('aria-expanded', 'true');
+        }
+
+        renderExploreResults();
+
+        const exploreSection = document.getElementById('explorePanel');
+        if (exploreSection) {
+          const topbar = document.querySelector('.topbar');
+          const offset = (topbar?.offsetHeight || 0) + 12;
+          const y = window.scrollY + exploreSection.getBoundingClientRect().top - offset;
+          window.scrollTo({
+            top: Math.max(0, y),
+            behavior: 'smooth'
+          });
+        }
+      });
+    }
+  </script>
+
+  <script>
+    (function () {
+      const key = "site-theme";
+      const html = document.documentElement;
+      const toggle = document.getElementById("themeToggle");
+      const text = document.getElementById("themeText");
+      const icon = document.getElementById("themeIcon");
+
+      function applyTheme(theme) {
+        html.setAttribute("data-theme", theme);
+        if (text) text.textContent = theme === "light" ? "淺色" : "深色";
+        if (icon) icon.textContent = theme === "light" ? "☀" : "☾";
+      }
+
+      const saved = localStorage.getItem(key);
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      applyTheme(saved || (prefersLight ? "light" : "dark"));
+
+      if (toggle) {
+        toggle.addEventListener("click", function () {
+          const current = html.getAttribute("data-theme") === "light" ? "light" : "dark";
+          const next = current === "light" ? "dark" : "light";
+          localStorage.setItem(key, next);
+          applyTheme(next);
+        });
+      }
+    })();
+  </script>
+
+  <script>
+  (function () {
+    const nav = document.getElementById("breadcrumbNav");
+    if (!nav) return;
+
+    const pageType = document.body.dataset.pageType || "";
+    const scriptId = decodeURIComponent(location.hash.replace('#', '').trim());
+    const scriptsPath = "../../data/scripts/scripts.json";
+
+    const link = (href, text) => `<a href="${href}">${text}</a>`;
+    const current = (text) => `<span class="current">${text}</span>`;
+    const sep = () => `<span class="separator">|</span>`;
+
+    fetch(scriptsPath)
+      .then(r => r.json())
+      .then(items => {
+        const item = items.find(x => x.id === scriptId) || items[0];
+        if (!item) {
+          nav.innerHTML = current("劇本介紹頁");
+          return;
+        }
+
+        nav.innerHTML = [
+          current(item.title || "劇本介紹頁")
+        ].join("");
+      })
+      .catch(() => {
+        nav.innerHTML = current("劇本介紹頁");
+      });
+  })();
+
+  const FAVORITE_KEY = 'favorite_scripts';
+
+  function getFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem(FAVORITE_KEY) || '[]');
+    } catch {
+      return [];
+    }
+  }
+
+  function setFavorites(ids) {
+    localStorage.setItem(FAVORITE_KEY, JSON.stringify(ids));
+  }
+
+  function updateFavButton(id) {
+    if (!favBtn) return;
+    const favs = getFavorites();
+    const active = favs.includes(id);
+    favBtn.setAttribute('aria-pressed', String(active));
+    favBtn.textContent = active ? '♥ 已加入書櫃' : '♡ 加入書櫃';
+    favBtn.classList.toggle('is-active', active);
+  }
+
+  if (favBtn) {
+    favBtn.addEventListener('click', () => {
+      if (!activeId) return;
+      const favs = getFavorites();
+      const exists = favs.includes(activeId);
+      const next = exists ? favs.filter(x => x !== activeId) : [...favs, activeId];
+      setFavorites(next);
+      updateFavButton(activeId);
+    });
+  }
+
+  function getDetailFallbackCover(item) {
+    const top = item.bookColorTop || '#7a5336';
+    const bottom = item.bookColorBottom || '#573924';
+
+    return `
+      <div class="detail-cover-fallback" style="background:linear-gradient(180deg, ${top}, ${bottom});">
+        <span>${esc(item.title || item.character || '作品')}</span>
+      </div>
+    `;
+  }
+
+  if (randomDetailBtn) {
+      randomDetailBtn.addEventListener('click', () => {
+      if (!items.length) return;
+
+      const showNSFW = sessionStorage.getItem('showNSFW') === 'true';
+
+      let pool = showNSFW
+        ? items
+        : items.filter(item => item.nsfw !== true);
+
+      // 排除目前正在看的這一本
+      pool = pool.filter(item => item.id !== activeId);
+
+      // 如果只剩一本到被排除，保底機制
+      if (!pool.length) {
+        pool = showNSFW
+          ? items
+          : items.filter(item => item.nsfw !== true);
+      }
+
+      const pick = pool[Math.floor(Math.random() * pool.length)];
+      switchToItem(pick.id);
+    });
+  }
+
+  </script>
+<script src="./protect.js"></script>
+</body>
+</html>

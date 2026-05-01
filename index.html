@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="zh-Hant"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>作品入口</title><link rel="stylesheet" href="/css/style.css" /></head><body class="has-topbar">
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a class="home-link" href="./index.html" aria-label="回首頁">
+          <span class="topbar-icon">⌂</span>
+          <span>首頁</span>
+        </a>
+        <nav class="breadcrumb"><span class="current">首頁</span></nav>
+      </div>
+      <div class="topbar-right">  
+        <button class="theme-toggle" type="button" id="themeToggle" aria-label="切換深色與淺色">
+          <span class="topbar-icon" id="themeIcon">☾</span>
+          <span id="themeText">深色</span>
+        </button>
+      </div>
+    </div>
+  </div>
+<div class="wrap page-pad"><div class="hero"><div><h1>作品入口</h1><p>插圖、遊戲、FF14 工具，還有 AI 劇本庫。先把門面立起來，其他慢慢堆。</p></div></div><div class="panel" style="padding:20px;"><div class="stack"><a class="btn ghost" href="pages/scripts/index.html">AI 劇本庫</a></div></div></div>
+  <script>
+    (function () {
+      const key = "site-theme";
+      const html = document.documentElement;
+      const toggle = document.getElementById("themeToggle");
+      const text = document.getElementById("themeText");
+      const icon = document.getElementById("themeIcon");
+
+      function applyTheme(theme) {
+        html.setAttribute("data-theme", theme);
+        if (text) text.textContent = theme === "light" ? "淺色" : "深色";
+        if (icon) icon.textContent = theme === "light" ? "☀" : "☾";
+      }
+
+      const saved = localStorage.getItem(key);
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      applyTheme(saved || (prefersLight ? "light" : "dark"));
+
+      if (toggle) {
+        toggle.addEventListener("click", function () {
+          const current = html.getAttribute("data-theme") === "light" ? "light" : "dark";
+          const next = current === "light" ? "dark" : "light";
+          localStorage.setItem(key, next);
+          applyTheme(next);
+        });
+      }
+    })();
+  </script>
+
+</body></html>

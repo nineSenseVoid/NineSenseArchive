@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>九境書庫 NineSense Archive</title>
+  <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body class="has-topbar" data-page-type="list">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-left">
+        <a class="home-link" href="./index.html" aria-label="回 AI 劇本庫首頁">
+          <span class="topbar-icon">⌂</span>
+          <span>九境書庫</span>
+        </a>
+        <nav class="breadcrumb" id="breadcrumbNav"><span class="current">NineSense Archive</span></nav>
+      </div>
+      <div class="topbar-right">
+        <button class="nsfw-toggle" type="button" id="nsfwToggle" aria-label="切換成人內容顯示">
+          <span class="nsfw-dot"></span>
+          <span id="nsfwText">一般</span>
+        </button>
+
+        <button class="theme-toggle" type="button" id="themeToggle" aria-label="切換深色與淺色">
+          <span class="topbar-icon" id="themeIcon">☾</span>
+          <span id="themeText">深色</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap page-pad">
+    <!-- <a class="back-link" href="../index.html">← 回首頁</a> -->
+
+    <!-- <div class="hero">
+      <div>
+        <h1>九境書庫 <span class="en-title">NineSense Archive</span></h1>
+        <p class="hero-motto">境有萬千，書藏於此。</p>
+        <p>閱其文，識其人，擇其境，循門而往。</p>
+         <button class="hero-update" id="heroUpdate" type="button">最新上架：讀取中...</button>
+      </div>
+    </div> -->
+
+    <div class="hero">
+      <div class="hero-copy">
+        <!-- <h1>九境書庫 <span class="en-title">NineSense Archive</span></h1> -->
+         <h1 class="hero-logo">
+          <img src="../../data/scripts/images/logo-title.png" alt="九境書庫 NineSense Archive">
+        </h1>
+        <p class="hero-motto">境有萬千，書藏於此。</p>
+        <p>閱其文，識其人，擇其境，循門而往。</p>
+        <button class="hero-update" id="heroUpdate" type="button">最新上架：讀取中...</button>
+      </div>
+
+      <!-- <div class="hero-floating-covers" id="heroFloatingCovers" aria-hidden="true"></div> -->
+
+      <div class="hero-stage" aria-hidden="true">
+        <img class="hero-stage-base" src="../../data/scripts/images/hero-stage-base.png" alt="">
+        <div class="hero-floating-covers" id="heroFloatingCovers"></div>
+      </div>
+    </div>
+
+    <section class="panel bookshelf-entry">
+
+      <div class="library-control-row">
+        <button class="tag-drawer-btn" id="tagSpineToggle" type="button" aria-expanded="false">
+          標籤篩選
+          <span class="drawer-arrow">▾</span>
+        </button>
+
+        <button class="fav-filter-btn" id="favoriteFilterBtn" type="button" aria-pressed="false">
+          ♥ 最愛書櫃
+        </button>
+
+        <select id="worldSelect">
+          <option value="">全部世界觀</option>
+        </select>
+
+        <input id="searchInput" type="text" placeholder="搜尋書名、世界觀、標籤" />
+      </div>
+
+      <div class="tag-spine-wrap is-collapsed" id="tagSpineWrap">
+        <div class="tag-spine-body" id="tagSpineBody">
+          <div class="tag-spines" id="tagSpines"></div>
+        </div>
+      </div>
+
+      <div class="filter-summary is-hidden" id="filterSummary"></div>
+
+      <div class="wood-shelf">
+        <div class="entry-carousel">
+          <button class="carousel-arrow left" id="carouselPrev" type="button" aria-label="上一頁">‹</button>
+          <div class="entry-pages" id="bookShelf"></div>
+          <button class="carousel-arrow right" id="carouselNext" type="button" aria-label="下一頁">›</button>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <p class="entry-hint" id="entryHint">每頁顯示 8 本。可切換世界觀、標籤，再左右翻頁。</p>
+      </div>
+
+
+      <div class="preview-toolbar">
+        <button class="preview-toggle" id="previewToggle" type="button" aria-expanded="true">隱藏預覽</button>
+      </div>
+
+      <div class="entry-preview-wrap" id="previewWrap">
+        <div class="entry-preview" id="entryPreview" aria-live="polite"></div>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="confirm-backdrop" id="nsfwConfirm" hidden>
+    <div class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="nsfwConfirmTitle">
+      <h3 id="nsfwConfirmTitle">顯示敏感內容（NSFW）劇本？</h3>
+      <p>將顯示成人向內容。</p>
+      <p>未滿 18 歲，或未達當地法定年齡者，不得開啟。</p>
+      <div class="confirm-actions">
+        <button type="button" class="btn ghost" id="nsfwCancel">取消</button>
+        <button type="button" class="btn primary" id="nsfwConfirmOk">年齡已滿</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const shelf = document.getElementById('bookShelf');
+    const searchInput = document.getElementById('searchInput');
+    const worldSelect = document.getElementById('worldSelect');
+    const tagSpines = document.getElementById('tagSpines');
+    const hint = document.getElementById('entryHint');
+    const preview = document.getElementById('entryPreview');
+    const previewWrap = document.getElementById('previewWrap');
+    const previewToggle = document.getElementById('previewToggle');
+    const carouselPrev = document.getElementById('carouselPrev');
+    const carouselNext = document.getElementById('carouselNext');
+    const carouselDots = document.getElementById('carouselDots');
+
+    //NSFW確認
+    const nsfwBtn = document.getElementById('nsfwToggle');
+    const nsfwText = document.getElementById('nsfwText');
+    const nsfwConfirm = document.getElementById('nsfwConfirm');
+    const nsfwCancel = document.getElementById('nsfwCancel');
+    const nsfwConfirmOk = document.getElementById('nsfwConfirmOk');
+
+    //查詢結果提示
+    const filterSummary = document.getElementById('filterSummary');
+    const tagSpineWrap = document.getElementById('tagSpineWrap');
+    const tagSpineToggle = document.getElementById('tagSpineToggle');
+    
+    //查詢結果隱藏
+    let hasUserInteracted = false;
+
+    let items = [];
+    let filteredItems = [];
+    let pagedItems = [];
+    let activePreviewId = null;
+    let currentPage = 0;
+    let activeTags = [];
+    let showNSFW = sessionStorage.getItem('showNSFW') === 'true';
+    let latestReleaseDate = '';
+    let latestReleaseIds = [];
+    let isAllTagSelected = false;
+
+    //最愛書櫃 
+    const favoriteFilterBtn = document.getElementById('favoriteFilterBtn');
+    const FAVORITE_KEY = 'favorite_scripts';
+    let favoriteOnly = false;
+
+    //抬頭動畫計時器 
+    let heroCoverTimer = null;
+    let heroCoverRendering = false;
+
+    //標籤排序
+    const TAG_ORDER_KEY = 'tag_spine_random_order_v1';
+
+    function getFavorites() {
+      try {
+        return JSON.parse(localStorage.getItem(FAVORITE_KEY) || '[]');
+      } catch {
+        return [];
+      }
+    }
+
+    const esc = s => String(s ?? '').replace(/[&<>\"]/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+
+    function isNewItem(dateStr, days = 7) {
+      if (!dateStr) return false;
+
+      const itemDate = new Date(dateStr + 'T00:00:00');
+      if (Number.isNaN(itemDate.getTime())) return false;
+
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const diffMs = today - itemDate;
+      const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+      return diffDays >= 0 && diffDays <= days;
+    }
+
+    function getFallbackCover(item, className = 'entry-cover-art') {
+      const top = item.bookColorTop || '#7a5336';
+      const bottom = item.bookColorBottom || '#573924';
+      const initials = esc((item.character || item.world || item.title || '').slice(0, 4));
+
+      return `
+        <div class="${className}" style="background:linear-gradient(180deg, ${top}, ${bottom});">
+          <div class="entry-cover-ornament"></div>
+          <div class="entry-cover-world">${esc(item.world || '未分類世界')}</div>
+          <div class="entry-cover-title">${esc(item.title || '未命名劇本')}</div>
+          <div class="entry-cover-character">${esc(item.character || initials)}</div>
+          <div class="entry-cover-emblem">✦</div>
+        </div>
+      `;
+    }
+
+    function getCoverVisual(item) {
+      if (item.cover) {
+        return `
+          <div class="entry-cover-image-wrap">
+            <img
+              class="entry-cover-image"
+              src="${esc(item.cover)}"
+              alt="${esc(item.title)} 封面"
+              onerror="this.closest('.entry-cover-image-wrap').outerHTML = this.dataset.fallback"
+              data-fallback="${esc(getFallbackCover(item))}"
+            />
+          </div>
+        `;
+      }
+
+      return getFallbackCover(item);
+    }
+
+    function getPreviewVisual(item) {
+      if (item.video) {
+        return `
+          <div class="entry-preview-video-wrap">
+            <video
+              class="entry-preview-video"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              poster="${esc(item.cover || '')}">
+              <source src="${esc(item.video)}" type="video/mp4">
+            </video>
+          </div>
+        `;
+      }
+      return getCoverVisual(item);
+    }
+
+    function renderPreview(item) {
+      if (!item) {
+        preview.innerHTML = `
+          <div class="entry-preview-card empty-preview">
+            <div class="entry-preview-copy">
+              <h3>封面預覽</h3>
+              <p>先選世界觀或標籤，再從書架裡挑一本。預覽區現在是可收合的，不會永遠霸著版面。</p>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      const tags = (item.tags || []).slice(0, 6).map(tag => `<span class="chip">${esc(tag)}</span>`).join('');
+      preview.innerHTML = `
+        <div class="entry-preview-card">
+          <div class="entry-preview-cover">
+             ${getPreviewVisual(item)}
+          </div>
+          <div class="entry-preview-copy">
+            <div class="entry-preview-kicker">${esc(item.world || '未分類世界')}</div>
+            <h3>${esc(item.title || '未命名劇本')}</h3>
+            <p>${esc(item.summary || item.nodeSummary || '這本暫時還沒寫摘要。')}</p>
+            <div class="chips">${tags || '<span class="chip">尚未加標籤</span>'}</div>
+            <div class="entry-preview-meta">
+              <span>${esc(item.character || '未設定角色')}</span>
+              <span>${esc(item.date || '')}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function buildBook(item, index) {
+      const badge = item.platformLabel || ((item.links && item.links.length > 1) ? '多平台' : '單平台');
+      const cover = item.cover || '';
+      const summary = item.summary || item.nodeSummary || '這本暫時還沒寫摘要。';
+      const newBadge = isNewItem(item.date) ? `<div class="entry-card-new">NEW</div>` : '';
+
+      return `
+        <a
+          class="entry-card"
+          href="./detail.html#${encodeURIComponent(item.id)}"
+          data-index="${index}"
+          data-id="${esc(item.id)}"
+          title="${esc(item.title)}${item.world ? '｜' + esc(item.world) : ''}"
+        >
+          ${
+            cover
+            ? `<img
+                class="entry-card-image"
+                src="${esc(cover)}"
+                alt="${esc(item.title)} 封面"
+                onerror="this.outerHTML = this.dataset.fallback"
+                data-fallback="${esc(`<div class='entry-card-fallback' style='background:linear-gradient(180deg,${item.bookColorTop || '#5a6b8a'},${item.bookColorBottom || '#24324a'});'></div>`)}"
+              >`
+            : `<div class="entry-card-fallback" style="background:linear-gradient(180deg,${item.bookColorTop || '#5a6b8a'},${item.bookColorBottom || '#24324a'});"></div>`
+          }
+
+          <div class="entry-card-badge">${esc(badge)}</div>
+          ${newBadge}
+
+          <div class="entry-card-overlay">
+            <div class="entry-card-world">${esc(item.world || '')}</div>
+            <h3 class="entry-card-title">${esc(item.title)}</h3>
+            <p class="entry-card-summary">${esc(summary)}</p>
+          </div>
+        </a>
+      `;
+    }
+
+    function chunkItems(list, size) {
+      const pages = [];
+      for (let i = 0; i < list.length; i += size) {
+        pages.push(list.slice(i, i + size));
+      }
+      return pages;
+    }
+
+    function buildPage(pageItems, pageIndex) {
+      return `
+        <div class="entry-page" data-page="${pageIndex}">
+          ${pageItems.map((item, index) => buildBook(item, pageIndex * 8 + index)).join('')}
+        </div>
+      `;
+    }
+
+    function bindBookPreviewEvents() {
+      const books = shelf.querySelectorAll('.entry-card');
+      books.forEach(book => {
+        const index = Number(book.dataset.index);
+        const item = filteredItems[index];
+        if (!item) return;
+
+        book.addEventListener('mouseenter', () => {
+          activePreviewId = item.id;
+          renderPreview(item);
+        });
+
+        book.addEventListener('focus', () => {
+          activePreviewId = item.id;
+          renderPreview(item);
+        });
+      });
+    }
+
+    function renderDots() {
+      carouselDots.innerHTML = pagedItems.map((_, index) => `
+        <button
+          type="button"
+          class="carousel-dot ${index === currentPage ? 'active' : ''}"
+          data-page="${index}"
+          aria-label="第 ${index + 1} 頁"
+        ></button>
+      `).join('');
+
+      carouselDots.querySelectorAll('.carousel-dot').forEach(dot => {
+        dot.addEventListener('click', () => {
+          goToPage(Number(dot.dataset.page));
+        });
+      });
+    }
+
+    function updateArrowState() {
+      carouselPrev.disabled = currentPage <= 0;
+      carouselNext.disabled = currentPage >= pagedItems.length - 1;
+    }
+
+    function goToPage(pageIndex) {
+      currentPage = Math.max(0, Math.min(pageIndex, pagedItems.length - 1));
+      const pages = shelf.querySelectorAll('.entry-page');
+      const target = pages[currentPage];
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+      }
+      renderDots();
+      updateArrowState();
+      updateEntryHint();
+    }
+
+    function renderWorldOptions() {
+      const worldSet = new Set(items.map(item => item.world || '未分類'));
+      [...worldSet].sort().forEach(world => {
+        const opt = document.createElement('option');
+        opt.value = world;
+        opt.textContent = world;
+        worldSelect.appendChild(opt);
+      });
+    }
+
+    function updateNSFWButton() {
+      if (!nsfwBtn || !nsfwText) return;
+
+      nsfwBtn.classList.toggle('is-on', showNSFW);
+      nsfwText.textContent = showNSFW ? '成人' : '一般';
+    }
+
+    function openNSFWConfirm() {
+      if (!nsfwConfirm) return;
+      nsfwConfirm.hidden = false;
+      document.body.classList.add('modal-open');
+    }
+
+    function closeNSFWConfirm() {
+      if (!nsfwConfirm) return;
+      nsfwConfirm.hidden = true;
+      document.body.classList.remove('modal-open');
+    }
+
+    function updateFilterSummary(totalCount) {
+      const q = searchInput.value.trim();
+      const world = worldSelect.value;
+      const effectiveTags = getEffectiveTags();
+      const effectiveAllTagSelected = getEffectiveAllTagSelected();
+
+      const tagLabels = effectiveAllTagSelected
+        ? ['全部']
+        : effectiveTags.map(getTagLabel).filter(Boolean);
+      const totalPages = Math.ceil(totalCount / 8);
+
+      const filterPills = [
+        favoriteOnly ? '書櫃：最愛' : '',
+        q ? `搜尋：${q}` : '',
+        world ? `世界觀：${world}` : '',
+        ...tagLabels.map(label => `標籤：${label}`)
+      ].filter(Boolean);
+
+      const hasUserFilter =
+        hasUserInteracted && (
+          q ||
+          world ||
+          effectiveAllTagSelected ||
+          favoriteOnly ||
+          effectiveTags.length > 0
+        );
+
+      filterSummary.classList.toggle('is-hidden', !hasUserFilter);
+
+      if (!hasUserFilter) {
+        filterSummary.innerHTML = '';
+        return;
+      }
+
+      filterSummary.innerHTML = `
+        <div class="filter-summary-main">
+          ${filterPills.map(text => `<span class="filter-pill">${esc(text)}</span>`).join('')}
+        </div>
+        <div class="filter-summary-count">
+          ${totalCount > 0
+            ? `找到 ${totalCount} 本劇本${totalPages > 1 ? `，共 ${totalPages} 頁` : ''}`
+            : `沒有符合的劇本`}
+        </div>
+      `;
+    }
+
+    function isTagActive(tag) {
+      if (!tag) return activeTags.length === 0;
+      return activeTags.includes(tag);
+    }
+
+    function isTagDrawerOpen() {
+      return tagSpineWrap && !tagSpineWrap.classList.contains('is-collapsed');
+    }
+
+    function getEffectiveTags() {
+      return isTagDrawerOpen() ? activeTags : [];
+    }
+
+    function getEffectiveAllTagSelected() {
+      return isTagDrawerOpen() ? isAllTagSelected : false;
+    }
+
+    function toggleTag(tag) {
+        if (!tag) {
+        activeTags = [];
+        isAllTagSelected = true;
+        return;
+      }
+      isAllTagSelected = false;
+
+      activeTags = activeTags.includes(tag)
+        ? activeTags.filter(x => x !== tag)
+        : [...activeTags, tag];
+    }
+
+    function getStableRandomTagOrder(restTags) {
+      const saved = sessionStorage.getItem(TAG_ORDER_KEY);
+
+      if (saved) {
+        try {
+          const stored = JSON.parse(saved);
+
+          // 保留仍存在的標籤
+          const validStored = stored.filter(tag => restTags.includes(tag));
+
+          // 新增後來才出現的新標籤
+          const newTags = restTags.filter(tag => !validStored.includes(tag));
+
+          const finalOrder = [...validStored, ...newTags];
+
+          sessionStorage.setItem(TAG_ORDER_KEY, JSON.stringify(finalOrder));
+          return finalOrder;
+        } catch {}
+      }
+
+      // 第一次進站才洗牌
+      const shuffled = [...restTags].sort(() => Math.random() - 0.5);
+
+      sessionStorage.setItem(TAG_ORDER_KEY, JSON.stringify(shuffled));
+      return shuffled;
+    }
+
+    function renderTagSpines() {
+      const tagCount = new Map();
+
+      items.forEach(item => {
+        (item.tags || []).forEach(tag => {
+          tagCount.set(tag, (tagCount.get(tag) || 0) + 1);
+        });
+      });
+
+     const fixedTags = ['__all__', '__new__', '__featured__'];
+
+      const sortedByCount = [...tagCount.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .map(([tag]) => tag);
+
+      const topTags = sortedByCount.slice(0, 6);
+      const restTags = sortedByCount.slice(6);
+
+      const shuffledRestTags = getStableRandomTagOrder(restTags);
+
+      const displayTags = [
+        ...fixedTags,
+        ...topTags,
+        ...shuffledRestTags
+      ];
+
+      tagSpines.innerHTML = displayTags.map(tag => {
+        const label =
+          tag === '__all__' ? '全部' :
+          tag === '__new__' ? '近期上架' :
+          tag === '__featured__' ? '精選推薦' :
+          tag;
+
+        const dataTag = tag === '__all__' ? '' : tag;
+
+        return `
+          <button type="button"
+            class="tag-spine ${isTagActive(dataTag) ? 'active' : ''}"
+            data-tag="${esc(dataTag)}">
+            <span>${esc(label)}</span>
+          </button>
+        `;
+      }).join('');
+
+      tagSpines.querySelectorAll('.tag-spine').forEach(btn => {
+        btn.addEventListener('click', () => {
+          hasUserInteracted = true;
+          toggleTag(btn.dataset.tag || '');
+          renderTagSpines();
+          render();
+        });
+      });
+    }
+
+    function updateHeroUpdate() {
+      const heroUpdate = document.getElementById('heroUpdate');
+      if (!heroUpdate) return;
+
+      const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
+      const newItems = visibleItems.filter(item => isNewItem(item.date));
+
+      if (newItems.length > 0) {
+        const latestDate = newItems
+          .map(x => x.date)
+          .sort()
+          .reverse()[0];
+
+        const latestTitles = newItems
+          .filter(x => x.date === latestDate)
+          .map(x => `《${x.title}》`);
+
+        heroUpdate.textContent =
+          `✦ 最新上架：${latestDate} ${latestTitles.join('、')}`;
+      } else {
+        const featured = visibleItems
+          .filter(x => x.featured === true)
+          .slice(0, 3);
+
+        const titles = featured.map(x => `《${x.title}》`);
+
+        heroUpdate.textContent =
+          titles.length
+            ? `✦ 推薦閱讀：${titles.join('、')}`
+            : '✦ 推薦閱讀：暫無精選作品';
+      }
+    }
+
+    function canLoadImage(src) {
+      return new Promise(resolve => {
+        if (!src) return resolve(false);
+
+        const img = new Image();
+        img.onload = () => resolve(true);
+        img.onerror = () => resolve(false);
+        img.src = src;
+      });
+    }
+
+    async function renderHeroFloatingCovers() {
+        const box = document.getElementById('heroFloatingCovers');
+        if (!box || heroCoverRendering) return;
+
+        heroCoverRendering = true;
+
+        box.classList.add('is-collecting');
+
+        await new Promise(resolve => setTimeout(resolve, 420));
+
+        const pool = items
+          .filter(item => showNSFW || item.nsfw !== true)
+          .filter(item => item.cover);
+
+        if (!pool.length) {
+          box.innerHTML = '';
+          box.classList.remove('is-collecting', 'is-dealing');
+          heroCoverRendering = false;
+          return;
+        }
+
+        const shuffled = [...pool].sort(() => Math.random() - 0.5);
+        const validItems = [];
+
+        for (const item of shuffled) {
+          const ok = await canLoadImage(item.cover);
+          if (ok) validItems.push(item);
+          if (validItems.length >= 4) break;
+        }
+
+        box.innerHTML = validItems.map((item, index) => `
+          <a
+            class="hero-float-card hero-float-card-${index + 1}"
+            href="./detail.html#${encodeURIComponent(item.id)}"
+            title="${esc(item.title || '')}"
+            tabindex="-1"
+          >
+            <img src="${esc(item.cover)}" alt="">
+          </a>
+        `).join('');
+
+        box.classList.remove('is-collecting');
+        box.classList.add('is-dealing');
+
+        setTimeout(() => {
+          box.classList.remove('is-dealing');
+          heroCoverRendering = false;
+        }, 720);
+    }
+
+    function startHeroCoverShuffle() {
+      clearInterval(heroCoverTimer);
+
+      heroCoverTimer = setInterval(() => {
+        renderHeroFloatingCovers();
+      }, 9000);
+    }
+
+    function render() {
+      const q = searchInput.value.trim().toLowerCase();
+      const world = worldSelect.value;
+      const favs = getFavorites();
+
+      filteredItems = items.filter(item => {
+        const isNSFW = item.nsfw === true;
+        if (!showNSFW && isNSFW) return false;
+
+        const hay = [item.title, item.world, ...(item.tags || [])].join(' ').toLowerCase();
+        const worldValue = item.world || '未分類';
+        const okQ = !q || hay.includes(q);
+        const okWorld = !world || worldValue === world;
+        const effectiveTags = getEffectiveTags();
+
+        const okTag = effectiveTags.length === 0 || effectiveTags.every(tag => {
+          if (tag === '__new__') return isNewItem(item.date);
+          if (tag === '__featured__') return item.featured === true;
+          return (item.tags || []).includes(tag);
+        });
+
+        const okFavorite = !favoriteOnly || favs.includes(item.id);
+
+        return okQ && okWorld && okTag && okFavorite;
+      });
+
+      updateFilterSummary(filteredItems.length);
+
+      if (!filteredItems.length) {
+        shelf.innerHTML = '<div class="empty">沒有符合的劇本。世界觀和標籤這次似乎不想配合你。</div>';
+        hint.textContent = '目前沒有符合條件的劇本。';
+        renderPreview(null);
+        carouselDots.innerHTML = '';
+        carouselPrev.disabled = true;
+        carouselNext.disabled = true;
+        return;
+      }
+
+      pagedItems = chunkItems(filteredItems, 8);
+      currentPage = 0;
+      shelf.innerHTML = pagedItems.map((pageItems, pageIndex) => buildPage(pageItems, pageIndex)).join('');
+
+      const previewItem = filteredItems.find(x => x.id === activePreviewId) || filteredItems[0];
+
+      renderPreview(previewItem);
+      bindBookPreviewEvents();
+      renderDots();
+      updateArrowState();
+      updateEntryHint();
+    }
+
+    function getTagLabel(tag) {
+      if (!tag) return '';
+      if (tag === '__new__') return '近期上架';
+      if (tag === '__featured__') return '精選推薦';
+      if (tag === '__latestdate__') return `最新上架（${latestReleaseDate}）`;
+      return tag;
+    }
+
+    function updateEntryHint() {
+      const totalCount = filteredItems.length;
+      const totalPages = Math.ceil(totalCount / 8);
+
+      if (!totalCount) {
+        hint.textContent = '目前沒有符合條件的劇本。';
+        return;
+      }
+
+      hint.textContent = totalPages > 1
+        ? `第 ${currentPage + 1} / ${totalPages} 頁，每頁 8 本，可左右翻頁。`
+        : `目前共 ${totalCount} 本，無需翻頁。`;
+    }
+
+    fetch('../../data/scripts/scripts.json')
+      .then(r => r.json())
+      .then(data => {
+        items = data;
+
+      const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
+      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.date));
+      const hasVisibleFeaturedItems = visibleItems.some(item => item.featured === true);
+
+      if (hasVisibleNewItems) {
+        activeTags = ['__new__'];
+      } else if (hasVisibleFeaturedItems) {
+        activeTags = ['__featured__'];
+      } else {
+        activeTags = [];
+      }
+
+      isAllTagSelected = false;
+
+      renderWorldOptions();
+      renderTagSpines();
+      render();
+      renderHeroFloatingCovers();
+      startHeroCoverShuffle();
+
+      const heroUpdate = document.getElementById('heroUpdate');
+      const newItems = visibleItems.filter(item => isNewItem(item.date));
+
+      updateHeroUpdate();
+
+      const siteUpdateTime = document.getElementById('siteUpdateTime');
+      if (siteUpdateTime) {
+        siteUpdateTime.textContent = '程式更新：v0.1';
+      }
+      });
+
+    const heroUpdateBtn = document.getElementById('heroUpdate');
+
+    if (heroUpdateBtn) {
+      heroUpdateBtn.addEventListener('click', () => {
+      const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
+      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.date));
+      const hasVisibleFeaturedItems = visibleItems.some(item => item.featured === true);
+
+      if (hasVisibleNewItems) {
+        activeTags = ['__new__'];
+      } else if (hasVisibleFeaturedItems) {
+         activeTags = ['__featured__'];
+      } else {
+        activeTags = [];
+      }
+
+      // 點 Hero 推薦時，這是主動篩選，要讓標籤條件生效
+      if (tagSpineWrap && tagSpineWrap.classList.contains('is-collapsed')) {
+        tagSpineWrap.classList.remove('is-collapsed');
+        tagSpineToggle?.setAttribute('aria-expanded', 'true');
+      }
+
+      // 清掉其它限制，避免被世界觀下拉卡住
+      worldSelect.value = '';
+      searchInput.value = '';
+      currentPage = 0;
+
+      renderTagSpines();
+      render();
+    });
+    }
+
+    searchInput.addEventListener('input', () => {
+      hasUserInteracted = true;
+      render();
+    });
+
+    worldSelect.addEventListener('change', () => {
+      hasUserInteracted = true;
+      render();
+    });
+
+    if (favoriteFilterBtn) {
+      favoriteFilterBtn.addEventListener('click', () => {
+        favoriteOnly = !favoriteOnly;
+        hasUserInteracted = true;
+
+        favoriteFilterBtn.classList.toggle('is-active', favoriteOnly);
+        favoriteFilterBtn.setAttribute('aria-pressed', String(favoriteOnly));
+
+        render();
+      });
+    }
+
+    carouselPrev.addEventListener('click', () => {
+      goToPage(currentPage - 1);
+    });
+
+    carouselNext.addEventListener('click', () => {
+      goToPage(currentPage + 1);
+    });
+
+    previewToggle.addEventListener('click', () => {
+      const hidden = previewWrap.classList.toggle('is-collapsed');
+      previewToggle.textContent = hidden ? '顯示預覽' : '隱藏預覽';
+      previewToggle.setAttribute('aria-expanded', String(!hidden));
+    });
+
+    (function () {
+      const key = "site-theme";
+      const html = document.documentElement;
+      const toggle = document.getElementById("themeToggle");
+      const text = document.getElementById("themeText");
+      const icon = document.getElementById("themeIcon");
+
+      function applyTheme(theme) {
+        html.setAttribute("data-theme", theme);
+        if (text) text.textContent = theme === "light" ? "淺色" : "深色";
+        if (icon) icon.textContent = theme === "light" ? "☀" : "☾";
+      }
+
+      const saved = localStorage.getItem(key);
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      applyTheme(saved || (prefersLight ? "light" : "dark"));
+
+      if (toggle) {
+        toggle.addEventListener("click", function () {
+          const current = html.getAttribute("data-theme") === "light" ? "light" : "dark";
+          const next = current === "light" ? "dark" : "light";
+          localStorage.setItem(key, next);
+          applyTheme(next);
+        });
+      }
+    })();
+    updateNSFWButton();
+
+    if (nsfwBtn) {
+      nsfwBtn.addEventListener('click', () => {
+        if (showNSFW) {
+          showNSFW = false;
+          sessionStorage.removeItem('showNSFW');
+          updateNSFWButton();
+          render();
+          updateHeroUpdate();
+          renderHeroFloatingCovers();
+         startHeroCoverShuffle();
+          return;
+        }
+
+        openNSFWConfirm();
+      });
+    }
+
+    if (nsfwCancel) {
+      nsfwCancel.addEventListener('click', closeNSFWConfirm);
+    }
+
+    if (nsfwConfirmOk) {
+      nsfwConfirmOk.addEventListener('click', () => {
+        showNSFW = true;
+        sessionStorage.setItem('showNSFW', 'true');
+        updateNSFWButton();
+        closeNSFWConfirm();
+        render();
+        updateHeroUpdate();
+        renderHeroFloatingCovers();
+        startHeroCoverShuffle();
+      });
+    }
+
+    if (nsfwConfirm) {
+      nsfwConfirm.addEventListener('click', (e) => {
+        if (e.target === nsfwConfirm) {
+          closeNSFWConfirm();
+        }
+      });
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && nsfwConfirm && !nsfwConfirm.hidden) {
+        closeNSFWConfirm();
+      }
+    });
+
+    if (tagSpineToggle && tagSpineWrap) {
+        tagSpineToggle.addEventListener('click', () => {
+        const collapsed = tagSpineWrap.classList.toggle('is-collapsed');
+        tagSpineToggle.setAttribute('aria-expanded', String(!collapsed));
+
+        hasUserInteracted = true;
+        renderTagSpines();
+        render();
+      });
+    }
+  </script>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-left">
+        <div class="footer-title">九境書庫</div>
+        <div class="footer-meta">
+          <span>版本：v0.1</span>
+          <span id="siteUpdateTime">程式更新：2026-04-16</span>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Pixiv</a>
+        <a href="#" target="_blank">☕ 支持創作</a>
+      </div>
+
+      <div class="footer-right">
+        <span>© 2026 生死</span>
+      </div>
+
+    </div>
+  </footer>
+<script src="./protect.js"></script>
+</body>
+</html>
