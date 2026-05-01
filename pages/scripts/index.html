@@ -170,6 +170,9 @@
     let heroCoverTimer = null;
     let heroCoverRendering = false;
 
+    const validCoverCache = new Map();
+    let renderVersion = 0;
+
     //標籤排序
     const TAG_ORDER_KEY = 'tag_spine_random_order_v1';
 
@@ -621,6 +624,49 @@
       });
     }
 
+    async function hasValidCover(item) {
+      if (!item.cover) return false;
+
+      if (validCoverCache.has(item.cover)) {
+        return validCoverCache.get(item.cover);
+      }
+
+      const ok = await canLoadImage(item.cover);
+      validCoverCache.set(item.cover, ok);
+      return ok;
+    }
+
+    async function sortItemsForShelf(list) {
+      const checked = await Promise.all(
+        list.map(async item => ({
+          item,
+          hasCover: await hasValidCover(item)
+        }))
+      );
+
+      const featured = checked
+        .filter(x => x.item.featured && x.hasCover)
+        .map(x => x.item);
+
+      const normalWithCover = checked
+        .filter(x => !x.item.featured && x.hasCover)
+        .map(x => x.item);
+
+      const noCover = checked
+        .filter(x => !x.hasCover)
+        .map(x => x.item);
+
+      function shuffle(arr) {
+        return [...arr].sort(() => Math.random() - 0.5);
+      }
+
+      return [
+        ...shuffle(featured),
+        ...shuffle(normalWithCover),
+        ...shuffle(noCover)
+      ];
+    }
+
     async function renderHeroFloatingCovers() {
         const box = document.getElementById('heroFloatingCovers');
         if (!box || heroCoverRendering) return;
@@ -679,7 +725,8 @@
       }, 9000);
     }
 
-    function render() {
+    async function render() {
+      const myVersion = ++renderVersion;
       const q = searchInput.value.trim().toLowerCase();
       const world = worldSelect.value;
       const favs = getFavorites();
@@ -704,6 +751,10 @@
 
         return okQ && okWorld && okTag && okFavorite;
       });
+
+      filteredItems = await sortItemsForShelf(filteredItems);
+
+      if (myVersion !== renderVersion) return;
 
       updateFilterSummary(filteredItems.length);
 
