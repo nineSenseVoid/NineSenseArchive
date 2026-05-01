@@ -1853,6 +1853,7 @@ body.modal-open{
   padding:14px;
   cursor:pointer;
   transition:transform .18s ease,border-color .18s ease,background .18s ease;
+  margin-right: 4px;
 }
 
 [data-page-type="detail"] .detail-node-item:hover{
@@ -2023,6 +2024,7 @@ body.modal-open{
 
 [data-page-type="detail"] .detail-node-list.compact{
   gap:8px;
+  padding: 6px 12px;
 }
 
 [data-page-type="detail"] .detail-node-list.compact .detail-node-item{
@@ -4587,4 +4589,20 @@ body.modal-open{
 /* 淺色模式不要用深色底部霧 */
 [data-theme="light"] .hero-stage::after{
   display:none;
+}
+
+/* 章節列表置中修正：保留底部呼吸感 */
+[data-page-type="detail"] .detail-node-panel{
+  padding: 4px 16px 16px;
+  scrollbar-gutter: auto;
+}
+
+[data-page-type="detail"] .detail-node-list.compact{
+  padding: 0;
+}
+
+[data-page-type="detail"] .detail-node-list.compact .detail-node-item{
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }

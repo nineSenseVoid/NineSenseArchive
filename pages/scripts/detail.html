@@ -380,7 +380,9 @@
     }
 
     function renderNodeList(filtered) {
-      const nodes = filtered.filter(item => !activeWorld || item.world === activeWorld);
+      const activeItem = items.find(x => x.id === activeId);
+      const nodes = filtered.filter(item => item.title === activeItem.title);
+
       nodeCountEl.textContent = `${nodes.length} 個節點`;
 
       if (!nodes.length) {
@@ -394,7 +396,7 @@
           type="button"
           data-id="${esc(item.id)}"
         >
-          <span class="detail-node-title">${esc(item.nodeTitle)}</span>
+          <span class="detail-node-title">${esc(item.nodeTitle || item.title)}</span>
           <span class="detail-node-summary">${esc(item.nodeSummary || item.summary || '')}</span>
         </button>
       `).join('');
