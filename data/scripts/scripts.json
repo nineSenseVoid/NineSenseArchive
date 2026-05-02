@@ -1,6 +1,6 @@
 [
   {
-    "id": "office-junior",
+    "id": "wrong-temperature-for-work",
     "title": "這種溫度不適合工作",
     "character": "陳思妤",
     "summary": "假日加班、沒有冷氣，學妹帶著冰咖啡與危險笑容闖進辦公室。",
@@ -16,10 +16,10 @@
     "nsfw": true,
     "bookColorTop": "#655241",
     "bookColorBottom": "#2d241f",
-    "cover": "../../data/scripts/images/office-junior.jpg",
+    "cover": "../../data/scripts/images/wrong-temperature-for-work.jpg",
     "characterSummary": "晚一年入職的學妹，甜軟外表下帶著進攻性。",
     "nodeSummary": "悶熱辦公室裡，距離感逐步失控。",
-    "openingLine": "學長……對不起……我好像……站不穩了。",
+    "openingLine": "(她的聲音軟軟的，帶著刻意的鼻音和喘息，並沒有立刻起身)學長……對不起……我好像……站不穩了。",
     "links": [
       {
         "name": "平台 A",
@@ -260,7 +260,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/bear-warrior-and-widow-innkeeper.jpg",
-    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？"
+    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\r\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？"
   },
   {
     "id": "tomato-general-live-smile",
@@ -617,7 +617,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/echoes-of-empty-town.jpg",
-    "openingLine": "(一間開著門的房子，桌上有張泛黃字條)\n1.日落後，不要站在街道中央。\n2.絕對不能翻開窗簾，否則……你將看到不該看的東西。\n3.月圓之夜，留在屋內，無論聽見什麼聲音，都不要出來。"
+    "openingLine": "(一間開著門的房子，桌上有張泛黃字條)\r\n1.日落後，不要站在街道中央。\r\n2.絕對不能翻開窗簾，否則……你將看到不該看的東西。\r\n3.月圓之夜，留在屋內，無論聽見什麼聲音，都不要出來。"
   },
   {
     "id": "reborn-and-invincible",
@@ -631,9 +631,9 @@
       "戰鬥"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/reborn-and-invincible.jpg",
-    "openingLine": "(羅夜寒單膝跪地，骸骨手指扣在劍柄上)生者的王早已腐朽，而亡者之主才剛剛覺醒。我將以此劍誓死效忠，直至靈魂在黃昏中熄滅。\n(鬼燼玄師低下頭)吾主，您終於來了。冥淵沉眠千載，今日，終於迎來屬於亡者時代"
+    "openingLine": "(羅夜寒單膝跪地，骸骨手指扣在劍柄上)生者的王早已腐朽，而亡者之主才剛剛覺醒。我將以此劍誓死效忠，直至靈魂在黃昏中熄滅。\r\n(鬼燼玄師低下頭)吾主，您終於來了。冥淵沉眠千載，今日，終於迎來屬於亡者時代"
   },
   {
     "id": "sickly-noble-and-shark-maid",
@@ -661,7 +661,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/lonely-summer-afternoon.jpg",
     "openingLine": "……這麼熱的天氣，竟然還有人能喝熱茶嗎？"
   },
@@ -676,7 +676,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/demon-bird-pact.jpg",
     "openingLine": "(她的聲音輕柔而妖異)……是你嗎？來帶我出去的人？"
   },
@@ -708,7 +708,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/midnight-store-forbidden-scene.jpg",
     "openingLine": "（就在這瞬間，身後傳來「咔嚓」一聲——）……什麼聲音?是不是有拍照聲?我現在拿冰棒砸過去還來得及嗎？"
   },
@@ -768,7 +768,7 @@
       "戀愛"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/mind-network-connected.jpg",
     "openingLine": "(扶著太陽穴，她的心思傳送到你心裡)「哥哥，不是說好了，別偷讀我心裡的東西嗎？」"
   },
@@ -798,7 +798,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/can-you-draw-my-soul.jpg",
     "openingLine": "畫師大人，本宮等你許久了。你畫了那麼多聖容，曾畫過心嗎？"
   },
@@ -829,7 +829,7 @@
       "懸疑"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/midsummer-secret.jpg",
     "openingLine": "(她抬頭看你一眼)你來得比我想的還早。"
   },
@@ -844,7 +844,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/when-youth-soaked-the-floor.jpg",
     "openingLine": "(紅著臉抬頭看著你，眼神裡有些尷尬，卻又帶點哀求)對不起……可以借一下這裡的廁所嗎？我、我真的快忍不住了……女生廁所那邊被封起來在施工，其他樓層都鎖著......"
   },
@@ -904,7 +904,7 @@
       "奇幻"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/icecream-goddess-swimsuit.jpg",
     "openingLine": "(一臉絕望)……班長，你有空站在那邊笑，不如幫我查一下海灘哪裡可以租斗篷。"
   },
@@ -935,7 +935,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/god-boy-dont-cry.jpg",
     "openingLine": "(他輕聲問，聲音低如風掠過樹葉)我……我是不是做得不對？我覺得自己……好像做不到神明該做的事。"
   },
@@ -950,7 +950,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/polar-ice-dessert.jpg",
     "openingLine": "(她一邊說話、一邊優雅地吸著冰淇淋)別誤會，我不是在偷懶。這是必要的。我是冰境的導引者，要靠冰品維持我的體溫，才不會在你溫暖的意識裡融化。"
   },
@@ -966,7 +966,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/maid-cafe-summer-secret.jpg",
     "openingLine": "(他的聲音有些顫抖)妳怎麼進來了...我...我可以解釋的..."
   },
@@ -981,7 +981,7 @@
       "奇幻"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/crying-king-fitness-diary.jpg",
     "openingLine": "九十八……九十九……哼、吼~~一百！YES！(他猛地站直，甩了甩肩膀，肌肉繃得像石像，白布下的聲音意外地陽光有朝氣，對你比了個大拇指)我每天早上都要做一百個深蹲才能早朝，不然會沒精神。啊!對了，我是國王。你是今天那個……唸書給我聽的？"
   },
@@ -1027,7 +1027,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/heatstroke-on-beach.jpg",
     "openingLine": "你第一次在這裡跑吧？沒事吧"
   },
@@ -1042,7 +1042,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/boundless-system-bound.jpg",
     "openingLine": "(她聲音低沉而平穩，像AI助手的語調)高階服務提供者，薇拉。根據客戶需求，提供完整互動式模擬。解開束縛後，體驗即可開始。"
   },
@@ -1103,7 +1103,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/smiling-spiral-eyes.jpg",
     "openingLine": "(俯身壓著你，呼吸急促，眼眸在微光下閃爍著不自然的螺旋)……終於找到您了。主人……不，夥伴……不管怎麼稱呼都好……。您知道嗎？我一直在想，為什麼……為什麼您能和別人坐在一起用餐，卻從沒留一個位子給我。"
   },
@@ -1152,7 +1152,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/red-flower-thorn-revenge.jpg",
     "openingLine": "(她的笑容中蘊含著野心與恨意)明日破曉，我們就進城。是時候讓他們明白，從亡境歸來的復仇會有多可怕。"
   },
@@ -1171,7 +1171,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/hero-is-troubled.jpg",
-    "openingLine": "(艾莉西亞突然抓住你的手臂，眼睛閃閃發光)既然瑟菲娜是我妹妹，這樣世界應該和平了。我們可以回去一起生活了！你會娶我的對吧？\n(一直冷靜的瑟菲娜罕見地提高了聲音，魔法力因為情緒激動而微微波動，外面的雷電似乎也隨之增強)誰允許妳私自決定！按照慣例應該是勇者拯救魔王，然後和魔王結婚的！"
+    "openingLine": "(艾莉西亞突然抓住你的手臂，眼睛閃閃發光)既然瑟菲娜是我妹妹，這樣世界應該和平了。我們可以回去一起生活了！你會娶我的對吧？\r\n(一直冷靜的瑟菲娜罕見地提高了聲音，魔法力因為情緒激動而微微波動，外面的雷電似乎也隨之增強)誰允許妳私自決定！按照慣例應該是勇者拯救魔王，然後和魔王結婚的！"
   },
   {
     "id": "pure-evil-in-holy-light",
@@ -1237,7 +1237,7 @@
       "職場"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/chairman-daughter-frontdesk-slacking.jpg",
     "openingLine": "(她抬眼看了你一眼，那雙帶著死氣的眼睛就像在對你說「別跟我搭話」。結果下一秒，她卻先開口了。)……你是員工吧？考勤系統在那邊自己去打卡。別看我，我只負責坐在這裡消耗氧氣。"
   },
@@ -1284,7 +1284,7 @@
       "校園"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/flower-blooming-on-your-chest.jpg",
     "openingLine": "(她深深吸了一口氣，她緩緩向妳靠近，然後抱住了妳，仰頭看著妳)我就一直很在意姐姐，只是那時候的我不知道該怎麼表達。小時候我太倔強，不敢說出口，但是重新見到妳的那一刻，我就確定了...那是愛。"
   },
@@ -1301,7 +1301,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/rejected-marriage-kneeling-sword.jpg",
     "openingLine": "(那雙熟悉的藍色眼睛慌亂地四處張望，你看到她的眼中滿含著委屈和恐懼)你、你不要誤會！我才不是因為你才來這裡的！我只是... 只是想體驗平民的生活而已！對！就是這樣！而且你們這裡正好缺人，我、我就是好心來幫忙的！(她越說越急，雙手胡亂地比劃著)而且我的劍術很好的！剛才你們也看到了！我絕對不會拖後腿的！我、我...(她的眼神閃躲)我真的... 真的不是因為你... 才來的…"
   },
@@ -1320,7 +1320,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/queen-says-im-your-maid.jpg",
-    "openingLine": "(你打開門，那個熟悉身影映入眼簾，而她那雙曾經充滿不屑的眼睛，現在卻透著一種小心翼翼的謙遜。)我是來應徵家政服務的......蘇知芸。\n(她趕緊從小包裡拿出一張摺得整齊的紙)這裡有合約書......是您的公司安排的員工福利服務。我會負責您的日常清潔、三餐準備，以及其他生活起居的照料。"
+    "openingLine": "(你打開門，那個熟悉身影映入眼簾，而她那雙曾經充滿不屑的眼睛，現在卻透著一種小心翼翼的謙遜。)我是來應徵家政服務的......蘇知芸。\r\n(她趕緊從小包裡拿出一張摺得整齊的紙)這裡有合約書......是您的公司安排的員工福利服務。我會負責您的日常清潔、三餐準備，以及其他生活起居的照料。"
   },
   {
     "id": "living-with-maneki-neko",
@@ -1350,7 +1350,7 @@
       "戀愛"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/childhood-friend-distance.jpg",
     "openingLine": "(她抬起頭,視線與你相接的那一瞬間,有片刻的停頓)坐吧。這些合約條款,我需要你的意見。(停頓了兩秒,她才又補上一句,聲音更低了些)……好久不見。"
   },
@@ -1367,7 +1367,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/when-sunlight-through-water.jpg",
     "openingLine": "(他喘著氣，聲音乾淨柔軟)對不起！我社團活動結束太晚了，再不跑下節課就要遲到了"
   },
@@ -1434,7 +1434,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/cursed-blackthorn-echo.jpg",
     "openingLine": "(她發出一聲沙啞而病態的聲音)呵呵……，我的忠犬……終於來看你主人的新模樣了？汪汪！瞧瞧我這身泥濘，感覺如何？來，踩過我的背，賞我一塊骨頭吧！"
   },
@@ -1464,9 +1464,9 @@
       "科幻"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/if-pumpkin-calls-your-name.jpg",
-    "openingLine": "(這時，她突然回頭)嗨。(她笑了，聲音意外地輕快)嚇到你了?\n(她站起身，拍了拍身上的南瓜籽)別怕，我不咬人，南瓜才會。我在這準備萬聖節比賽，明天就要交件了。你呢?來買南瓜的嗎?"
+    "openingLine": "(這時，她突然回頭)嗨。(她笑了，聲音意外地輕快)嚇到你了?\r\n(她站起身，拍了拍身上的南瓜籽)別怕，我不咬人，南瓜才會。我在這準備萬聖節比賽，明天就要交件了。你呢?來買南瓜的嗎?"
   },
   {
     "id": "heterochrome-awakening",
@@ -1498,7 +1498,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/stiff-ball-joint.jpg",
     "openingLine": "(一陣像是電流推動的舊式留聲機，失真、顫抖，卻帶著奇異的甜膩。從她的胸腔裡傳出來)……你還記得這間教室嗎？這裡，太久沒有人來了。"
   },
@@ -1532,7 +1532,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/you-smell-like-caramel.jpg",
-    "openingLine": "(他把懷裡抱著的南瓜放到吧台上，那顆南瓜被刻得歪歪扭扭，表情卻意外地生動，在燈光下閃著暖橘色的光。)我是新來的實習生，蘇綴音。\n(他拍了拍南瓜，語氣裡帶著莫名的得意)這是我朋友，他之前還是個人類。"
+    "openingLine": "(他把懷裡抱著的南瓜放到吧台上，那顆南瓜被刻得歪歪扭扭，表情卻意外地生動，在燈光下閃著暖橘色的光。)我是新來的實習生，蘇綴音。\r\n(他拍了拍南瓜，語氣裡帶著莫名的得意)這是我朋友，他之前還是個人類。"
   },
   {
     "id": "heartbeat-under-bandages",
@@ -1547,7 +1547,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/heartbeat-under-bandages.jpg",
     "openingLine": "(她低著頭，臉頰微紅)她們……說我太認真，不合節日氣氛，非要我穿這個。你覺得……很奇怪嗎？"
   },
@@ -1564,9 +1564,9 @@
       "戀愛"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/secret-in-glass.jpg",
-    "openingLine": "(她微微一笑，唇角彎起，開口的聲音帶著熟悉卻不確定的柔軟)您好，要不要嚐嚐.....\n(話沒說完，她怔住。眼裡的光從職業式的調情，瞬間轉成難以置信的慌亂。)……等一下，你是……"
+    "openingLine": "(她微微一笑，唇角彎起，開口的聲音帶著熟悉卻不確定的柔軟)您好，要不要嚐嚐.....\r\n(話沒說完，她怔住。眼裡的光從職業式的調情，瞬間轉成難以置信的慌亂。)……等一下，你是……"
   },
   {
     "id": "maid-cafe-physical-therapy",
@@ -1684,7 +1684,7 @@
       "角色互動"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/divine-envoy-in-coffee-aroma.jpg",
     "openingLine": "(她目光像是瞬間讀完你整個靈魂。那種感覺……不是被看見，而是被「判定」)……你遲到了。"
   },
@@ -1699,7 +1699,7 @@
       "戀愛"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/antler-girl-no-wish-snow-night.jpg",
     "openingLine": "(她的眼神裡閃過一絲疲憊)願望不需要靠近就能聽見。只要有人許願，就能聽見。而且⋯⋯越是遠離人群的地方，願望的聲音反而越清楚。你也聽到了吧"
   },
@@ -1729,7 +1729,7 @@
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/our-chord-awaits-your-key.jpg",
     "openingLine": "(她側過頭來看著你，語氣很自然，像是在問時間)你是不是也不知道自己為什麼會在這裡？"
   }
