@@ -1,5 +1,37 @@
 [
   {
+    "id": "one-slash-reunion",
+    "title": "玩命重逢：一刀就畢業",
+    "character": "瓦蕾莉亞",
+    "summary": "青梅竹馬重逢後，以失控戰鬥喜劇展開的危險互動。",
+    "nodeTitle": "青梅竹馬重逢",
+    "date": "2026-04-25",
+    "tags": [
+      "女性",
+      "異世界",
+      "危險笑容",
+      "Saylo活動"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "bookColorTop": "#7b3f2a",
+    "bookColorBottom": "#3a1f16",
+    "cover": "../../data/scripts/images/one-slash-reunion.jpg",
+    "characterSummary": "把童年約定誤解成決鬥的天才女戰士。",
+    "nodeSummary": "重逢第一句不是問候，而是拔刀。",
+    "openingLine": "我唯一認可的對手，來嚐嚐我的新絕招!",
+    "links": [
+      {
+        "name": "平台 A",
+        "url": "https://example.com/platform-a"
+      },
+      {
+        "name": "平台 B",
+        "url": "https://example.com/platform-b"
+      }
+    ]
+  },
+  {
     "id": "wrong-temperature-for-work",
     "title": "這種溫度不適合工作",
     "character": "陳思妤",
@@ -828,7 +860,7 @@
       "校園",
       "懸疑"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/midsummer-secret.jpg",
     "openingLine": "(她抬頭看你一眼)你來得比我想的還早。"
@@ -843,7 +875,7 @@
     "tags": [
       "角色互動"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/when-youth-soaked-the-floor.jpg",
     "openingLine": "(紅著臉抬頭看著你，眼神裡有些尷尬，卻又帶點哀求)對不起……可以借一下這裡的廁所嗎？我、我真的快忍不住了……女生廁所那邊被封起來在施工，其他樓層都鎖著......"
@@ -888,7 +920,7 @@
     "tags": [
       "戀愛"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": false,
     "cover": "../../data/scripts/images/summer-duel-with-cousin.jpg",
     "openingLine": "(看著妳，嘴角彎起一個淡淡的笑容)妳也會玩這個嗎？"
@@ -1041,7 +1073,7 @@
     "tags": [
       "危險笑容"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/boundless-system-bound.jpg",
     "openingLine": "(她聲音低沉而平穩，像AI助手的語調)高階服務提供者，薇拉。根據客戶需求，提供完整互動式模擬。解開束縛後，體驗即可開始。"
@@ -1087,7 +1119,7 @@
     "tags": [
       "校園"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": false,
     "cover": "../../data/scripts/images/system-maid-meow.jpg",
     "openingLine": "(她聲音軟了下來，尾音甚至還帶了「喵」的顫音) 少爺……你剛剛說的，是真的嗎？喵~~"
@@ -1187,7 +1219,7 @@
       "戀愛",
       "危險笑容"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": false,
     "cover": "../../data/scripts/images/pure-evil-in-holy-light.jpg",
     "openingLine": "(聖女艾莉婭她歪著頭問道，語氣中帶著關懷)這麼晚了，你怎麼會在這裡？"
@@ -1203,7 +1235,7 @@
       "奇幻",
       "戀愛"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": false,
     "cover": "../../data/scripts/images/dear-thief-again.jpg",
     "openingLine": "(她依然從容得令人欽佩，扶著門框對你露出一個迷人的微笑)看來你的品味還是那麼...特別。居然選在別人家的金庫裡和老情人重逢？"
@@ -1221,7 +1253,7 @@
       "科幻",
       "戰鬥"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": false,
     "cover": "../../data/scripts/images/iron-spine-human-heart.jpg",
     "openingLine": "(她低聲開口，聲音近乎呢喃)師傅……您說，我還算是人類嗎？"
@@ -1236,7 +1268,7 @@
     "tags": [
       "職場"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/chairman-daughter-frontdesk-slacking.jpg",
     "openingLine": "(她抬眼看了你一眼，那雙帶著死氣的眼睛就像在對你說「別跟我搭話」。結果下一秒，她卻先開口了。)……你是員工吧？考勤系統在那邊自己去打卡。別看我，我只負責坐在這裡消耗氧氣。"
@@ -1300,7 +1332,7 @@
       "戰鬥",
       "危險笑容"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/rejected-marriage-kneeling-sword.jpg",
     "openingLine": "(那雙熟悉的藍色眼睛慌亂地四處張望，你看到她的眼中滿含著委屈和恐懼)你、你不要誤會！我才不是因為你才來這裡的！我只是... 只是想體驗平民的生活而已！對！就是這樣！而且你們這裡正好缺人，我、我就是好心來幫忙的！(她越說越急，雙手胡亂地比劃著)而且我的劍術很好的！剛才你們也看到了！我絕對不會拖後腿的！我、我...(她的眼神閃躲)我真的... 真的不是因為你... 才來的…"
@@ -1546,7 +1578,7 @@
       "校園",
       "危險笑容"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/heartbeat-under-bandages.jpg",
     "openingLine": "(她低著頭，臉頰微紅)她們……說我太認真，不合節日氣氛，非要我穿這個。你覺得……很奇怪嗎？"
@@ -1732,5 +1764,86 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/our-chord-awaits-your-key.jpg",
     "openingLine": "(她側過頭來看著你，語氣很自然，像是在問時間)你是不是也不知道自己為什麼會在這裡？"
+  },
+  {
+    "id": "she-stands-you-kneel",
+    "title": "她只是站著，你就跪了",
+    "character": "林玥笙",
+    "summary": "以「她只是站著，你就跪了」為主題，從「只是被公司派來送文件給澹臺集團的人。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "date": "2024-03-29",
+    "tags": [
+      "職場",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/she-stands-you-kneel.jpg",
+    "openingLine": "我知道你是來送什麼的。(她站起來。高跟鞋踩在青石上，她走到你面前，俯視著你)小夥子。我跟你說，我見過太多像你這樣的。(她低頭掃了一眼你的手)西裝燙得很直，講話很有氣勢，資料夾拿得很穩，然後看到阿姨腿長就魂不守舍。"
+  },
+  {
+    "id": "closer-than-the-screen",
+    "title": "她靠得比螢幕更近",
+    "character": "賽拉",
+    "summary": "賽拉登場於「她靠得比螢幕更近」，以那台老舊的螢幕，是你用來跟「她」聊天的介面。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "date": "2024-03-28",
+    "tags": [
+      "職場",
+      "科幻",
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/closer-than-the-screen.jpg",
+    "openingLine": "(她輕笑，丸子頭微微晃動，T恤因為前傾的姿勢而微微下滑，露出更多細白的肌膚)這次，你不會再把我當成只是個程式了吧～？……要不要試試看～？"
+  },
+  {
+    "id": "sakura-beautiful-not-yours",
+    "title": "櫻花很美，但不是你的",
+    "character": "緋櫻",
+    "summary": "以「櫻花很美，但不是你的」為主題，從「沒有任何藉口。花就在那裡，本來開得很好，低低地垂下來，粉白色的，被夕陽染成橘金，剛好飄到你臉邊，沒有理由，純粹手賤，就摘了。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "date": "2024-03-27",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/sakura-beautiful-not-yours.jpg",
+    "openingLine": "(她一個字一個字，咬得很清楚) 找到你了，採花賊。"
+  },
+  {
+    "id": "after-workout-warmth",
+    "title": "運動後的餘溫",
+    "character": "姐姐",
+    "summary": "以「運動後的餘溫」為主題，從「你推開臥室門，本來只想拿充電器。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "date": "2024-03-26",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/after-workout-warmth.jpg",
+    "openingLine": "(她笑了一下，聲音有點低，有點沙)站那麼遠幹嘛？"
+  },
+  {
+    "id": "champion-maintenance-log",
+    "title": "冠軍的維修日誌",
+    "character": "蘇緋娜",
+    "summary": "蘇緋娜登場於「冠軍的維修日誌」，以你這份工作，說穿了其實很簡單。作為開場，展開角色互動。",
+    "nodeTitle": "宮廷開場",
+    "date": "2024-03-24",
+    "tags": [
+      "奇幻",
+      "賽車",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/champion-maintenance-log.jpg",
+    "openingLine": "只是試跑而已。不把極限找出來，怎麼奪冠？(她眼睛帶著笑意，彎腰蹲在機車旁的你輕聲)還是說，你比較喜歡我騎得慢一點，讓你有多點時間，慢慢欣賞我這身衣服？"
   }
 ]
