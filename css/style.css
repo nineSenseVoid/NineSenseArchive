@@ -4855,3 +4855,80 @@ body.modal-open{
   background:rgba(255,255,255,.82);
   backdrop-filter:blur(8px);
 }
+
+
+/* =========================
+   Detail 留言板 Giscus
+========================= */
+
+[data-page-type="detail"] .detail-comments-block{
+  margin-top:22px;
+  padding-top:18px;
+  border-top:1px solid var(--line);
+}
+
+[data-page-type="detail"] .comments-toggle{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  padding:16px 18px;
+  border-radius:18px;
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(34,55,98,.55),rgba(24,40,73,.45));
+  color:var(--text);
+  cursor:pointer;
+  text-align:left;
+}
+
+[data-page-type="detail"] .comments-toggle strong{
+  display:block;
+  font-size:16px;
+}
+
+[data-page-type="detail"] .comments-toggle small{
+  display:block;
+  margin-top:3px;
+  color:var(--muted);
+  font-size:12px;
+}
+
+[data-page-type="detail"] .comments-toggle-icon{
+  color:var(--muted);
+  transition:transform .18s ease;
+}
+
+[data-page-type="detail"] .comments-toggle[aria-expanded="true"] .comments-toggle-icon{
+  transform:rotate(180deg);
+}
+
+[data-page-type="detail"] .comments-body{
+  margin-top:14px;
+  overflow:hidden;
+  transition:max-height .24s ease, opacity .2s ease;
+  max-height:900px;
+  opacity:1;
+}
+
+[data-page-type="detail"] .comments-body.is-collapsed{
+  max-height:0;
+  opacity:0;
+}
+
+[data-page-type="detail"] .comments-mount{
+  padding:16px;
+  border-radius:18px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.025);
+}
+
+[data-theme="light"] [data-page-type="detail"] .comments-toggle{
+  background:linear-gradient(180deg,#f7fbff,#edf4ff);
+  border-color:rgba(76,101,154,.18);
+  color:#17233b;
+}
+
+[data-theme="light"] [data-page-type="detail"] .comments-mount{
+  background:rgba(255,255,255,.72);
+}

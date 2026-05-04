@@ -163,6 +163,20 @@
 
           <div class="btn-row detail-link-row" id="linkRow"></div>
         </section>
+
+        <section class="detail-comments-block">
+          <button class="comments-toggle" id="commentsToggle" type="button" aria-expanded="false">
+            <span>
+              <strong>讀者留言</strong>
+              <small>展開後載入 GitHub Discussions 留言區</small>
+            </span>
+            <span class="comments-toggle-icon">▾</span>
+          </button>
+
+          <div class="comments-body is-collapsed" id="commentsBody">
+            <div class="comments-mount" id="commentsMount"></div>
+          </div>
+        </section>
       </section>
 
     </div>
@@ -208,6 +222,12 @@
     const favBtn = document.getElementById('favBtn');
     const randomDetailBtn = document.getElementById('randomDetailBtn');
     const detailSwitchNotice = document.getElementById('detailSwitchNotice');
+
+    const commentsToggle = document.getElementById('commentsToggle');
+    const commentsBody = document.getElementById('commentsBody');
+    const commentsMount = document.getElementById('commentsMount');
+
+    let giscusLoadedFor = '';
 
     let items = [];
     let activeId = null;
@@ -573,6 +593,51 @@
 
       document.title = item.nodeTitle ? `${item.title}｜${item.nodeTitle}` : item.title;
       updateFavButton(item.id);
+
+      resetComments();
+
+      if (commentsBody && !commentsBody.classList.contains('is-collapsed')) {
+        loadGiscus(item);
+      }
+    }
+
+    function resetComments() {
+      if (!commentsMount) return;
+      commentsMount.innerHTML = '';
+      giscusLoadedFor = '';
+    }
+
+    function loadGiscus(item) {
+      if (!commentsMount || !item) return;
+
+      const discussionTerm = `script-${item.id}`;
+
+      if (giscusLoadedFor === discussionTerm) return;
+
+      commentsMount.innerHTML = '';
+      giscusLoadedFor = discussionTerm;
+
+      const script = document.createElement('script');
+      script.src = 'https://giscus.app/client.js';
+
+      // TODO：這四個要換成你自己的 Giscus 設定
+      script.setAttribute('data-repo', 'nineSenseVoid/NineSenseArchive');
+      script.setAttribute('data-repo-id', 'R_kgDOSRS1cg');
+      script.setAttribute('data-category', 'Announcements');
+      script.setAttribute('data-category-id', 'DIC_kwDOSRS1cs4C8Sw7');
+
+      script.setAttribute('data-mapping', 'specific');
+      script.setAttribute('data-term', discussionTerm);
+      script.setAttribute('data-strict', '1');
+      script.setAttribute('data-reactions-enabled', '1');
+      script.setAttribute('data-emit-metadata', '0');
+      script.setAttribute('data-input-position', 'top');
+      script.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+      script.setAttribute('data-lang', 'zh-TW');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.async = true;
+
+      commentsMount.appendChild(script);
     }
 
     function render() {
@@ -705,6 +770,18 @@
             top: Math.max(0, y),
             behavior: 'smooth'
           });
+        }
+      });
+    }
+
+    if (commentsToggle && commentsBody) {
+      commentsToggle.addEventListener('click', () => {
+        const isCollapsed = commentsBody.classList.toggle('is-collapsed');
+        commentsToggle.setAttribute('aria-expanded', String(!isCollapsed));
+
+        if (!isCollapsed) {
+          const activeItem = items.find(item => item.id === activeId);
+          loadGiscus(activeItem);
         }
       });
     }
