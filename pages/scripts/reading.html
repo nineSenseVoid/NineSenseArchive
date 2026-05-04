@@ -187,7 +187,20 @@
     }
 
     function getReadingCover(item) {
-      return item.cover || '';
+       if (!item.cover) return '';
+
+      // JSON 裡如果是 data/scripts/images/xxx.jpg
+      if (item.cover.startsWith('data/')) {
+        return `../../${item.cover}`;
+      }
+
+      // JSON 裡如果是 ./data/scripts/images/xxx.jpg
+      if (item.cover.startsWith('./data/')) {
+        return `../../${item.cover.slice(2)}`;
+      }
+
+      // 已經是絕對網址或根目錄路徑就不動
+      return item.cover;
     }
 
     function applyReadingCover(item) {
