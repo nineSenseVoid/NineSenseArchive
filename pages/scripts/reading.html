@@ -187,24 +187,31 @@
     }
 
     function getReadingCover(item) {
-       if (!item.cover) return '';
+       const raw =
+        item.cover ||
+        item.image ||
+        item.coverPath ||
+        item.thumbnail ||
+        '';
 
-      // JSON 裡如果是 data/scripts/images/xxx.jpg
-      if (item.cover.startsWith('data/')) {
-        return `../../${item.cover}`;
+      if (!raw) return '';
+      if (/^https?:\/\//i.test(raw)) return raw;
+
+      let path = raw.trim();
+
+      if (path.startsWith('./')) path = path.slice(2);
+      if (path.startsWith('/')) path = path.slice(1);
+
+      if (path.startsWith('data/')) {
+        return new URL(`../../${path}`, location.href).href;
       }
 
-      // JSON 裡如果是 ./data/scripts/images/xxx.jpg
-      if (item.cover.startsWith('./data/')) {
-        return `../../${item.cover.slice(2)}`;
-      }
-
-      // 已經是絕對網址或根目錄路徑就不動
-      return item.cover;
+      return new URL(path, location.href).href;
     }
 
     function applyReadingCover(item) {
       const cover = getReadingCover(item);
+      console.log('reading cover:', cover);
 
       if (!cover) {
         document.body.classList.remove('has-reading-cover');
