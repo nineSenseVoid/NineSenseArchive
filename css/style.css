@@ -4633,3 +4633,225 @@ body.modal-open{
   box-shadow: 0 18px 34px rgba(0,0,0,.32);
   z-index: 5;
 }
+
+/* =========================
+   庫內閱讀頁：沉浸背景 + 標題橫幅
+========================= */
+
+[data-page-type="reading"]{
+  position:relative;
+}
+
+[data-page-type="reading"].has-reading-cover::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background:
+    linear-gradient(180deg, rgba(7,17,31,.82), rgba(7,17,31,.96)),
+    var(--reading-cover-url) center/cover no-repeat;
+  filter:blur(22px) saturate(1.05);
+  transform:scale(1.08);
+  opacity:.58;
+  pointer-events:none;
+}
+
+[data-page-type="reading"].has-reading-cover::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(143,176,255,.12), transparent 36%),
+    linear-gradient(180deg, transparent, var(--bg) 82%);
+  pointer-events:none;
+}
+
+[data-page-type="reading"] .reading-wrap{
+  width:min(920px,calc(100% - 32px));
+}
+
+[data-page-type="reading"] .reading-article{
+  overflow:hidden;
+  padding:0;
+}
+
+[data-page-type="reading"] .reading-hero-banner{
+  position:relative;
+  min-height:210px;
+  padding:30px;
+  display:flex;
+  align-items:flex-end;
+  background:
+    linear-gradient(135deg, rgba(30,48,86,.82), rgba(8,18,35,.96)),
+    var(--reading-cover-url) center 34%/cover no-repeat;
+  border-bottom:1px solid var(--line);
+}
+
+[data-page-type="reading"] .reading-hero-banner.no-cover{
+  background:linear-gradient(135deg, rgba(30,48,86,.92), rgba(8,18,35,.98));
+}
+
+[data-page-type="reading"] .reading-hero-shade{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg, rgba(7,17,31,.88), rgba(7,17,31,.42) 52%, rgba(7,17,31,.78)),
+    linear-gradient(0deg, rgba(7,17,31,.82), transparent 62%);
+  pointer-events:none;
+}
+
+[data-page-type="reading"] .reading-hero-copy{
+  position:relative;
+  z-index:1;
+  max-width:760px;
+}
+
+[data-page-type="reading"] .reading-hero-copy h1{
+  margin:0 0 10px;
+  color:#fff;
+  text-shadow:0 4px 18px rgba(0,0,0,.42);
+}
+
+[data-page-type="reading"] .reading-hero-copy .meta{
+  margin:0;
+  color:rgba(232,238,252,.78);
+}
+
+[data-page-type="reading"] #readingContent{
+  padding:30px;
+}
+
+[data-page-type="reading"] .reading-article hr{
+  margin:0 30px 20px;
+}
+
+[data-page-type="reading"] .reading-article .btn-row{
+  padding:0 30px 30px;
+}
+
+/* 淺色模式 */
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::before{
+  background:
+    linear-gradient(180deg, rgba(238,243,251,.72), rgba(238,243,251,.94)),
+    var(--reading-cover-url) center/cover no-repeat;
+  opacity:.42;
+}
+
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::after{
+  background:
+    radial-gradient(circle at 50% 0%, rgba(77,111,209,.10), transparent 34%),
+    linear-gradient(180deg, transparent, var(--bg) 82%);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-banner{
+  background:
+    linear-gradient(135deg, rgba(30,48,86,.38), rgba(255,255,255,.92)),
+    var(--reading-cover-url) center 34%/cover no-repeat;
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-shade{
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.84), rgba(255,255,255,.44) 52%, rgba(255,255,255,.76)),
+    linear-gradient(0deg, rgba(255,255,255,.88), transparent 62%);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-copy h1{
+  color:#17233b;
+  text-shadow:0 2px 10px rgba(255,255,255,.55);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-copy .meta{
+  color:#52698f;
+}
+
+@media (max-width:640px){
+  [data-page-type="reading"] .reading-hero-banner{
+    min-height:170px;
+    padding:24px 18px;
+  }
+
+  [data-page-type="reading"] #readingContent{
+    padding:22px 18px;
+  }
+
+  [data-page-type="reading"] .reading-article hr{
+    margin:0 18px 18px;
+  }
+
+  [data-page-type="reading"] .reading-article .btn-row{
+    padding:0 18px 24px;
+  }
+}
+[data-page-type="reading"].has-reading-cover::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background:
+    linear-gradient(180deg, rgba(7,17,31,.55), rgba(7,17,31,.88)),
+    var(--reading-cover-url) center/cover no-repeat;
+  filter:blur(16px) saturate(1.18);
+  transform:scale(1.06);
+  opacity:.78;
+  pointer-events:none;
+}
+
+[data-page-type="reading"] .reading-hero-banner{
+  min-height:300px;
+  background:
+    linear-gradient(90deg, rgba(7,17,31,.82), rgba(7,17,31,.28) 55%, rgba(7,17,31,.58)),
+    var(--reading-cover-url) center 30%/cover no-repeat;
+}
+
+[data-page-type="reading"] .reading-hero-shade{
+  background:
+    linear-gradient(90deg, rgba(7,17,31,.82), rgba(7,17,31,.22) 52%, rgba(7,17,31,.62)),
+    linear-gradient(0deg, rgba(7,17,31,.88), transparent 70%);
+}
+
+/* 庫內閱讀：淺色模式讓背景真的看得見 */
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::before{
+  background:
+    linear-gradient(180deg, rgba(238,243,251,.18), rgba(238,243,251,.46)),
+    var(--reading-cover-url) center/cover no-repeat;
+  filter: blur(10px) saturate(1.12) contrast(1.05);
+  transform: scale(1.04);
+  opacity: .95;
+}
+
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::after{
+    background:
+    radial-gradient(circle at 50% 0%, rgba(77,111,209,.08), transparent 34%),
+    linear-gradient(180deg,
+      transparent 0%,
+      rgba(238,243,251,.25) 50%,
+      rgba(238,243,251,.6) 75%,
+      rgba(238,243,251,.85) 100%
+    );
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-banner{
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,.72),
+      rgba(255,255,255,.22) 52%,
+      rgba(255,255,255,.58)
+    ),
+    var(--reading-cover-url) center 30%/cover no-repeat;
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-shade{
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,.72),
+      rgba(255,255,255,.18) 52%,
+      rgba(255,255,255,.58)
+    ),
+    linear-gradient(0deg, rgba(255,255,255,.74), transparent 68%);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-article{
+  background:rgba(255,255,255,.82);
+  backdrop-filter:blur(8px);
+}
