@@ -71,8 +71,8 @@
           <div class="group-body compact-info detail-meta-card is-collapsed" id="metaCard">
             <div><label>角色</label><span id="metaCharacter">讀取中...</span></div>
             <div><label>風格</label><span id="metaStyle">讀取中...</span></div>
+            <div><label>建立</label><span id="metaCreatedDate">讀取中...</span></div>
             <div><label>更新</label><span id="metaDate">讀取中...</span></div>
-            <div><label>ID</label><span id="pathBox">讀取中...</span></div>
           </div>
         </section>
 
@@ -206,7 +206,8 @@
     const metaCharacter = document.getElementById('metaCharacter');
     const metaStyle = document.getElementById('metaStyle');
     const metaDate = document.getElementById('metaDate');
-    const pathBox = document.getElementById('pathBox');
+    //const pathBox = document.getElementById('pathBox');
+    const metaCreatedDate = document.getElementById('metaCreatedDate');
 
     const nodeToggle = document.getElementById('nodeToggle');
     const nodePanel = document.getElementById('nodePanel');
@@ -572,8 +573,10 @@
               </button>
             `).join('')
           : '<span class="meta-style-empty">未設定</span>';
-      metaDate.textContent = item.date || '未填寫';
-      pathBox.textContent = `reading.html#${item.id}`;
+      /* metaDate.textContent = item.date || '未填寫';
+      pathBox.textContent = `reading.html#${item.id}`; */
+      metaCreatedDate.textContent = item.createdDate || item.createDate || item.date || '未填寫';
+      metaDate.textContent = item.updatedDate || item.updateDate || item.date || '未填寫';
 
       workCover.innerHTML = `
         ${getDetailCoverVisual(item)}
@@ -632,7 +635,12 @@
       script.setAttribute('data-reactions-enabled', '1');
       script.setAttribute('data-emit-metadata', '0');
       script.setAttribute('data-input-position', 'top');
-      script.setAttribute('data-theme', document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark');
+      script.setAttribute(
+        'data-theme',
+        document.documentElement.getAttribute('data-theme') === 'light'
+          ? 'light'
+          : 'dark_high_contrast'
+      );
       script.setAttribute('data-lang', 'zh-TW');
       script.setAttribute('crossorigin', 'anonymous');
       script.async = true;
@@ -799,6 +807,18 @@
         html.setAttribute("data-theme", theme);
         if (text) text.textContent = theme === "light" ? "淺色" : "深色";
         if (icon) icon.textContent = theme === "light" ? "☀" : "☾";
+
+        const giscusFrame = document.querySelector('iframe.giscus-frame');
+
+        if (giscusFrame) {
+          giscusFrame.contentWindow.postMessage({
+            giscus: {
+              setConfig: {
+                theme: theme === 'light' ? 'light' : 'dark_high_contrast'
+              }
+            }
+          }, 'https://giscus.app');
+        }
       }
 
       const saved = localStorage.getItem(key);

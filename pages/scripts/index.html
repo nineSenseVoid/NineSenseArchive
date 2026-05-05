@@ -288,10 +288,23 @@
     }
 
     function buildBook(item, index) {
-      const badge = item.platformLabel || ((item.links && item.links.length > 1) ? '多平台' : '單平台');
+      //const badge = item.platformLabel || ((item.links && item.links.length > 1) ? '多平台' : '單平台');
       const cover = item.cover || '';
       const summary = item.summary || item.nodeSummary || '這本暫時還沒寫摘要。';
       const newBadge = isNewItem(item.date) ? `<div class="entry-card-new">NEW</div>` : '';
+      const linkCount = (item.links || []).length;
+      let badge = item.platformLabel;
+      let badgeClass = '';
+      if (linkCount === 0) {
+        badge = '館藏';
+        badgeClass = 'badge-archive';
+      } else if (linkCount === 1) {
+        badge = '單平台';
+        badgeClass = 'badge-single';
+      } else {
+        badge = '多平台';
+        badgeClass = 'badge-multi';
+      }
 
       return `
         <a
@@ -313,7 +326,7 @@
             : `<div class="entry-card-fallback" style="background:linear-gradient(180deg,${item.bookColorTop || '#5a6b8a'},${item.bookColorBottom || '#24324a'});"></div>`
           }
 
-          <div class="entry-card-badge">${esc(badge)}</div>
+          <div class="entry-card-badge ${badgeClass}">${esc(badge)}</div>
           ${newBadge}
 
           <div class="entry-card-overlay">
