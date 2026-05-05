@@ -175,6 +175,7 @@
 
     //標籤排序
     const TAG_ORDER_KEY = 'tag_spine_random_order_v1';
+    const CAROUSEL_PAGE_KEY = 'ninesense_carousel_page';
 
     function getFavorites() {
       try {
@@ -397,6 +398,8 @@
 
     function goToPage(pageIndex) {
       currentPage = Math.max(0, Math.min(pageIndex, pagedItems.length - 1));
+      sessionStorage.setItem(CAROUSEL_PAGE_KEY, String(currentPage));
+
       const pages = shelf.querySelectorAll('.entry-page');
       const target = pages[currentPage];
       if (target) {
@@ -782,7 +785,10 @@
       }
 
       pagedItems = chunkItems(filteredItems, 8);
-      currentPage = 0;
+
+      const savedPage = Number(sessionStorage.getItem(CAROUSEL_PAGE_KEY) || 0);
+      currentPage = Math.max(0, Math.min(savedPage, pagedItems.length - 1));
+
       shelf.innerHTML = pagedItems.map((pageItems, pageIndex) => buildPage(pageItems, pageIndex)).join('');
 
       const previewItem = filteredItems.find(x => x.id === activePreviewId) || filteredItems[0];
@@ -792,6 +798,15 @@
       renderDots();
       updateArrowState();
       updateEntryHint();
+
+      requestAnimationFrame(() => {
+        const pages = shelf.querySelectorAll('.entry-page');
+        pages[currentPage]?.scrollIntoView({
+          behavior: 'auto',
+          inline: 'start',
+          block: 'nearest'
+        });
+      });
     }
 
     function getTagLabel(tag) {
