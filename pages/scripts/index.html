@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>九境書庫 NineSense Archive</title>
   <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png?v=1">
 </head>
 <body class="has-topbar" data-page-type="list">
   <div class="topbar">
@@ -403,7 +404,20 @@
       const pages = shelf.querySelectorAll('.entry-page');
       const target = pages[currentPage];
       if (target) {
-        target.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
+        /*  target.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });*/
+        target.scrollIntoView({
+          behavior: 'smooth',
+          inline: 'start',
+          block: 'nearest'
+        });
+
+        if (window.matchMedia('(max-width: 600px)').matches) {
+          const shelfTop = document.querySelector('.wood-shelf');
+          shelfTop?.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
       }
       renderDots();
       updateArrowState();
@@ -799,15 +813,27 @@
       updateArrowState();
       updateEntryHint();
 
-      requestAnimationFrame(() => {
+      requestAnimationFrame(syncCarouselPosition);
+
+      /* requestAnimationFrame(() => {
         const pages = shelf.querySelectorAll('.entry-page');
         pages[currentPage]?.scrollIntoView({
           behavior: 'auto',
           inline: 'start',
           block: 'nearest'
         });
+      }); */
+    }
+
+    function syncCarouselPosition() {
+      const pages = shelf.querySelectorAll('.entry-page');
+      pages[currentPage]?.scrollIntoView({
+        behavior: 'auto',
+        inline: 'start',
+        block: 'nearest'
       });
     }
+
 
     function getTagLabel(tag) {
       if (!tag) return '';
@@ -861,10 +887,10 @@
 
       updateHeroUpdate();
 
-      const siteUpdateTime = document.getElementById('siteUpdateTime');
+    /*   const siteUpdateTime = document.getElementById('siteUpdateTime');
       if (siteUpdateTime) {
-        siteUpdateTime.textContent = '程式更新：v0.1';
-      }
+        siteUpdateTime.textContent = '程式更新：2026-04-16';
+      } */
       });
 
     const heroUpdateBtn = document.getElementById('heroUpdate');
@@ -1021,6 +1047,16 @@
         render();
       });
     }
+
+    let resizeTimer = null;
+
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        syncCarouselPosition();
+      }, 120);
+    });
+
   </script>
 
   <footer class="site-footer">
@@ -1029,15 +1065,15 @@
       <div class="footer-left">
         <div class="footer-title">九境書庫</div>
         <div class="footer-meta">
-          <span>版本：v0.1</span>
-          <span id="siteUpdateTime">程式更新：2026-04-16</span>
+          <span>版本：v1.0</span>
+          <span id="siteUpdateTime">程式更新：2026-05-06</span>
         </div>
       </div>
 
       <div class="footer-center">
         <!-- <a href="#" target="_blank">GitHub</a> -->
         <a href="https://www.pixiv.net/users/113850087" target="_blank">Pixiv</a>
-        <a href="#" target="_blank">☕ 支持創作</a>
+        <a href="https://ko-fi.com/ninesense" target="_blank">☕ 支持創作</a>
       </div>
 
       <div class="footer-right">
@@ -1063,13 +1099,13 @@
       </div>
 
       <div class="author-kicker">NineSense Archive</div>
-      <h2>書庫看板娘</h2>
+      <h2>書庫引路人</h2>
       <p class="author-guide-line">
-        有什麼想說的。無論心得、錯字回報<br>
-        、合作想法、甚至只是路過也都可以。<br>
-        在下面留下小紙條，<br>
-        我幫你轉交給那個i人作者。<br>
-        （留言不會公開，只會送到作者） <br>
+        有什麼想說的，都可以留下小紙條。<br>
+        本姑娘替你轉交給那位 i 人作者。<br>
+       （留言僅作者可見）<br>
+        書庫中的故事與角色，皆為作者親手構築<br>
+        此處收錄之篇章，請勿擅自摘錄帶離 <br>
       </p>
     </div>
 
