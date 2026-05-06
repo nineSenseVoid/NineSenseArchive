@@ -49,7 +49,7 @@
           <img src="../../data/scripts/images/logo-title.png" alt="九境書庫 NineSense Archive">
         </h1>
         <p class="hero-motto">境有萬千，書藏於此。</p>
-        <p>閱其文，識其人，擇其境，循門而往。</p>
+        <p>識其人，閱其文，擇其境，循門而往。</p>
         <button class="hero-update" id="heroUpdate" type="button">最新上架：讀取中...</button>
       </div>
 
@@ -1035,17 +1035,154 @@
       </div>
 
       <div class="footer-center">
-        <a href="#" target="_blank">GitHub</a>
-        <a href="#" target="_blank">Pixiv</a>
+        <!-- <a href="#" target="_blank">GitHub</a> -->
+        <a href="https://www.pixiv.net/users/113850087" target="_blank">Pixiv</a>
         <a href="#" target="_blank">☕ 支持創作</a>
       </div>
 
       <div class="footer-right">
-        <span>© 2026 生死</span>
+        <button class="author-open-btn" id="authorOpenBtn" type="button">
+        © 2026 生死不論 </button>
       </div>
 
     </div>
   </footer>
+
+  <div class="author-panel-backdrop" id="authorPanelBackdrop" hidden></div>
+
+<aside class="author-panel" id="authorPanel" aria-hidden="true">
+  <button class="author-close-btn" id="authorCloseBtn" type="button" aria-label="關閉作者介紹">×</button>
+  <div class="author-hero">
+    <div class="author-info">
+      <div class="author-signature">
+        <span>網站及劇本作者-生死不論</span>
+        <p>
+          千江有影皆寒月，黛筆輕揮便有春。<br>
+          為襯畫魂生百境，生死不論築虛文。
+        </p>
+      </div>
+
+      <div class="author-kicker">NineSense Archive</div>
+      <h2>書庫看板娘</h2>
+      <p class="author-guide-line">
+        有什麼想說的。無論心得、錯字回報<br>
+        、合作想法、甚至只是路過也都可以。<br>
+        在下面留下小紙條，<br>
+        我幫你轉交給那個i人作者。<br>
+        （留言不會公開，只會送到作者） <br>
+      </p>
+    </div>
+
+    <div class="author-avatar-wrap">
+      <img class="author-avatar" src="../../data/scripts/images/author-avatar.png" alt="看板娘值班中">
+    </div>
+   
+  </div>
+
+  <div class="author-message">
+    <p class="author-form-note">
+      如果下方google表單沒有顯示，
+      <a href="https://forms.gle/66KeYYsZXKRqy7dz5" target="_blank">
+        點這裡開啟
+      </a>
+    </p>
+
+   <!--  <iframe
+      class="author-form"
+      src="https://forms.gle/66KeYYsZXKRqy7dz5"
+      loading="lazy"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0">
+      載入中…
+    </iframe> -->
+
+    <div class="author-form-frame">
+      <iframe
+        class="author-form"
+        src="https://forms.gle/66KeYYsZXKRqy7dz5"
+        loading="lazy"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        載入中…
+      </iframe>
+    </div>
+  </div>
+</aside>
+
+<script>
+//作者小窗
+    const authorOpenBtn = document.getElementById('authorOpenBtn');
+    const authorCloseBtn = document.getElementById('authorCloseBtn');
+    const authorPanel = document.getElementById('authorPanel');
+    const authorPanelBackdrop = document.getElementById('authorPanelBackdrop');
+    const authorAvatarWrap = document.querySelector('.author-avatar-wrap');
+    const authorAvatar = document.querySelector('.author-avatar');
+
+    function openAuthorPanel() {
+      if (!authorPanel || !authorPanelBackdrop) return;
+      authorPanelBackdrop.hidden = false;
+      authorPanel.classList.add('is-open');
+      authorPanel.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('author-panel-open');
+    }
+
+    function closeAuthorPanel() {
+       if (!authorPanel || !authorPanelBackdrop) return;
+       authorPanelBackdrop.hidden = true;
+       authorPanel.classList.remove('is-open');
+       authorPanel.setAttribute('aria-hidden', 'true');
+       document.body.classList.remove('author-panel-open');
+       resetAuthorAvatar();
+    }
+
+    authorOpenBtn?.addEventListener('click', openAuthorPanel);
+    authorCloseBtn?.addEventListener('click', closeAuthorPanel);
+    authorPanelBackdrop?.addEventListener('click', closeAuthorPanel);
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeAuthorPanel();
+    });
+
+    function moveAuthorAvatar(e) {
+      if (!authorPanel || !authorAvatarWrap || !authorAvatar) return;
+      if (!authorPanel.classList.contains('is-open')) return;
+      if (e.target.closest('.author-message')) return;
+
+      const rect = authorPanel.getBoundingClientRect();
+
+      const rawX = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+      const rawY = ((e.clientY - rect.top) / rect.height - 0.5) * 2;
+
+      const moveX = Math.max(-1, Math.min(1, rawX));
+      const moveY = Math.max(-1, Math.min(1, rawY));
+
+      authorAvatarWrap.classList.add('is-watching');
+
+      authorAvatarWrap.style.setProperty('--watch-x', `${moveX * 8}px`);
+      authorAvatarWrap.style.setProperty('--watch-y', `${moveY * 5}px`);
+      authorAvatarWrap.style.setProperty('--watch-r', `${moveX * 1.6}deg`);
+
+      authorAvatar.style.setProperty('--watch-img-x', `${moveX * 3}px`);
+      authorAvatar.style.setProperty('--watch-img-y', `${moveY * 2}px`);
+    }
+
+    function resetAuthorAvatar() {
+      if (!authorAvatarWrap || !authorAvatar) return;
+
+      authorAvatarWrap.classList.remove('is-watching');
+
+      authorAvatarWrap.style.removeProperty('--watch-x');
+      authorAvatarWrap.style.removeProperty('--watch-y');
+      authorAvatarWrap.style.removeProperty('--watch-r');
+      authorAvatar.style.removeProperty('--watch-img-x');
+      authorAvatar.style.removeProperty('--watch-img-y');
+    }
+
+    authorPanel?.addEventListener('pointermove', moveAuthorAvatar);
+    authorPanel?.addEventListener('mouseleave', resetAuthorAvatar);
+</script>
 <script src="./protect.js"></script>
 </body>
 </html>
