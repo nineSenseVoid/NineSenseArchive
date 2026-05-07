@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 九境書庫入口 -->
+  <url>
+    <loc>https://bluesense.tw/nsa</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://bluesense.tw/ninesensearchive</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 實際書庫頁 -->
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/index.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 詳細頁 -->
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 閱讀頁 -->
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/reading.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
