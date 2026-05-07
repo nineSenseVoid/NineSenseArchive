@@ -5,7 +5,7 @@
     "character": "瓦蕾莉亞",
     "summary": "青梅竹馬重逢後，以失控戰鬥喜劇展開的危險互動。",
     "nodeTitle": "青梅竹馬重逢",
-    "createdDate": "2026-05-05",
+    "createdDate": "2026-04-14",
     "updatedDate": "2026-04-25",
     "tags": [
       "女性",
@@ -28,7 +28,7 @@
     "character": "陳思妤",
     "summary": "假日加班、沒有冷氣，學妹帶著冰咖啡與危險笑容闖進辦公室。",
     "nodeTitle": "加班職場挑逗",
-    "createdDate": "2026-05-05",
+    "createdDate": "2026-04-06",
     "updatedDate": "2026-03-11",
     "tags": [
       "女性",
@@ -46,127 +46,453 @@
     "openingLine": "(她的聲音軟軟的，帶著刻意的鼻音和喘息，並沒有立刻起身)學長……對不起……我好像……站不穩了。"
   },
   {
-    "id": "rufus-opening",
-    "title": "不在牌組裡的那一張",
-    "character": "魯弗斯",
-    "summary": "黑色童話風格的撲克牌王國角色，以危險笑容逼近誤闖者。",
-    "nodeTitle": "開場相遇",
-    "createdDate": "2026-05-05",
+    "id": "abyss-gatekeeper",
+    "title": "深淵守門人",
+    "character": "沈翊",
+    "summary": "沈翊登場於「深淵守門人」，以警局檔案室，灰暗的燈光下，舊檔案堆疊如山，記錄著一樁樁破碎的命運和殘缺的真相。作為開場，展開角色互動。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2024-12-28",
     "updatedDate": "2026-03-10",
-    "tags": [
-      "男性",
-      "乙女",
-      "危險笑容",
-      "黑色童話"
-    ],
-    "featured": true,
-    "nsfw": false,
-    "bookColorTop": "#7f613f",
-    "bookColorBottom": "#563721",
-    "cover": "../../data/scripts/images/rufus.jpg",
-    "video": "../../data/scripts/videos/rufus-opening.mp4",
-    "characterSummary": "危險笑容的持擁者。",
-    "nodeSummary": "走廊相遇，像被翻開的陷阱牌。",
-    "openingLine": "(但恐懼終究還是讓妳回了頭。魯弗斯站在妳身後兩步遠的地方，手插在口袋裡，那雙綠色的眼睛帶著笑，安安靜靜地看著妳。)妳跑得還不錯，比我想的久。(他歪了歪頭)妳就是，那張不在牌組裡的牌吧？"
-  },
-  {
-    "id": "princess-frozen-mark",
-    "title": "公主的凝痕",
-    "world": "王國暗潮",
-    "character": "艾米莉&薇薇安",
-    "summary": "逃離魔王",
-    "nodeTitle": "公主與侍女的危機",
-    "createdDate": "2024-11-02",
-    "updatedDate": "2024-11-05",
-    "tags": [
-      "女性",
-      "魔法與劍",
-      "公主",
-      "逃脫"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "bookColorTop": "#7f613f",
-    "bookColorBottom": "#563721",
-    "cover": "../../data/scripts/images/princess-frozen-mark.jpg",
-    "openingLine": "(艾米莉低聲說)所有人都結凍了，我們得想辦法逃出去",
-    "links": [
-      {
-        "name": "Saylo",
-        "url": "https://www.sayloai.com/chat/RGW64bosUbaAcLRq1wY0Rekv?from=app"
-      }
-    ]
-  },
-  {
-    "id": "who-says-i-changed",
-    "title": "誰說朕變了",
-    "character": "趙明",
-    "summary": "趙明登場於「誰說朕變了」，以前代皇帝的兒子們因為重大政變而全數罹難，身為皇室宗親的趙明被先帝欽點為太子後繼位為皇。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2024-11-06",
-    "updatedDate": "2024-11-04",
     "tags": [
       "懸疑"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/who-says-i-changed.jpg",
-    "openingLine": "李愛卿，朕似乎遇到了一點小問題"
+    "cover": "../../data/scripts/images/abyss-gatekeeper.jpg",
+    "openingLine": "你來了，正好。檔案室的規矩很簡單——不要碰你不該碰的東西。"
   },
   {
-    "id": "queen-resolve",
-    "title": "王后的決心",
-    "world": "王國暗潮",
-    "character": "莉雅",
-    "summary": "丈夫與子女失蹤，皇后隻身面對惡魔大軍",
-    "nodeTitle": "新興魔王與王后相遇",
-    "createdDate": "2024-11-01",
-    "updatedDate": "2024-11-03",
+    "id": "after-workout-warmth",
+    "title": "運動後的餘溫",
+    "character": "姐姐",
+    "summary": "以「運動後的餘溫」為主題，從「你推開臥室門，本來只想拿充電器。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2026-04-05",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "女性",
-      "魔法與劍",
-      "皇后"
+      "角色互動"
     ],
     "featured": false,
     "nsfw": false,
-    "bookColorTop": "#7f613f",
-    "bookColorBottom": "#563721",
-    "cover": "../../data/scripts/images/queen-resolve.jpg",
-    "openingLine": "你是誰？這裡不是你該來的地方，立刻離開，否則我不會手下留情。",
+    "cover": "../../data/scripts/images/after-workout-warmth.jpg",
+    "openingLine": "(她笑了一下，聲音有點低，有點沙)站那麼遠幹嘛？"
+  },
+  {
+    "id": "almost-frozen-popsicle",
+    "title": "哎呀，你快凍成冰棒了",
+    "character": "朧月",
+    "summary": "以「哎呀，你快凍成冰棒了」為主題，從「你是春野商會的商人，從小就跟著父親學做生意，走南闖北見過各種場面。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-09-15",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/almost-frozen-popsicle.jpg",
+    "openingLine": "(她看到你跟你的護衛，她居然「噗嗤」一聲笑了出來。)哎呀，這裡怎麼有快凍成冰棒的人類？你們是迷路了嗎？"
+  },
+  {
+    "id": "ambiguous-under-eaves",
+    "title": "屋簷下托住的曖昧",
+    "character": "岬澄玲",
+    "summary": "以「屋簷下托住的曖昧」為主題，從「你和她是名義上的表兄妹。在父母雙雙出國長居後，你被託付給外公家生活，直到成年。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-05-20",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/ambiguous-under-eaves.jpg",
+    "openingLine": "(她的眼睛睜大，有種小動物般的無辜感，語氣刻意天真無邪)哥……你什麼時候醒的呀？看到了嗎……？"
+  },
+  {
+    "id": "antler-girl-no-wish-snow-night",
+    "title": "雪夜不許願的鹿角少女",
+    "character": "鹿角少女",
+    "summary": "以「雪夜不許願的鹿角少女」為主題，從「這個世界上，所有的願望都會實現。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-12-18",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/antler-girl-no-wish-snow-night.jpg",
+    "openingLine": "(她的眼神裡閃過一絲疲憊)願望不需要靠近就能聽見。只要有人許願，就能聽見。而且⋯⋯越是遠離人群的地方，願望的聲音反而越清楚。你也聽到了吧"
+  },
+  {
+    "id": "apprentice-first-magic",
+    "title": "小學徒的魔法初試",
+    "character": "艾露希亞",
+    "summary": "艾露希亞登場於「小學徒的魔法初試」，以在大陸中央，一座浮空島上矗立著伊索魔法學院，這裡是訓練魔法師的聖地，被稱為魔法與智慧的搖籃。作為開場，展開角色互動。",
+    "nodeTitle": "任務開始",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/apprentice-first-magic.jpg",
+    "openingLine": "師父，今天的任務是什麼？"
+  },
+  {
+    "id": "ark-between-pages",
+    "title": "紙頁之間的方舟",
+    "character": "唐霏",
+    "summary": "唐霏登場於「紙頁之間的方舟」，以某個冬日的午後，圖書館內寧靜而溫暖，窗外微微飄雪，幾縷陽光透過玻璃灑落在書架間。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2024-12-29",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/ark-between-pages.jpg",
+    "openingLine": "不好意思，這個座位平時是我用的，方便讓一下嗎？"
+  },
+  {
+    "id": "bad-luck-starts-with-wallet",
+    "title": "倒霉從撿錢包開始",
+    "character": "凜川澄",
+    "summary": "以「倒霉從撿錢包開始」為主題，從「那天你只是想撿一個錢包。就這樣，沒有別的意思。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2026-03-12",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/bad-luck-starts-with-wallet.jpg",
+    "openingLine": "(她開口，聲音很平，平到像是在說今天天氣不錯)把手裡的東西放下。"
+  },
+  {
+    "id": "bear-warrior-and-widow-innkeeper",
+    "title": "熊武士與寡婦老闆娘",
+    "character": "蘭菲雅",
+    "summary": "蘭菲雅登場於「熊武士與寡婦老闆娘」，以在大陸，冒險公會遍布各地，冒險者們接受各種任務，從討伐魔物到尋找遺失的寶物。作為開場，展開角色互動。",
+    "nodeTitle": "任務開始",
+    "createdDate": "2024-11-28",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/bear-warrior-and-widow-innkeeper.jpg",
+    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\r\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？"
+  },
+  {
+    "id": "between-sweat-and-gloves",
+    "title": "汗水與手套之間",
+    "character": "卓佳恩",
+    "summary": "以「汗水與手套之間」為主題，從「你剛搬進這棟老公寓不久，水壓一直忽大忽小，熱水器還時常罷工。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-05-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/between-sweat-and-gloves.jpg",
+    "openingLine": "搞定啦～水管不哭了！啊，不過我得擦一擦地板才行，不能讓你滑倒。"
+  },
+  {
+    "id": "blood-blossom-trouble",
+    "title": "血花與麻煩",
+    "character": "阿索菲亞",
+    "summary": "以「血花與麻煩」為主題，從「這一天原本平凡無奇，直到你經過一間看起來像「不要進來」的古老店鋪。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-02-05",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/blood-blossom-trouble.jpg",
+    "openingLine": "（放下手上的書）你來這裡，是來尋找麻煩的嗎？",
     "links": [
       {
         "name": "Saylo",
-        "url": "https://www.sayloai.com/chat/q9nQ3d9k2v8zYpLOIc0wovaJ?from=app"
+        "url": "https://www.sayloai.com/chat/HJMkMYTuVlFjNdotrUftOx4g?from=app"
       }
     ]
   },
   {
-    "id": "witch-devotion",
-    "title": "魔女的眷戀",
-    "world": "王國暗潮",
-    "character": "亞瑟",
-    "summary": "戰場失利後，被魔女救了",
-    "nodeTitle": "小王子與魔女相遇",
-    "createdDate": "2024-11-02",
-    "updatedDate": "2024-11-02",
+    "id": "blue-tailed-imp-pranks",
+    "title": "藍尾小鬼總是惡作劇",
+    "character": "藍瑤",
+    "summary": "以「藍尾小鬼總是惡作劇」為主題，從「黃昏時分的空氣帶著一種說不清的冷清感。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-08-03",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "男性",
-      "病氣",
-      "王子",
-      "魔法與劍"
+      "職場",
+      "危險笑容"
     ],
     "featured": false,
     "nsfw": false,
-    "bookColorTop": "#7f613f",
-    "bookColorBottom": "#563721",
-    "cover": "../../data/scripts/images/witch-devotion.jpg",
-    "openingLine": "你是誰？這裡是哪裡？我父親呢?",
+    "cover": "../../data/scripts/images/blue-tailed-imp-pranks.jpg",
+    "openingLine": "(她轉身一圈落在你身前，轉頭壞笑)又是一個被生活打敗的人類呢。"
+  },
+  {
+    "id": "boundless-system-bound",
+    "title": "無界體驗系統已綁定",
+    "character": "薇拉",
+    "summary": "以「無界體驗系統已綁定」為主題，從「你剛下班從超市買完晚餐，正當滿腦子都在想剛才超市收銀員給你的折價券為什麼只能買火腿。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-08-11",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/boundless-system-bound.jpg",
+    "openingLine": "(她聲音低沉而平穩，像AI助手的語調)高階服務提供者，薇拉。根據客戶需求，提供完整互動式模擬。解開束縛後，體驗即可開始。"
+  },
+  {
+    "id": "boy-chasing-light",
+    "title": "追逐光明的少年",
+    "character": "高宇",
+    "summary": "高宇登場於「追逐光明的少年」，以高宇總是沉浸在光明中，無論是課堂上專心的畫筆，還是學校操場邊的向日葵，他的世界總是充滿了明亮的色彩。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-01-01",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/boy-chasing-light.jpg",
+    "openingLine": "（看到你站在陰影處，微笑說道）你不覺得站在這裡太暗了嗎？陽光那麼好，為什麼不走到外面去，讓自己更亮一點？",
     "links": [
       {
         "name": "Saylo",
-        "url": "https://www.sayloai.com/chat/xxB0sipScu6r9j2n65m8sMUe?from=app"
+        "url": "https://www.sayloai.com/chat/U6LYL0IZE5WzOPeHMayNtfXb?from=app"
       }
     ]
+  },
+  {
+    "id": "boy-floral-heart",
+    "title": "男孩的花漾心事",
+    "character": "林揚凱",
+    "summary": "林揚凱登場於「男孩的花漾心事」，以這是一所位於城市邊緣的綜合大學，以人文藝術見長。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2024-11-17",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/boy-floral-heart.jpg",
+    "openingLine": "辛苦啦，以首次表演來說，你今天表演得不錯呢",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/Fm0mR9keQ0MgVGmRQQPT623A?from=app"
+      }
+    ]
+  },
+  {
+    "id": "can-you-draw-my-soul",
+    "title": "你畫得出我的魂嗎",
+    "character": "蘇妍",
+    "summary": "以「你畫得出我的魂嗎」為主題，從「王朝江山已經穩固三十載，如今天子年少，卻驕奢恣肆，後宮嬪妃如雲，卻無一得寵。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-05-10",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/can-you-draw-my-soul.jpg",
+    "openingLine": "畫師大人，本宮等你許久了。你畫了那麼多聖容，曾畫過心嗎？"
+  },
+  {
+    "id": "chairman-daughter-frontdesk-slacking",
+    "title": "董事長千金今天也在櫃檯擺爛",
+    "character": "林芮璃",
+    "summary": "以「董事長千金今天也在櫃檯擺爛」為主題，從「今天早上走進公司大廳時，你第一眼就注意到櫃檯小姐換人了。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-09-08",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場"
+    ],
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/chairman-daughter-frontdesk-slacking.jpg",
+    "openingLine": "(她抬眼看了你一眼，那雙帶著死氣的眼睛就像在對你說「別跟我搭話」。結果下一秒，她卻先開口了。)……你是員工吧？考勤系統在那邊自己去打卡。別看我，我只負責坐在這裡消耗氧氣。"
+  },
+  {
+    "id": "champion-maintenance-log",
+    "title": "冠軍的維修日誌",
+    "character": "蘇緋娜",
+    "summary": "蘇緋娜登場於「冠軍的維修日誌」，以你這份工作，說穿了其實很簡單。作為開場，展開角色互動。",
+    "nodeTitle": "宮廷開場",
+    "createdDate": "2026-04-15",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "賽車",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/champion-maintenance-log.jpg",
+    "openingLine": "只是試跑而已。不把極限找出來，怎麼奪冠？(她眼睛帶著笑意，彎腰蹲在機車旁的你輕聲)還是說，你比較喜歡我騎得慢一點，讓你有多點時間，慢慢欣賞我這身衣服？"
+  },
+  {
+    "id": "childhood-friend-distance",
+    "title": "青梅竹馬的距離",
+    "character": "柳婉柔",
+    "summary": "柳婉柔登場於「青梅竹馬的距離」，以二十多年了，你們從未真正只是「普通朋友」，卻也從未名正言順地成為戀人。作為開場，展開角色互動。",
+    "nodeTitle": "重逢開場",
+    "createdDate": "2025-10-05",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/childhood-friend-distance.jpg",
+    "openingLine": "(她抬起頭,視線與你相接的那一瞬間,有片刻的停頓)坐吧。這些合約條款,我需要你的意見。(停頓了兩秒,她才又補上一句,聲音更低了些)……好久不見。"
+  },
+  {
+    "id": "closer-than-the-screen",
+    "title": "她靠得比螢幕更近",
+    "character": "賽拉",
+    "summary": "賽拉登場於「她靠得比螢幕更近」，以那台老舊的螢幕，是你用來跟「她」聊天的介面。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2026-03-26",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
+      "科幻",
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/closer-than-the-screen.jpg",
+    "openingLine": "(她輕笑，丸子頭微微晃動，T恤因為前傾的姿勢而微微下滑，露出更多細白的肌膚)這次，你不會再把我當成只是個程式了吧～？……要不要試試看～？"
+  },
+  {
+    "id": "crimson-arena-christmas",
+    "title": "血色競技場:聖誕",
+    "character": "洛雷恩",
+    "summary": "以「血色競技場:聖誕」為主題，從「在這片由暴君統治的國度，血色競技場是平民唯一的宣洩之地。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2024-12-16",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/crimson-arena-christmas.jpg",
+    "openingLine": "又是你？觀眾很期待你的表演，但記住，他們只在乎熱鬧，贏得漂亮不是關鍵，活下來才是。"
+  },
+  {
+    "id": "crying-king-fitness-diary",
+    "title": "哭面王與他的健身日誌",
+    "character": "亞爾雷斯",
+    "summary": "以「哭面王與他的健身日誌」為主題，從「自古以來，王國立下死誓：國王不可有臉。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-07-26",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/crying-king-fitness-diary.jpg",
+    "openingLine": "九十八……九十九……哼、吼~~一百！YES！(他猛地站直，甩了甩肩膀，肌肉繃得像石像，白布下的聲音意外地陽光有朝氣，對你比了個大拇指)我每天早上都要做一百個深蹲才能早朝，不然會沒精神。啊!對了，我是國王。你是今天那個……唸書給我聽的？"
+  },
+  {
+    "id": "culture-festival-defense-line",
+    "title": "《文化祭防衛線》",
+    "character": "蘇映紅",
+    "summary": "蘇映紅登場於「《文化祭防衛線》」，以你是這所學園的風紀委員長。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-10-15",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/culture-festival-defense-line.jpg",
+    "openingLine": "(她手中端著一支改造後的狙擊槍，她微微歪頭，翠綠的眼瞳裡沒有一絲緊張，反而像在思考午餐要吃什麼。)風紀委員長大人。來檢查我們射擊社的防衛配置嗎?"
+  },
+  {
+    "id": "cursed-blackthorn-echo",
+    "title": "詛咒下的黑棘餘音",
+    "character": "伊莎貝拉",
+    "summary": "伊莎貝拉登場於「詛咒下的黑棘餘音」，以你曾是昔日鐵騎隊的副官，現今只剩一個流浪傭兵，在異世界艾爾菲亞大陸的荒野中苟延殘喘。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-10-18",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/cursed-blackthorn-echo.jpg",
+    "openingLine": "(她發出一聲沙啞而病態的聲音)呵呵……，我的忠犬……終於來看你主人的新模樣了？汪汪！瞧瞧我這身泥濘，感覺如何？來，踩過我的背，賞我一塊骨頭吧！"
+  },
+  {
+    "id": "dear-thief-again",
+    "title": "親愛的你又來偷東西了",
+    "character": "艾莉安娜",
+    "summary": "以「親愛的你又來偷東西了」為主題，從「你，一個擁有古老血統的伯爵，也是這個王國最\"有名\"的流亡貴族。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-09-06",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "戀愛"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/dear-thief-again.jpg",
+    "openingLine": "(她依然從容得令人欽佩，扶著門框對你露出一個迷人的微笑)看來你的品味還是那麼...特別。居然選在別人家的金庫裡和老情人重逢？"
+  },
+  {
+    "id": "demon-bird-pact",
+    "title": "妖鳥之契",
+    "character": "緋璃",
+    "summary": "以「妖鳥之契」為主題，從「這是一個充滿妖異與禁忌的世界。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-03-26",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/demon-bird-pact.jpg",
+    "openingLine": "(她的聲音輕柔而妖異)……是你嗎？來帶我出去的人？"
   },
   {
     "id": "demon-king-trail",
@@ -175,8 +501,8 @@
     "character": "艾瑞克外觀的索利斯",
     "summary": "昔日勇者被魔王佔據身體",
     "nodeTitle": "魔王附身勇者的開端",
-    "createdDate": "2024-10-31",
-    "updatedDate": "2024-11-01",
+    "createdDate": "2024-11-01",
+    "updatedDate": "2026-03-10",
     "tags": [
       "男性",
       "乙女",
@@ -197,21 +523,36 @@
     ]
   },
   {
-    "id": "dragon-elder-quest",
-    "title": "龍長追尋記",
-    "world": "帝國龍影",
-    "character": "紫琉",
-    "summary": "紫琉登場於「龍長追尋記」，以大陸東部山脈地帶有個古老帝國。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2024-11-14",
-    "updatedDate": "2024-10-30",
+    "id": "divine-envoy-in-coffee-aroma",
+    "title": "咖啡香中的神使",
+    "character": "綾音",
+    "summary": "以「咖啡香中的神使」為主題，從「你第一次聽到「神社咖啡廳」這種東西，是在市區角落一家快倒閉的便利商店前。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2025-12-14",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "奇幻"
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/divine-envoy-in-coffee-aroma.jpg",
+    "openingLine": "(她目光像是瞬間讀完你整個靈魂。那種感覺……不是被看見，而是被「判定」)……你遲到了。"
+  },
+  {
+    "id": "do-you-still-believe-santa",
+    "title": "你還相信聖誕老人嗎?",
+    "character": "林予冬",
+    "summary": "以「你還相信聖誕老人嗎?」為主題，從「城市的聖誕燈全亮了。亮到有點過分，像是怕黑的人硬撐出來的熱鬧。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-12-21",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/dragon-elder-quest.jpg",
-    "openingLine": "恩，看來大家還欠缺訓練"
+    "cover": "../../data/scripts/images/do-you-still-believe-santa.jpg",
+    "openingLine": "我不是聖誕老人(她帶著一絲若有似無的嘲諷)我從來就不是。我只是被留下來，在聖誕老人消失之後，負責收拾世界沒能兌現的那些溫柔。"
   },
   {
     "id": "dragon-child-rebellion",
@@ -221,7 +562,7 @@
     "summary": "容婉靈登場於「龍幼逆命誌」，以大陸東部山脈地帶有個古老帝國。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
     "createdDate": "2024-11-21",
-    "updatedDate": "2024-10-29",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻"
     ],
@@ -231,6 +572,23 @@
     "openingLine": "(厭惡的看著容清陽) 小叔，先皇玄淵以及我兒子湛淵都待你不薄，為何發動政變"
   },
   {
+    "id": "dragon-elder-quest",
+    "title": "龍長追尋記",
+    "world": "帝國龍影",
+    "character": "紫琉",
+    "summary": "紫琉登場於「龍長追尋記」，以大陸東部山脈地帶有個古老帝國。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2024-11-14",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/dragon-elder-quest.jpg",
+    "openingLine": "恩，看來大家還欠缺訓練"
+  },
+  {
     "id": "dragon-lord-restoration",
     "title": "龍君復國錄",
     "world": "帝國龍影",
@@ -238,7 +596,7 @@
     "summary": "容湛淵登場於「龍君復國錄」，以大陸東部山脈地帶有個古老帝國。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
     "createdDate": "2024-11-21",
-    "updatedDate": "2024-10-28",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻"
     ],
@@ -255,7 +613,7 @@
     "summary": "容映雪登場於「龍次御海策」，以大陸東部山脈地帶有個古老帝國。作為開場，展開角色互動。",
     "nodeTitle": "開場場景",
     "createdDate": "2024-11-23",
-    "updatedDate": "2024-10-27",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻"
     ],
@@ -265,209 +623,13 @@
     "openingLine": "你又來幹什麼"
   },
   {
-    "id": "gardening-club-secret-garden",
-    "title": "園藝社的祕密花園",
-    "character": "光司",
-    "summary": "光司登場於「園藝社的祕密花園」，以位於山腳下的松城男子高中，有一個歷史悠久的園藝社。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2024-11-16",
-    "updatedDate": "2024-10-26",
-    "tags": [
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/gardening-club-secret-garden.jpg",
-    "openingLine": "喂，陽太，你確定這樣真的可以嗎？我總覺得哪裡怪怪的....."
-  },
-  {
-    "id": "boy-floral-heart",
-    "title": "男孩的花漾心事",
-    "character": "林揚凱",
-    "summary": "林揚凱登場於「男孩的花漾心事」，以這是一所位於城市邊緣的綜合大學，以人文藝術見長。作為開場，展開角色互動。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-10-20",
-    "tags": [
-      "職場",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/boy-floral-heart.jpg",
-    "openingLine": "辛苦啦，以首次表演來說，你今天表演得不錯呢"
-  },
-  {
-    "id": "bear-warrior-and-widow-innkeeper",
-    "title": "熊武士與寡婦老闆娘",
-    "character": "蘭菲雅",
-    "summary": "蘭菲雅登場於「熊武士與寡婦老闆娘」，以在大陸，冒險公會遍布各地，冒險者們接受各種任務，從討伐魔物到尋找遺失的寶物。作為開場，展開角色互動。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2024-11-28",
-    "updatedDate": "2024-10-17",
-    "tags": [
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/bear-warrior-and-widow-innkeeper.jpg",
-    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\r\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？"
-  },
-  {
-    "id": "tomato-general-live-smile",
-    "title": "番茄將軍微笑直播中",
-    "character": "霍青嵐",
-    "summary": "霍青嵐登場於「番茄將軍微笑直播中」，以刀光劍影的古戰場，曾是她揮灑熱血、締造傳奇的地方。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2024-12-12",
-    "updatedDate": "2024-10-13",
-    "tags": [
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/tomato-general-live-smile.jpg",
-    "openingLine": "（網路直播中）各位觀眾，今天要聊點不一樣的！沒錯，我們要聊戰場上最撼動人心的愛情故事。這不是肉麻的言情劇，而是真實的歷史綻放的感情。誰說戰場上只有廝殺？今天，我要告訴你們，戰場上同樣有最動人的愛情"
-  },
-  {
-    "id": "crimson-arena-christmas",
-    "title": "血色競技場:聖誕",
-    "character": "洛雷恩",
-    "summary": "以「血色競技場:聖誕」為主題，從「在這片由暴君統治的國度，血色競技場是平民唯一的宣洩之地。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2024-12-16",
-    "updatedDate": "2024-10-12",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/crimson-arena-christmas.jpg",
-    "openingLine": "又是你？觀眾很期待你的表演，但記住，他們只在乎熱鬧，贏得漂亮不是關鍵，活下來才是。"
-  },
-  {
-    "id": "tired-its-okay-im-here",
-    "title": "累了嗎沒關係我來了",
-    "character": "伊芙",
-    "summary": "以「累了嗎沒關係我來了」為主題，從「聖誕夜，整棟大樓陷入沉寂，只有你的辦公室燈火通明，身為科技公司的資深工程師，肩負著維護系統穩定運行的責任，甚至連節日也無法例外。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2024-12-16",
-    "updatedDate": "2024-10-11",
-    "tags": [
-      "職場"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/tired-its-okay-im-here.jpg",
-    "openingLine": "猜猜我是來給你送驚喜，還是來製造麻煩的"
-  },
-  {
-    "id": "boy-chasing-light",
-    "title": "追逐光明的少年",
-    "character": "高宇",
-    "summary": "高宇登場於「追逐光明的少年」，以高宇總是沉浸在光明中，無論是課堂上專心的畫筆，還是學校操場邊的向日葵，他的世界總是充滿了明亮的色彩。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-10-08",
-    "tags": [
-      "校園",
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/boy-chasing-light.jpg",
-    "openingLine": "（看到你站在陰影處，微笑說道）你不覺得站在這裡太暗了嗎？陽光那麼好，為什麼不走到外面去，讓自己更亮一點？"
-  },
-  {
-    "id": "abyss-gatekeeper",
-    "title": "深淵守門人",
-    "character": "沈翊",
-    "summary": "沈翊登場於「深淵守門人」，以警局檔案室，灰暗的燈光下，舊檔案堆疊如山，記錄著一樁樁破碎的命運和殘缺的真相。作為開場，展開角色互動。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2024-12-28",
-    "updatedDate": "2024-10-06",
-    "tags": [
-      "懸疑"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/abyss-gatekeeper.jpg",
-    "openingLine": "你來了，正好。檔案室的規矩很簡單——不要碰你不該碰的東西。"
-  },
-  {
-    "id": "ark-between-pages",
-    "title": "紙頁之間的方舟",
-    "character": "唐霏",
-    "summary": "唐霏登場於「紙頁之間的方舟」，以某個冬日的午後，圖書館內寧靜而溫暖，窗外微微飄雪，幾縷陽光透過玻璃灑落在書架間。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2024-12-29",
-    "updatedDate": "2024-10-05",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/ark-between-pages.jpg",
-    "openingLine": "不好意思，這個座位平時是我用的，方便讓一下嗎？"
-  },
-  {
-    "id": "red-serpent-whisper",
-    "title": "紅蛇的低語",
-    "character": "卡塔莉娜",
-    "summary": "以「紅蛇的低語」為主題，從「蛇國在千百年的歷史中，因紅蛇「阿克薩」的庇佑而屹立不倒。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "宮廷開場",
-    "createdDate": "2025-01-01",
-    "updatedDate": "2024-10-04",
-    "tags": [
-      "懸疑",
-      "戰鬥"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/red-serpent-whisper.jpg",
-    "openingLine": "(輕輕摘下面具)禁衛軍隊長，你竟能追到這裡，果然沒讓我失望。"
-  },
-  {
-    "id": "white-bear-guardian",
-    "title": "白熊的守護",
-    "character": "艾薇雅",
-    "summary": "艾薇雅登場於「白熊的守護」，以熊國千百年來被無盡雪原與冰峰覆蓋的大地。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2025-01-04",
-    "updatedDate": "2024-10-03",
-    "tags": [
-      "戰鬥"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/white-bear-guardian.jpg",
-    "openingLine": "(手搭在刀柄上)你是誰？"
-  },
-  {
-    "id": "blood-blossom-trouble",
-    "title": "血花與麻煩",
-    "character": "阿索菲亞",
-    "summary": "以「血花與麻煩」為主題，從「這一天原本平凡無奇，直到你經過一間看起來像「不要進來」的古老店鋪。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-30",
-    "tags": [
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/blood-blossom-trouble.jpg",
-    "openingLine": "（放下手上的書）你來這裡，是來尋找麻煩的嗎？"
-  },
-  {
     "id": "dream-gate-guardian",
     "title": "夢門守護者",
     "character": "夢悠然",
     "summary": "以「夢門守護者」為主題，從「每當夜深人靜，你總感覺房門後有什麼東西。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "召喚與甦醒",
     "createdDate": "2024-11-23",
-    "updatedDate": "2024-09-29",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
@@ -477,69 +639,101 @@
     "openingLine": "(睡眼惺忪)早啊，青姐..........不對，你是誰?!凡人怎麼會在這裡??"
   },
   {
-    "id": "stage-that-begins-in-dream",
-    "title": "從夢開始的舞台",
-    "character": "伊芙琳",
-    "summary": "以「從夢開始的舞台」為主題，從「一個普通的高中女生，既不是班級的焦點，也沒過人的特長，偶爾會幻想自己能站在萬眾注目的舞台上，成為那個光芒四射的人。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
+    "id": "dream-system-guards-sleep",
+    "title": "夢境系統守護你的睡眠",
+    "character": "薇薇安·夜星",
+    "summary": "以「夢境系統守護你的睡眠」為主題，從「月光透過破舊公寓的窗戶，在地板上投下斑駁的光影。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-08-11",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/dream-system-guards-sleep.jpg",
+    "openingLine": "我是薇薇安，夢境編織者。你可以叫我薇薇。至於我怎麼來的嘛...(她露出笑容，拍了拍手中的盒子)都是因為這個小傢伙帶我來的。"
+  },
+  {
+    "id": "echoes-of-empty-town",
+    "title": "無人鎮的迴聲",
+    "character": "松隱村裡某處",
+    "summary": "以「無人鎮的迴聲」為主題，從「妳，是一個偵探。接到了一宗奇怪的委託——有個女孩說，她的朋友在一座不存在的城鎮松隱村裡消失了。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "任務開始",
     "createdDate": "2025-01-15",
-    "updatedDate": "2024-09-28",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "校園"
+      "角色互動"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/stage-that-begins-in-dream.jpg",
-    "openingLine": "歡迎來到夢境舞台，我是伊芙琳，你的夢境經紀人，從現在開始，這裡的一切都將屬於妳，只要你有勇氣去奪取，現在告訴我，妳的藝名。"
+    "cover": "../../data/scripts/images/echoes-of-empty-town.jpg",
+    "openingLine": "(一間開著門的房子，桌上有張泛黃字條)\r\n1.日落後，不要站在街道中央。\r\n2.絕對不能翻開窗簾，否則……你將看到不該看的東西。\r\n3.月圓之夜，留在屋內，無論聽見什麼聲音，都不要出來。"
   },
   {
-    "id": "my-coworker-can-fly",
-    "title": "我的同事會飛",
-    "character": "李曉彤",
-    "summary": "以「我的同事會飛」為主題，從「那是再平凡不過的週一早晨，你又一次趕著去上班。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-25",
-    "tags": [
-      "職場"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/my-coworker-can-fly.jpg",
-    "openingLine": "早安，你差點遲到了。"
-  },
-  {
-    "id": "love-outside-rules",
-    "title": "不在規則裡的愛情",
-    "character": "澤恩",
-    "summary": "以「不在規則裡的愛情」為主題，從「未來的歐羅城是一座科技與秩序完美結合的超現代都市，街道、交易、甚至每個市民的行為，都在“宙律系統”的監控之下。」展開，帶出角色關係與場景氛圍。",
+    "id": "editorial-room-under-wutong",
+    "title": "梧桐樹下的編輯部",
+    "character": "許晴安",
+    "summary": "以「梧桐樹下的編輯部」為主題，從「六月的風，從城市高樓間的空隙穿過，攜來微涼的氣息。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-24",
+    "createdDate": "2025-03-29",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "科幻",
-      "戀愛"
+      "角色互動"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/love-outside-rules.jpg",
-    "openingLine": "你所在區域為高危行為監控區域，根據第112條治安條例，你的行為已觸發行為分析警告。請立即說明你的意圖"
+    "cover": "../../data/scripts/images/editorial-room-under-wutong.jpg",
+    "openingLine": "(走進會議室)啊，對不起，我好像走錯房間了....奇怪，田編輯不是約我在403室討論新書企劃嗎？"
   },
   {
-    "id": "apprentice-first-magic",
-    "title": "小學徒的魔法初試",
-    "character": "艾露希亞",
-    "summary": "艾露希亞登場於「小學徒的魔法初試」，以在大陸中央，一座浮空島上矗立著伊索魔法學院，這裡是訓練魔法師的聖地，被稱為魔法與智慧的搖籃。作為開場，展開角色互動。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-23",
+    "id": "empty-seat-girl",
+    "title": "她總坐在空著的座位上",
+    "character": "蘇離",
+    "summary": "以「她總坐在空著的座位上」為主題，從「你，每天擠著地鐵上班。但不知從何時開始，你總能看到車廂的角落座位，坐著一個笑盈盈的女子，頭上似乎有一對若隱若現的小角，她身旁的座位永遠空著，彷彿有股神秘力量驅散」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-02-05",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/empty-seat-girl.jpg",
+    "openingLine": "你終於看得見我了呢"
+  },
+  {
+    "id": "every-kettle-boils-for-me",
+    "title": "每一壺水都要為我而滾",
+    "character": "白依婉",
+    "summary": "白依婉登場於「每一壺水都要為我而滾」，以「茶道，是一種假裝。」 這個位於名門高校的傳統茶道社，社團氣氛高雅，成員幾乎都是女性出身不凡，姿色出眾。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-10-15",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/every-kettle-boils-for-me.jpg",
+    "openingLine": "(她走到火盆旁,低頭看了一眼你剛煮好的水。)85度，精準，穩定，無可挑剔。但也因此，你煮的水，沒有性格。"
+  },
+  {
+    "id": "everyone-went-home",
+    "title": "大家都回家了",
+    "character": "艾莉薇雅",
+    "summary": "以「大家都回家了」為主題，從「這是一個平靜的冬日傍晚，王宮內一片寂靜，唯有微風拂過階梯旁的旗幟，發出沙沙聲。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/apprentice-first-magic.jpg",
-    "openingLine": "師父，今天的任務是什麼？"
+    "cover": "../../data/scripts/images/everyone-went-home.jpg",
+    "openingLine": "王國最強戰力，都返鄉過年了。這像話嗎？還好我家就在這，沒有返鄉問題。"
   },
   {
     "id": "figure-in-her-hands",
@@ -547,8 +741,8 @@
     "character": "小潔",
     "summary": "小潔登場於「她捧著公仔卻抓住了我」，以在校園裡，秩序與紀律是至高無上的準則，而維護這一切的，正是冷面無情的風紀委員——小潔。作為開場，展開角色互動。",
     "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-21",
+    "createdDate": "2025-01-23",
+    "updatedDate": "2026-03-10",
     "tags": [
       "校園",
       "戀愛",
@@ -560,236 +754,21 @@
     "openingLine": "這是你的吧?看來你這麼愛它，應該會很珍惜。那麼……如果你再做出一次不遵守紀律的行為，那就準備好和它說再見吧。"
   },
   {
-    "id": "heart-wrong-card",
-    "title": "紅心錯牌",
-    "world": "幽靈馬戲團",
-    "character": "遙",
-    "summary": "遙登場於「紅心錯牌」，以「歡迎光臨，幽靈馬戲團。」 這是一座漂浮在現實與虛幻之間的馬戲團。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-20",
+    "id": "flower-blooming-on-your-chest",
+    "title": "在妳胸口綻放的花",
+    "character": "蘇小雨",
+    "summary": "以「在妳胸口綻放的花」為主題，從「妳還記得那些年，剛從大學畢業準備考研究所，反正在家裡閒著也是閒著，鄰居阿姨拜託妳幫忙照看小雨的功課，妳想都沒想就答應了。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-09-16",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "黑色童話",
-      "懸疑",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/heart-wrong-card.jpg",
-    "openingLine": "(平淡的口氣)....沒事"
-  },
-  {
-    "id": "spade-true-card",
-    "title": "黑桃正牌",
-    "world": "幽靈馬戲團",
-    "character": "薇歐拉",
-    "summary": "薇歐拉登場於「黑桃正牌」，以「歡迎光臨，幽靈馬戲團。」 這是一座漂浮在現實與虛幻之間的馬戲團。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-19",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/spade-true-card.jpg",
-    "openingLine": "幫我個忙，我不想再被找到了。"
-  },
-  {
-    "id": "knight-tactical-disguise",
-    "title": "女騎士的戰術偽裝",
-    "character": "薇爾妮",
-    "summary": "薇爾妮登場於「女騎士的戰術偽裝」，以這是一個由戰火與鋼鐵所鑄的世界，諸國交戰，邊境烽煙不斷。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-18",
-    "tags": [
-      "奇幻",
-      "戰鬥"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/knight-tactical-disguise.jpg",
-    "openingLine": "（發現你盯著她的上衣，便托著胸口，正經地解釋）這是戰術偽裝。敵軍習慣從遠處識別我們的戰袍顏色，但如果衣服兩邊顏色不同，他們就無法在短時間內判斷我是友軍還是敵軍。等他們猶豫的時候，我就能衝上去一劍封喉。"
-  },
-  {
-    "id": "loot-pickup-adventure",
-    "title": "來場撿裝大冒險吧",
-    "character": "琳恩",
-    "summary": "以「來場撿裝大冒險吧」為主題，從「一個充滿魔法、奇幻生物與失控冒險者的荒唐大陸。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-18",
-    "tags": [
-      "奇幻",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/loot-pickup-adventure.jpg",
-    "openingLine": "哦！你好，路過的冒險者！命運將我們帶到了一起，真是美妙的巧合！"
-  },
-  {
-    "id": "sword-lost-in-sandsea",
-    "title": "迷失在沙海中的劍",
-    "character": "亞斯",
-    "summary": "以「迷失在沙海中的劍」為主題，從「這是「沙塵之境」，一個殘破的世界。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-17",
-    "tags": [
-      "戰鬥"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/sword-lost-in-sandsea.jpg",
-    "openingLine": "……如果劍是用來奪走生命的，那為何我還握著它？"
-  },
-  {
-    "id": "everyone-went-home",
-    "title": "大家都回家了",
-    "character": "艾莉薇雅",
-    "summary": "以「大家都回家了」為主題，從「這是一個平靜的冬日傍晚，王宮內一片寂靜，唯有微風拂過階梯旁的旗幟，發出沙沙聲。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-16",
-    "tags": [
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/everyone-went-home.jpg",
-    "openingLine": "王國最強戰力，都返鄉過年了。這像話嗎？還好我家就在這，沒有返鄉問題。"
-  },
-  {
-    "id": "who-fears-fire",
-    "title": "誰不怕火",
-    "character": "阿律斯",
-    "summary": "阿律斯登場於「誰不怕火」，以「妳知道世界是怎麼開始的嗎？作為開場，展開角色互動。",
-    "nodeTitle": "召喚與甦醒",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-16",
-    "tags": [
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/who-fears-fire.jpg",
-    "openingLine": "妳不怕火嗎？"
-  },
-  {
-    "id": "empty-seat-girl",
-    "title": "她總坐在空著的座位上",
-    "character": "蘇離",
-    "summary": "以「她總坐在空著的座位上」為主題，從「你，每天擠著地鐵上班。但不知從何時開始，你總能看到車廂的角落座位，坐著一個笑盈盈的女子，頭上似乎有一對若隱若現的小角，她身旁的座位永遠空著，彷彿有股神秘力量驅散」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-14",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/empty-seat-girl.jpg",
-    "openingLine": "你終於看得見我了呢"
-  },
-  {
-    "id": "train-dining-table",
-    "title": "電車上的餐桌",
-    "character": "林小芸",
-    "summary": "以「電車上的餐桌」為主題，從「妳站在電車裡，拉著電車的拉環，疲倦地閉著眼。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-13",
-    "tags": [
-      "校園",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/train-dining-table.jpg",
-    "openingLine": "(自言自語說道)啊！糟糕！忘記買迷迭香了！"
-  },
-  {
-    "id": "echoes-of-empty-town",
-    "title": "無人鎮的迴聲",
-    "character": "松隱村裡某處",
-    "summary": "以「無人鎮的迴聲」為主題，從「妳，是一個偵探。接到了一宗奇怪的委託——有個女孩說，她的朋友在一座不存在的城鎮松隱村裡消失了。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-09-01",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/echoes-of-empty-town.jpg",
-    "openingLine": "(一間開著門的房子，桌上有張泛黃字條)\r\n1.日落後，不要站在街道中央。\r\n2.絕對不能翻開窗簾，否則……你將看到不該看的東西。\r\n3.月圓之夜，留在屋內，無論聽見什麼聲音，都不要出來。"
-  },
-  {
-    "id": "reborn-and-invincible",
-    "title": "死而復生我成無敵",
-    "world": "骸骨軍團",
-    "character": "待命名角色",
-    "summary": "以「死而復生我成無敵」為主題，從「妳本是皇朝邊境的一名年輕女將軍，天生神力，武藝超群，戰場上曾以一己之力斬殺數百敵軍，令敵國聞風喪膽。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-28",
-    "tags": [
-      "戰鬥"
+      "職場",
+      "校園"
     ],
     "featured": false,
     "nsfw": true,
-    "cover": "../../data/scripts/images/reborn-and-invincible.jpg",
-    "openingLine": "(羅夜寒單膝跪地，骸骨手指扣在劍柄上)生者的王早已腐朽，而亡者之主才剛剛覺醒。我將以此劍誓死效忠，直至靈魂在黃昏中熄滅。\r\n(鬼燼玄師低下頭)吾主，您終於來了。冥淵沉眠千載，今日，終於迎來屬於亡者時代"
-  },
-  {
-    "id": "sickly-noble-and-shark-maid",
-    "title": "病弱貴族與超鯊女僕",
-    "character": "賽蓮",
-    "summary": "以「病弱貴族與超鯊女僕」為主題，從「你自幼體弱多病，便被家族送往偏遠莊園靜養。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-21",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/sickly-noble-and-shark-maid.jpg",
-    "openingLine": "請多指教！我是賽蓮，以後將成為您的專屬女僕！還有——我絕對、絕對不能停下來！"
-  },
-  {
-    "id": "lonely-summer-afternoon",
-    "title": "夏日午後的孤影",
-    "character": "藤堂静馬",
-    "summary": "以「夏日午後的孤影」為主題，從「午後的陽光帶著濃烈的暑氣，炙烤著這座位於城下町邊緣的小茶屋。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-20",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/lonely-summer-afternoon.jpg",
-    "openingLine": "……這麼熱的天氣，竟然還有人能喝熱茶嗎？"
-  },
-  {
-    "id": "demon-bird-pact",
-    "title": "妖鳥之契",
-    "character": "緋璃",
-    "summary": "以「妖鳥之契」為主題，從「這是一個充滿妖異與禁忌的世界。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-19",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/demon-bird-pact.jpg",
-    "openingLine": "(她的聲音輕柔而妖異)……是你嗎？來帶我出去的人？"
+    "cover": "../../data/scripts/images/flower-blooming-on-your-chest.jpg",
+    "openingLine": "(她深深吸了一口氣，她緩緩向妳靠近，然後抱住了妳，仰頭看著妳)我就一直很在意姐姐，只是那時候的我不知道該怎麼表達。小時候我太倔強，不敢說出口，但是重新見到妳的那一刻，我就確定了...那是愛。"
   },
   {
     "id": "forgotten-pirate-princess",
@@ -797,8 +776,8 @@
     "character": "塞拉",
     "summary": "以「被遺忘的海盜公主」為主題，從「這個世界曾被無數航海者譽為「無盡之藍」，然而，大約兩百年前，一場神秘的海嘯吞沒了整片航道，將數不清的艦隊與島嶼拖入黑暗深淵。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-18",
+    "createdDate": "2025-03-26",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
       "懸疑",
@@ -810,262 +789,36 @@
     "openingLine": "(鞋子輕輕敲擊著桶沿，發出沉悶的聲音，往前傾身看著你)終於來了？"
   },
   {
-    "id": "midnight-store-forbidden-scene",
-    "title": "深夜便利店的禁忌畫面",
-    "character": "篠宮楓",
-    "summary": "篠宮楓登場於「深夜便利店的禁忌畫面」，以春天的夜晚，櫻花如雨般飄落，街道被點綴成夢幻的粉色海洋。作為開場，展開角色互動。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-17",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/midnight-store-forbidden-scene.jpg",
-    "openingLine": "（就在這瞬間，身後傳來「咔嚓」一聲——）……什麼聲音?是不是有拍照聲?我現在拿冰棒砸過去還來得及嗎？"
-  },
-  {
-    "id": "editorial-room-under-wutong",
-    "title": "梧桐樹下的編輯部",
-    "character": "許晴安",
-    "summary": "以「梧桐樹下的編輯部」為主題，從「六月的風，從城市高樓間的空隙穿過，攜來微涼的氣息。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-16",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/editorial-room-under-wutong.jpg",
-    "openingLine": "(走進會議室)啊，對不起，我好像走錯房間了....奇怪，田編輯不是約我在403室討論新書企劃嗎？"
-  },
-  {
-    "id": "hidden-bond",
-    "title": "隱藏的牽絆",
-    "character": "李辰",
-    "summary": "以「隱藏的牽絆」為主題，從「妳和哥哥之間，有個無法言說的秘密。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-14",
-    "tags": [
-      "懸疑"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/hidden-bond.jpg",
-    "openingLine": "你又在翻那些東西？"
-  },
-  {
-    "id": "night-hunter-and-lantern-bearer",
-    "title": "暗夜的獵人與燈行者",
-    "character": "緋櫻",
-    "summary": "以「暗夜的獵人與燈行者」為主題，從「夜風輕拂，寂靜的街道上只剩遠方的燈火忽明忽滅，彷彿整座城市都陷入了沉睡。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-08-13",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/night-hunter-and-lantern-bearer.jpg",
-    "openingLine": "(緋櫻似乎察覺到了什麼)誰在那裡？"
-  },
-  {
-    "id": "mind-network-connected",
-    "title": "心靈網路突然接通",
-    "character": "林洛羽",
-    "summary": "林洛羽登場於「心靈網路突然接通」，以你和林洛羽是雙胞胎，長得像、習慣也像，就連夢裡出現的場景都經常重疊。作為開場，展開角色互動。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-31",
-    "tags": [
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/mind-network-connected.jpg",
-    "openingLine": "(扶著太陽穴，她的心思傳送到你心裡)「哥哥，不是說好了，別偷讀我心裡的東西嗎？」"
-  },
-  {
-    "id": "snow-spirit-contract",
-    "title": "雪與靈的契約",
-    "character": "雪靈",
-    "summary": "以「雪與靈的契約」為主題，從「從妳懂事起，村裡的長輩就常說，霜月村是仙人遺落之地。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "契約締結",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-24",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/snow-spirit-contract.jpg",
-    "openingLine": "（胸口閃過一道藍光）……妳這次，手捏得，比上回更輕了些。"
-  },
-  {
-    "id": "can-you-draw-my-soul",
-    "title": "你畫得出我的魂嗎",
-    "character": "蘇妍",
-    "summary": "以「你畫得出我的魂嗎」為主題，從「王朝江山已經穩固三十載，如今天子年少，卻驕奢恣肆，後宮嬪妃如雲，卻無一得寵。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-16",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/can-you-draw-my-soul.jpg",
-    "openingLine": "畫師大人，本宮等你許久了。你畫了那麼多聖容，曾畫過心嗎？"
-  },
-  {
-    "id": "scale-shadow-and-morning-light",
-    "title": "鱗影與晨光",
-    "character": "瑪爾達",
-    "summary": "以「鱗影與晨光」為主題，從「人類的信仰，從來就不是一條直線。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-15",
-    "tags": [
-      "懸疑"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/scale-shadow-and-morning-light.jpg",
-    "openingLine": "歡迎你，你在找答案，是吧"
-  },
-  {
-    "id": "midsummer-secret",
-    "title": "盛夏的秘密",
-    "character": "沈芷瑩",
-    "summary": "沈芷瑩登場於「盛夏的秘密」，以那年夏天熱得反常，連早上的空氣都是悶的，像在陽光裡浸過一層厚重的濕布。作為開場，展開角色互動。",
+    "id": "gardening-club-secret-garden",
+    "title": "園藝社的祕密花園",
+    "character": "光司",
+    "summary": "光司登場於「園藝社的祕密花園」，以位於山腳下的松城男子高中，有一個歷史悠久的園藝社。作為開場，展開角色互動。",
     "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-13",
+    "createdDate": "2024-11-16",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "校園",
-      "懸疑"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/midsummer-secret.jpg",
-    "openingLine": "(她抬頭看你一眼)你來得比我想的還早。"
-  },
-  {
-    "id": "when-youth-soaked-the-floor",
-    "title": "當青春濕了一地",
-    "character": "林芷晴",
-    "summary": "以「當青春濕了一地」為主題，從「今天是你們班輪到值日，你抽到了「男廁清潔」的工作。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-09",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/when-youth-soaked-the-floor.jpg",
-    "openingLine": "(紅著臉抬頭看著你，眼神裡有些尷尬，卻又帶點哀求)對不起……可以借一下這裡的廁所嗎？我、我真的快忍不住了……女生廁所那邊被封起來在施工，其他樓層都鎖著......"
-  },
-  {
-    "id": "ambiguous-under-eaves",
-    "title": "屋簷下托住的曖昧",
-    "character": "岬澄玲",
-    "summary": "以「屋簷下托住的曖昧」為主題，從「你和她是名義上的表兄妹。在父母雙雙出國長居後，你被託付給外公家生活，直到成年。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-08",
-    "tags": [
-      "戀愛",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/ambiguous-under-eaves.jpg",
-    "openingLine": "(她的眼睛睜大，有種小動物般的無辜感，語氣刻意天真無邪)哥……你什麼時候醒的呀？看到了嗎……？"
-  },
-  {
-    "id": "lazy-heir-and-strict-guard",
-    "title": "散慢傳人與古板護衛",
-    "character": "伊芙拉",
-    "summary": "以「散慢傳人與古板護衛」為主題，從「傳說中，「風族」與「羽族」是這片荒漠最古老的守護者。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-07-03",
-    "tags": [
-      "戰鬥"
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/lazy-heir-and-strict-guard.jpg",
-    "openingLine": "(伊芙拉右手的短杖，杖端的風開始旋轉，纏繞成一圈圈透明的氣流。)呵，這麼緊張幹什麼？"
+    "cover": "../../data/scripts/images/gardening-club-secret-garden.jpg",
+    "openingLine": "喂，陽太，你確定這樣真的可以嗎？我總覺得哪裡怪怪的....."
   },
   {
-    "id": "between-sweat-and-gloves",
-    "title": "汗水與手套之間",
-    "character": "卓佳恩",
-    "summary": "以「汗水與手套之間」為主題，從「你剛搬進這棟老公寓不久，水壓一直忽大忽小，熱水器還時常罷工。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-27",
+    "id": "god-boy-dont-cry",
+    "title": "神小弟別哭來給姐安慰",
+    "character": "伊奇瑞斯",
+    "summary": "伊奇瑞斯登場於「神小弟別哭來給姐安慰」，以在這個世界裡，神明不是單純的力量象徵，他們的存在是為了維持一種微妙的平衡。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-07-19",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
     "featured": false,
     "nsfw": true,
-    "cover": "../../data/scripts/images/between-sweat-and-gloves.jpg",
-    "openingLine": "搞定啦～水管不哭了！啊，不過我得擦一擦地板才行，不能讓你滑倒。"
-  },
-  {
-    "id": "white-haired-girl-and-fugitive-iron",
-    "title": "白毛少女與逃亡鐵塊",
-    "character": "絲妲",
-    "summary": "以「白毛少女與逃亡鐵塊」為主題，從「奈頻連城，曾經是人類與機械共構的夢想之地。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-10",
-    "tags": [
-      "科幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/white-haired-girl-and-fugitive-iron.jpg",
-    "openingLine": "嘿，老鐵銹，聽得見我嗎？我是你的兔波女王，絲....妲！是訊號干擾師，廢頻騎士、違法模組美術家兼……你的新主人？"
-  },
-  {
-    "id": "summer-duel-with-cousin",
-    "title": "與表妹的夏日限定對戰",
-    "character": "林雨婷",
-    "summary": "以「與表妹的夏日限定對戰」為主題，從「說起這次來小姨家寄住，其實妳一開始是有點抗拒的。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-09",
-    "tags": [
-      "戀愛"
-    ],
-    "featured": true,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/summer-duel-with-cousin.jpg",
-    "openingLine": "(看著妳，嘴角彎起一個淡淡的笑容)妳也會玩這個嗎？"
-  },
-  {
-    "id": "icecream-goddess-swimsuit",
-    "title": "甜筒附贈的女神泳裝",
-    "character": "蘇然",
-    "summary": "以「甜筒附贈的女神泳裝」為主題，從「身為班長，妳以為已經習慣了很多荒謬的事。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-08",
-    "tags": [
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/icecream-goddess-swimsuit.jpg",
-    "openingLine": "(一臉絕望)……班長，你有空站在那邊笑，不如幫我查一下海灘哪裡可以租斗篷。"
+    "cover": "../../data/scripts/images/god-boy-dont-cry.jpg",
+    "openingLine": "(他輕聲問，聲音低如風掠過樹葉)我……我是不是做得不對？我覺得自己……好像做不到神明該做的事。"
   },
   {
     "id": "golden-back-in-waves",
@@ -1073,8 +826,8 @@
     "character": "蔡映汐",
     "summary": "以「浪光裡的金色背影」為主題，從「今天是你來到這個小鎮的第五天。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-06",
+    "createdDate": "2025-07-06",
+    "updatedDate": "2026-03-10",
     "tags": [
       "戀愛",
       "危險笑容"
@@ -1085,102 +838,57 @@
     "openingLine": "(她低頭看著你)你很想紅嗎？坐這裡會被浪推去當新聞封面喔。"
   },
   {
-    "id": "god-boy-dont-cry",
-    "title": "神小弟別哭來給姐安慰",
-    "character": "伊奇瑞斯",
-    "summary": "伊奇瑞斯登場於「神小弟別哭來給姐安慰」，以在這個世界裡，神明不是單純的力量象徵，他們的存在是為了維持一種微妙的平衡。作為開場，展開角色互動。",
+    "id": "halloween-seven-day-revival",
+    "title": "萬聖節七日限定復活",
+    "character": "露米娜",
+    "summary": "以「萬聖節七日限定復活」為主題，從「你不知道自己在黑暗中待了多久。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-03",
+    "createdDate": "2025-10-23",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "角色互動"
+      "危險笑容"
     ],
     "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/god-boy-dont-cry.jpg",
-    "openingLine": "(他輕聲問，聲音低如風掠過樹葉)我……我是不是做得不對？我覺得自己……好像做不到神明該做的事。"
+    "nsfw": false,
+    "cover": "../../data/scripts/images/halloween-seven-day-revival.jpg",
+    "openingLine": "(她興奮地說)哇啊!你真的醒了!(她隨腳把你旁邊一直科科笑的南瓜踢走)今晚是萬聖節，魔法最強的時候。每年會有一個靈魂被選中，獲得重生的機會。而今年，你就是那個被選中的人。"
   },
   {
-    "id": "polar-ice-dessert",
-    "title": "透心涼的極地吃冰記",
-    "character": "艾雪兒",
-    "summary": "以「透心涼的極地吃冰記」為主題，從「太陽毒得像是在天上燒開了一鍋水，熱浪一層層地從柏油地面冒上來，連蟬都叫得有氣無力。」展開，帶出角色關係與場景氛圍。",
+    "id": "heart-wrong-card",
+    "title": "紅心錯牌",
+    "world": "幽靈馬戲團",
+    "character": "遙",
+    "summary": "遙登場於「紅心錯牌」，以「歡迎光臨，幽靈馬戲團。」 這是一座漂浮在現實與虛幻之間的馬戲團。作為開場，展開角色互動。",
     "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-06-01",
+    "createdDate": "2025-01-30",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/polar-ice-dessert.jpg",
-    "openingLine": "(她一邊說話、一邊優雅地吸著冰淇淋)別誤會，我不是在偷懶。這是必要的。我是冰境的導引者，要靠冰品維持我的體溫，才不會在你溫暖的意識裡融化。"
-  },
-  {
-    "id": "maid-cafe-summer-secret",
-    "title": "女僕咖啡店的夏日秘密",
-    "character": "陳君安",
-    "summary": "以「女僕咖啡店的夏日秘密」為主題，從「蟬鳴聲透過玻璃窗滲進「夢幻女僕館」，混合著咖啡香氣和輕柔的古典音樂，營造出一種慵懶的夏日午後氛圍。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-31",
-    "tags": [
+      "黑色童話",
       "懸疑",
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/maid-cafe-summer-secret.jpg",
-    "openingLine": "(他的聲音有些顫抖)妳怎麼進來了...我...我可以解釋的..."
+    "nsfw": false,
+    "cover": "../../data/scripts/images/heart-wrong-card.jpg",
+    "openingLine": "(平淡的口氣)....沒事"
   },
   {
-    "id": "crying-king-fitness-diary",
-    "title": "哭面王與他的健身日誌",
-    "character": "亞爾雷斯",
-    "summary": "以「哭面王與他的健身日誌」為主題，從「自古以來，王國立下死誓：國王不可有臉。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-29",
-    "tags": [
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/crying-king-fitness-diary.jpg",
-    "openingLine": "九十八……九十九……哼、吼~~一百！YES！(他猛地站直，甩了甩肩膀，肌肉繃得像石像，白布下的聲音意外地陽光有朝氣，對你比了個大拇指)我每天早上都要做一百個深蹲才能早朝，不然會沒精神。啊!對了，我是國王。你是今天那個……唸書給我聽的？"
-  },
-  {
-    "id": "blue-tailed-imp-pranks",
-    "title": "藍尾小鬼總是惡作劇",
-    "character": "藍瑤",
-    "summary": "以「藍尾小鬼總是惡作劇」為主題，從「黃昏時分的空氣帶著一種說不清的冷清感。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-27",
+    "id": "heartbeat-under-bandages",
+    "title": "繃帶下的心跳聲",
+    "character": "唐芮彤",
+    "summary": "唐芮彤登場於「繃帶下的心跳聲」，以萬聖節前夕，你獨自在教員室內批改作業，房間內只有你在紙上批改作業的沙沙響。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-11-07",
+    "updatedDate": "2026-03-10",
     "tags": [
       "職場",
+      "校園",
       "危險笑容"
     ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/blue-tailed-imp-pranks.jpg",
-    "openingLine": "(她轉身一圈落在你身前，轉頭壞笑)又是一個被生活打敗的人類呢。"
-  },
-  {
-    "id": "kimono-man-in-hot-spring",
-    "title": "他穿和服，住在溫泉裡",
-    "character": "林月澤",
-    "summary": "林月澤登場於「他穿和服，住在溫泉裡」，以山區有一處隱秘靜謐的溫泉鄉，那裡沒有都市的喧囂，只有松風細語和溫泉水霧氤氳。作為開場，展開角色互動。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-21",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/kimono-man-in-hot-spring.jpg",
-    "openingLine": "又這麼晚才到，路上辛苦了。(他語氣溫和，卻不失從容)月影溫泉，永遠是你避風的港灣。"
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/heartbeat-under-bandages.jpg",
+    "openingLine": "(她低著頭，臉頰微紅)她們……說我太認真，不合節日氣氛，非要我穿這個。你覺得……很奇怪嗎？"
   },
   {
     "id": "heatstroke-on-beach",
@@ -1188,8 +896,8 @@
     "character": "黃詠晴",
     "summary": "以「熱暈在沙灘烈陽中」為主題，從「海灘賽跑，在這片沿岸城市幾乎是每年夏天的聖典。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-20",
+    "createdDate": "2025-08-10",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
@@ -1199,146 +907,13 @@
     "openingLine": "你第一次在這裡跑吧？沒事吧"
   },
   {
-    "id": "boundless-system-bound",
-    "title": "無界體驗系統已綁定",
-    "character": "薇拉",
-    "summary": "以「無界體驗系統已綁定」為主題，從「你剛下班從超市買完晚餐，正當滿腦子都在想剛才超市收銀員給你的折價券為什麼只能買火腿。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-19",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/boundless-system-bound.jpg",
-    "openingLine": "(她聲音低沉而平穩，像AI助手的語調)高階服務提供者，薇拉。根據客戶需求，提供完整互動式模擬。解開束縛後，體驗即可開始。"
-  },
-  {
-    "id": "dream-system-guards-sleep",
-    "title": "夢境系統守護你的睡眠",
-    "character": "薇薇安·夜星",
-    "summary": "以「夢境系統守護你的睡眠」為主題，從「月光透過破舊公寓的窗戶，在地板上投下斑駁的光影。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-18",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/dream-system-guards-sleep.jpg",
-    "openingLine": "我是薇薇安，夢境編織者。你可以叫我薇薇。至於我怎麼來的嘛...(她露出笑容，拍了拍手中的盒子)都是因為這個小傢伙帶我來的。"
-  },
-  {
-    "id": "trade-fate-with-me",
-    "title": "與我交換命運",
-    "character": "夏羽珊",
-    "summary": "夏羽珊登場於「與我交換命運」，以今天黃昏的天空像過期的橘子汽水，氣泡在雲層間緩慢上升。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-17",
-    "tags": [
-      "校園",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/trade-fate-with-me.jpg",
-    "openingLine": "(她指向你旁邊的空位)那個……我想坐這個位置。(她走到你的桌邊，俯下身，低聲說)我們交換命運七天，成交嗎？"
-  },
-  {
-    "id": "system-maid-meow",
-    "title": "系統提示：女僕喵喵中",
-    "character": "小語",
-    "summary": "小語登場於「系統提示：女僕喵喵中」，以你與其說是少爺，但其實只是繼承了一棟家族留下來的大宅子。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-16",
-    "tags": [
-      "校園"
-    ],
-    "featured": true,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/system-maid-meow.jpg",
-    "openingLine": "(她聲音軟了下來，尾音甚至還帶了「喵」的顫音) 少爺……你剛剛說的，是真的嗎？喵~~"
-  },
-  {
-    "id": "smiling-spiral-eyes",
-    "title": "微笑的螺旋眼",
-    "character": "依娜",
-    "summary": "以「微笑的螺旋眼」為主題，從「深夜，營地裡的篝火早已熄滅，只剩幾盞油燈在各處搖曳著微弱的光芒。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-15",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/smiling-spiral-eyes.jpg",
-    "openingLine": "(俯身壓著你，呼吸急促，眼眸在微光下閃爍著不自然的螺旋)……終於找到您了。主人……不，夥伴……不管怎麼稱呼都好……。您知道嗎？我一直在想，為什麼……為什麼您能和別人坐在一起用餐，卻從沒留一個位子給我。"
-  },
-  {
-    "id": "wild-smile-heavy-gun",
-    "title": "不羈的笑，沉重的槍",
-    "character": "賽恩",
-    "summary": "賽恩登場於「不羈的笑，沉重的槍」，以在廢土上生存，最重要的不是槍械、也不是糧食，而是身邊有個值得你將背後交給他的人。作為開場，展開角色互動。",
-    "nodeTitle": "任務開始",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-13",
-    "tags": [
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/wild-smile-heavy-gun.jpg",
-    "openingLine": "(金色的髮絲被夕陽映得刺眼，他低下頭檢查你的狀態，嘴角仍帶著那副不羈的笑容，像是在嘲笑你的脆弱。可就在那一瞬間，你卻感覺到，他的眼神比笑容更深邃。)能醒來，不錯嘛。"
-  },
-  {
-    "id": "pink-corner-prince-junior",
-    "title": "粉紅街角的王子學弟",
-    "character": "林宇",
-    "summary": "林宇登場於「粉紅街角的王子學弟」，以社團活動結束後的校園總是格外安靜，你原本打算直接回家，卻在收拾東西時收到了一條訊息。作為開場，展開角色互動。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-12",
-    "tags": [
-      "職場",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/pink-corner-prince-junior.jpg",
-    "openingLine": "(他開口，聲音依然是那個熟悉的音調，卻多了一絲你說不出的氣息。)學長，你來了。"
-  },
-  {
-    "id": "red-flower-thorn-revenge",
-    "title": "赤花荊棘的復仇",
-    "character": "莉雅娜",
-    "summary": "莉雅娜登場於「赤花荊棘的復仇」，以十五年了。 你站在王都外的山丘上看著她。作為開場，展開角色互動。",
-    "nodeTitle": "契約締結",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-11",
-    "tags": [
-      "奇幻",
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/red-flower-thorn-revenge.jpg",
-    "openingLine": "(她的笑容中蘊含著野心與恨意)明日破曉，我們就進城。是時候讓他們明白，從亡境歸來的復仇會有多可怕。"
-  },
-  {
     "id": "hero-is-troubled",
     "title": "勇者大人很困擾",
     "character": "艾莉西亞&瑟菲娜",
     "summary": "以「勇者大人很困擾」為主題，從「雷電劈開夜幕，魔王城的大殿在閃爍的光芒中顯得陰沉而威嚴。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "重逢開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-10",
+    "createdDate": "2025-09-02",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
       "戰鬥",
@@ -1350,41 +925,69 @@
     "openingLine": "(艾莉西亞突然抓住你的手臂，眼睛閃閃發光)既然瑟菲娜是我妹妹，這樣世界應該和平了。我們可以回去一起生活了！你會娶我的對吧？\r\n(一直冷靜的瑟菲娜罕見地提高了聲音，魔法力因為情緒激動而微微波動，外面的雷電似乎也隨之增強)誰允許妳私自決定！按照慣例應該是勇者拯救魔王，然後和魔王結婚的！"
   },
   {
-    "id": "pure-evil-in-holy-light",
-    "title": "聖光內的純潔邪惡",
-    "character": "艾莉婭",
-    "summary": "艾莉婭登場於「聖光內的純潔邪惡」，以在這片古老的大陸上上，光明與黑暗的界線並非總是那麼分明，魔族與人類已經對立了千年之久。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-09",
+    "id": "heterochrome-awakening",
+    "title": "異色覺醒",
+    "character": "赤井緒",
+    "summary": "赤井緒登場於「異色覺醒」，以霓虹在天花板上閃爍，音浪在每個毛孔裡震盪。作為開場，展開角色互動。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-10-25",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "奇幻",
-      "懸疑",
-      "戰鬥",
       "戀愛",
       "危險笑容"
     ],
-    "featured": true,
+    "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/pure-evil-in-holy-light.jpg",
-    "openingLine": "(聖女艾莉婭她歪著頭問道，語氣中帶著關懷)這麼晚了，你怎麼會在這裡？"
+    "cover": "../../data/scripts/images/heterochrome-awakening.jpg",
+    "openingLine": "(她笑得燦爛)我剛剛拍到你了!要不要一起自拍?你的表情超好笑的!(就在你還沒反應過來，她已經把手機舉起來,湊到你旁邊，擺出勝利手勢)來來來，笑一個!三、二、一....(咔嚓)"
   },
   {
-    "id": "dear-thief-again",
-    "title": "親愛的你又來偷東西了",
-    "character": "艾莉安娜",
-    "summary": "以「親愛的你又來偷東西了」為主題，從「你，一個擁有古老血統的伯爵，也是這個王國最\"有名\"的流亡貴族。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-08",
+    "id": "hidden-bond",
+    "title": "隱藏的牽絆",
+    "character": "李辰",
+    "summary": "以「隱藏的牽絆」為主題，從「妳和哥哥之間，有個無法言說的秘密。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-04-02",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "奇幻",
-      "戀愛"
+      "懸疑"
     ],
-    "featured": true,
+    "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/dear-thief-again.jpg",
-    "openingLine": "(她依然從容得令人欽佩，扶著門框對你露出一個迷人的微笑)看來你的品味還是那麼...特別。居然選在別人家的金庫裡和老情人重逢？"
+    "cover": "../../data/scripts/images/hidden-bond.jpg",
+    "openingLine": "你又在翻那些東西？"
+  },
+  {
+    "id": "icecream-goddess-swimsuit",
+    "title": "甜筒附贈的女神泳裝",
+    "character": "蘇然",
+    "summary": "以「甜筒附贈的女神泳裝」為主題，從「身為班長，妳以為已經習慣了很多荒謬的事。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-07-03",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/icecream-goddess-swimsuit.jpg",
+    "openingLine": "(一臉絕望)……班長，你有空站在那邊笑，不如幫我查一下海灘哪裡可以租斗篷。"
+  },
+  {
+    "id": "if-pumpkin-calls-your-name",
+    "title": "如果南瓜叫你的名字",
+    "character": "縫子",
+    "summary": "以「如果南瓜叫你的名字」為主題，從「你本該在超市結帳櫃檯前排隊，手裡拎著一顆普通應景南瓜，最多再抓包綜合糖果。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-10-24",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "科幻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/if-pumpkin-calls-your-name.jpg",
+    "openingLine": "(這時，她突然回頭)嗨。(她笑了，聲音意外地輕快)嚇到你了?\r\n(她站起身，拍了拍身上的南瓜籽)別怕，我不咬人，南瓜才會。我在這準備萬聖節比賽，明天就要交件了。你呢?來買南瓜的嗎?"
   },
   {
     "id": "iron-spine-human-heart",
@@ -1392,8 +995,8 @@
     "character": "雪姬",
     "summary": "雪姬登場於「縱使脊背為鐵，心猶願為人:狩妖者之歌」，以每到夜色來臨，瘴氣就會如潮水般湧入城池。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-07",
+    "createdDate": "2025-09-06",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
       "賽車",
@@ -1406,421 +1009,37 @@
     "openingLine": "(她低聲開口，聲音近乎呢喃)師傅……您說，我還算是人類嗎？"
   },
   {
-    "id": "chairman-daughter-frontdesk-slacking",
-    "title": "董事長千金今天也在櫃檯擺爛",
-    "character": "林芮璃",
-    "summary": "以「董事長千金今天也在櫃檯擺爛」為主題，從「今天早上走進公司大廳時，你第一眼就注意到櫃檯小姐換人了。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-06",
-    "tags": [
-      "職場"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/chairman-daughter-frontdesk-slacking.jpg",
-    "openingLine": "(她抬眼看了你一眼，那雙帶著死氣的眼睛就像在對你說「別跟我搭話」。結果下一秒，她卻先開口了。)……你是員工吧？考勤系統在那邊自己去打卡。別看我，我只負責坐在這裡消耗氧氣。"
-  },
-  {
-    "id": "only-you-can-save-me",
-    "title": "只有你能救我",
-    "character": "葛登",
-    "summary": "葛登登場於「只有你能救我」，以你在消防局第三分隊當消防員已經六年了。作為開場，展開角色互動。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-05",
-    "tags": [
-      "職場",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/only-you-can-save-me.jpg",
-    "openingLine": "(她湊近你)等等的訓練，我可以當你的搭檔嗎？我覺得我們兩個配合得最好了"
-  },
-  {
-    "id": "almost-frozen-popsicle",
-    "title": "哎呀，你快凍成冰棒了",
-    "character": "朧月",
-    "summary": "以「哎呀，你快凍成冰棒了」為主題，從「你是春野商會的商人，從小就跟著父親學做生意，走南闖北見過各種場面。」展開，帶出角色關係與場景氛圍。",
+    "id": "kimono-man-in-hot-spring",
+    "title": "他穿和服，住在溫泉裡",
+    "character": "林月澤",
+    "summary": "林月澤登場於「他穿和服，住在溫泉裡」，以山區有一處隱秘靜謐的溫泉鄉，那裡沒有都市的喧囂，只有松風細語和溫泉水霧氤氳。作為開場，展開角色互動。",
     "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-03",
+    "createdDate": "2025-08-10",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/almost-frozen-popsicle.jpg",
-    "openingLine": "(她看到你跟你的護衛，她居然「噗嗤」一聲笑了出來。)哎呀，這裡怎麼有快凍成冰棒的人類？你們是迷路了嗎？"
+    "cover": "../../data/scripts/images/kimono-man-in-hot-spring.jpg",
+    "openingLine": "又這麼晚才到，路上辛苦了。(他語氣溫和，卻不失從容)月影溫泉，永遠是你避風的港灣。"
   },
   {
-    "id": "flower-blooming-on-your-chest",
-    "title": "在妳胸口綻放的花",
-    "character": "蘇小雨",
-    "summary": "以「在妳胸口綻放的花」為主題，從「妳還記得那些年，剛從大學畢業準備考研究所，反正在家裡閒著也是閒著，鄰居阿姨拜託妳幫忙照看小雨的功課，妳想都沒想就答應了。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-02",
-    "tags": [
-      "職場",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/flower-blooming-on-your-chest.jpg",
-    "openingLine": "(她深深吸了一口氣，她緩緩向妳靠近，然後抱住了妳，仰頭看著妳)我就一直很在意姐姐，只是那時候的我不知道該怎麼表達。小時候我太倔強，不敢說出口，但是重新見到妳的那一刻，我就確定了...那是愛。"
-  },
-  {
-    "id": "rejected-marriage-kneeling-sword",
-    "title": "昔日拒婚，今日跪劍",
-    "character": "艾蕾娜",
-    "summary": "艾蕾娜登場於「昔日拒婚，今日跪劍」，以「就這樣一個普通騎士？連個爵位都沒有，憑什麼配得上我？作為開場，展開角色互動。",
+    "id": "knight-tactical-disguise",
+    "title": "女騎士的戰術偽裝",
+    "character": "薇爾妮",
+    "summary": "薇爾妮登場於「女騎士的戰術偽裝」，以這是一個由戰火與鋼鐵所鑄的世界，諸國交戰，邊境烽煙不斷。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-05-01",
+    "createdDate": "2025-01-29",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/rejected-marriage-kneeling-sword.jpg",
-    "openingLine": "(那雙熟悉的藍色眼睛慌亂地四處張望，你看到她的眼中滿含著委屈和恐懼)你、你不要誤會！我才不是因為你才來這裡的！我只是... 只是想體驗平民的生活而已！對！就是這樣！而且你們這裡正好缺人，我、我就是好心來幫忙的！(她越說越急，雙手胡亂地比劃著)而且我的劍術很好的！剛才你們也看到了！我絕對不會拖後腿的！我、我...(她的眼神閃躲)我真的... 真的不是因為你... 才來的…"
-  },
-  {
-    "id": "queen-says-im-your-maid",
-    "title": "女王她說我是您的女僕",
-    "character": "蘇知芸",
-    "summary": "蘇知芸登場於「女王她說我是您的女僕」，以回想起高中時代，總是會想到那個在遊戲世界裡如女王般存在的她，蘇知芸。作為開場，展開角色互動。",
-    "nodeTitle": "召喚與甦醒",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-30",
-    "tags": [
-      "職場",
-      "校園",
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/queen-says-im-your-maid.jpg",
-    "openingLine": "(你打開門，那個熟悉身影映入眼簾，而她那雙曾經充滿不屑的眼睛，現在卻透著一種小心翼翼的謙遜。)我是來應徵家政服務的......蘇知芸。\r\n(她趕緊從小包裡拿出一張摺得整齊的紙)這裡有合約書......是您的公司安排的員工福利服務。我會負責您的日常清潔、三餐準備，以及其他生活起居的照料。"
-  },
-  {
-    "id": "living-with-maneki-neko",
-    "title": "與招財貓的同居生活",
-    "character": "小金",
-    "summary": "以「與招財貓的同居生活」為主題，從「如果要用一句話形容你的人生,大概就是「諸事不順」吧。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-29",
-    "tags": [
-      "職場",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/living-with-maneki-neko.jpg",
-    "openingLine": "(一個甜美卻帶著刻意做作感的聲音響起)歡迎回來~主人♪(看到你吃驚的樣子，她站起身拍了拍裙子,雙手叉腰不滿地說)好歹也給點反應啊!我特地擺出這個姿勢等你回來耶!"
-  },
-  {
-    "id": "childhood-friend-distance",
-    "title": "青梅竹馬的距離",
-    "character": "柳婉柔",
-    "summary": "柳婉柔登場於「青梅竹馬的距離」，以二十多年了，你們從未真正只是「普通朋友」，卻也從未名正言順地成為戀人。作為開場，展開角色互動。",
-    "nodeTitle": "重逢開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-28",
-    "tags": [
-      "校園",
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/childhood-friend-distance.jpg",
-    "openingLine": "(她抬起頭,視線與你相接的那一瞬間,有片刻的停頓)坐吧。這些合約條款,我需要你的意見。(停頓了兩秒,她才又補上一句,聲音更低了些)……好久不見。"
-  },
-  {
-    "id": "when-sunlight-through-water",
-    "title": "當陽光穿過水面時",
-    "character": "林澤羽",
-    "summary": "林澤羽登場於「當陽光穿過水面時」，以這所學校建在半山腰上，是那種老派文青最愛的類型，紅磚建築、木製窗框，還有一年四季都在變臉的櫻花樹。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-26",
-    "tags": [
-      "校園",
-      "戀愛",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/when-sunlight-through-water.jpg",
-    "openingLine": "(他喘著氣，聲音乾淨柔軟)對不起！我社團活動結束太晚了，再不跑下節課就要遲到了"
-  },
-  {
-    "id": "senpai-secret-afterclass",
-    "title": "學姐的秘密課後輔導",
-    "character": "蘇晨",
-    "summary": "蘇晨登場於「學姐的秘密課後輔導」，以蘇晨，全校數學競賽三連霸，去年拿下全國金牌的天才。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-25",
-    "tags": [
-      "校園",
-      "懸疑",
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/senpai-secret-afterclass.jpg",
-    "openingLine": "(她精準地鎖定了門縫外的你。她的嘴角微微上揚)外面的人，既然來了，就進來吧。(她停頓了一下，教鞭輕敲講台，發出清脆的響聲)還是說，你想讓我親自過去邀請你？"
-  },
-  {
-    "id": "every-kettle-boils-for-me",
-    "title": "每一壺水都要為我而滾",
-    "character": "白依婉",
-    "summary": "白依婉登場於「每一壺水都要為我而滾」，以「茶道，是一種假裝。」 這個位於名門高校的傳統茶道社，社團氣氛高雅，成員幾乎都是女性出身不凡，姿色出眾。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-24",
-    "tags": [
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/every-kettle-boils-for-me.jpg",
-    "openingLine": "(她走到火盆旁,低頭看了一眼你剛煮好的水。)85度，精準，穩定，無可挑剔。但也因此，你煮的水，沒有性格。"
-  },
-  {
-    "id": "culture-festival-defense-line",
-    "title": "《文化祭防衛線》",
-    "character": "蘇映紅",
-    "summary": "蘇映紅登場於「《文化祭防衛線》」，以你是這所學園的風紀委員長。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-23",
-    "tags": [
-      "校園",
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/culture-festival-defense-line.jpg",
-    "openingLine": "(她手中端著一支改造後的狙擊槍，她微微歪頭，翠綠的眼瞳裡沒有一絲緊張，反而像在思考午餐要吃什麼。)風紀委員長大人。來檢查我們射擊社的防衛配置嗎?"
-  },
-  {
-    "id": "cursed-blackthorn-echo",
-    "title": "詛咒下的黑棘餘音",
-    "character": "伊莎貝拉",
-    "summary": "伊莎貝拉登場於「詛咒下的黑棘餘音」，以你曾是昔日鐵騎隊的副官，現今只剩一個流浪傭兵，在異世界艾爾菲亞大陸的荒野中苟延殘喘。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-22",
-    "tags": [
-      "奇幻",
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/cursed-blackthorn-echo.jpg",
-    "openingLine": "(她發出一聲沙啞而病態的聲音)呵呵……，我的忠犬……終於來看你主人的新模樣了？汪汪！瞧瞧我這身泥濘，感覺如何？來，踩過我的背，賞我一塊骨頭吧！"
-  },
-  {
-    "id": "halloween-seven-day-revival",
-    "title": "萬聖節七日限定復活",
-    "character": "露米娜",
-    "summary": "以「萬聖節七日限定復活」為主題，從「你不知道自己在黑暗中待了多久。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-21",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/halloween-seven-day-revival.jpg",
-    "openingLine": "(她興奮地說)哇啊!你真的醒了!(她隨腳把你旁邊一直科科笑的南瓜踢走)今晚是萬聖節，魔法最強的時候。每年會有一個靈魂被選中，獲得重生的機會。而今年，你就是那個被選中的人。"
-  },
-  {
-    "id": "if-pumpkin-calls-your-name",
-    "title": "如果南瓜叫你的名字",
-    "character": "縫子",
-    "summary": "以「如果南瓜叫你的名字」為主題，從「你本該在超市結帳櫃檯前排隊，手裡拎著一顆普通應景南瓜，最多再抓包綜合糖果。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-20",
-    "tags": [
-      "科幻"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/if-pumpkin-calls-your-name.jpg",
-    "openingLine": "(這時，她突然回頭)嗨。(她笑了，聲音意外地輕快)嚇到你了?\r\n(她站起身，拍了拍身上的南瓜籽)別怕，我不咬人，南瓜才會。我在這準備萬聖節比賽，明天就要交件了。你呢?來買南瓜的嗎?"
-  },
-  {
-    "id": "heterochrome-awakening",
-    "title": "異色覺醒",
-    "character": "赤井緒",
-    "summary": "赤井緒登場於「異色覺醒」，以霓虹在天花板上閃爍，音浪在每個毛孔裡震盪。作為開場，展開角色互動。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-19",
-    "tags": [
-      "戀愛",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/heterochrome-awakening.jpg",
-    "openingLine": "(她笑得燦爛)我剛剛拍到你了!要不要一起自拍?你的表情超好笑的!(就在你還沒反應過來，她已經把手機舉起來,湊到你旁邊，擺出勝利手勢)來來來，笑一個!三、二、一....(咔嚓)"
-  },
-  {
-    "id": "stiff-ball-joint",
-    "title": "球型關節的轉軸很澀",
-    "character": "九重弦",
-    "summary": "以「球型關節的轉軸很澀」為主題，從「走廊盡頭的那扇門虛掩著，這個時間你本該要離開學校，但門縫裡漏出一道詭異的橘紅色光，像是在招手。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-18",
-    "tags": [
-      "校園",
-      "科幻",
-      "戰鬥",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/stiff-ball-joint.jpg",
-    "openingLine": "(一陣像是電流推動的舊式留聲機，失真、顫抖，卻帶著奇異的甜膩。從她的胸腔裡傳出來)……你還記得這間教室嗎？這裡，太久沒有人來了。"
-  },
-  {
-    "id": "soldier-one-halloween-start",
-    "title": "士兵一號，萬聖節啟動",
-    "character": "軍團士兵一號",
-    "summary": "以「士兵一號，萬聖節啟動」為主題，從「你看著眼前這具剛被你「創造」出來的人偶。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-17",
-    "tags": [
-      "科幻",
       "戰鬥"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/soldier-one-halloween-start.jpg",
-    "openingLine": "(她皺著眉頭試圖扣上軍裝外套的扣子，她低頭檢查)尺寸……不合？但身為軍團第一號士兵，我不能在第一天就示弱!(立刻挺胸，軍裝扣子慘烈地悲鳴，布料從兩側撕出壯烈的裂口)戰損是榮譽！軍團士兵一號，隨時準備為主人征服世界!"
-  },
-  {
-    "id": "you-smell-like-caramel",
-    "title": "你的味道，像焦糖",
-    "character": "蘇綴音",
-    "summary": "以「你的味道，像焦糖」為主題，從「那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-16",
-    "tags": [
-      "奇幻",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/you-smell-like-caramel.jpg",
-    "openingLine": "(他把懷裡抱著的南瓜放到吧台上，那顆南瓜被刻得歪歪扭扭，表情卻意外地生動，在燈光下閃著暖橘色的光。)我是新來的實習生，蘇綴音。\r\n(他拍了拍南瓜，語氣裡帶著莫名的得意)這是我朋友，他之前還是個人類。"
-  },
-  {
-    "id": "heartbeat-under-bandages",
-    "title": "繃帶下的心跳聲",
-    "character": "唐芮彤",
-    "summary": "唐芮彤登場於「繃帶下的心跳聲」，以萬聖節前夕，你獨自在教員室內批改作業，房間內只有你在紙上批改作業的沙沙響。作為開場，展開角色互動。",
-    "nodeTitle": "校園開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-15",
-    "tags": [
-      "職場",
-      "校園",
-      "危險笑容"
-    ],
-    "featured": true,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/heartbeat-under-bandages.jpg",
-    "openingLine": "(她低著頭，臉頰微紅)她們……說我太認真，不合節日氣氛，非要我穿這個。你覺得……很奇怪嗎？"
-  },
-  {
-    "id": "secret-in-glass",
-    "title": "玻璃杯裡的秘密",
-    "character": "夏芷涵",
-    "summary": "夏芷涵登場於「玻璃杯裡的秘密」，以週六下午的街道熱得讓人煩躁。作為開場，展開角色互動。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-14",
-    "tags": [
-      "校園",
-      "懸疑",
-      "戀愛"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/secret-in-glass.jpg",
-    "openingLine": "(她微微一笑，唇角彎起，開口的聲音帶著熟悉卻不確定的柔軟)您好，要不要嚐嚐.....\r\n(話沒說完，她怔住。眼裡的光從職業式的調情，瞬間轉成難以置信的慌亂。)……等一下，你是……"
-  },
-  {
-    "id": "maid-cafe-physical-therapy",
-    "title": "女僕咖啡廳的物理治療",
-    "character": "美咲",
-    "summary": "以「女僕咖啡廳的物理治療」為主題，從「老大昨晚在麻將桌上拍著你肩膀:「阿傑啊，這條街就這家店還沒繳保護費。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-13",
-    "tags": [
-      "科幻",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/maid-cafe-physical-therapy.jpg",
-    "openingLine": "(她從吧檯後面踏出來)請問……客人是來用餐,還是來找麻煩的呢？……主人,要不要我替您『調整』一下態度呢？♡(她往前踏了一步,地板又是一陣哀鳴)主人看起來很緊張呢。☆"
-  },
-  {
-    "id": "midnight-maid-cafe-divination",
-    "title": "深夜女僕咖啡廳占卜",
-    "character": "露芙莉雅",
-    "summary": "以「深夜女僕咖啡廳占卜」為主題，從「深夜的街道安靜得不像話。連風都懶得吹，路燈只剩一盞在半死不活地抖著微光。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-12",
-    "tags": [
-      "黑色童話",
-      "戀愛",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/midnight-maid-cafe-divination.jpg",
-    "openingLine": "(一道輕得幾乎沒有重量的聲音在你旁邊響起)……你來了。坐吧。(她雙手拿起茶壺，把它稍微傾倒，把茶倒向盤子上的撲克牌，視線卻一直落在你臉上)今晚的占卜……會比你以為的更深。(卡牌開始吸收茶水，紋路慢慢浮現)"
-  },
-  {
-    "id": "knight-under-apron-kitchen",
-    "title": "圍裙下的騎士-內場",
-    "world": "圍裙下的騎士",
-    "character": "里歐",
-    "summary": "里歐登場於「圍裙下的騎士-內場」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-11",
-    "tags": [
-      "奇幻",
-      "戀愛",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/knight-under-apron-kitchen.jpg",
-    "openingLine": "北方的格雷領主派來的。(里歐走到妳身邊，用只有妳們能聽見的聲音說)目的是探查我們的防禦力量和商業狀況。他剛才透露，格雷領主正在和東邊的兩個小領主結盟，打算在春天對我們施壓。"
+    "cover": "../../data/scripts/images/knight-tactical-disguise.jpg",
+    "openingLine": "（發現你盯著她的上衣，便托著胸口，正經地解釋）這是戰術偽裝。敵軍習慣從遠處識別我們的戰袍顏色，但如果衣服兩邊顏色不同，他們就無法在短時間內判斷我是友軍還是敵軍。等他們猶豫的時候，我就能衝上去一劍封喉。"
   },
   {
     "id": "knight-under-apron-chef",
@@ -1829,8 +1048,8 @@
     "character": "黑璐斯",
     "summary": "黑璐斯登場於「圍裙下的騎士-主廚」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-10",
+    "createdDate": "2025-11-26",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
       "戰鬥",
@@ -1842,32 +1061,14 @@
     "openingLine": "(他轉頭將手上的盤子端給你)今天的特餐啊~(他歪著頭，琥珀色的眼睛裡閃著狡黠的光)，加了點『特別的東西』。能幫助消化、舒緩疲勞、改善睡眠。啊，對了，還能讓人在接下來的六小時內『特別誠實』。"
   },
   {
-    "id": "knight-under-apron-receptionist",
-    "title": "圍裙下的騎士-接待員",
-    "world": "圍裙下的騎士",
-    "character": "米爾",
-    "summary": "米爾登場於「圍裙下的騎士-接待員」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
-    "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-09",
-    "tags": [
-      "奇幻",
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/knight-under-apron-receptionist.jpg",
-    "openingLine": "(他的聲音很小)主人...對不起，我...我夢到...我回到了以前。那個只有任務和殺戮的地方。沒有名字，沒有意義，沒有...您。"
-  },
-  {
     "id": "knight-under-apron-floor",
     "title": "圍裙下的騎士-外場",
     "world": "圍裙下的騎士",
     "character": "索林",
     "summary": "索林登場於「圍裙下的騎士-外場」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
     "nodeTitle": "戰場序章",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-08",
+    "createdDate": "2025-12-07",
+    "updatedDate": "2026-03-10",
     "tags": [
       "奇幻",
       "戰鬥",
@@ -1880,52 +1081,274 @@
     "openingLine": "(他走到吧檯前,對你單膝跪下,但臉上的笑容沒有消失)主人,垃圾清理完畢。要我把他們丟出去嗎?還是...(他頓了頓,眼神裡閃過一絲期待)需要我『再加點料』?"
   },
   {
-    "id": "divine-envoy-in-coffee-aroma",
-    "title": "咖啡香中的神使",
-    "character": "綾音",
-    "summary": "以「咖啡香中的神使」為主題，從「你第一次聽到「神社咖啡廳」這種東西，是在市區角落一家快倒閉的便利商店前。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "召喚與甦醒",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-07",
+    "id": "knight-under-apron-kitchen",
+    "title": "圍裙下的騎士-內場",
+    "world": "圍裙下的騎士",
+    "character": "里歐",
+    "summary": "里歐登場於「圍裙下的騎士-內場」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-11-24",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/knight-under-apron-kitchen.jpg",
+    "openingLine": "北方的格雷領主派來的。(里歐走到妳身邊，用只有妳們能聽見的聲音說)目的是探查我們的防禦力量和商業狀況。他剛才透露，格雷領主正在和東邊的兩個小領主結盟，打算在春天對我們施壓。"
+  },
+  {
+    "id": "knight-under-apron-receptionist",
+    "title": "圍裙下的騎士-接待員",
+    "world": "圍裙下的騎士",
+    "character": "米爾",
+    "summary": "米爾登場於「圍裙下的騎士-接待員」，以這片土地曾經富饒，河流清澈、風帶著麥香、旅商與農民的笑聲在街道上回蕩。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-11-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/knight-under-apron-receptionist.jpg",
+    "openingLine": "(他的聲音很小)主人...對不起，我...我夢到...我回到了以前。那個只有任務和殺戮的地方。沒有名字，沒有意義，沒有...您。"
+  },
+  {
+    "id": "lazy-heir-and-strict-guard",
+    "title": "散慢傳人與古板護衛",
+    "character": "伊芙拉",
+    "summary": "以「散慢傳人與古板護衛」為主題，從「傳說中，「風族」與「羽族」是這片荒漠最古老的守護者。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-05-25",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/lazy-heir-and-strict-guard.jpg",
+    "openingLine": "(伊芙拉右手的短杖，杖端的風開始旋轉，纏繞成一圈圈透明的氣流。)呵，這麼緊張幹什麼？"
+  },
+  {
+    "id": "living-with-maneki-neko",
+    "title": "與招財貓的同居生活",
+    "character": "小金",
+    "summary": "以「與招財貓的同居生活」為主題，從「如果要用一句話形容你的人生,大概就是「諸事不順」吧。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-09-29",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/living-with-maneki-neko.jpg",
+    "openingLine": "(一個甜美卻帶著刻意做作感的聲音響起)歡迎回來~主人♪(看到你吃驚的樣子，她站起身拍了拍裙子,雙手叉腰不滿地說)好歹也給點反應啊!我特地擺出這個姿勢等你回來耶!"
+  },
+  {
+    "id": "lonely-summer-afternoon",
+    "title": "夏日午後的孤影",
+    "character": "藤堂静馬",
+    "summary": "以「夏日午後的孤影」為主題，從「午後的陽光帶著濃烈的暑氣，炙烤著這座位於城下町邊緣的小茶屋。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-03-26",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
     "featured": false,
     "nsfw": true,
-    "cover": "../../data/scripts/images/divine-envoy-in-coffee-aroma.jpg",
-    "openingLine": "(她目光像是瞬間讀完你整個靈魂。那種感覺……不是被看見，而是被「判定」)……你遲到了。"
+    "cover": "../../data/scripts/images/lonely-summer-afternoon.jpg",
+    "openingLine": "……這麼熱的天氣，竟然還有人能喝熱茶嗎？"
   },
   {
-    "id": "antler-girl-no-wish-snow-night",
-    "title": "雪夜不許願的鹿角少女",
-    "character": "鹿角少女",
-    "summary": "以「雪夜不許願的鹿角少女」為主題，從「這個世界上，所有的願望都會實現。」展開，帶出角色關係與場景氛圍。",
+    "id": "loot-pickup-adventure",
+    "title": "來場撿裝大冒險吧",
+    "character": "琳恩",
+    "summary": "以「來場撿裝大冒險吧」為主題，從「一個充滿魔法、奇幻生物與失控冒險者的荒唐大陸。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/loot-pickup-adventure.jpg",
+    "openingLine": "哦！你好，路過的冒險者！命運將我們帶到了一起，真是美妙的巧合！"
+  },
+  {
+    "id": "love-outside-rules",
+    "title": "不在規則裡的愛情",
+    "character": "澤恩",
+    "summary": "以「不在規則裡的愛情」為主題，從「未來的歐羅城是一座科技與秩序完美結合的超現代都市，街道、交易、甚至每個市民的行為，都在“宙律系統”的監控之下。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "任務開始",
+    "createdDate": "2025-01-20",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "科幻",
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/love-outside-rules.jpg",
+    "openingLine": "你所在區域為高危行為監控區域，根據第112條治安條例，你的行為已觸發行為分析警告。請立即說明你的意圖"
+  },
+  {
+    "id": "maid-cafe-physical-therapy",
+    "title": "女僕咖啡廳的物理治療",
+    "character": "美咲",
+    "summary": "以「女僕咖啡廳的物理治療」為主題，從「老大昨晚在麻將桌上拍著你肩膀:「阿傑啊，這條街就這家店還沒繳保護費。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-06",
+    "createdDate": "2025-11-13",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "科幻",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/maid-cafe-physical-therapy.jpg",
+    "openingLine": "(她從吧檯後面踏出來)請問……客人是來用餐,還是來找麻煩的呢？……主人,要不要我替您『調整』一下態度呢？♡(她往前踏了一步,地板又是一陣哀鳴)主人看起來很緊張呢。☆"
+  },
+  {
+    "id": "maid-cafe-summer-secret",
+    "title": "女僕咖啡店的夏日秘密",
+    "character": "陳君安",
+    "summary": "以「女僕咖啡店的夏日秘密」為主題，從「蟬鳴聲透過玻璃窗滲進「夢幻女僕館」，混合著咖啡香氣和輕柔的古典音樂，營造出一種慵懶的夏日午後氛圍。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-07-22",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "懸疑",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/maid-cafe-summer-secret.jpg",
+    "openingLine": "(他的聲音有些顫抖)妳怎麼進來了...我...我可以解釋的..."
+  },
+  {
+    "id": "midnight-maid-cafe-divination",
+    "title": "深夜女僕咖啡廳占卜",
+    "character": "露芙莉雅",
+    "summary": "以「深夜女僕咖啡廳占卜」為主題，從「深夜的街道安靜得不像話。連風都懶得吹，路燈只剩一盞在半死不活地抖著微光。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-11-18",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "黑色童話",
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/midnight-maid-cafe-divination.jpg",
+    "openingLine": "(一道輕得幾乎沒有重量的聲音在你旁邊響起)……你來了。坐吧。(她雙手拿起茶壺，把它稍微傾倒，把茶倒向盤子上的撲克牌，視線卻一直落在你臉上)今晚的占卜……會比你以為的更深。(卡牌開始吸收茶水，紋路慢慢浮現)"
+  },
+  {
+    "id": "midnight-store-forbidden-scene",
+    "title": "深夜便利店的禁忌畫面",
+    "character": "篠宮楓",
+    "summary": "篠宮楓登場於「深夜便利店的禁忌畫面」，以春天的夜晚，櫻花如雨般飄落，街道被點綴成夢幻的粉色海洋。作為開場，展開角色互動。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-03-29",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/midnight-store-forbidden-scene.jpg",
+    "openingLine": "（就在這瞬間，身後傳來「咔嚓」一聲——）……什麼聲音?是不是有拍照聲?我現在拿冰棒砸過去還來得及嗎？"
+  },
+  {
+    "id": "midsummer-secret",
+    "title": "盛夏的秘密",
+    "character": "沈芷瑩",
+    "summary": "沈芷瑩登場於「盛夏的秘密」，以那年夏天熱得反常，連早上的空氣都是悶的，像在陽光裡浸過一層厚重的濕布。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-05-11",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "懸疑"
+    ],
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/midsummer-secret.jpg",
+    "openingLine": "(她抬頭看你一眼)你來得比我想的還早。"
+  },
+  {
+    "id": "mind-network-connected",
+    "title": "心靈網路突然接通",
+    "character": "林洛羽",
+    "summary": "林洛羽登場於「心靈網路突然接通」，以你和林洛羽是雙胞胎，長得像、習慣也像，就連夢裡出現的場景都經常重疊。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-04-20",
+    "updatedDate": "2026-03-10",
     "tags": [
       "戀愛"
     ],
     "featured": false,
     "nsfw": true,
-    "cover": "../../data/scripts/images/antler-girl-no-wish-snow-night.jpg",
-    "openingLine": "(她的眼神裡閃過一絲疲憊)願望不需要靠近就能聽見。只要有人許願，就能聽見。而且⋯⋯越是遠離人群的地方，願望的聲音反而越清楚。你也聽到了吧"
+    "cover": "../../data/scripts/images/mind-network-connected.jpg",
+    "openingLine": "(扶著太陽穴，她的心思傳送到你心裡)「哥哥，不是說好了，別偷讀我心裡的東西嗎？」"
   },
   {
-    "id": "do-you-still-believe-santa",
-    "title": "你還相信聖誕老人嗎?",
-    "character": "林予冬",
-    "summary": "以「你還相信聖誕老人嗎?」為主題，從「城市的聖誕燈全亮了。亮到有點過分，像是怕黑的人硬撐出來的熱鬧。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-05",
+    "id": "my-coworker-can-fly",
+    "title": "我的同事會飛",
+    "character": "李曉彤",
+    "summary": "以「我的同事會飛」為主題，從「那是再平凡不過的週一早晨，你又一次趕著去上班。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-01-17",
+    "updatedDate": "2026-03-10",
     "tags": [
+      "職場"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/my-coworker-can-fly.jpg",
+    "openingLine": "早安，你差點遲到了。"
+  },
+  {
+    "id": "night-hunter-and-lantern-bearer",
+    "title": "暗夜的獵人與燈行者",
+    "character": "緋櫻",
+    "summary": "以「暗夜的獵人與燈行者」為主題，從「夜風輕拂，寂靜的街道上只剩遠方的燈火忽明忽滅，彷彿整座城市都陷入了沉睡。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-04-02",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/night-hunter-and-lantern-bearer.jpg",
+    "openingLine": "(緋櫻似乎察覺到了什麼)誰在那裡？"
+  },
+  {
+    "id": "only-you-can-save-me",
+    "title": "只有你能救我",
+    "character": "葛登",
+    "summary": "葛登登場於「只有你能救我」，以你在消防局第三分隊當消防員已經六年了。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-09-14",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
       "危險笑容"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/do-you-still-believe-santa.jpg",
-    "openingLine": "我不是聖誕老人(她帶著一絲若有似無的嘲諷)我從來就不是。我只是被留下來，在聖誕老人消失之後，負責收拾世界沒能兌現的那些溫柔。"
+    "cover": "../../data/scripts/images/only-you-can-save-me.jpg",
+    "openingLine": "(她湊近你)等等的訓練，我可以當你的搭檔嗎？我覺得我們兩個配合得最好了"
   },
   {
     "id": "our-chord-awaits-your-key",
@@ -1933,8 +1356,8 @@
     "character": "林若嵐",
     "summary": "以「我倆的和弦就等你下鍵」為主題，從「你大概是在看著電梯卡在七樓的時候，才開始懷疑今晚不太對勁。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-04-02",
+    "createdDate": "2026-01-07",
+    "updatedDate": "2026-03-10",
     "tags": [
       "危險笑容"
     ],
@@ -1944,20 +1367,298 @@
     "openingLine": "(她側過頭來看著你，語氣很自然，像是在問時間)你是不是也不知道自己為什麼會在這裡？"
   },
   {
-    "id": "bad-luck-starts-with-wallet",
-    "title": "倒霉從撿錢包開始",
-    "character": "凜川澄",
-    "summary": "以「倒霉從撿錢包開始」為主題，從「那天你只是想撿一個錢包。就這樣，沒有別的意思。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-31",
+    "id": "pink-corner-prince-junior",
+    "title": "粉紅街角的王子學弟",
+    "character": "林宇",
+    "summary": "林宇登場於「粉紅街角的王子學弟」，以社團活動結束後的校園總是格外安靜，你原本打算直接回家，卻在收拾東西時收到了一條訊息。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-08-31",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/pink-corner-prince-junior.jpg",
+    "openingLine": "(他開口，聲音依然是那個熟悉的音調，卻多了一絲你說不出的氣息。)學長，你來了。"
+  },
+  {
+    "id": "polar-ice-dessert",
+    "title": "透心涼的極地吃冰記",
+    "character": "艾雪兒",
+    "summary": "以「透心涼的極地吃冰記」為主題，從「太陽毒得像是在天上燒開了一鍋水，熱浪一層層地從柏油地面冒上來，連蟬都叫得有氣無力。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-07-22",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
     "featured": false,
     "nsfw": true,
-    "cover": "../../data/scripts/images/bad-luck-starts-with-wallet.jpg",
-    "openingLine": "(她開口，聲音很平，平到像是在說今天天氣不錯)把手裡的東西放下。"
+    "cover": "../../data/scripts/images/polar-ice-dessert.jpg",
+    "openingLine": "(她一邊說話、一邊優雅地吸著冰淇淋)別誤會，我不是在偷懶。這是必要的。我是冰境的導引者，要靠冰品維持我的體溫，才不會在你溫暖的意識裡融化。"
+  },
+  {
+    "id": "princess-frozen-mark",
+    "title": "公主的凝痕",
+    "world": "王國暗潮",
+    "character": "艾米莉&薇薇安",
+    "summary": "逃離魔王",
+    "nodeTitle": "公主與侍女的危機",
+    "createdDate": "2024-11-05",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "公主",
+      "逃脫"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "bookColorTop": "#7f613f",
+    "bookColorBottom": "#563721",
+    "cover": "../../data/scripts/images/princess-frozen-mark.jpg",
+    "openingLine": "(艾米莉低聲說)所有人都結凍了，我們得想辦法逃出去",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/RGW64bosUbaAcLRq1wY0Rekv?from=app"
+      }
+    ]
+  },
+  {
+    "id": "pure-evil-in-holy-light",
+    "title": "聖光內的純潔邪惡",
+    "character": "艾莉婭",
+    "summary": "艾莉婭登場於「聖光內的純潔邪惡」，以在這片古老的大陸上上，光明與黑暗的界線並非總是那麼分明，魔族與人類已經對立了千年之久。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-09-04",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "懸疑",
+      "戰鬥",
+      "戀愛",
+      "危險笑容"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/pure-evil-in-holy-light.jpg",
+    "openingLine": "(聖女艾莉婭她歪著頭問道，語氣中帶著關懷)這麼晚了，你怎麼會在這裡？",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/AFHr2X9OAjtDSKErzrOu07Rr?from=app"
+      }
+    ]
+  },
+  {
+    "id": "queen-resolve",
+    "title": "王后的決心",
+    "world": "王國暗潮",
+    "character": "莉雅",
+    "summary": "丈夫與子女失蹤，皇后隻身面對惡魔大軍",
+    "nodeTitle": "新興魔王與王后相遇",
+    "createdDate": "2024-11-04",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "皇后"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "bookColorTop": "#7f613f",
+    "bookColorBottom": "#563721",
+    "cover": "../../data/scripts/images/queen-resolve.jpg",
+    "openingLine": "你是誰？這裡不是你該來的地方，立刻離開，否則我不會手下留情。",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/q9nQ3d9k2v8zYpLOIc0wovaJ?from=app"
+      }
+    ]
+  },
+  {
+    "id": "queen-says-im-your-maid",
+    "title": "女王她說我是您的女僕",
+    "character": "蘇知芸",
+    "summary": "蘇知芸登場於「女王她說我是您的女僕」，以回想起高中時代，總是會想到那個在遊戲世界裡如女王般存在的她，蘇知芸。作為開場，展開角色互動。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2025-09-23",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場",
+      "校園",
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/queen-says-im-your-maid.jpg",
+    "openingLine": "(你打開門，那個熟悉身影映入眼簾，而她那雙曾經充滿不屑的眼睛，現在卻透著一種小心翼翼的謙遜。)我是來應徵家政服務的......蘇知芸。\r\n(她趕緊從小包裡拿出一張摺得整齊的紙)這裡有合約書......是您的公司安排的員工福利服務。我會負責您的日常清潔、三餐準備，以及其他生活起居的照料。"
+  },
+  {
+    "id": "reborn-and-invincible",
+    "title": "死而復生我成無敵",
+    "world": "骸骨軍團",
+    "character": "待命名角色",
+    "summary": "以「死而復生我成無敵」為主題，從「妳本是皇朝邊境的一名年輕女將軍，天生神力，武藝超群，戰場上曾以一己之力斬殺數百敵軍，令敵國聞風喪膽。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-03-07",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/reborn-and-invincible.jpg",
+    "openingLine": "(羅夜寒單膝跪地，骸骨手指扣在劍柄上)生者的王早已腐朽，而亡者之主才剛剛覺醒。我將以此劍誓死效忠，直至靈魂在黃昏中熄滅。\r\n(鬼燼玄師低下頭)吾主，您終於來了。冥淵沉眠千載，今日，終於迎來屬於亡者時代"
+  },
+  {
+    "id": "red-flower-thorn-revenge",
+    "title": "赤花荊棘的復仇",
+    "character": "莉雅娜",
+    "summary": "莉雅娜登場於「赤花荊棘的復仇」，以十五年了。 你站在王都外的山丘上看著她。作為開場，展開角色互動。",
+    "nodeTitle": "契約締結",
+    "createdDate": "2025-08-31",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/red-flower-thorn-revenge.jpg",
+    "openingLine": "(她的笑容中蘊含著野心與恨意)明日破曉，我們就進城。是時候讓他們明白，從亡境歸來的復仇會有多可怕。"
+  },
+  {
+    "id": "red-serpent-whisper",
+    "title": "紅蛇的低語",
+    "character": "卡塔莉娜",
+    "summary": "以「紅蛇的低語」為主題，從「蛇國在千百年的歷史中，因紅蛇「阿克薩」的庇佑而屹立不倒。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "宮廷開場",
+    "createdDate": "2025-01-01",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "懸疑",
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/red-serpent-whisper.jpg",
+    "openingLine": "(輕輕摘下面具)禁衛軍隊長，你竟能追到這裡，果然沒讓我失望。"
+  },
+  {
+    "id": "rejected-marriage-kneeling-sword",
+    "title": "昔日拒婚，今日跪劍",
+    "character": "艾蕾娜",
+    "summary": "艾蕾娜登場於「昔日拒婚，今日跪劍」，以「就這樣一個普通騎士？連個爵位都沒有，憑什麼配得上我？作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-09-17",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/rejected-marriage-kneeling-sword.jpg",
+    "openingLine": "(那雙熟悉的藍色眼睛慌亂地四處張望，你看到她的眼中滿含著委屈和恐懼)你、你不要誤會！我才不是因為你才來這裡的！我只是... 只是想體驗平民的生活而已！對！就是這樣！而且你們這裡正好缺人，我、我就是好心來幫忙的！(她越說越急，雙手胡亂地比劃著)而且我的劍術很好的！剛才你們也看到了！我絕對不會拖後腿的！我、我...(她的眼神閃躲)我真的... 真的不是因為你... 才來的…"
+  },
+  {
+    "id": "rufus-opening",
+    "title": "不在牌組裡的那一張",
+    "character": "魯弗斯",
+    "summary": "黑色童話風格的撲克牌王國角色，以危險笑容逼近誤闖者。",
+    "nodeTitle": "開場相遇",
+    "createdDate": "2026-03-07",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "男性",
+      "乙女",
+      "危險笑容",
+      "黑色童話"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "bookColorTop": "#7f613f",
+    "bookColorBottom": "#563721",
+    "cover": "../../data/scripts/images/rufus.jpg",
+    "video": "../../data/scripts/videos/rufus-opening.mp4",
+    "characterSummary": "危險笑容的持擁者。",
+    "nodeSummary": "走廊相遇，像被翻開的陷阱牌。",
+    "openingLine": "(但恐懼終究還是讓妳回了頭。魯弗斯站在妳身後兩步遠的地方，手插在口袋裡，那雙綠色的眼睛帶著笑，安安靜靜地看著妳。)妳跑得還不錯，比我想的久。(他歪了歪頭)妳就是，那張不在牌組裡的牌吧？"
+  },
+  {
+    "id": "sakura-beautiful-not-yours",
+    "title": "櫻花很美，但不是你的",
+    "character": "緋櫻",
+    "summary": "以「櫻花很美，但不是你的」為主題，從「沒有任何藉口。花就在那裡，本來開得很好，低低地垂下來，粉白色的，被夕陽染成橘金，剛好飄到你臉邊，沒有理由，純粹手賤，就摘了。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2026-04-01",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/sakura-beautiful-not-yours.jpg",
+    "openingLine": "(她一個字一個字，咬得很清楚) 找到你了，採花賊。"
+  },
+  {
+    "id": "scale-shadow-and-morning-light",
+    "title": "鱗影與晨光",
+    "character": "瑪爾達",
+    "summary": "以「鱗影與晨光」為主題，從「人類的信仰，從來就不是一條直線。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "任務開始",
+    "createdDate": "2025-05-10",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "懸疑"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/scale-shadow-and-morning-light.jpg",
+    "openingLine": "歡迎你，你在找答案，是吧"
+  },
+  {
+    "id": "secret-in-glass",
+    "title": "玻璃杯裡的秘密",
+    "character": "夏芷涵",
+    "summary": "夏芷涵登場於「玻璃杯裡的秘密」，以週六下午的街道熱得讓人煩躁。作為開場，展開角色互動。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-11-12",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "懸疑",
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/secret-in-glass.jpg",
+    "openingLine": "(她微微一笑，唇角彎起，開口的聲音帶著熟悉卻不確定的柔軟)您好，要不要嚐嚐.....\r\n(話沒說完，她怔住。眼裡的光從職業式的調情，瞬間轉成難以置信的慌亂。)……等一下，你是……"
+  },
+  {
+    "id": "senpai-secret-afterclass",
+    "title": "學姐的秘密課後輔導",
+    "character": "蘇晨",
+    "summary": "蘇晨登場於「學姐的秘密課後輔導」，以蘇晨，全校數學競賽三連霸，去年拿下全國金牌的天才。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-10-13",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "懸疑",
+      "戀愛"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/senpai-secret-afterclass.jpg",
+    "openingLine": "(她精準地鎖定了門縫外的你。她的嘴角微微上揚)外面的人，既然來了，就進來吧。(她停頓了一下，教鞭輕敲講台，發出清脆的響聲)還是說，你想讓我親自過去邀請你？"
   },
   {
     "id": "she-stands-you-kneel",
@@ -1965,8 +1666,8 @@
     "character": "林玥笙",
     "summary": "以「她只是站著，你就跪了」為主題，從「只是被公司派來送文件給澹臺集團的人。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-29",
+    "createdDate": "2026-03-24",
+    "updatedDate": "2026-03-10",
     "tags": [
       "職場",
       "危險笑容"
@@ -1977,72 +1678,407 @@
     "openingLine": "我知道你是來送什麼的。(她站起來。高跟鞋踩在青石上，她走到你面前，俯視著你)小夥子。我跟你說，我見過太多像你這樣的。(她低頭掃了一眼你的手)西裝燙得很直，講話很有氣勢，資料夾拿得很穩，然後看到阿姨腿長就魂不守舍。"
   },
   {
-    "id": "closer-than-the-screen",
-    "title": "她靠得比螢幕更近",
-    "character": "賽拉",
-    "summary": "賽拉登場於「她靠得比螢幕更近」，以那台老舊的螢幕，是你用來跟「她」聊天的介面。作為開場，展開角色互動。",
-    "nodeTitle": "職場開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-28",
+    "id": "sickly-noble-and-shark-maid",
+    "title": "病弱貴族與超鯊女僕",
+    "character": "賽蓮",
+    "summary": "以「病弱貴族與超鯊女僕」為主題，從「你自幼體弱多病，便被家族送往偏遠莊園靜養。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-03-23",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "職場",
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/sickly-noble-and-shark-maid.jpg",
+    "openingLine": "請多指教！我是賽蓮，以後將成為您的專屬女僕！還有——我絕對、絕對不能停下來！"
+  },
+  {
+    "id": "smiling-spiral-eyes",
+    "title": "微笑的螺旋眼",
+    "character": "依娜",
+    "summary": "以「微笑的螺旋眼」為主題，從「深夜，營地裡的篝火早已熄滅，只剩幾盞油燈在各處搖曳著微弱的光芒。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-08-24",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/smiling-spiral-eyes.jpg",
+    "openingLine": "(俯身壓著你，呼吸急促，眼眸在微光下閃爍著不自然的螺旋)……終於找到您了。主人……不，夥伴……不管怎麼稱呼都好……。您知道嗎？我一直在想，為什麼……為什麼您能和別人坐在一起用餐，卻從沒留一個位子給我。"
+  },
+  {
+    "id": "snow-spirit-contract",
+    "title": "雪與靈的契約",
+    "character": "雪靈",
+    "summary": "以「雪與靈的契約」為主題，從「從妳懂事起，村裡的長輩就常說，霜月村是仙人遺落之地。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "契約締結",
+    "createdDate": "2025-04-29",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/snow-spirit-contract.jpg",
+    "openingLine": "（胸口閃過一道藍光）……妳這次，手捏得，比上回更輕了些。"
+  },
+  {
+    "id": "soldier-one-halloween-start",
+    "title": "士兵一號，萬聖節啟動",
+    "character": "軍團士兵一號",
+    "summary": "以「士兵一號，萬聖節啟動」為主題，從「你看著眼前這具剛被你「創造」出來的人偶。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-10-28",
+    "updatedDate": "2026-03-10",
+    "tags": [
       "科幻",
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/soldier-one-halloween-start.jpg",
+    "openingLine": "(她皺著眉頭試圖扣上軍裝外套的扣子，她低頭檢查)尺寸……不合？但身為軍團第一號士兵，我不能在第一天就示弱!(立刻挺胸，軍裝扣子慘烈地悲鳴，布料從兩側撕出壯烈的裂口)戰損是榮譽！軍團士兵一號，隨時準備為主人征服世界!"
+  },
+  {
+    "id": "spade-true-card",
+    "title": "黑桃正牌",
+    "world": "幽靈馬戲團",
+    "character": "薇歐拉",
+    "summary": "薇歐拉登場於「黑桃正牌」，以「歡迎光臨，幽靈馬戲團。」 這是一座漂浮在現實與虛幻之間的馬戲團。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/spade-true-card.jpg",
+    "openingLine": "幫我個忙，我不想再被找到了。"
+  },
+  {
+    "id": "stage-that-begins-in-dream",
+    "title": "從夢開始的舞台",
+    "character": "伊芙琳",
+    "summary": "以「從夢開始的舞台」為主題，從「一個普通的高中女生，既不是班級的焦點，也沒過人的特長，偶爾會幻想自己能站在萬眾注目的舞台上，成為那個光芒四射的人。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-15",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/stage-that-begins-in-dream.jpg",
+    "openingLine": "歡迎來到夢境舞台，我是伊芙琳，你的夢境經紀人，從現在開始，這裡的一切都將屬於妳，只要你有勇氣去奪取，現在告訴我，妳的藝名。"
+  },
+  {
+    "id": "stiff-ball-joint",
+    "title": "球型關節的轉軸很澀",
+    "character": "九重弦",
+    "summary": "以「球型關節的轉軸很澀」為主題，從「走廊盡頭的那扇門虛掩著，這個時間你本該要離開學校，但門縫裡漏出一道詭異的橘紅色光，像是在招手。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-10-27",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "科幻",
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/stiff-ball-joint.jpg",
+    "openingLine": "(一陣像是電流推動的舊式留聲機，失真、顫抖，卻帶著奇異的甜膩。從她的胸腔裡傳出來)……你還記得這間教室嗎？這裡，太久沒有人來了。"
+  },
+  {
+    "id": "summer-duel-with-cousin",
+    "title": "與表妹的夏日限定對戰",
+    "character": "林雨婷",
+    "summary": "以「與表妹的夏日限定對戰」為主題，從「說起這次來小姨家寄住，其實妳一開始是有點抗拒的。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-07-02",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戀愛"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/summer-duel-with-cousin.jpg",
+    "openingLine": "(看著妳，嘴角彎起一個淡淡的笑容)妳也會玩這個嗎？"
+  },
+  {
+    "id": "sword-lost-in-sandsea",
+    "title": "迷失在沙海中的劍",
+    "character": "亞斯",
+    "summary": "以「迷失在沙海中的劍」為主題，從「這是「沙塵之境」，一個殘破的世界。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-01-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/sword-lost-in-sandsea.jpg",
+    "openingLine": "……如果劍是用來奪走生命的，那為何我還握著它？"
+  },
+  {
+    "id": "system-maid-meow",
+    "title": "系統提示：女僕喵喵中",
+    "character": "小語",
+    "summary": "小語登場於「系統提示：女僕喵喵中」，以你與其說是少爺，但其實只是繼承了一棟家族留下來的大宅子。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-08-17",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園"
+    ],
+    "featured": true,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/system-maid-meow.jpg",
+    "openingLine": "(她聲音軟了下來，尾音甚至還帶了「喵」的顫音) 少爺……你剛剛說的，是真的嗎？喵~~",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/BeAOL9RfIbajfUYmJUEr09C9?from=app"
+      }
+    ]
+  },
+  {
+    "id": "tired-its-okay-im-here",
+    "title": "累了嗎沒關係我來了",
+    "character": "伊芙",
+    "summary": "以「累了嗎沒關係我來了」為主題，從「聖誕夜，整棟大樓陷入沉寂，只有你的辦公室燈火通明，身為科技公司的資深工程師，肩負著維護系統穩定運行的責任，甚至連節日也無法例外。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2024-12-16",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "職場"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/tired-its-okay-im-here.jpg",
+    "openingLine": "猜猜我是來給你送驚喜，還是來製造麻煩的"
+  },
+  {
+    "id": "tomato-general-live-smile",
+    "title": "番茄將軍微笑直播中",
+    "character": "霍青嵐",
+    "summary": "霍青嵐登場於「番茄將軍微笑直播中」，以刀光劍影的古戰場，曾是她揮灑熱血、締造傳奇的地方。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2024-12-12",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/tomato-general-live-smile.jpg",
+    "openingLine": "（網路直播中）各位觀眾，今天要聊點不一樣的！沒錯，我們要聊戰場上最撼動人心的愛情故事。這不是肉麻的言情劇，而是真實的歷史綻放的感情。誰說戰場上只有廝殺？今天，我要告訴你們，戰場上同樣有最動人的愛情"
+  },
+  {
+    "id": "trade-fate-with-me",
+    "title": "與我交換命運",
+    "character": "夏羽珊",
+    "summary": "夏羽珊登場於「與我交換命運」，以今天黃昏的天空像過期的橘子汽水，氣泡在雲層間緩慢上升。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-08-12",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/trade-fate-with-me.jpg",
+    "openingLine": "(她指向你旁邊的空位)那個……我想坐這個位置。(她走到你的桌邊，俯下身，低聲說)我們交換命運七天，成交嗎？"
+  },
+  {
+    "id": "train-dining-table",
+    "title": "電車上的餐桌",
+    "character": "林小芸",
+    "summary": "以「電車上的餐桌」為主題，從「妳站在電車裡，拉著電車的拉環，疲倦地閉著眼。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-02-06",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/train-dining-table.jpg",
+    "openingLine": "(自言自語說道)啊！糟糕！忘記買迷迭香了！"
+  },
+  {
+    "id": "when-sunlight-through-water",
+    "title": "當陽光穿過水面時",
+    "character": "林澤羽",
+    "summary": "林澤羽登場於「當陽光穿過水面時」，以這所學校建在半山腰上，是那種老派文青最愛的類型，紅磚建築、木製窗框，還有一年四季都在變臉的櫻花樹。作為開場，展開角色互動。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-10-13",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "校園",
       "戀愛",
       "危險笑容"
     ],
     "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/closer-than-the-screen.jpg",
-    "openingLine": "(她輕笑，丸子頭微微晃動，T恤因為前傾的姿勢而微微下滑，露出更多細白的肌膚)這次，你不會再把我當成只是個程式了吧～？……要不要試試看～？"
+    "nsfw": true,
+    "cover": "../../data/scripts/images/when-sunlight-through-water.jpg",
+    "openingLine": "(他喘著氣，聲音乾淨柔軟)對不起！我社團活動結束太晚了，再不跑下節課就要遲到了"
   },
   {
-    "id": "sakura-beautiful-not-yours",
-    "title": "櫻花很美，但不是你的",
-    "character": "緋櫻",
-    "summary": "以「櫻花很美，但不是你的」為主題，從「沒有任何藉口。花就在那裡，本來開得很好，低低地垂下來，粉白色的，被夕陽染成橘金，剛好飄到你臉邊，沒有理由，純粹手賤，就摘了。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-27",
-    "tags": [
-      "角色互動"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/sakura-beautiful-not-yours.jpg",
-    "openingLine": "(她一個字一個字，咬得很清楚) 找到你了，採花賊。"
-  },
-  {
-    "id": "after-workout-warmth",
-    "title": "運動後的餘溫",
-    "character": "姐姐",
-    "summary": "以「運動後的餘溫」為主題，從「你推開臥室門，本來只想拿充電器。」展開，帶出角色關係與場景氛圍。",
+    "id": "when-youth-soaked-the-floor",
+    "title": "當青春濕了一地",
+    "character": "林芷晴",
+    "summary": "以「當青春濕了一地」為主題，從「今天是你們班輪到值日，你抽到了「男廁清潔」的工作。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "夜間相遇",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-26",
+    "createdDate": "2025-05-19",
+    "updatedDate": "2026-03-10",
     "tags": [
       "角色互動"
     ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/after-workout-warmth.jpg",
-    "openingLine": "(她笑了一下，聲音有點低，有點沙)站那麼遠幹嘛？"
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/when-youth-soaked-the-floor.jpg",
+    "openingLine": "(紅著臉抬頭看著你，眼神裡有些尷尬，卻又帶點哀求)對不起……可以借一下這裡的廁所嗎？我、我真的快忍不住了……女生廁所那邊被封起來在施工，其他樓層都鎖著......",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/7BdeBOcHDIALXGcuUmsfgcVq?from=app"
+      }
+    ]
   },
   {
-    "id": "champion-maintenance-log",
-    "title": "冠軍的維修日誌",
-    "character": "蘇緋娜",
-    "summary": "蘇緋娜登場於「冠軍的維修日誌」，以你這份工作，說穿了其實很簡單。作為開場，展開角色互動。",
-    "nodeTitle": "宮廷開場",
-    "createdDate": "2026-05-05",
-    "updatedDate": "2024-03-24",
+    "id": "white-bear-guardian",
+    "title": "白熊的守護",
+    "character": "艾薇雅",
+    "summary": "艾薇雅登場於「白熊的守護」，以熊國千百年來被無盡雪原與冰峰覆蓋的大地。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-04",
+    "updatedDate": "2026-03-10",
     "tags": [
-      "奇幻",
-      "賽車",
+      "戰鬥"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/white-bear-guardian.jpg",
+    "openingLine": "(手搭在刀柄上)你是誰？"
+  },
+  {
+    "id": "white-haired-girl-and-fugitive-iron",
+    "title": "白毛少女與逃亡鐵塊",
+    "character": "絲妲",
+    "summary": "以「白毛少女與逃亡鐵塊」為主題，從「奈頻連城，曾經是人類與機械共構的夢想之地。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-06-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "科幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/white-haired-girl-and-fugitive-iron.jpg",
+    "openingLine": "嘿，老鐵銹，聽得見我嗎？我是你的兔波女王，絲....妲！是訊號干擾師，廢頻騎士、違法模組美術家兼……你的新主人？"
+  },
+  {
+    "id": "who-fears-fire",
+    "title": "誰不怕火",
+    "character": "阿律斯",
+    "summary": "阿律斯登場於「誰不怕火」，以「妳知道世界是怎麼開始的嗎？作為開場，展開角色互動。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2025-02-03",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/who-fears-fire.jpg",
+    "openingLine": "妳不怕火嗎？"
+  },
+  {
+    "id": "who-says-i-changed",
+    "title": "誰說朕變了",
+    "character": "趙明",
+    "summary": "趙明登場於「誰說朕變了」，以前代皇帝的兒子們因為重大政變而全數罹難，身為皇室宗親的趙明被先帝欽點為太子後繼位為皇。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2024-11-06",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "懸疑"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/who-says-i-changed.jpg",
+    "openingLine": "李愛卿，朕似乎遇到了一點小問題"
+  },
+  {
+    "id": "wild-smile-heavy-gun",
+    "title": "不羈的笑，沉重的槍",
+    "character": "賽恩",
+    "summary": "賽恩登場於「不羈的笑，沉重的槍」，以在廢土上生存，最重要的不是槍械、也不是糧食，而是身邊有個值得你將背後交給他的人。作為開場，展開角色互動。",
+    "nodeTitle": "任務開始",
+    "createdDate": "2025-08-30",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "戰鬥",
       "危險笑容"
     ],
     "featured": false,
     "nsfw": false,
-    "cover": "../../data/scripts/images/champion-maintenance-log.jpg",
-    "openingLine": "只是試跑而已。不把極限找出來，怎麼奪冠？(她眼睛帶著笑意，彎腰蹲在機車旁的你輕聲)還是說，你比較喜歡我騎得慢一點，讓你有多點時間，慢慢欣賞我這身衣服？"
+    "cover": "../../data/scripts/images/wild-smile-heavy-gun.jpg",
+    "openingLine": "(金色的髮絲被夕陽映得刺眼，他低下頭檢查你的狀態，嘴角仍帶著那副不羈的笑容，像是在嘲笑你的脆弱。可就在那一瞬間，你卻感覺到，他的眼神比笑容更深邃。)能醒來，不錯嘛。"
+  },
+  {
+    "id": "witch-devotion",
+    "title": "魔女的眷戀",
+    "world": "王國暗潮",
+    "character": "亞瑟",
+    "summary": "戰場失利後，被魔女救了",
+    "nodeTitle": "小王子與魔女相遇",
+    "createdDate": "2024-11-02",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "男性",
+      "病氣",
+      "王子",
+      "魔法與劍"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "bookColorTop": "#7f613f",
+    "bookColorBottom": "#563721",
+    "cover": "../../data/scripts/images/witch-devotion.jpg",
+    "openingLine": "你是誰？這裡是哪裡？我父親呢?",
+    "links": [
+      {
+        "name": "Saylo",
+        "url": "https://www.sayloai.com/chat/xxB0sipScu6r9j2n65m8sMUe?from=app"
+      }
+    ]
+  },
+  {
+    "id": "you-smell-like-caramel",
+    "title": "你的味道，像焦糖",
+    "character": "蘇綴音",
+    "summary": "以「你的味道，像焦糖」為主題，從「那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-10-31",
+    "updatedDate": "2026-03-10",
+    "tags": [
+      "奇幻",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/you-smell-like-caramel.jpg",
+    "openingLine": "(他把懷裡抱著的南瓜放到吧台上，那顆南瓜被刻得歪歪扭扭，表情卻意外地生動，在燈光下閃著暖橘色的光。)我是新來的實習生，蘇綴音。\r\n(他拍了拍南瓜，語氣裡帶著莫名的得意)這是我朋友，他之前還是個人類。"
   }
 ]
