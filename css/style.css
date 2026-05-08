@@ -6118,3 +6118,59 @@ body.modal-open{
 .reading-link-row .btn.primary{
   box-shadow:0 10px 20px rgba(65,104,232,.16);
 }
+
+/* =========================
+   庫內閱讀頁 V2.8：固定標題區遮罩
+   防止正文滾動時從標題圖上方露出
+========================= */
+
+[data-page-type="reading"] .reading-fixed-stage{
+  isolation:isolate;
+}
+
+/* 固定舞台背後加一片遮罩，正文滾到這裡會被吃掉 */
+[data-page-type="reading"] .reading-fixed-stage::before{
+  content:"";
+  position:absolute;
+  left:-6px;
+  right:-6px;
+  top:-4px;
+  bottom:-8px;
+  z-index:-1;
+  pointer-events:none;
+  border-radius:0 0 24px 24px;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--bg) 78%, transparent),
+      color-mix(in srgb, var(--bg) 58%, transparent) 58%,
+      transparent 100%
+    );
+  backdrop-filter:blur(10px);
+}
+
+/* 淺色模式遮罩 */
+[data-theme="light"] [data-page-type="reading"] .reading-fixed-stage::before{
+  background:
+    linear-gradient(
+      180deg,
+      rgba(238,243,251,.88),
+      rgba(238,243,251,.68) 58%,
+      transparent 100%
+    );
+  backdrop-filter:blur(12px);
+}
+
+/* 讓標題圖一定壓在遮罩上方 */
+[data-page-type="reading"] .reading-fixed-stage .back-link,
+[data-page-type="reading"] .reading-fixed-stage .reading-hero-banner{
+  position:relative;
+  z-index:1;
+}
+
+/* 手機版不固定，就不需要遮罩 */
+@media (max-width:700px){
+  [data-page-type="reading"] .reading-fixed-stage::before{
+    display:none;
+  }
+}
