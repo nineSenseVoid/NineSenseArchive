@@ -4229,14 +4229,6 @@ body.modal-open{
   line-height:1;
 }
 
-.hero-logo img{
-  height:72px;
-  width:auto;
-  display:block;
-  object-fit:contain;
-  margin:0 auto;
-}
-
 /* =========================
    九境書庫 Hero 動態舞台版
    書庫刮開 + 卡片飛出
@@ -5491,4 +5483,638 @@ body.modal-open{
 
 [data-page-type="detail"] .detail-after-reading{
   margin-top:22px;
+}
+
+/* Hero 雙 Logo 尺寸控制 */
+.hero-title{
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  gap:16px;
+  max-width:560px;
+  margin:0 auto 10px;
+}
+
+.hero-title img{
+  display:block;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+}
+
+.hero-title .logo-zh{
+  max-width:260px;
+}
+
+.hero-title .logo-en{
+  max-width:190px;
+  /* 往左靠 */
+  margin-left:-10px;
+  /* 貼中文底線 */
+  margin-bottom:6px;
+}
+
+/* 手機版：上下排列，不要套桌機位移 */
+@media (max-width:600px){
+  .hero-title{
+    flex-direction:column;
+    align-items:center;
+    gap:4px;
+    max-width:100%;
+  }
+
+  .hero-title .logo-zh{
+    width:min(300px, 84vw);
+    max-width:none;
+  }
+
+  .hero-title .logo-en{
+    width:min(210px, 56vw);
+    max-width:none;
+    transform:none;
+  }
+}
+
+/* =========================
+   庫內閱讀頁 V2.1：寬版書頁 + 雙位置沉浸圖
+========================= */
+
+[data-page-type="reading"]{
+  position:relative;
+}
+
+/* 背景圖：偏全頁氣氛，跟標題圖取不同位置，避免重複感 */
+[data-page-type="reading"].has-reading-cover::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background:
+    linear-gradient(180deg, rgba(7,17,31,.58), rgba(7,17,31,.90)),
+    var(--reading-cover-url) center 52% / cover no-repeat;
+  filter:blur(16px) saturate(1.12);
+  transform:scale(1.06);
+  opacity:.78;
+  pointer-events:none;
+}
+
+[data-page-type="reading"].has-reading-cover::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(143,176,255,.12), transparent 36%),
+    linear-gradient(180deg, transparent, var(--bg) 82%);
+  pointer-events:none;
+}
+
+[data-page-type="reading"] .reading-wrap{
+  width:min(1040px,calc(100% - 32px));
+  margin:0 auto;
+  padding:28px 0 56px;
+}
+
+[data-page-type="reading"] .reading-article{
+  position:relative;
+  overflow:hidden;
+  padding:0;
+  border-radius:28px;
+  border:1px solid var(--line);
+  background:
+    linear-gradient(180deg,rgba(14,26,48,.94),rgba(8,18,35,.96));
+  box-shadow:0 24px 60px rgba(0,0,0,.30);
+}
+
+/* 標題橫幅：偏上方局部，不跟背景同裁切 */
+[data-page-type="reading"] .reading-hero-banner{
+  position:relative;
+  min-height:300px;
+  display:flex;
+  align-items:flex-end;
+  padding:44px 46px 38px;
+  overflow:hidden;
+  border-bottom:1px solid var(--line);
+  background:
+    linear-gradient(90deg, rgba(7,17,31,.82), rgba(7,17,31,.30) 55%, rgba(7,17,31,.58)),
+    var(--reading-cover-url, none) center 30% / cover no-repeat;
+}
+
+[data-page-type="reading"] .reading-hero-banner.no-cover{
+  background:
+    radial-gradient(circle at top left,rgba(143,176,255,.18),transparent 42%),
+    linear-gradient(135deg, rgba(30,48,86,.92), rgba(8,18,35,.98));
+}
+
+[data-page-type="reading"] .reading-hero-shade{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg, rgba(7,17,31,.78), rgba(7,17,31,.18) 52%, rgba(7,17,31,.58)),
+    linear-gradient(0deg, rgba(7,17,31,.84), transparent 70%);
+  pointer-events:none;
+}
+
+[data-page-type="reading"] .reading-hero-copy{
+  position:relative;
+  z-index:1;
+  max-width:820px;
+}
+
+[data-page-type="reading"] .reading-article h1{
+  margin:0 0 12px;
+  font-size:36px;
+  line-height:1.22;
+  color:#fff;
+  text-shadow:0 4px 18px rgba(0,0,0,.42);
+}
+
+[data-page-type="reading"] .reading-article .meta{
+  margin:0;
+  color:rgba(232,238,252,.80);
+  font-size:14px;
+  line-height:1.75;
+}
+
+/* 正文：不是縮小，是讓整個書頁變寬，文字保留閱讀寬度 */
+[data-page-type="reading"] .reading-content{
+  width:min(86ch, calc(100% - 96px));
+  margin:0 auto;
+  padding:44px 0 20px;
+}
+
+[data-page-type="reading"] .reading-content p{
+  margin:0 0 24px;
+  font-size:18px;
+  line-height:2.05;
+  letter-spacing:.012em;
+}
+
+[data-page-type="reading"] .reading-inline-divider,
+[data-page-type="reading"] .reading-realm-divider{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  color:rgba(143,176,255,.70);
+}
+
+[data-page-type="reading"] .reading-inline-divider{
+  margin:34px 0;
+}
+
+[data-page-type="reading"] .reading-realm-divider{
+  width:min(86ch, calc(100% - 96px));
+  margin:16px auto 0;
+}
+
+[data-page-type="reading"] .reading-inline-divider::before,
+[data-page-type="reading"] .reading-inline-divider::after,
+[data-page-type="reading"] .reading-realm-divider::before,
+[data-page-type="reading"] .reading-realm-divider::after{
+  content:"";
+  height:1px;
+  flex:1;
+  background:rgba(120,150,220,.18);
+}
+
+[data-page-type="reading"] .reading-afterword{
+  width:min(86ch, calc(100% - 96px));
+  margin:28px auto 18px;
+  padding:20px 22px 18px;
+  border-radius:20px;
+  border:1px solid rgba(120,150,220,.24);
+  border-left:3px solid rgba(143,176,255,.48);
+  background:linear-gradient(
+    180deg,
+    rgba(32,48,86,.88),
+    rgba(20,34,66,.92)
+  );
+}
+
+[data-page-type="reading"] .reading-afterword[hidden]{
+  display:none;
+}
+
+[data-page-type="reading"] .reading-afterword-label{
+  margin-bottom:10px;
+  font-size:13px;
+  color:#cfe0ff;
+  letter-spacing:.05em;
+  font-weight:700;
+}
+
+[data-page-type="reading"] .reading-afterword-content{
+  font-size:16px;
+  line-height:1.9;
+}
+
+[data-page-type="reading"] .reading-afterword-speaker{
+  margin-top:10px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+[data-page-type="reading"] .reading-exit{
+  width:min(86ch, calc(100% - 96px));
+  margin:0 auto;
+  padding:0 0 40px;
+}
+
+[data-page-type="reading"] .reading-exit-note{
+  margin:18px 0 18px;
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid rgba(120,150,220,.18);
+  background:rgba(143,176,255,.08);
+  color:var(--text-soft);
+  font-size:14px;
+  line-height:1.75;
+}
+
+[data-page-type="reading"] .reading-link-row{
+  margin-top:0;
+}
+
+[data-page-type="reading"] .reading-link-row:empty{
+  display:none;
+}
+
+[data-page-type="reading"] .btn{
+  min-width:120px;
+  height:42px;
+}
+
+/* 庫內閱讀頁：淺色 */
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::before{
+  background:
+    linear-gradient(180deg, rgba(238,243,251,.18), rgba(238,243,251,.48)),
+    var(--reading-cover-url) center 52% / cover no-repeat;
+  filter:blur(10px) saturate(1.08) contrast(1.04);
+  transform:scale(1.04);
+  opacity:.95;
+}
+
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::after{
+  background:
+    radial-gradient(circle at 50% 0%, rgba(77,111,209,.08), transparent 34%),
+    linear-gradient(180deg,
+      transparent 0%,
+      rgba(238,243,251,.22) 50%,
+      rgba(238,243,251,.62) 76%,
+      rgba(238,243,251,.88) 100%
+    );
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-article{
+  background:rgba(255,255,255,.84);
+  border:1px solid rgba(76,101,154,.14);
+  box-shadow:0 24px 70px rgba(50,75,130,.16);
+  backdrop-filter:blur(8px);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-banner{
+  border-bottom:1px solid rgba(76,101,154,.14);
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,.74),
+      rgba(255,255,255,.22) 52%,
+      rgba(255,255,255,.58)
+    ),
+    var(--reading-cover-url, none) center 30% / cover no-repeat;
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-hero-shade{
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,.70),
+      rgba(255,255,255,.16) 52%,
+      rgba(255,255,255,.54)
+    ),
+    linear-gradient(0deg, rgba(255,255,255,.72), transparent 68%);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-article h1{
+  color:#17233b;
+  text-shadow:0 2px 12px rgba(255,255,255,.60);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-article .meta{
+  color:#52698f;
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-afterword{
+  background:linear-gradient(180deg,rgba(239,244,252,.95),rgba(230,238,249,.98));
+  border:1px solid rgba(76,101,154,.16);
+  border-left:3px solid rgba(77,111,209,.42);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-afterword-label{
+  color:#2f5ebd;
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-exit-note{
+  background:rgba(97,136,235,.08);
+  border:1px solid rgba(97,136,235,.16);
+}
+
+@media (max-width:640px){
+  [data-page-type="reading"] .reading-wrap{
+    width:min(100% - 24px,1040px);
+    padding:20px 0 40px;
+  }
+
+  [data-page-type="reading"] .reading-hero-banner{
+    min-height:220px;
+    padding:34px 22px 26px;
+  }
+
+  [data-page-type="reading"] .reading-article h1{
+    font-size:27px;
+  }
+
+  [data-page-type="reading"] .reading-content,
+  [data-page-type="reading"] .reading-realm-divider,
+  [data-page-type="reading"] .reading-afterword,
+  [data-page-type="reading"] .reading-exit{
+    width:calc(100% - 44px);
+  }
+
+  [data-page-type="reading"] .reading-content{
+    padding:32px 0 14px;
+  }
+
+  [data-page-type="reading"] .reading-content p{
+    font-size:17px;
+    line-height:1.95;
+  }
+
+  [data-page-type="reading"] .reading-afterword{
+    padding:18px 18px 16px;
+  }
+
+  [data-page-type="reading"] .reading-exit{
+    padding-bottom:28px;
+  }
+}
+
+/* =========================
+   庫內閱讀頁 V2.5：固定標題舞台最終修正
+   固定區移出 article，正文不再穿模
+========================= */
+
+/* 保留閱讀進度，不保留背景微視差 */
+[data-page-type="reading"] .topbar{
+  transition:
+    background .24s ease,
+    backdrop-filter .24s ease,
+    box-shadow .24s ease;
+}
+
+[data-page-type="reading"].is-reading-scrolled .topbar{
+  backdrop-filter:blur(18px) saturate(1.08);
+  box-shadow:0 14px 36px -24px rgba(0,0,0,.55);
+}
+
+[data-page-type="reading"] .reading-progress-label{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height:34px;
+  padding:0 10px;
+  border-radius:999px;
+  font-size:13px;
+  color:var(--text-soft);
+  background:rgba(143,176,255,.08);
+  border:1px solid rgba(120,150,220,.14);
+  white-space:nowrap;
+}
+
+[data-page-type="reading"] .reading-progress-track{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-1px;
+  height:2px;
+  overflow:hidden;
+  background:rgba(120,150,220,.10);
+}
+
+[data-page-type="reading"] .reading-progress-fill{
+  width:100%;
+  height:100%;
+  transform:scaleX(0);
+  transform-origin:left center;
+  background:linear-gradient(90deg, rgba(143,176,255,.35), rgba(78,119,255,.95));
+  transition:transform .08s linear;
+}
+
+/* 背景固定，不漂移 */
+[data-page-type="reading"].has-reading-cover::before{
+  background:
+    linear-gradient(180deg, rgba(7,17,31,.58), rgba(7,17,31,.90)),
+    var(--reading-cover-url) center 52% / cover no-repeat;
+  transform:scale(1.04);
+  will-change:auto;
+}
+
+[data-theme="light"] [data-page-type="reading"].has-reading-cover::before{
+  background:
+    linear-gradient(180deg, rgba(238,243,251,.18), rgba(238,243,251,.48)),
+    var(--reading-cover-url) center 52% / cover no-repeat;
+  transform:scale(1.04);
+  will-change:auto;
+}
+
+/* 讓頁面容器只負責寬度，不負責固定區定位 */
+[data-page-type="reading"] .reading-wrap{
+  position:relative;
+}
+
+/* 紅框整塊固定在 topbar 下方 */
+[data-page-type="reading"] .reading-fixed-stage{
+  position:fixed !important;
+  left:50%;
+  top:64px;
+  transform:translateX(-50%);
+  z-index:45;
+  width:min(1040px, calc(100% - 32px));
+  padding-top:14px;
+  pointer-events:auto;
+}
+
+/* 固定區內的返回連結 */
+[data-page-type="reading"] .reading-fixed-stage .back-link{
+  position:relative;
+  z-index:2;
+  display:inline-block;
+  margin:0 0 12px;
+}
+
+/* 標題圖永遠不是 sticky，它就是固定舞台裡的一部分 */
+[data-page-type="reading"] .reading-fixed-stage .reading-hero-banner{
+  position:relative !important;
+  top:auto !important;
+  z-index:1;
+  overflow:hidden;
+  border-radius:28px;
+  box-shadow:0 20px 44px -30px rgba(0,0,0,.58);
+}
+
+/*
+  正文卡片整體避開固定舞台。
+  舞台高度由 JS 寫入 --reading-stage-height。
+*/
+[data-page-type="reading"] .reading-article{
+  margin-top:calc(var(--reading-stage-height, 360px) - 18px) !important;
+  padding-top:0 !important;
+  overflow:hidden;
+}
+
+/* 去掉舊版補霧，避免正文頂端髒掉 */
+[data-page-type="reading"] .reading-content{
+  background:none !important;
+}
+
+/* 淺色進度 */
+[data-theme="light"] [data-page-type="reading"] .reading-progress-label{
+  color:#52698f;
+  background:rgba(97,136,235,.08);
+  border:1px solid rgba(97,136,235,.14);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-progress-track{
+  background:rgba(76,101,154,.10);
+}
+
+[data-theme="light"] [data-page-type="reading"] .reading-progress-fill{
+  background:linear-gradient(90deg, rgba(77,111,209,.25), rgba(59,94,215,.92));
+}
+
+/* 手機不要固定，會吃畫面 */
+@media (max-width:700px){
+  [data-page-type="reading"] .reading-progress-label{
+    display:none;
+  }
+
+  [data-page-type="reading"] .reading-fixed-stage{
+    position:relative !important;
+    left:auto;
+    top:auto;
+    transform:none;
+    z-index:auto;
+    width:auto;
+    padding-top:0;
+  }
+
+  [data-page-type="reading"] .reading-article{
+    margin-top:0 !important;
+    padding-top:0 !important;
+  }
+
+  [data-page-type="reading"] .reading-fixed-stage .reading-hero-banner{
+    border-radius:24px 24px 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  [data-page-type="reading"] .reading-progress-fill{
+    transition:none;
+  }
+}
+
+/* =========================
+   庫內閱讀頁 V2.6：固定標題與正文距離微調
+========================= */
+[data-page-type="reading"] .reading-article{
+  margin-top:calc(var(--reading-stage-height, 360px) - 18px) !important;
+}
+
+@media (max-width:700px){
+  [data-page-type="reading"] .reading-article{
+    margin-top:0 !important;
+  }
+}
+
+/* =========================
+   庫內閱讀頁 底部按鈕調整
+========================= */
+.reading-link-row{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-top:18px;
+}
+
+.reading-link-row .btn{
+  min-width:112px;
+  height:42px;
+  border-radius:14px;
+}
+
+.reading-link-row .btn.primary{
+  background:#4f7cff;
+  color:#fff;
+}
+
+.reading-link-row .btn.ghost{
+  background:rgba(120,150,220,.14);
+  color:var(--text);
+}
+/* =========================
+   Reading 頁底部出口列
+========================= */
+
+[data-page-type="reading"] .reading-link-row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:12px;
+  margin-top:18px;
+}
+
+[data-page-type="reading"] .reading-link-row .btn{
+  min-width:120px;
+  height:44px;
+  border-radius:14px;
+  font-weight:700;
+  transition:
+    transform .18s ease,
+    filter .18s ease,
+    background .18s ease;
+}
+
+[data-page-type="reading"] .reading-link-row .btn:hover{
+  transform:translateY(-2px);
+}
+
+[data-page-type="reading"] .reading-link-row .btn.primary{
+  background:linear-gradient(180deg,#5f86ff,#4168e8);
+  color:#fff;
+  box-shadow:0 10px 22px rgba(79,124,255,.24);
+}
+
+[data-page-type="reading"] .reading-link-row .btn.ghost{
+  background:rgba(120,150,220,.12);
+  border:1px solid rgba(120,150,220,.18);
+  color:var(--text);
+}
+
+[data-page-type="reading"] .reading-link-row .btn.ghost:hover{
+  background:rgba(120,150,220,.18);
+}
+
+/* 淺色 */
+
+[data-theme="light"]
+[data-page-type="reading"]
+.reading-link-row .btn.ghost{
+  background:rgba(95,132,223,.08);
+  border:1px solid rgba(95,132,223,.14);
+}
+
+[data-theme="light"]
+[data-page-type="reading"]
+.reading-link-row .btn.primary{
+  box-shadow:0 10px 20px rgba(65,104,232,.16);
 }
