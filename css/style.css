@@ -1549,7 +1549,7 @@ body.modal-open{
 [data-page-type="detail"] .detail-hero{
   padding-bottom:18px;
   border-bottom:1px solid var(--line);
-  margin-bottom:18px;
+  margin-bottom:22px;
 }
 
 [data-page-type="detail"] .detail-kicker{
@@ -1593,6 +1593,27 @@ body.modal-open{
   border:1px solid rgba(120,150,220,.24);
 }
 
+[data-page-type="detail"] .detail-after-reading{
+   position:relative;
+  margin-top:30px;
+  margin-bottom:18px;
+  border-left:3px solid rgba(143,176,255,.45);
+  background:linear-gradient(
+    180deg,
+    rgba(32,48,86,.88),
+    rgba(20,34,66,.92)
+  );
+}
+[data-page-type="detail"] .detail-after-reading::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  top:-16px;
+  height:1px;
+  background:rgba(120,150,220,.14);
+}
+
 [data-page-type="detail"] .guide-label{
   margin-bottom:10px;
   font-size:13px;
@@ -1613,16 +1634,18 @@ body.modal-open{
 }
 
 [data-page-type="detail"] .detail-reading-block{
-  padding-top:18px;
-  border-top:1px solid var(--line);
+  padding-top:0;
+  border-top:none;
 }
 
 [data-page-type="detail"] .detail-reading-head{
-  display:flex;
+   display:flex;
   justify-content:space-between;
   align-items:flex-start;
   gap:16px;
-  margin-bottom:14px;
+  margin-bottom:20px;
+  padding-bottom:0;
+  border-bottom:none;
 }
 
 [data-page-type="detail"] .detail-reading-head h3{
@@ -1651,6 +1674,8 @@ body.modal-open{
 
 [data-page-type="detail"] .detail-tag-chips{
   margin-top:10px;
+  padding-top:0;
+  border-top:none;
 }
 
 [data-page-type="detail"] .detail-link-row{
@@ -5458,4 +5483,12 @@ body.modal-open{
 
   background:rgba(143,176,255,.08);
   border:1px solid rgba(143,176,255,.14);
+}
+
+.detail-after-reading {
+  margin-top: 18px;
+}
+
+[data-page-type="detail"] .detail-after-reading{
+  margin-top:22px;
 }

@@ -155,25 +155,11 @@
           </div>
         </div>
 
-        <div class="detail-guide-grid">
-          <section class="detail-guide-card">
-            <div class="guide-label">✦ 開場語氣</div>
-            <div class="guide-content" id="openingLine">讀取中...</div>
-            <div class="guide-speaker" id="openingSpeaker">角色</div>
-          </section>
-
-          <section class="detail-guide-card">
-            <div class="guide-label">✦ 使用方式</div>
-            <div class="guide-content" id="systemLine">讀取中...</div>
-            <div class="guide-speaker">系統提示</div>
-          </section>
-        </div>
-
         <section class="detail-reading-block">
           <div class="detail-reading-head">
             <div>
-              <h3>小說式片段</h3>
-              <p class="muted">先讀一段氣味，再決定要不要往庫內閱讀或外部平台走。</p>
+              <h3>正文節錄</h3>
+              <p class="muted">閱過片段後，便可選擇留在書庫，或循門前往其他境界。</p>
             </div>
             <span class="detail-date" id="readerDate"></span>
           </div>
@@ -181,6 +167,12 @@
           <div class="detail-reading-content" id="novelContent"></div>
 
           <div class="chips detail-tag-chips" id="tagChips"></div>
+
+          <section class="detail-guide-card detail-after-reading">
+            <div class="guide-label">✦ 來自彼境</div>
+            <div class="guide-content" id="openingLine">讀取中...</div>
+            <div class="guide-speaker" id="openingSpeaker">角色</div>
+          </section>
 
           <div class="external-note">
             書庫內可供閱覽，亦可前往外部 AI 平台，於不同境界中展開互動內容。
@@ -222,7 +214,7 @@
     const readerSummary = document.getElementById('readerSummary');
     const openingLine = document.getElementById('openingLine');
     const openingSpeaker = document.getElementById('openingSpeaker');
-    const systemLine = document.getElementById('systemLine');
+    //const systemLine = document.getElementById('systemLine');
     const readerDate = document.getElementById('readerDate');
     const novelContent = document.getElementById('novelContent');
     const tagChips = document.getElementById('tagChips');
@@ -568,7 +560,7 @@
 
       openingLine.textContent = item.openingLine || '這本目前沒有額外的開場語氣。';
       openingSpeaker.textContent = [item.character, item.characterSummary].filter(Boolean).join('・') || '角色';
-      systemLine.textContent = item.nodeSummary || item.summary || '這一節目前沒有補充說明。';
+      //systemLine.textContent = item.nodeSummary || item.summary || '這一節目前沒有補充說明。';
       readerDate.textContent = item.date || '';
 
       novelContent.innerHTML = (item.novelExcerpt || [])
