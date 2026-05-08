@@ -5595,6 +5595,10 @@ body.modal-open{
   padding:44px 46px 38px;
   overflow:hidden;
   border-bottom:1px solid var(--line);
+  position:relative;
+  margin-top:-42px;
+  padding-top:42px;
+  z-index:1;
   background:
     linear-gradient(90deg, rgba(7,17,31,.82), rgba(7,17,31,.30) 55%, rgba(7,17,31,.58)),
     var(--reading-cover-url, none) center 30% / cover no-repeat;
@@ -6036,6 +6040,11 @@ body.modal-open{
   }
 }
 
+[data-page-type="reading"] .back-link{
+  position:relative;
+  z-index:5;
+}
+
 /* =========================
    庫內閱讀頁 底部按鈕調整
 ========================= */
@@ -6173,4 +6182,112 @@ body.modal-open{
   [data-page-type="reading"] .reading-fixed-stage::before{
     display:none;
   }
+}
+
+/* 返回連結浮在標題圖上方 */
+[data-page-type="reading"] .reading-fixed-stage .back-link{
+  position:absolute;
+  left:18px;
+  top:12px;
+  z-index:20;
+
+  display:inline-flex;
+  align-items:center;
+  height:30px;
+  padding:0 10px;
+
+  border-radius:999px;
+  background:rgba(255,255,255,.58);
+  backdrop-filter:blur(10px);
+  color:var(--text-soft);
+  font-size:13px;
+}
+
+[data-page-type="reading"] .reading-fixed-stage .back-link:hover{
+  color:var(--text);
+  background:rgba(255,255,255,.72);
+}
+
+/* hero 往上補空白，但不要吃掉返回按鈕 */
+/* [data-page-type="reading"] .reading-fixed-stage .reading-hero-banner{
+  margin-top:-42px;
+  padding-top:42px;
+} */
+
+/* 返回連結 深色模式 */
+[data-page-type="reading"] .reading-fixed-stage .back-link{
+  position:absolute;
+  left:18px;
+  top:12px;
+  z-index:20;
+
+  display:inline-flex;
+  align-items:center;
+  height:32px;
+  padding:0 12px;
+
+  border-radius:999px;
+
+  background:rgba(8,18,38,.72);
+  border:1px solid rgba(143,176,255,.18);
+
+  backdrop-filter:blur(10px);
+
+  color:#dce8ff;
+  font-size:13px;
+  font-weight:600;
+
+  box-shadow:0 6px 18px rgba(0,0,0,.22);
+}
+
+[data-page-type="reading"] .reading-fixed-stage .back-link:hover{
+  background:rgba(18,34,66,.88);
+  border-color:rgba(143,176,255,.34);
+  color:#ffffff;
+}
+
+/* 返回連結 淺色模式 */
+[data-theme="light"] 
+[data-page-type="reading"] 
+.reading-fixed-stage 
+.back-link{
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(76,101,154,.14);
+  color:#31476f;
+}
+
+[data-theme="light"] 
+[data-page-type="reading"] 
+.reading-fixed-stage 
+.back-link:hover{
+  background:rgba(255,255,255,.92);
+  color:#1d2f52;
+}
+
+/* 固定標題圖：維持原本寬高，不再往上拉 */
+[data-page-type="reading"] .reading-fixed-stage .reading-hero-banner{
+  margin-top:0;
+  padding-top:44px; /* 只給返回按鈕留空間 */
+  border-radius:28px;
+}
+
+/* 返回按鈕浮在圖上，不影響 hero 尺寸 */
+[data-page-type="reading"] .reading-fixed-stage .back-link{
+  position:absolute;
+  left:18px;
+  top:22px;
+  z-index:30;
+
+  display:inline-flex;
+  align-items:center;
+  height:32px;
+  padding:0 12px;
+  border-radius:999px;
+
+  background:rgba(255,255,255,.72);
+  border:1px solid rgba(76,101,154,.14);
+  color:#31476f;
+  font-size:13px;
+  font-weight:600;
+  box-shadow:0 6px 16px rgba(30,50,90,.12);
 }
