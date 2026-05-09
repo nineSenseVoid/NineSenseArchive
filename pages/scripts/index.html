@@ -427,14 +427,34 @@
       carouselNext.disabled = currentPage >= pagedItems.length - 1;
     }
 
-    function goToPage(pageIndex) {
+    function moveCarouselToCurrentPage(behavior = 'smooth') {
+      const pageWidth = shelf.clientWidth;
+      shelf.scrollTo({
+        left: pageWidth * currentPage,
+        behavior
+      });
+    }
+
+    function scrollShelfToTop() {
+      const shelfTop = document.querySelector('.wood-shelf');
+      if (!shelfTop) return;
+
+      const topbarOffset = 76;
+      const y = shelfTop.getBoundingClientRect().top + window.scrollY - topbarOffset;
+
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth'
+      });
+    }
+
+   /*  function goToPage(pageIndex) {
       currentPage = Math.max(0, Math.min(pageIndex, pagedItems.length - 1));
       sessionStorage.setItem(CAROUSEL_PAGE_KEY, String(currentPage));
 
       const pages = shelf.querySelectorAll('.entry-page');
       const target = pages[currentPage];
       if (target) {
-        /*  target.scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });*/
         target.scrollIntoView({
           behavior: 'smooth',
           inline: 'start',
@@ -452,6 +472,25 @@
       renderDots();
       updateArrowState();
       updateEntryHint();
+    } */
+
+    function goToPage(pageIndex) {
+      currentPage = Math.max(0, Math.min(pageIndex, pagedItems.length - 1));
+      sessionStorage.setItem(CAROUSEL_PAGE_KEY, String(currentPage));
+
+      moveCarouselToCurrentPage('smooth');
+
+      if (window.matchMedia('(max-width: 600px)').matches) {
+        requestAnimationFrame(scrollShelfToTop);
+      }
+
+      renderDots();
+      updateArrowState();
+      updateEntryHint();
+    }
+
+    function syncCarouselPosition() {
+      moveCarouselToCurrentPage('auto');
     }
 
     function renderWorldOptions() {
