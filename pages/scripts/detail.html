@@ -556,6 +556,9 @@
       readerTitle.textContent = item.nodeTitle
         ? `${item.title}・${item.nodeTitle}`
         : item.title;
+      if (breadcrumbNav) {
+        breadcrumbNav.innerHTML = `<span class="current">${esc(item.title || item.nodeTitle || '劇本介紹頁')}</span>`;
+      }
       readerSummary.textContent = item.summary || '這本暫時還沒寫摘要。';
 
       openingLine.textContent = item.openingLine || '這本目前沒有額外的開場語氣。';
@@ -611,8 +614,12 @@
       workCover.innerHTML = `
         ${getDetailCoverVisual(item)}
         <div class="work-meta">
-          <div class="work-world" id="workWorld">${esc(item.world || '未分類作品')}</div>
-          <h2 class="work-title" id="workTitle">${esc(item.nodeTitle || item.title || '未命名作品')}</h2>
+           ${item.world ? `
+              <div class="work-world" id="workWorld">
+                ${esc(item.world)}
+              </div>
+            ` : ''}
+          <h2 class="work-title" id="workTitle">${esc(item.title || item.nodeTitle || '未命名作品')}</h2>
           <div class="work-sub">
             <span id="workCharacter">${esc(item.character || '未設定角色')}</span>
             <span id="workDate">${esc(item.updatedDate || '未填寫')}</span>
@@ -891,7 +898,7 @@
   </script>
 
   <script>
-  (function () {
+  /* (function () {
     const nav = document.getElementById("breadcrumbNav");
     if (!nav) return;
 
@@ -920,7 +927,7 @@
         nav.innerHTML = current("劇本介紹頁");
       });
   })();
-
+ */
   const FAVORITE_KEY = 'favorite_scripts';
 
   function getFavorites() {

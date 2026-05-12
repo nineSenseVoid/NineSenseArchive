@@ -6470,3 +6470,75 @@ body.modal-open{
   }
 }
 
+/* 標籤書脊：可橫向滑動，書脊踩在木條上 */
+.tag-spine-body{
+  overflow-x:auto !important;
+  overflow-y:hidden !important;
+  -webkit-overflow-scrolling:touch;
+  padding-top:20px !important;
+  padding-bottom:6px !important;
+}
+
+/* 不用 body 的假木條，避免雙木條 */
+.tag-spine-body::after{
+  display:none !important;
+}
+
+/* 這層負責撐出所有標籤的總寬 */
+.tag-spines{
+  position:relative !important;
+  display:flex !important;
+  flex-wrap:nowrap !important;
+  align-items:flex-end !important;
+  gap:10px !important;
+
+  width:max-content !important;
+  min-width:100% !important;
+
+  padding-top:8px !important;
+  padding-bottom:10px !important;
+}
+
+/* 木條跟著 tag-spines 總寬延伸 */
+.tag-spines::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:4px !important;
+  height:10px !important;
+  z-index:0;
+  border-radius:999px;
+  background:linear-gradient(to bottom,#8b5a2b,#5a3415);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.18),
+    inset 0 -2px 3px rgba(0,0,0,.35),
+    0 5px 10px rgba(0,0,0,.18);
+  pointer-events:none;
+}
+
+/* 書脊底部貼近木條 */
+.tag-spine{
+  margin-bottom:0 !important;
+  position:relative;
+  z-index:1;
+}
+
+/* 保留橫向 scrollbar */
+.tag-spine-body::-webkit-scrollbar{
+  height:10px !important;
+}
+
+.tag-spine-body::-webkit-scrollbar-track{
+  background:transparent;
+}
+
+.tag-spine-body::-webkit-scrollbar-thumb{
+  background:rgba(90,120,170,.35);
+  border-radius:999px;
+}
+
+.tag-spine-body{
+  scrollbar-width:thin;
+  scrollbar-color:rgba(90,120,170,.45) transparent;
+}
