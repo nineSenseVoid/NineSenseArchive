@@ -199,16 +199,16 @@
     }
 
     async function initReadingPage() {
-      const id = getIdFromHash();
+      let id = getIdFromHash();
 
-      if (!id) {
+     /*  if (!id) {
         titleEl.textContent = '找不到劇本';
         metaEl.textContent = '';
         contentEl.innerHTML = '<p>沒有選擇藏書。目前不知道要讀哪一本。</p>';
         linksEl.innerHTML = '';
         hideReadingAfterword();
         return;
-      }
+      } */
 
       try {
         const [scriptsRes, contentRes] = await Promise.all([
@@ -220,6 +220,28 @@
           scriptsRes.json(),
           contentRes.json()
         ]);
+
+        if (!id) {
+          const safeItems = scriptsData.filter(item => item.nsfw !== true);
+
+          const featuredItem = safeItems.find(item =>
+            item.featured === true ||
+            item.featured === 'true' ||
+            item.featured === 1
+          );
+
+          const recentItem = [...safeItems]
+            .sort((a, b) =>
+              new Date(b.updatedDate || b.createdDate || b.date || 0) -
+              new Date(a.updatedDate || a.createdDate || a.date || 0)
+            )[0];
+
+          id = featuredItem?.id || recentItem?.id || safeItems[0]?.id || scriptsData[0]?.id || '';
+
+          if (id) {
+            history.replaceState({}, '', `#${encodeURIComponent(id)}`);
+          }
+        }
 
         const scriptItem = scriptsData.find(item => item.id === id);
         const contentItem = contentData.find(item => item.id === id);

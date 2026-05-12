@@ -6,7 +6,7 @@
   <title>九境書庫 NineSense Archive</title>
 
  <!-- 基本 SEO -->
-  <meta name="description" content="九境書庫 NineSense Archive，收錄原創 AI 劇本、角色與世界觀。探索不同故事與互動體驗，循門而往，進入萬千境界。">
+  <meta name="description" content="九境書庫 NineSense Archive|收錄原創 AI 劇本、角色與世界觀。探索不同故事與互動體驗，循門而往，與故事人物互動。">
 
   <!-- Open Graph -->
   <meta property="og:title" content="九境書庫 NineSense Archive">
@@ -153,6 +153,10 @@
     </div>
   </div>
 
+  <button id="mobileBackToShelfTop" class="mobile-back-top" type="button">
+    ⇧ 回書櫃頂部
+  </button>
+
   <script>
     const shelf = document.getElementById('bookShelf');
     const searchInput = document.getElementById('searchInput');
@@ -208,6 +212,13 @@
     const TAG_ORDER_KEY = 'tag_spine_random_order_v1';
     const CAROUSEL_PAGE_KEY = 'ninesense_carousel_page';
 
+    //手機卡片顯示調整
+    let mobileVisibleCount = 8;
+
+    function isMobileView(){
+      return window.matchMedia('(max-width:600px)').matches;
+    }
+
     function getFavorites() {
       try {
         return JSON.parse(localStorage.getItem(FAVORITE_KEY) || '[]');
@@ -230,6 +241,18 @@
       const diffDays = diffMs / (1000 * 60 * 60 * 24);
 
       return diffDays >= 0 && diffDays <= days;
+    }
+
+    function isThisMonthItem(dateStr) {
+      if (!dateStr) return false;
+
+      const itemDate = new Date(dateStr + 'T00:00:00');
+      if (Number.isNaN(itemDate.getTime())) return false;
+
+      const now = new Date();
+
+      return itemDate.getFullYear() === now.getFullYear()
+        && itemDate.getMonth() === now.getMonth();
     }
 
     function getFallbackCover(item, className = 'entry-cover-art') {
@@ -312,7 +335,7 @@
             <div class="chips">${tags || '<span class="chip">尚未加標籤</span>'}</div>
             <div class="entry-preview-meta">
               <span>${esc(item.character || '未設定角色')}</span>
-              <span>${esc(item.date || '')}</span>
+              <span>${esc(item.createdDate || '')}</span>
             </div>
           </div>
         </div>
@@ -323,7 +346,7 @@
       //const badge = item.platformLabel || ((item.links && item.links.length > 1) ? '多平台' : '單平台');
       const cover = item.cover || '';
       const summary = item.summary || item.nodeSummary || '這本暫時還沒寫摘要。';
-      const newBadge = isNewItem(item.date) ? `<div class="entry-card-new">NEW</div>` : '';
+      const newBadge = isNewItem(item.createdDate) ? `<div class="entry-card-new">NEW</div>` : '';
       const linkCount = (item.links || []).length;
       let badge = item.platformLabel;
       let badgeClass = '';
@@ -489,6 +512,78 @@
       updateEntryHint();
     }
 
+    function renderMobileShelf(items){
+      const visibleItems = items.slice(0, mobileVisibleCount);
+
+      shelf.innerHTML = `
+        <div class="entry-page mobile-list">
+          ${visibleItems.map((item, index) => buildBook(item, index)).join('')}
+        </div>
+      `;
+
+      carouselDots.innerHTML = '';
+      carouselPrev.disabled = true;
+      carouselNext.disabled = true;
+
+      renderPreview(null);
+      renderMobileFooterButton(items);
+      updateEntryHint();
+      updateMobileBackTopButton();
+    }
+
+   /*  function renderMobileMoreButton(items){
+      let btn = document.getElementById('mobileMoreBtn');
+
+      if (!btn) {
+        btn = document.createElement('button');
+        btn.id = 'mobileMoreBtn';
+        btn.className = 'mobile-more-btn';
+        btn.type = 'button';
+        shelf.insertAdjacentElement('afterend', btn);
+
+        btn.addEventListener('click', () => {
+          mobileVisibleCount += 8;
+          renderMobileShelf(filteredItems);
+        });
+      }
+
+      const shown = Math.min(mobileVisibleCount, items.length);
+
+      btn.hidden = items.length <= 8;
+
+      btn.textContent = shown < items.length
+        ? `展開更多藏書（${shown} / ${items.length}）`
+        : `已顯示全部 ${items.length} 本`;
+
+      btn.disabled = shown >= items.length;
+    }
+ */
+    let mobileAutoLoading = false;
+
+    function renderMobileFooterButton(items){
+      let btn = document.getElementById('mobileMoreBtn');
+
+      if (!btn) {
+        btn = document.createElement('button');
+        btn.id = 'mobileMoreBtn';
+        btn.className = 'mobile-more-btn';
+        btn.type = 'button';
+        shelf.insertAdjacentElement('afterend', btn);
+
+        btn.addEventListener('click', () => {
+          scrollShelfToTop();
+        });
+      }
+
+      const shown = Math.min(mobileVisibleCount, items.length);
+
+      btn.hidden = items.length <= 8;
+      btn.disabled = false;
+      btn.textContent = shown < items.length
+       ? `已顯示 ${shown} / ${items.length} 本`
+       : `已顯示全部 ${items.length} 本`;
+    }
+
     function syncCarouselPosition() {
       moveCarouselToCurrentPage('auto');
     }
@@ -634,7 +729,7 @@
         });
       });
 
-     const fixedTags = ['__all__', '__new__', '__featured__'];
+      const fixedTags = ['__all__', '__featured__', '__new__', '__updated_this_month__'];
 
       const sortedByCount = [...tagCount.entries()]
         .sort((a, b) => b[1] - a[1])
@@ -653,9 +748,10 @@
 
       tagSpines.innerHTML = displayTags.map(tag => {
         const label =
-          tag === '__all__' ? '全部' :
-          tag === '__new__' ? '近期上架' :
-          tag === '__featured__' ? '精選推薦' :
+            tag === '__all__' ? '全部' :
+            tag === '__featured__' ? '精選推薦' :
+            tag === '__new__' ? '近期上架' :
+            tag === '__updated_this_month__' ? '本月翻修' :
           tag;
 
         const dataTag = tag === '__all__' ? '' : tag;
@@ -672,6 +768,7 @@
       tagSpines.querySelectorAll('.tag-spine').forEach(btn => {
         btn.addEventListener('click', () => {
           hasUserInteracted = true;
+          if (isMobileView()) { mobileVisibleCount = 8; }
           toggleTag(btn.dataset.tag || '');
           renderTagSpines();
           render();
@@ -684,16 +781,16 @@
       if (!heroUpdate) return;
 
       const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
-      const newItems = visibleItems.filter(item => isNewItem(item.date));
+      const newItems = visibleItems.filter(item => isNewItem(item.createdDate));
 
       if (newItems.length > 0) {
         const latestDate = newItems
-          .map(x => x.date)
+          .map(x => x.createdDate)
           .sort()
           .reverse()[0];
 
         const latestTitles = newItems
-          .filter(x => x.date === latestDate)
+          .filter(x => x.createdDate === latestDate)
           .map(x => `《${x.title}》`);
 
         heroUpdate.textContent =
@@ -841,8 +938,12 @@
         const effectiveTags = getEffectiveTags();
 
         const okTag = effectiveTags.length === 0 || effectiveTags.every(tag => {
-          if (tag === '__new__') return isNewItem(item.date);
+          if (tag === '__new__') return isNewItem(item.createdDate);
           if (tag === '__featured__') return item.featured === true;
+          if (tag === '__updated_this_month__') {
+            return isThisMonthItem(item.updatedDate)
+              && item.updatedDate !== item.createdDate;
+          }
           return (item.tags || []).includes(tag);
         });
 
@@ -858,7 +959,7 @@
       updateFilterSummary(filteredItems.length);
 
       if (!filteredItems.length) {
-        shelf.innerHTML = '<div class="empty">沒有符合的劇本。世界觀和標籤這次似乎不想配合你。</div>';
+        shelf.innerHTML = '<div class="empty">沒有符合的劇本。請重新選擇世界觀和標籤條件。</div>';
         hint.textContent = '目前沒有符合條件的劇本。';
         renderPreview(null);
         carouselDots.innerHTML = '';
@@ -866,6 +967,14 @@
         carouselNext.disabled = true;
         return;
       }
+
+      if (isMobileView()) {
+        renderMobileShelf(filteredItems);
+        return;
+      }
+
+      document.getElementById('mobileMoreBtn')?.remove();
+      mobileBackTopBtn?.classList.remove('is-visible');
 
       pagedItems = chunkItems(filteredItems, 8);
 
@@ -883,7 +992,7 @@
       updateEntryHint();
 
       requestAnimationFrame(syncCarouselPosition);
-
+      
       /* requestAnimationFrame(() => {
         const pages = shelf.querySelectorAll('.entry-page');
         pages[currentPage]?.scrollIntoView({
@@ -893,6 +1002,51 @@
         });
       }); */
     }
+
+    function autoLoadMoreOnMobile(){
+      if (!isMobileView()) return;
+      if (mobileAutoLoading) return;
+      if (mobileVisibleCount >= filteredItems.length) return;
+
+      const btn = document.getElementById('mobileMoreBtn');
+      if (!btn) return;
+
+      const rect = btn.getBoundingClientRect();
+      const triggerLine = window.innerHeight + 120;
+
+      if (rect.top <= triggerLine) {
+        mobileAutoLoading = true;
+        mobileVisibleCount += 8;
+
+        renderMobileShelf(filteredItems);
+
+        requestAnimationFrame(() => {
+          mobileAutoLoading = false;
+        });
+      }
+    }
+
+    const mobileBackTopBtn = document.getElementById('mobileBackToShelfTop');
+
+    function updateMobileBackTopButton(){
+      if (!mobileBackTopBtn) return;
+
+      const shelfTop = document.querySelector('.wood-shelf');
+      if (!shelfTop || !isMobileView()) {
+        mobileBackTopBtn.classList.remove('is-visible');
+        return;
+      }
+
+      const shelfY = shelfTop.getBoundingClientRect().top + window.scrollY;
+      const showAt = shelfY  + 180;
+
+      mobileBackTopBtn.classList.toggle('is-visible', window.scrollY > showAt);
+    }
+
+    mobileBackTopBtn?.addEventListener('click', scrollShelfToTop);
+
+    window.addEventListener('scroll', autoLoadMoreOnMobile, { passive:true });
+    window.addEventListener('scroll', updateMobileBackTopButton, { passive:true });
 
     function syncCarouselPosition() {
       const pages = shelf.querySelectorAll('.entry-page');
@@ -906,24 +1060,38 @@
 
     function getTagLabel(tag) {
       if (!tag) return '';
-      if (tag === '__new__') return '近期上架';
       if (tag === '__featured__') return '精選推薦';
+      if (tag === '__new__') return '近期上架';
+      if (tag === '__updated_this_month__') return '本月翻修';
       if (tag === '__latestdate__') return `最新上架（${latestReleaseDate}）`;
       return tag;
     }
 
     function updateEntryHint() {
-      const totalCount = filteredItems.length;
-      const totalPages = Math.ceil(totalCount / 8);
+        const totalCount = filteredItems.length;
+        const totalPages = Math.ceil(totalCount / 8);
 
-      if (!totalCount) {
-        hint.textContent = '目前沒有符合條件的劇本。';
-        return;
-      }
+        if (!totalCount) {
+          hint.textContent = '目前沒有符合條件的劇本。';
+          return;
+        }
 
-      hint.textContent = totalPages > 1
-        ? `第 ${currentPage + 1} / ${totalPages} 頁，每頁 8 本，可左右翻頁。`
-        : `目前共 ${totalCount} 本，無需翻頁。`;
+        // 手機版
+        if (isMobileView()) {
+          const shown = Math.min(mobileVisibleCount, totalCount);
+
+          hint.textContent =
+            shown >= totalCount
+              ? '已顯示全部藏書。'
+              : `已顯示 ${shown} / ${totalCount} 本，下滑可自動展開更多藏書。`;
+
+          return;
+        }
+
+        // 桌機版
+        hint.textContent = totalPages > 1
+          ? `第 ${currentPage + 1} / ${totalPages} 頁，每頁 8 本，可左右翻頁。`
+          : `目前共 ${totalCount} 本，無需翻頁。`;
     }
 
     fetch('../../data/scripts/scripts.json')
@@ -932,7 +1100,7 @@
         items = data;
 
       const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
-      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.date));
+      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.createdDate));
       const hasVisibleFeaturedItems = visibleItems.some(item => item.featured === true);
 
       if (hasVisibleNewItems) {
@@ -952,7 +1120,7 @@
       startHeroCoverShuffle();
 
       const heroUpdate = document.getElementById('heroUpdate');
-      const newItems = visibleItems.filter(item => isNewItem(item.date));
+      const newItems = visibleItems.filter(item => isNewItem(item.createdDate));
 
       updateHeroUpdate();
 
@@ -967,7 +1135,7 @@
     if (heroUpdateBtn) {
       heroUpdateBtn.addEventListener('click', () => {
       const visibleItems = items.filter(item => showNSFW || item.nsfw !== true);
-      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.date));
+      const hasVisibleNewItems = visibleItems.some(item => isNewItem(item.createdDate));
       const hasVisibleFeaturedItems = visibleItems.some(item => item.featured === true);
 
       if (hasVisibleNewItems) {
@@ -990,22 +1158,26 @@
       currentPage = 0;
 
       renderTagSpines();
+      if (isMobileView()) {  mobileVisibleCount = 8;}
       render();
     });
     }
 
     searchInput.addEventListener('input', () => {
       hasUserInteracted = true;
+      if (isMobileView()) { mobileVisibleCount = 8;}
       render();
     });
 
     worldSelect.addEventListener('change', () => {
       hasUserInteracted = true;
+      if (isMobileView()) { mobileVisibleCount = 8;}
       render();
     });
 
     if (favoriteFilterBtn) {
       favoriteFilterBtn.addEventListener('click', () => {
+        if (isMobileView()) { mobileVisibleCount = 8;}
         favoriteOnly = !favoriteOnly;
         hasUserInteracted = true;
 
@@ -1119,10 +1291,30 @@
 
     let resizeTimer = null;
 
+    let lastIsMobile = isMobileView();
+
     window.addEventListener('resize', () => {
       clearTimeout(resizeTimer);
+
       resizeTimer = setTimeout(() => {
-        syncCarouselPosition();
+        const nowIsMobile = isMobileView();
+
+        if (nowIsMobile !== lastIsMobile) {
+          lastIsMobile = nowIsMobile;
+
+          if (nowIsMobile) {
+            mobileVisibleCount = 8;
+          }
+
+          render();
+          return;
+        }
+
+        if (!nowIsMobile) {
+          syncCarouselPosition();
+        }
+
+        updateMobileBackTopButton();
       }, 120);
     });
 

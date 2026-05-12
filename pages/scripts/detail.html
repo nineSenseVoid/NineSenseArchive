@@ -561,7 +561,7 @@
       openingLine.textContent = item.openingLine || '這本目前沒有額外的開場語氣。';
       openingSpeaker.textContent = [item.character, item.characterSummary].filter(Boolean).join('・') || '角色';
       //systemLine.textContent = item.nodeSummary || item.summary || '這一節目前沒有補充說明。';
-      readerDate.textContent = item.date || '';
+      readerDate.textContent = item.updatedDate || '';
 
       novelContent.innerHTML = (item.novelExcerpt || [])
         .map(p => `<p>${esc(p)}</p>`)
@@ -615,7 +615,7 @@
           <h2 class="work-title" id="workTitle">${esc(item.nodeTitle || item.title || '未命名作品')}</h2>
           <div class="work-sub">
             <span id="workCharacter">${esc(item.character || '未設定角色')}</span>
-            <span id="workDate">${esc(item.date || '未填寫')}</span>
+            <span id="workDate">${esc(item.updatedDate || '未填寫')}</span>
           </div>
         </div>
       `;
@@ -703,9 +703,33 @@
       .then(r => r.json())
       .then(data => {
         items = data;
-        /* activeId = getIdFromQuery() || items[0]?.id || ''; */
-        activeId = getIdFromHash() || items[0]?.id || '';
-        activeWorld = items.find(item => item.id === activeId)?.world || items[0]?.world || '';
+
+        const safeItems = items.filter(item => item.nsfw !== true);
+
+        const featuredItem = safeItems.find(item =>
+          item.featured === true ||
+          item.featured === 'true' ||
+          item.featured === 1
+        );
+
+        const recentItem = [...safeItems]
+          .sort((a, b) =>
+            new Date(b.updatedDate || b.createdDate || b.date || 0) -
+            new Date(a.updatedDate || a.createdDate || a.date || 0)
+          )[0];
+
+        const defaultItem =
+          featuredItem ||
+          recentItem ||
+          safeItems[0] ||
+          items[0];
+
+        activeId = getIdFromHash() || defaultItem?.id || '';
+
+        activeWorld =
+          items.find(item => item.id === activeId)?.world ||
+          defaultItem?.world ||
+          '';
 
         if (worldQuickSelect) {
           worldQuickSelect.classList.add('is-placeholder');
