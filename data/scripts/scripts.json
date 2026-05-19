@@ -1,5 +1,39 @@
 [
   {
+    "id": "queen-resolve-v2",
+    "title": "王后的決心(新)",
+    "world": "王國暗潮",
+    "character": "莉雅",
+    "summary": "丈夫與子女失蹤，王后隻身面對魔王",
+    "nodeTitle": "新興魔王與王后相遇",
+    "createdDate": "2026-05-19",
+    "updatedDate": "2026-05-19",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "皇后",
+      "人妻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "bookColorTop": "#7f613f",
+    "bookColorBottom": "#563721",
+    "cover": "../../data/scripts/images/queen-resolve-v2.jpg",
+    "characterSummary": "王后",
+    "nodeSummary": "王后在擔心丈夫與兒子之時，魔王闖入王后所在寢宮",
+    "openingLine": "(莉雅握緊劍柄，抬起劍尖指向你)這裡不是你該來的地方。離開王城！",
+    "novelExcerpt": [
+      "魔王死後的第十年，王國迎來了前所未有的和平。",
+      "街道不再懸掛徵兵令，孩童能在黃昏後自由奔跑。吟遊詩人於酒館中歌頌著勇者艾瑞克的傳說，而人民最喜歡的，則是故事最後那段。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%8E%89%E9%9B%85-10000012032"
+      }
+    ]
+  },
+  {
     "id": "dear-thief-again",
     "title": "親愛的你又來偷東西了",
     "character": "艾莉安娜",
@@ -1756,7 +1790,7 @@
   },
   {
     "id": "queen-resolve",
-    "title": "王后的決心",
+    "title": "王后的決心(舊)",
     "world": "王國暗潮",
     "character": "莉雅",
     "summary": "丈夫與子女失蹤，皇后隻身面對惡魔大軍",
