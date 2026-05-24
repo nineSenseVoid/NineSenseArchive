@@ -31,12 +31,14 @@
     "updatedDate": "2026-05-21",
     "tags": [
       "女性",
-      "魔法與劍"
+      "魔法與劍",
+      "戰鬥"
     ],
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/crimson-arena-v2.jpg",
-    "characterSummary": "紅髮母狼",
+    "video": "../../data/scripts/videos/crimson-arena-v2.mp4",
+    "characterSummary": "荒野母狼",
     "nodeSummary": "來自北方最驕傲的自由部族-灰狼部落,即將開始她的首次對決",
     "openingLine": "瑪莉絲站在沙地上緩緩壓低重心，長槍橫於身前，眼底的火焰燒得穩而持久，面對她的首場對手，毒棘女王薇莉絲。\r\n\r\n競技場鐵閘發出低沉的轟鳴緩緩升起，伴隨著陣陣蛇信般的「嘶——」聲，一道妖豔的身影踏入沙地。\r\n\r\n「來吧。」 瑪莉絲說，「讓我看看帝國養出來的狗，到底有沒有資格站在我面前。」",
     "novelExcerpt": [
@@ -49,7 +51,7 @@
     "title": "王后的決心(新)",
     "world": "王國暗潮",
     "character": "莉雅",
-    "summary": "丈夫與子女失蹤，王后隻身面對魔王",
+    "summary": "勇者丈夫與子女失蹤，王后將隻身面對魔王",
     "nodeTitle": "新興魔王與王后相遇",
     "createdDate": "2026-05-19",
     "updatedDate": "2026-05-19",
@@ -164,7 +166,7 @@
     "updatedDate": "2026-05-11",
     "tags": [
       "女性",
-      "異世界",
+      "魔法與劍",
       "獸耳"
     ],
     "featured": false,
@@ -207,7 +209,9 @@
     "createdDate": "2025-12-18",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戀愛"
+      "女性",
+      "現代",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": true,
@@ -222,7 +226,7 @@
     "id": "apprentice-first-magic",
     "title": "小學徒的魔法初試",
     "character": "艾露希亞",
-    "summary": "艾露希亞登場於「小學徒的魔法初試」，以在大陸中央，一座浮空島上矗立著伊索魔法學院，這裡是訓練魔法師的聖地，被稱為魔法與智慧的搖籃。作為開場，展開角色互動。",
+    "summary": "魔法學院裡，天才學徒與導師的故事",
     "nodeTitle": "任務開始",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
@@ -291,12 +295,14 @@
     "id": "bear-warrior-and-widow-innkeeper",
     "title": "熊武士與寡婦老闆娘",
     "character": "蘭菲雅",
-    "summary": "蘭菲雅登場於「熊武士與寡婦老闆娘」，以在大陸，冒險公會遍布各地，冒險者們接受各種任務，從討伐魔物到尋找遺失的寶物。作為開場，展開角色互動。",
+    "summary": "奇幻大陸上，連鎖旅店老闆娘與熊頭冒險者在旅途路上不期而遇",
     "nodeTitle": "任務開始",
     "createdDate": "2024-11-28",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戀愛"
+      "女性",
+      "魔法與劍",
+      "獸人"
     ],
     "featured": false,
     "nsfw": false,
@@ -331,7 +337,7 @@
     "id": "blood-blossom-trouble",
     "title": "血花與麻煩",
     "character": "阿索菲亞",
-    "summary": "以「血花與麻煩」為主題，從「這一天原本平凡無奇，直到你經過一間看起來像「不要進來」的古老店鋪。」展開，帶出角色關係與場景氛圍。",
+    "summary": "小傢伙，你是來談生意的還是來找麻煩的",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-02-05",
     "updatedDate": "2026-05-11",
@@ -510,8 +516,9 @@
     "createdDate": "2025-10-05",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "戀愛"
+      "女性",
+      "現代",
+      "都會"
     ],
     "featured": false,
     "nsfw": true,
@@ -566,14 +573,14 @@
     "id": "culture-festival-defense-line",
     "title": "《文化祭防衛線》",
     "character": "蘇映紅",
-    "summary": "這是戰爭，一切都是為了慶典能夠順便進行，過程中沒有任何人收到傷害 大概吧",
+    "summary": "這是戰爭，一切都是為了學園祭能夠順便進行，不惜一切代價，戰鬥吧",
     "nodeTitle": "校園開場",
     "createdDate": "2025-10-15",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "戰鬥",
-      "危險笑容"
+      "女性",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -654,12 +661,14 @@
     "id": "do-you-still-believe-santa",
     "title": "你還相信聖誕老人嗎?",
     "character": "林予冬",
-    "summary": "以「你還相信聖誕老人嗎?」為主題，從「城市的聖誕燈全亮了。亮到有點過分，像是怕黑的人硬撐出來的熱鬧。」展開，帶出角色關係與場景氛圍。",
+    "summary": "今年，請你們自己照顧彼此 by 聖誕老人",
     "nodeTitle": "開場場景",
     "createdDate": "2025-12-21",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "現代",
+      "意外相遇"
     ],
     "featured": false,
     "nsfw": false,
@@ -758,7 +767,7 @@
     "id": "dream-gate-guardian",
     "title": "夢門守護者",
     "character": "夢悠然",
-    "summary": "以「夢門守護者」為主題，從「每當夜深人靜，你總感覺房門後有什麼東西。」展開，帶出角色關係與場景氛圍。",
+    "summary": "深夜裡，租屋處房門的對面存在著異世界",
     "nodeTitle": "召喚與甦醒",
     "createdDate": "2024-11-23",
     "updatedDate": "2026-05-11",
@@ -778,12 +787,14 @@
     "id": "dream-system-guards-sleep",
     "title": "夢境系統守護你的睡眠",
     "character": "薇薇安·夜星",
-    "summary": "以「夢境系統守護你的睡眠」為主題，從「月光透過破舊公寓的窗戶，在地板上投下斑駁的光影。」展開，帶出角色關係與場景氛圍。",
+    "summary": "夜裡突然現身的夢境編織者",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-08-11",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -863,8 +874,9 @@
     "createdDate": "2025-10-15",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戰鬥",
-      "危險笑容"
+      "女性",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -879,12 +891,14 @@
     "id": "everyone-went-home",
     "title": "大家都回家了",
     "character": "艾莉薇雅",
-    "summary": "以「大家都回家了」為主題，從「這是一個平靜的冬日傍晚，王宮內一片寂靜，唯有微風拂過階梯旁的旗幟，發出沙沙聲。」展開，帶出角色關係與場景氛圍。",
+    "summary": "王國騎士團成員全都返鄉啦，這偌大的王城全靠我一個人守護",
     "nodeTitle": "戰場序章",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻"
+      "女性",
+      "魔法與劍",
+      "王后"
     ],
     "featured": false,
     "nsfw": false,
@@ -899,14 +913,15 @@
     "id": "figure-in-her-hands",
     "title": "她捧著公仔卻抓住了我",
     "character": "小潔",
-    "summary": "小潔登場於「她捧著公仔卻抓住了我」，以在校園裡，秩序與紀律是至高無上的準則，而維護這一切的，正是冷面無情的風紀委員——小潔。作為開場，展開角色互動。",
+    "summary": "風紀委員請高抬貴手，你手上那個限量版市面上找不到了",
     "nodeTitle": "校園開場",
     "createdDate": "2025-01-23",
     "updatedDate": "2026-05-11",
     "tags": [
+      "女性",
+      "現代",
       "校園",
-      "戀愛",
-      "危險笑容"
+      "獵食感"
     ],
     "featured": false,
     "nsfw": false,
@@ -926,8 +941,9 @@
     "createdDate": "2025-09-16",
     "updatedDate": "2026-05-11",
     "tags": [
-      "職場",
-      "校園"
+      "女性",
+      "現代",
+      "GL"
     ],
     "featured": false,
     "nsfw": true,
@@ -1025,12 +1041,15 @@
     "id": "halloween-seven-day-revival",
     "title": "萬聖節七日限定復活",
     "character": "露米娜",
-    "summary": "以「萬聖節七日限定復活」為主題，從「你不知道自己在黑暗中待了多久。」展開，帶出角色關係與場景氛圍。",
+    "summary": "死亡是種沉眠，而你將迎來短暫的甦醒",
     "nodeTitle": "開場場景",
     "createdDate": "2025-10-23",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "萬聖節",
+      "南瓜",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -1046,14 +1065,13 @@
     "title": "紅心錯牌",
     "world": "幽靈馬戲團",
     "character": "遙",
-    "summary": "遙登場於「紅心錯牌」，以「歡迎光臨，幽靈馬戲團。」作為開場，展開角色互動。",
+    "summary": "小丑消失後的替代品",
     "nodeTitle": "開場場景",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-11",
     "tags": [
-      "黑色童話",
-      "懸疑",
-      "危險笑容"
+      "女性",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -1068,7 +1086,7 @@
     "id": "heartbeat-under-bandages",
     "title": "繃帶下的心跳聲",
     "character": "唐芮彤",
-    "summary": "萬聖節你的同事的意外裝扮告白 究竟是意外另有所圖",
+    "summary": "萬聖節你的同事的意外裝扮告白，究竟是意外另有所圖",
     "nodeTitle": "木乃伊",
     "createdDate": "2025-11-07",
     "updatedDate": "2026-05-11",
@@ -1076,7 +1094,8 @@
       "女性",
       "現代",
       "教師",
-      "繃帶"
+      "繃帶",
+      "萬聖節"
     ],
     "featured": false,
     "nsfw": true,
@@ -1097,7 +1116,9 @@
     "createdDate": "2025-08-10",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "黑肉"
     ],
     "featured": false,
     "nsfw": true,
@@ -1119,7 +1140,7 @@
     "tags": [
       "女性",
       "修羅場",
-      "異世界"
+      "魔法與劍"
     ],
     "featured": false,
     "nsfw": false,
@@ -1175,11 +1196,12 @@
     "id": "if-pumpkin-calls-your-name",
     "title": "如果南瓜叫你的名字",
     "character": "縫子",
-    "summary": "小鎮角落 專做萬聖節裝飾的古怪女孩",
+    "summary": "在小鎮角落，專做萬聖節裝飾的古怪女孩",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-10-24",
     "updatedDate": "2026-05-11",
     "tags": [
+      "女性",
       "萬聖節",
       "南瓜",
       "奇幻",
@@ -1222,12 +1244,14 @@
     "id": "kimono-man-in-hot-spring",
     "title": "他穿和服，住在溫泉裡",
     "character": "林月澤",
-    "summary": "林月澤登場於「他穿和服，住在溫泉裡」，以山區有一處隱秘靜謐的溫泉鄉，那裡沒有都市的喧囂，只有松風細語和溫泉水霧氤氳。作為開場，展開角色互動。",
+    "summary": "山區隱密的溫泉鄉，男主人一身女性和服裝扮現身",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-08-10",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "男性",
+      "現代",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -1242,13 +1266,14 @@
     "id": "knight-tactical-disguise",
     "title": "女騎士的戰術偽裝",
     "character": "薇爾妮",
-    "summary": "薇爾妮登場於「女騎士的戰術偽裝」，以這是一個由戰火與鋼鐵所鑄的世界，諸國交戰，邊境烽煙不斷。作為開場，展開角色互動。",
+    "summary": "女騎士薇爾妮是王國最鋒利的劍刃之一，有時會有些大膽的想法",
     "nodeTitle": "戰場序章",
     "createdDate": "2025-01-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "戰鬥"
+      "女性",
+      "魔法與劍",
+      "騎士"
     ],
     "featured": false,
     "nsfw": false,
@@ -1269,9 +1294,9 @@
     "createdDate": "2025-11-26",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "戰鬥",
-      "危險笑容"
+      "男性",
+      "魔法與劍",
+      "男僕"
     ],
     "featured": false,
     "nsfw": false,
@@ -1292,10 +1317,9 @@
     "createdDate": "2025-12-07",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "戰鬥",
-      "戀愛",
-      "危險笑容"
+      "男性",
+      "魔法與劍",
+      "男僕"
     ],
     "featured": false,
     "nsfw": false,
@@ -1316,9 +1340,9 @@
     "createdDate": "2025-11-24",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "戀愛",
-      "危險笑容"
+      "男性",
+      "魔法與劍",
+      "男僕"
     ],
     "featured": false,
     "nsfw": false,
@@ -1339,8 +1363,9 @@
     "createdDate": "2025-11-30",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "危險笑容"
+      "男性",
+      "魔法與劍",
+      "男僕"
     ],
     "featured": false,
     "nsfw": false,
@@ -1375,13 +1400,14 @@
     "id": "living-with-maneki-neko",
     "title": "與招財貓的同居生活",
     "character": "小金",
-    "summary": "網購買的招財貓 竟然顯靈了",
+    "summary": "網購買的招財貓，竟然顯靈現世了",
     "nodeTitle": "職場開場",
     "createdDate": "2025-09-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "職場",
-      "危險笑容"
+      "女性",
+      "現代",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -1416,13 +1442,13 @@
     "id": "loot-pickup-adventure",
     "title": "來場撿裝大冒險吧",
     "character": "琳恩",
-    "summary": "以「來場撿裝大冒險吧」為主題，從「一個充滿魔法、奇幻生物與失控冒險者的荒唐大陸。」展開，帶出角色關係與場景氛圍。",
+    "summary": "在高等地圖噴裝又沒替代裝的我，只好找路人帶我",
     "nodeTitle": "開場場景",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "危險笑容"
+      "女性",
+      "魔法與劍"
     ],
     "featured": false,
     "nsfw": false,
@@ -1437,7 +1463,7 @@
     "id": "love-outside-rules",
     "title": "不在規則裡的愛情",
     "character": "澤恩",
-    "summary": "以「不在規則裡的愛情」為主題，從「未來的歐羅城是一座科技與秩序完美結合的超現代都市，街道、交易、甚至每個市民的行為，都在“宙律系統”的監控之下。」展開，帶出角色關係與場景氛圍。",
+    "summary": "未來世界裡，違規零容忍的鐵則下，你與機械警察的故事",
     "nodeTitle": "任務開始",
     "createdDate": "2025-01-20",
     "updatedDate": "2026-05-11",
@@ -1510,14 +1536,12 @@
     "id": "midnight-maid-cafe-divination",
     "title": "深夜女僕咖啡廳占卜",
     "character": "露芙莉雅",
-    "summary": "以「深夜女僕咖啡廳占卜」為主題，從「深夜的街道安靜得不像話。連風都懶得吹，路燈只剩一盞在半死不活地抖著微光。」展開，帶出角色關係與場景氛圍。",
+    "summary": "白天咖啡廳，深夜占 室還請確認營業時間",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-11-18",
     "updatedDate": "2026-05-11",
     "tags": [
-      "黑色童話",
-      "戀愛",
-      "危險笑容"
+      "女性 女僕 現代 奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -1593,7 +1617,7 @@
     "id": "my-coworker-can-fly",
     "title": "我的同事會飛",
     "character": "李曉彤",
-    "summary": "以「我的同事會飛」為主題，從「那是再平凡不過的週一早晨，你又一次趕著去上班。」展開，帶出角色關係與場景氛圍。",
+    "summary": "意外發現你同事竟然有超能力",
     "nodeTitle": "職場開場",
     "createdDate": "2025-01-17",
     "updatedDate": "2026-05-11",
@@ -1649,7 +1673,7 @@
     "updatedDate": "2026-05-11",
     "tags": [
       "女性",
-      "異世界",
+      "魔法與劍",
       "危險笑容",
       "獵食感"
     ],
@@ -1723,7 +1747,9 @@
     "createdDate": "2025-08-31",
     "updatedDate": "2026-05-11",
     "tags": [
-      "職場",
+      "男性",
+      "現代",
+      "BL",
       "校園"
     ],
     "featured": false,
@@ -1760,7 +1786,7 @@
     "title": "公主的凝痕",
     "world": "王國暗潮",
     "character": "艾米莉&薇薇安",
-    "summary": "逃離魔王",
+    "summary": "逃離魔王包圍網",
     "nodeTitle": "公主與侍女的危機",
     "createdDate": "2024-11-05",
     "updatedDate": "2026-05-11",
@@ -1791,7 +1817,7 @@
     "updatedDate": "2026-05-11",
     "tags": [
       "女性",
-      "異世界",
+      "魔法與劍",
       "聖女",
       "惡魔"
     ],
@@ -1811,7 +1837,7 @@
     "title": "王后的決心(舊)",
     "world": "王國暗潮",
     "character": "莉雅",
-    "summary": "丈夫與子女失蹤，皇后隻身面對惡魔大軍",
+    "summary": "勇者丈夫與子女失蹤，王后將隻身面對魔王",
     "nodeTitle": "新興魔王與王后相遇",
     "createdDate": "2024-11-04",
     "updatedDate": "2026-05-11",
@@ -1840,9 +1866,9 @@
     "createdDate": "2025-09-23",
     "updatedDate": "2026-05-11",
     "tags": [
-      "職場",
-      "校園",
-      "奇幻"
+      "女性",
+      "現代",
+      "都會"
     ],
     "featured": false,
     "nsfw": false,
@@ -2012,9 +2038,9 @@
     "createdDate": "2025-10-13",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "懸疑",
-      "戀愛"
+      "女性",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -2054,7 +2080,9 @@
     "createdDate": "2025-08-24",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "魔法與劍",
+      "獵食感"
     ],
     "featured": false,
     "nsfw": true,
@@ -2096,7 +2124,8 @@
     "tags": [
       "女性",
       "軍裝",
-      "中世紀"
+      "中世紀",
+      "萬聖節"
     ],
     "featured": false,
     "nsfw": false,
@@ -2112,12 +2141,13 @@
     "id": "stage-that-begins-in-dream",
     "title": "從夢開始的舞台",
     "character": "伊芙琳",
-    "summary": "以「從夢開始的舞台」為主題，從「一個普通的高中女生，既不是班級的焦點，也沒過人的特長，偶爾會幻想自己能站在萬眾注目的舞台上，成為那個光芒四射的人。」展開，帶出角色關係與場景氛圍。",
+    "summary": "平凡少女即將登上奇幻舞台",
     "nodeTitle": "開場場景",
     "createdDate": "2025-01-15",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園"
+      "女性",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -2132,12 +2162,14 @@
     "id": "sword-lost-in-sandsea",
     "title": "迷失在沙海中的劍",
     "character": "亞斯",
-    "summary": "以「迷失在沙海中的劍」為主題，從「這是「沙塵之境」，一個殘破的世界。」展開，帶出角色關係與場景氛圍。",
+    "summary": "充滿沙礫的世界，遇上失去方向的少年",
     "nodeTitle": "戰場序章",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戰鬥"
+      "男性",
+      "廢土",
+      "魔法與劍"
     ],
     "featured": false,
     "nsfw": false,
@@ -2194,14 +2226,14 @@
     "id": "when-sunlight-through-water",
     "title": "當陽光穿過水面時",
     "character": "林澤羽",
-    "summary": "機靈有活力的游泳射主將 與文學社學姊的故事",
+    "summary": "機靈有活力的游泳射主將，與文學社學姊的故事",
     "nodeTitle": "校園開場",
     "createdDate": "2025-10-13",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "戀愛",
-      "危險笑容"
+      "男性",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": true,
@@ -2217,12 +2249,13 @@
     "title": "黑桃正牌",
     "world": "幽靈馬戲團",
     "character": "薇歐拉",
-    "summary": "薇歐拉登場於「黑桃正牌」，以「歡迎光臨，幽靈馬戲團。」作為開場，展開角色互動。",
+    "summary": "厭倦歡笑的小丑，決定將自己消失",
     "nodeTitle": "開場場景",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-10",
     "tags": [
-      "危險笑容"
+      "女性",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -2242,11 +2275,13 @@
     "createdDate": "2025-10-27",
     "updatedDate": "2026-05-10",
     "tags": [
+      "女性",
       "女僕",
       "現代",
       "校園",
       "奇幻",
-      "人偶"
+      "人偶",
+      "萬聖節"
     ],
     "featured": false,
     "nsfw": true,
@@ -2310,12 +2345,15 @@
     "id": "tired-its-okay-im-here",
     "title": "累了嗎沒關係我來了",
     "character": "伊芙",
-    "summary": "以「累了嗎沒關係我來了」為主題，從「聖誕夜，整棟大樓陷入沉寂，只有你的辦公室燈火通明，身為科技公司的資深工程師，肩負著維護系統穩定運行的責任，甚至連節日也無法例外。」展開，帶出角色關係與場景氛圍。",
+    "summary": "聖誕夜加班發生的奇蹟",
     "nodeTitle": "職場開場",
     "createdDate": "2024-12-16",
     "updatedDate": "2026-05-10",
     "tags": [
-      "職場"
+      "女性",
+      "現代",
+      "都會",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -2330,13 +2368,15 @@
     "id": "trade-fate-with-me",
     "title": "與我交換命運",
     "character": "夏羽珊",
-    "summary": "夏羽珊登場於「與我交換命運」，以今天黃昏的天空像過期的橘子汽水，氣泡在雲層間緩慢上升。作為開場，展開角色互動。",
+    "summary": "天使將與你交換命運七日",
     "nodeTitle": "校園開場",
     "createdDate": "2025-08-12",
     "updatedDate": "2026-05-10",
     "tags": [
-      "校園",
-      "危險笑容"
+      "女性",
+      "現代",
+      "奇幻",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -2371,7 +2411,7 @@
     "id": "white-bear-guardian",
     "title": "白熊的守護",
     "character": "艾薇雅",
-    "summary": "艾薇雅登場於「白熊的守護」，以熊國千百年來被無盡雪原與冰峰覆蓋的大地。作為開場，展開角色互動。",
+    "summary": "以動物為信仰的國度，你與熊國公主相遇",
     "nodeTitle": "開場場景",
     "createdDate": "2025-01-04",
     "updatedDate": "2026-05-10",
@@ -2411,11 +2451,12 @@
     "id": "who-fears-fire",
     "title": "誰不怕火",
     "character": "阿律斯",
-    "summary": "阿律斯登場於「誰不怕火」，以「妳知道世界是怎麼開始的嗎？作為開場，展開角色互動。",
+    "summary": "大災難降臨後，世界唯一留下的神祇",
     "nodeTitle": "戰場序章",
     "createdDate": "2025-02-03",
     "updatedDate": "2026-05-10",
     "tags": [
+      "男性",
       "奇幻"
     ],
     "featured": false,
@@ -2498,13 +2539,15 @@
     "id": "you-smell-like-caramel",
     "title": "你的味道，像焦糖",
     "character": "蘇綴音",
-    "summary": "以「你的味道，像焦糖」為主題，從「那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。」展開，帶出角色關係與場景氛圍。",
+    "summary": "在萬聖節報到的新同事是怪咖",
     "nodeTitle": "夜間相遇",
     "createdDate": "2025-10-31",
     "updatedDate": "2026-05-10",
     "tags": [
+      "男性",
+      "現代",
       "奇幻",
-      "危險笑容"
+      "萬聖節"
     ],
     "featured": false,
     "nsfw": false,
@@ -2622,7 +2665,7 @@
     "updatedDate": "2026-04-29",
     "tags": [
       "女性",
-      "異世界"
+      "魔法與劍"
     ],
     "featured": false,
     "nsfw": true,
