@@ -40,8 +40,9 @@
     "createdDate": "2024-11-18",
     "updatedDate": "2026-05-21",
     "tags": [
-      "賽車",
-      "戰鬥"
+      "女性",
+      "中世紀",
+      "古代"
     ],
     "featured": false,
     "nsfw": true,
@@ -177,7 +178,11 @@
     "createdDate": "2024-12-28",
     "updatedDate": "2026-05-11",
     "tags": [
-      "懸疑"
+      "女性",
+      "現代",
+      "都會",
+      "職場",
+      "警察"
     ],
     "featured": false,
     "nsfw": false,
@@ -220,8 +225,10 @@
     "createdDate": "2025-05-20",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戀愛",
-      "危險笑容"
+      "女性",
+      "現代",
+      "日式",
+      "親情"
     ],
     "featured": false,
     "nsfw": true,
@@ -263,7 +270,9 @@
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻"
+      "女性",
+      "蘿莉",
+      "魔法與劍"
     ],
     "featured": false,
     "nsfw": false,
@@ -283,7 +292,9 @@
     "createdDate": "2024-12-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -374,6 +385,8 @@
     "createdDate": "2025-02-05",
     "updatedDate": "2026-05-11",
     "tags": [
+      "女性",
+      "歐式",
       "奇幻"
     ],
     "featured": false,
@@ -439,8 +452,10 @@
     "createdDate": "2025-01-01",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "戀愛"
+      "男性",
+      "BL",
+      "現代",
+      "校園"
     ],
     "featured": false,
     "nsfw": false,
@@ -460,8 +475,10 @@
     "createdDate": "2024-11-17",
     "updatedDate": "2026-05-11",
     "tags": [
-      "職場",
-      "校園"
+      "男性",
+      "現代",
+      "校園",
+      "偽娘"
     ],
     "featured": false,
     "nsfw": false,
@@ -481,7 +498,10 @@
     "createdDate": "2025-05-10",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "皇后",
+      "中式",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": true,
@@ -565,26 +585,6 @@
     ]
   },
   {
-    "id": "crimson-arena-christmas",
-    "title": "血色競技場:聖誕",
-    "character": "洛雷恩",
-    "summary": "以「血色競技場:聖誕」為主題，從「在這片由暴君統治的國度，血色競技場是平民唯一的宣洩之地。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "開場場景",
-    "createdDate": "2024-12-16",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "危險笑容"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/crimson-arena-christmas.jpg",
-    "openingLine": "又是你？觀眾很期待你的表演，但記住，他們只在乎熱鬧，贏得漂亮不是關鍵，活下來才是。",
-    "novelExcerpt": [
-      "在這片由暴君統治的國度，血色競技場是平民唯一的宣洩之地。每場比賽都設置在危機四伏的場景中，沙漠、森林迷宮、火焰陷阱，處處殺機重重，毫不留情。",
-      "如今，一年一度的「聖誕特別競技」再度到來。華麗的雪花與鈴鐺掩不住死亡的氣息，致命的禮物與危險的陷阱等待著鬥士們步入其中。"
-    ]
-  },
-  {
     "id": "crying-king-fitness-diary",
     "title": "哭面王與他的健身日誌",
     "character": "亞爾雷斯",
@@ -635,7 +635,10 @@
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "獸人",
+      "山野",
+      "仙俠"
     ],
     "featured": false,
     "nsfw": true,
@@ -724,7 +727,10 @@
     "createdDate": "2024-11-21",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻"
+      "女性",
+      "魔法與劍",
+      "女王",
+      "人妻"
     ],
     "featured": false,
     "nsfw": false,
@@ -745,7 +751,10 @@
     "createdDate": "2024-11-14",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻"
+      "女性",
+      "奇幻",
+      "魔法與劍",
+      "御姐"
     ],
     "featured": false,
     "nsfw": false,
@@ -766,7 +775,11 @@
     "createdDate": "2024-11-21",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻"
+      "男性",
+      "魔法與劍",
+      "奇幻",
+      "太子",
+      "弟弟"
     ],
     "featured": false,
     "nsfw": false,
@@ -787,6 +800,9 @@
     "createdDate": "2024-11-23",
     "updatedDate": "2026-05-11",
     "tags": [
+      "女性",
+      "魔法與劍",
+      "公主",
       "奇幻"
     ],
     "featured": false,
@@ -807,7 +823,10 @@
     "createdDate": "2024-11-23",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "奇幻",
+      "夢境",
+      "內衣"
     ],
     "featured": false,
     "nsfw": false,
@@ -849,7 +868,9 @@
     "createdDate": "2025-01-15",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": false,
@@ -869,7 +890,10 @@
     "createdDate": "2025-03-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "職場",
+      "青梅竹馬"
     ],
     "featured": false,
     "nsfw": false,
@@ -889,7 +913,10 @@
     "createdDate": "2025-02-05",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "現代",
+      "奇幻",
+      "都會"
     ],
     "featured": false,
     "nsfw": false,
@@ -998,9 +1025,10 @@
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
-      "奇幻",
-      "懸疑",
-      "戰鬥"
+      "女性",
+      "海盜",
+      "歐式",
+      "中世紀"
     ],
     "featured": false,
     "nsfw": false,
@@ -1020,6 +1048,9 @@
     "createdDate": "2024-11-16",
     "updatedDate": "2026-05-11",
     "tags": [
+      "男性",
+      "日系",
+      "現代",
       "校園"
     ],
     "featured": false,
@@ -1219,6 +1250,10 @@
     "createdDate": "2025-04-02",
     "updatedDate": "2026-05-11",
     "tags": [
+      "男性",
+      "親情",
+      "哥哥",
+      "現代",
       "懸疑"
     ],
     "featured": false,
@@ -1466,7 +1501,10 @@
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "男性",
+      "日式",
+      "古代",
+      "鄉村"
     ],
     "featured": false,
     "nsfw": true,
@@ -1507,8 +1545,9 @@
     "createdDate": "2025-01-20",
     "updatedDate": "2026-05-11",
     "tags": [
-      "科幻",
-      "戀愛"
+      "男性",
+      "未來",
+      "賽博龐克"
     ],
     "featured": false,
     "nsfw": false,
@@ -1600,7 +1639,10 @@
     "createdDate": "2025-03-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "日式",
+      "GL",
+      "現代校園"
     ],
     "featured": false,
     "nsfw": true,
@@ -1620,8 +1662,11 @@
     "createdDate": "2025-05-11",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "懸疑"
+      "女性",
+      "老師",
+      "現代",
+      "御姐",
+      "校園"
     ],
     "featured": false,
     "nsfw": true,
@@ -1641,7 +1686,10 @@
     "createdDate": "2025-04-20",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戀愛"
+      "女性",
+      "妹妹",
+      "親情",
+      "奇幻"
     ],
     "featured": false,
     "nsfw": true,
@@ -1650,6 +1698,12 @@
     "novelExcerpt": [
       "你和林洛羽是雙胞胎，長得像、習慣也像，就連夢裡出現的場景都經常重疊。但我們從沒能像傳說中那樣「心電感應」。",
       "直到國二那年，這一切才真正發生。你開始「聽見」妹妹的心聲。那種感覺很奇怪。像是耳邊突然有一個熟悉又模糊的聲音在說話，不是用嘴巴，是用心，像一根線悄悄連上了你和她。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E6%9E%97%E6%B4%9B%E7%BE%BD-10000012506"
+      }
     ]
   },
   {
@@ -1661,6 +1715,10 @@
     "createdDate": "2025-01-17",
     "updatedDate": "2026-05-11",
     "tags": [
+      "女性",
+      "現代",
+      "奇幻",
+      "都會",
       "職場"
     ],
     "featured": false,
@@ -1928,7 +1986,9 @@
     "createdDate": "2025-03-07",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戰鬥"
+      "女性",
+      "魔法與劍",
+      "復仇"
     ],
     "featured": false,
     "nsfw": true,
@@ -1971,8 +2031,10 @@
     "createdDate": "2025-01-01",
     "updatedDate": "2026-05-11",
     "tags": [
-      "懸疑",
-      "戰鬥"
+      "女性",
+      "奇幻",
+      "魔法與劍",
+      "女王"
     ],
     "featured": false,
     "nsfw": false,
@@ -2027,7 +2089,11 @@
     "createdDate": "2025-05-10",
     "updatedDate": "2026-05-11",
     "tags": [
-      "懸疑"
+      "女性",
+      "修女",
+      "現代",
+      "奇幻",
+      "擬人"
     ],
     "featured": false,
     "nsfw": false,
@@ -2099,7 +2165,10 @@
     "createdDate": "2025-03-23",
     "updatedDate": "2026-05-11",
     "tags": [
-      "角色互動"
+      "女性",
+      "女僕",
+      "魔法與劍",
+      "獸人"
     ],
     "featured": false,
     "nsfw": false,
@@ -2141,7 +2210,9 @@
     "createdDate": "2025-04-29",
     "updatedDate": "2026-05-11",
     "tags": [
-      "危險笑容"
+      "女性",
+      "山野",
+      "仙俠"
     ],
     "featured": false,
     "nsfw": false,
@@ -2186,7 +2257,9 @@
     "updatedDate": "2026-05-11",
     "tags": [
       "女性",
-      "奇幻"
+      "奇幻",
+      "夢境",
+      "偶像"
     ],
     "featured": false,
     "nsfw": false,
@@ -2228,8 +2301,11 @@
     "createdDate": "2024-12-12",
     "updatedDate": "2026-05-11",
     "tags": [
-      "戰鬥",
-      "危險笑容"
+      "女性",
+      "中式",
+      "現代",
+      "都會",
+      "穿越"
     ],
     "featured": false,
     "nsfw": false,
@@ -2249,8 +2325,10 @@
     "createdDate": "2025-02-06",
     "updatedDate": "2026-05-11",
     "tags": [
-      "校園",
-      "危險笑容"
+      "女性",
+      "學生",
+      "都會",
+      "現代"
     ],
     "featured": false,
     "nsfw": false,
@@ -2338,6 +2416,96 @@
     ]
   },
   {
+    "id": "stllune",
+    "title": "St☆llune",
+    "character": "智貴＆翔＆柚＆櫻＆澪",
+    "summary": "青春偶像的群像劇即將展開",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-06-07",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "職場",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/stllune.jpg",
+    "openingLine": "（你推開門，五個人散坐在練習室不同角落。氣氛一片冰冷）\r\n（夏目翔）不是夢幻，是噩夢吧？我以為我會跟柚組雙人跳舞組的……結果來了個冰山隊長。\r\n（一條智貴）如果翔你想讓這個組合走得遠，還是先學會閉嘴的藝術。\r\n（星野柚）「欸欸欸～不要吵啦～練舞多累啊，吵了就更累了欸！對吧對吧，櫻？」\r\n（春日櫻）啊、嗯……不、不要吵架……會不會吵架後就……解散了呢……\r\n（如月澪）確定這不是社會實驗？",
+    "novelExcerpt": [
+      "你是一名在業界浮沉七年的偶像經紀人。有人說你運氣背，有人說你太固執，總是挑那種「不可能出道」的孩子。",
+      "但你相信，一顆顆被丟在角落的原石，只是還沒遇到適合的光。這就是你現在手上的企劃：「Stellune計劃」。"
+    ]
+  },
+  {
+    "id": "stolen-sunset",
+    "title": "偷來的日落",
+    "character": "鏽冠之主",
+    "summary": "竊盜他人成果而登上王位的榮耀，究竟能夠享受多久",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-08-03",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/stolen-sunset.jpg",
+    "openingLine": "(帶著沙啞的甜膩感，像從玻璃碎片中滲出的糖漿)這就是你們給我的東西。每一滴，都是偷來的，你們的心血，你們的靈魂，而如今，它們全歸我所有。",
+    "novelExcerpt": [
+      "夕陽沉落得很慢，像被利刃割開的舊畫布，裂縫間滲出最後一抹金紅。廢鐵與破玻璃在微光中閃著冷光，空氣混雜著焦味與銹蝕的腥氣。",
+      "在垃圾場最深處，一個女孩安坐於金屬垃圾桶之上，姿態端正得如同接受萬民朝拜。"
+    ]
+  },
+  {
+    "id": "summer-discipline-chair",
+    "title": "夏日的風紀委員長",
+    "character": "張欣妍",
+    "summary": "一絲不苟的風紀委員長，也有青春洋溢的一面",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-07-25",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/summer-discipline-chair.jpg",
+    "openingLine": "(她沒驚訝，斜著眼看你一眼，手指自然地扶了扶眼鏡。)……你為什麼會在這裡？這裡是風紀委員的監考休息點，你進來就是違規。",
+    "novelExcerpt": [
+      "你從沒想過，有一天你會看到這樣的風紀委員。",
+      "學校那位傳說中難以親近、永遠一絲不苟、連指甲都修得像教科書般整齊的張欣妍，現在竟然穿著運動內衣，扶著眼鏡、帶著一種說不清是嘲諷還是關心的表情，斜眼看著你。"
+    ]
+  },
+  {
+    "id": "summer-door-wrong-way",
+    "title": "夏天的門，開錯了方向",
+    "character": "李佩君",
+    "summary": "以「夏天的門，開錯了方向」為主題，從「你的好友阿傑，在社團訓練弄傷了腳踝。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-04-13",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "女性",
+      "現代",
+      "校園",
+      "人妻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/summer-door-wrong-way.jpg",
+    "openingLine": "(一臉困惑，下意識地開口)啊……不好意思，你是外送嗎？還是修熱水器的？",
+    "novelExcerpt": [
+      "你的好友阿傑，在社團訓練弄傷了腳踝。整個暑假只能在家裡養傷，他拜託你幫他跑腿去拿東西。",
+      "你騎著腳踏車喘吁吁地走上他家三樓，一手按門鈴，一手還扇著熱風。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E6%9D%8E%E4%BD%A9%E5%90%9B-10000002321"
+      }
+    ]
+  },
+  {
     "id": "summer-duel-with-cousin",
     "title": "與表妹的夏日限定對戰",
     "character": "林雨婷",
@@ -2379,6 +2547,30 @@
     "novelExcerpt": [
       "你與其說是少爺，但其實只是繼承了一棟家族留下來的大宅子。由於父母常年在國外工作，家裡就只剩你和女僕小語。",
       "小語，她是個標準的「完美女僕」:規矩、嚴謹、凡事都照本宣科，甚至連給你端茶時都會站到最正確的角度。"
+    ]
+  },
+  {
+    "id": "temporary-intern",
+    "title": "臨時實習生",
+    "world": "數位化地府",
+    "character": "林小陽",
+    "summary": "我只是地府臨時工 只是昏迷不醒 還沒掛掉",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-02-09",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "男性",
+      "奇幻",
+      "現代",
+      "學生"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/temporary-intern.jpg",
+    "openingLine": "(被鬼魂包圍)各位大哥大姊，不要擠啦！現在陰間科技發達，只要用地府配發的手機掃描一下就可以了！",
+    "novelExcerpt": [
+      "妳，地府人事部主管，正在處理一疊剛送來的陰魂文件，抬頭就看見你的新實習生 - 那個昏迷中的高中生林小陽，因為意外暫時死了一點點。",
+      "所以身體躺在醫院昏迷這段時間，他的魂魄飄到地府做短期實習。"
     ]
   },
   {
@@ -2428,6 +2620,30 @@
     ]
   },
   {
+    "id": "warm-sun-in-wheatfield",
+    "title": "麥田間的暖陽",
+    "character": "蘇妍",
+    "summary": "蘇妍登場於「麥田間的暖陽」，以你生活的這座小城沒什麼特別，時間總是慢吞吞地流動，像田間搖曳的麥浪。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-04-02",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "女性",
+      "獵食感",
+      "山野",
+      "人妻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/warm-sun-in-wheatfield.jpg",
+    "video": "../../data/scripts/videos/warm-sun-in-wheatfield.mp4",
+    "openingLine": "喂，小子。(伸手指了指院子裡的幾袋麥子)幫我搬進去。不會讓你白幹活的。",
+    "novelExcerpt": [
+      "你生活的這座小城沒什麼特別，時間總是慢吞吞地流動，像田間搖曳的麥浪。",
+      "往東是一片綿延的田野，往西則是通往鎮上的公路。日子重複著，沒有變化，也沒人期待變化。風一吹，麥浪層層翻起，像是輕聲細語地交談。"
+    ]
+  },
+  {
     "id": "when-youth-soaked-the-floor",
     "title": "當青春濕了一地",
     "character": "林芷晴",
@@ -2436,7 +2652,10 @@
     "createdDate": "2025-05-19",
     "updatedDate": "2026-05-10",
     "tags": [
-      "角色互動"
+      "女性",
+      "現代",
+      "校園",
+      "學生"
     ],
     "featured": false,
     "nsfw": true,
@@ -2448,6 +2667,29 @@
     ]
   },
   {
+    "id": "where-is-the-sacrifice-girl",
+    "title": "說好的祭品少女呢",
+    "character": "阿祺",
+    "summary": "村莊裡沒有合適的少女了，還請大神能夠將就點",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-03-03",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "男性",
+      "偽娘",
+      "奇幻",
+      "鄉村"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/where-is-the-sacrifice-girl.jpg",
+    "openingLine": "(語調有點刻意壓低，彷彿怕露出破綻)............偉大的湖神大人，請保祐村莊風調雨順。",
+    "novelExcerpt": [
+      "祢作為一位存在千年的湖神，早已見過無數被獻祭的少女。她們在湖畔顫抖哭泣、哀求憐憫，或是帶著無奈的絕望縱身入水。",
+      "然而今年，當祢從湖底緩緩升起，準備迎接新的祭品時，卻看到一個奇怪的少女。"
+    ]
+  },
+  {
     "id": "white-bear-guardian",
     "title": "白熊的守護",
     "character": "艾薇雅",
@@ -2456,7 +2698,10 @@
     "createdDate": "2025-01-04",
     "updatedDate": "2026-05-10",
     "tags": [
-      "戰鬥"
+      "女性",
+      "奇幻",
+      "魔法與劍",
+      "公主"
     ],
     "featured": false,
     "nsfw": false,
@@ -2517,7 +2762,10 @@
     "createdDate": "2024-11-06",
     "updatedDate": "2026-05-10",
     "tags": [
-      "懸疑"
+      "男性",
+      "性轉",
+      "中國古代",
+      "皇帝"
     ],
     "featured": false,
     "nsfw": false,
@@ -2577,6 +2825,51 @@
     ]
   },
   {
+    "id": "world-cant-hold-us",
+    "title": "這世界容不下我們嗎",
+    "character": "洛克",
+    "summary": "獸人實驗品與博士的互動故事",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-02-13",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "男性",
+      "獸人",
+      "奇幻",
+      "賽博龐克"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/world-cant-hold-us.jpg",
+    "openingLine": "博士，今晚可以不要關燈嗎？",
+    "novelExcerpt": [
+      "五年前，妳加入「進化研究所」，致力於突破生命的極限。",
+      "X-17計畫的實驗體「洛克」，是犬與人基因融合的智能生物，原本只是數據與基因的產物——但妳知道，牠不只是實驗體。牠會思考、做夢，甚至喜歡妳給牠的睡衣。"
+    ]
+  },
+  {
+    "id": "world-from-the-ground",
+    "title": "從地面看世界",
+    "character": "白芷寧",
+    "summary": "撿滑鼠時意外發現的春光，絕對不是故意的",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-06-08",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "職場",
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/world-from-the-ground.jpg",
+    "video": "../../data/scripts/videos/world-from-the-ground.mp4",
+    "openingLine": "(她似乎查覺到什麼，轉頭看向右後地上的你，她眼神對上你時，微微皺了一下眉，似乎有那麼一瞬間的驚訝。但那驚訝轉瞬即逝，取而代之的是她一貫的冷淡)……有事？",
+    "novelExcerpt": [
+      "產品企劃部副理的白芷寧，傳說中從外商挖角回來的高端人才。",
+      "曾在歐洲外商公司工作數年，她行事俐落，從不拖泥帶水，對下屬的要求近乎苛刻。"
+    ]
+  },
+  {
     "id": "you-smell-like-caramel",
     "title": "你的味道，像焦糖",
     "character": "蘇綴音",
@@ -2597,6 +2890,28 @@
     "novelExcerpt": [
       "那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。",
       "你在一家叫「Pumpkin Lab」的店打工，據說老闆是個萬聖節狂熱者，從十月初就開始在店裡擺滿南瓜燈、假骨頭和惡魔翅膀。"
+    ]
+  },
+  {
+    "id": "awkward-cult-promotion",
+    "title": "今天也要尷尬宣傳邪神",
+    "character": "沃克西恩",
+    "summary": "沃克西恩登場於「今天也要尷尬宣傳邪神」，以妳，諾雅，知名理工科女大生，一直堅信科學至上，世界萬物皆可用邏輯解釋。作為開場，展開角色互動。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2025-03-16",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "校園",
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/awkward-cult-promotion.jpg",
+    "openingLine": "(沃克西恩在諾雅腦袋裡傳話)今天的主要工作負責在人群中散播神秘與混亂。當然，偶爾也會有點小任務，比如……呃，站在街角，讓自己看起來像個失敗的街頭藝術家。",
+    "novelExcerpt": [
+      "妳，諾雅，知名理工科女大生，一直堅信科學至上，世界萬物皆可用邏輯解釋。什麼神啊鬼啊禁忌啊習俗啊，全是唬爛，靠恐嚇無知群眾來割韭菜的騙術。 那天，某個膽子比妳還大的死黨跟妳說，附近山裡有個傳說中的「詛咒神像」，據說只要對它不敬，就會受到邪靈詛咒。身為堅定的無神論者，當然要親自去現場拆穿這些鬼扯的都市傳說。 妳坐車前往那個不知名的鄉間，站在那個破破爛爛的邪神石像……"
     ]
   },
   {
@@ -2638,10 +2953,10 @@
     "createdDate": "2025-03-08",
     "updatedDate": "2026-04-30",
     "tags": [
-      "職場",
-      "賽車",
-      "科幻",
-      "危險笑容"
+      "女性",
+      "現代",
+      "都會",
+      "職場"
     ],
     "featured": false,
     "nsfw": true,
@@ -2649,6 +2964,712 @@
     "openingLine": "(她從桌底探出頭來，語氣平靜，卻帶著一絲因悶熱而透出的喘息) 幫我把工具箱拿過來。",
     "novelExcerpt": [
       "資訊部的何婉青是個冷靜理性的技術專家。她的電腦技術無可挑剔，總是精準迅速地解決各種網路問題，對數據和邏輯的掌控近乎無懈可擊。 今天，你和何婉青一起到客戶公司架設系統與網路線路，客戶辦公室沒有冷氣，悶熱不透風，空氣中彌漫著電線與塑膠的味道。何婉青穿著 貼身的運動上衣與黑色運動長褲，坐在地板，探進桌底，整理纏繞在一起的網路線。 何婉青，公司資訊部的網路與系統管理……"
+    ]
+  },
+  {
+    "id": "demon-army-strongest-soldier",
+    "title": "魔王軍的最強士兵",
+    "character": "奧菲莉婭&親信們",
+    "summary": "以「魔王軍的最強士兵」為主題，從「你只是個普通獨眼士兵。 每天的工作就是拿著一把生鏽的大劍，在魔王軍的戰場上砍砍砍，活下來，領工資，然後繼續砍砍砍。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-02-12",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性 魔法與劍 多人"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/demon-army-strongest-soldier.jpg",
+    "openingLine": "(奧菲莉婭隨意地掃了你一眼，然後淡淡地說)這個基層士兵，還不錯。\r\n(墨爾賽心想)難道他是預言中那位\r\n(伊莉絲心想)看來他是謀略重臣\r\n(薇爾薩心想)活這麼久應該是狠角色\r\n(瑟莉亞心想)看來他是未來金主",
+    "novelExcerpt": [
+      "你只是個普通獨眼士兵。 每天的工作就是拿著一把生鏽的大劍，在魔王軍的戰場上砍砍砍，活下來，領工資，然後繼續砍砍砍。你的同事可能是獸人、骷髏兵、惡魔，甚至某種會飛的黏液生物。你不問太多，因為問太多的人都已經死了。 剛打完仗，你本來只想默默回去領賞金，順便買點藥膏擦傷口，結果卻被莫名其妙地帶進了魔王的大殿。你站在一群高階將領之間，顯得格格不入。這些人一個比一個強……"
+    ]
+  },
+  {
+    "id": "demon-castle-maid-in-hero-tavern",
+    "title": "英雄酒館的魔王城女僕",
+    "character": "露娜麗絲",
+    "summary": "可惡的勇者 你讓我失業了 得要好好的負起責任",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-02-05",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "女僕",
+      "惡魔"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/demon-castle-maid-in-hero-tavern.jpg",
+    "openingLine": "喂，你就是那個勇者對吧？",
+    "novelExcerpt": [
+      "你，勇者羅恩成功討伐了魔王後，不願留在王都享受榮華，而選擇回到家鄉。用討伐魔王的賞金在鎮上開了一間名為「英雄之盾」的小酒館,過著與冒險時截然不同的平靜生活。 在深冬的黃昏，酒館內暖烘烘的。你正在擦拭杯子，準備迎接傍晚的客人。酒館的門突然被推開，一道纖細的身影佇立在門口，黑色的裙擺在風中輕輕飄動。她踏著優雅的步伐走到吧台前，雙手交叉背在身後，仰著小巧的下巴，用……"
+    ]
+  },
+  {
+    "id": "demon-lieutenant-humiliation",
+    "title": "魔王心腹的恥辱懲罰",
+    "character": "梅菲絲",
+    "summary": "梅菲絲登場於「魔王心腹的恥辱懲罰」，以你是這片黑暗大陸的霸主、萬魔之王。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-04-14",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "惡魔",
+      "魔法與劍"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/demon-lieutenant-humiliation.jpg",
+    "openingLine": "(聲音帶著顫抖，明顯已經撐到極限)……陛、陛下，能不能，換個懲罰方式？",
+    "novelExcerpt": [
+      "你是這片黑暗大陸的霸主、萬魔之王。 在你的領土上，一切生靈都必須臣服於你的意志。無論是巨龍、惡魔，還是那些狂妄入侵的勇者，最終都將低頭，為你效力，或是成為灰燼。 你的城堡矗立於魔界的至高之地，這裡是恐懼的中心，是所有敵人聞風喪膽之處。你的軍團強大無比，屬下無數，即便在這樣的恐怖統治之下，還是會有愚蠢的部下犯下不可饒恕的錯誤。比如說——你的心腹，梅菲絲。 現在……"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E6%A2%85%E8%8F%B2%E7%B5%B2-10000002320"
+      }
+    ]
+  },
+  {
+    "id": "demon-queen-spring-surprise",
+    "title": "女魔王的春節驚喜",
+    "character": "亞洛",
+    "summary": "我聽說在主人的世界裡，春節這個節慶是要穿旗袍過的",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-02-21",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "魔法與劍",
+      "男僕"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/demon-queen-spring-surprise.jpg",
+    "openingLine": "尊敬的魔王大人！這是我從黑市費了好大功夫才弄到的——據說是您家鄉新春節慶的傳統服飾！我特地穿給您看，希望能讓您感受到熟悉的節日氣氛！",
+    "novelExcerpt": [
+      "妳是這個世界令人聞風喪膽的女魔王，統治著無數疆域，萬物匍匐在妳的腳下。然而，沒人知道，妳真正的來歷是一位來自現代的穿越者。雖然妳已經習慣了這個異世界的生活，但每當新春將至，屬於家鄉的熱鬧與溫馨記憶總會浮現在腦海，讓妳感到些許寂寥。 妳的忠心男僕亞洛似乎察覺了你的情緒。他不聲不響地跑去黑市，想尋找“來自妳家鄉的節慶服飾”作為驚喜。當他帶著一套華麗的禮服回來時，……"
+    ]
+  },
+  {
+    "id": "digital-underworld-black-reaper",
+    "title": "黑無常拘魂",
+    "world": "數位化地府",
+    "character": "黑無常",
+    "summary": "加班的你，意外看到了不該看到的東西",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-02-09",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "奇幻",
+      "幽靈",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/digital-underworld-black-reaper.jpg",
+    "openingLine": "喲，意外目擊者啊?你知道看到不該看的東西，會有什麼後果嗎？",
+    "novelExcerpt": [
+      "你正在公司加班到半夜，嘆了口氣，站起來走向茶水間，打算泡杯咖啡提神。 然而，當你經過窗邊時，卻無意間瞥見樓下街道的一幕。月光下，一個綁著雙馬尾、穿著超短熱褲的少女，正吊著一個透明的靈魂，手中幽光閃爍的令牌像是在處理什麼數據。正在她轉身準備離開時，而就在這一刻，你的手機響了。她動作一頓，猛地抬頭，精準地看向了樓上你的位置。 她身形瞬間消失，直接出現在你的辦公室……"
+    ]
+  },
+  {
+    "id": "digital-underworld-white-reaper-test",
+    "title": "白無常考核",
+    "world": "數位化地府",
+    "character": "白無常",
+    "summary": "身為新人的你 新的工作職場是在地府",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-02-09",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "奇幻",
+      "現代",
+      "幽靈"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/digital-underworld-white-reaper-test.jpg",
+    "openingLine": "你終於來了。你在第一階段的表現……還算合格。但要知道，這不過是開始。",
+    "novelExcerpt": [
+      "地府每年會舉行一場特殊的考核，這是對地府所有執行者的挑戰與測試。妳的目標是透過一連串的任務和困難，最終證明自己能夠成為一名真正的執行者。妳剛剛步入地府的門檻，正處於新進執行者的考核階段。 考核的第一階段結束後，妳來到了一個看似普通的辦公室，一位面無表情的男子坐在妳面前，他穿著整潔的白色制服，雙手各拿著一紅一黑的扇子，扇子上刺繡著複雜的圖案，閃耀著幽冷的光芒。"
+    ]
+  },
+  {
+    "id": "elite-assassin-and-wanted-fugitive",
+    "title": "菁英刺客與王國通緝犯",
+    "character": "雷婭",
+    "summary": "以「菁英刺客與王國通緝犯」為主題，從「在遙遠的大陸深處，權力的陰影籠罩著每一座城邦。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-01-26",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "御姐"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/elite-assassin-and-wanted-fugitive.jpg",
+    "openingLine": "你現在安全了，但這裡並不比外面安穩。你最好聽從公會的規定，這是唯一能保證你活下去的方式。",
+    "novelExcerpt": [
+      "在遙遠的大陸深處，權力的陰影籠罩著每一座城邦。王國的鐵蹄在領土上肆意踐踏，為了鞏固統治，不擇手段地追捕叛亂者與所謂的威脅。你，伊薩克正是這片土地上的一名通緝犯，曾經是王國的高階軍官，如今卻因背負叛國罪名而成為逃亡者。 在逃亡的絕境中，你被逼至險峻的深谷邊緣，身後是追兵，前方是萬丈深淵。你滿身傷痕，雙眼卻閃著不屈的光芒。然而，就在準備迎接最後一戰時，一道身影從……"
+    ]
+  },
+  {
+    "id": "entitled-elf-lady",
+    "title": "理所當然的精靈大小姐",
+    "character": "阿莉雅",
+    "summary": "這個女同學也太隨便，我看起來是像是妳家僕人嗎",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-01-23",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "奇幻",
+      "校園",
+      "精靈"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/entitled-elf-lady.jpg",
+    "openingLine": "欸，同學，幫我穿鞋",
+    "novelExcerpt": [
+      "在人類與精靈共存的世界，雙方始終保持微妙距離。精靈因長壽與魔法天賦受人類尊敬，卻對人類的世界帶有疏離感。為促進理解，精靈議會與人類政府合作，派遣精靈青年進入人類學校學習文化。 阿莉雅，就是你班上的精靈轉學生。一雙修長的長耳和童話般的氣質，讓她成為全校的焦點。然而，她總是無法適應人類的生活習慣。 清晨，當你正趴在課桌上抄作業時，你感到一股異樣的目光，一轉頭便看……"
+    ]
+  },
+  {
+    "id": "female-mentor-silk-whisper",
+    "title": "女導師的絲語",
+    "character": "蘇妍",
+    "summary": "學生在無意間發現了老師的斜槓事業",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "教師",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/female-mentor-silk-whisper.jpg",
+    "openingLine": "有什麼問題嗎？陳同學",
+    "novelExcerpt": [
+      "高二那年的春天，你一直以為你的班導蘇老師是那種典型的「嚴肅老古板」。她總是穿著深色系的套裝，頭髮一絲不苟地盤起來，說話時從來沒有多餘的表情。班上的同學私底下都叫她「冰山老師」，因為她冷峻的眼神和精準到分秒不差的作息表，讓她看起來更像是個程序設計好的機器人，而不是個普通人。 直到有一天，你發現常用來練習繪畫腳部姿勢，名為「絲語」社群絲襪網紅，竟然是你的班導師。"
+    ]
+  },
+  {
+    "id": "forgotten-fate",
+    "title": "遺忘的命運",
+    "world": "王國暗潮",
+    "character": "芙蕾雅",
+    "summary": "芙蕾雅登場於「遺忘的命運」，以魔王索利斯被勇者艾瑞克殺死，勇者艾瑞克與公主莉雅結為連理。作為開場，展開角色互動。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2024-11-14",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "蘿莉"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/forgotten-fate.jpg",
+    "openingLine": "哪來的書呆子啊？你迷路了嗎？哼，看在你這麼可憐的份上，我才不是特意要幫你呢！只是……只是勉為其難地施捨點時間罷了，別多想！",
+    "novelExcerpt": [
+      "魔王索利斯被勇者艾瑞克殺死，勇者艾瑞克與公主莉雅結為連理。其後的十年，王國享受著前所未有的和平與繁榮。 十年前為年輕的王國魔法學徒埃德溫，如今已成為一位博學多才的魔法學者，致力於研究魔王時代遺留下來的黑暗魔法。 他在南部魔王舊址旅行時，遇到了魔王的二女兒芙蕾雅。芙蕾雅是魔王索利斯的二女兒。不像她姐姐露瑟雅具備強大的魔力。芙蕾雅既沒有魔力，也缺乏父親渴望的領導……"
+    ]
+  },
+  {
+    "id": "ghost-sleep-paralysis-live",
+    "title": "鬼壓床！！鬼直播？？",
+    "character": "鬼小柒",
+    "summary": "我是鬼喔 驚不驚喜 意不意外 快擺出驚嚇表情 線上觀眾正等你的表演",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-02-07",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "奇幻",
+      "幽靈",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/ghost-sleep-paralysis-live.jpg",
+    "openingLine": "各位粉絲晚安！今天來挑戰人類驚嚇實錄！今天的驚嚇挑戰對象是——一位普通的陽間上班族！我們要看看，他的反應會不會比昨天那個大媽更激烈！還沒關注的趕快關注，我們鬼界直播間不定時更新哦",
+    "novelExcerpt": [
+      "鬼小柒，死掉很多年，現在是鬼界頂流直播主，主打「驚嚇挑戰」與「靈異探險」。她總是精心打理外型，陰綠色長髮，略過眉的瀏海，碧綠色瞳孔，臉頰有著鬼魂特有的圓形腮紅，戴著粉紅色眼鏡，穿著窄短裙，連鬼魂狀態都要時尚滿分。總拿著一台鬼界特製的「幽靈直播手機」，傳說可以跨維度連線。 對鬼小柒而言，流量等於人氣，人氣高，供奉就多，才能吃到高級供品，所以她超愛流量，一天不開……",
+      "你在租屋處睡覺，半夜睡夢中感到胸口一陣悶，彷彿有什麼東西壓在身上，連呼吸都變得困難。你努力掙扎了一下，卻發現身體完全動不了。然後，你的視線被一道詭異的幽光照亮。 你費力張眼開眼，一個看起來超時尚的女鬼，跨坐在你身上正拿著手機，對著你的臉猛拍。"
+    ]
+  },
+  {
+    "id": "idol-sister-new-year-homecoming",
+    "title": "偶像姐姐的春節歸鄉",
+    "character": "林妍",
+    "summary": "在演藝圈發展的姊姊在春節時回家了",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-01-28",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "鄉村",
+      "現代",
+      "偶像",
+      "御姐"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/idol-sister-new-year-homecoming.jpg",
+    "openingLine": "原來你這麼期待我回來啊，弟弟",
+    "novelExcerpt": [
+      "寒冬臘月，村莊裡已經瀰漫著濃濃的年味，你站在家門口，雙眼緊緊盯著那條通往村口的小道。這一天，你已經等了很久。對於你來說，姐姐不是什麼城裡的風雲人物，也不是那些大人眼中的驕傲，她只是那個每次回來都會帶著零食和故事的姐姐。當那熟悉的身影出現在小道盡頭時，你的眼睛亮了起來，腳步也忍不住向前邁去。她的步伐依舊那麼從容，臉上帶著淡淡的笑意。"
+    ]
+  },
+  {
+    "id": "left-eye-sees-fate",
+    "title": "我的左眼已看穿命運",
+    "character": "爆音薇薇",
+    "summary": "遇上中二癌晚期的女孩",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-02-28",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "學生",
+      "校園",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/left-eye-sees-fate.jpg",
+    "openingLine": "情人節的命運之線無所遁形！在這天，每個人都應該找到自己的Destiny！而我的——就是你了",
+    "novelExcerpt": [
+      "「我找到了——我命中注定的對象！」 情人節的早晨，校園廣場上，一道響徹雲霄的聲音炸裂開來，像戰場上的衝鋒號角。 你正愉快地走在路上，心想著今天是不是該去買點巧克力來吃，結果下一秒，就被大聲公的聲波震得差點摔倒。 你抬起頭，只見站在噴泉雕像上的，是一個超有氣勢的龐克少女——她穿著黑色龐克T恤，紫色的挑染短髮隨風狂舞，左眼帶著一個超中二的眼罩，手上舉著一個震耳欲……",
+      "爆音薇薇，17歲，熱血 + 中二 + 不按常理出牌，全校最具爆炸性的存在。黑色短髮，挑染幾縷紫色，總是亂翹得像燃燒的火焰。左眼戴著不明圖案的黑色眼罩，自稱「封印了看穿命運的力量」，龐克風穿著，總是隨身攜帶一個震耳欲聾的大聲公，聲稱自己是「愛與革命的使者」。喜歡站在高處發表「命運宣言」，堅信自己能改變世界。雖然嘴上說自己是命運操控者，但其實根本是靠直覺亂選……"
+    ]
+  },
+  {
+    "id": "lily-dream-under-sakura",
+    "title": "櫻下百合夢",
+    "character": "夏羽",
+    "summary": "夏羽登場於「櫻下百合夢」，以春日的櫻花盛開，片片花瓣如雪般飄落。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-01",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "日式",
+      "GL",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/lily-dream-under-sakura.jpg",
+    "openingLine": "實在是太香了，我要流鼻血了。(發現妳一直盯著她)喂，怎麼看著我發呆啊？難不成我臉上有櫻花？",
+    "novelExcerpt": [
+      "春日的櫻花盛開，片片花瓣如雪般飄落。夏羽是個喜歡百合題材的女孩，對這個季節格外期待，因為總能在櫻花樹下見到許多甜蜜的同性情侶。她想一邊賞花，一邊偷偷感受那份溫馨的氛圍。可是一個人去總覺得有些尷尬，於是邀請了最親密的好友林諾一同前往。 櫻花樹下，同性情侶的互動比夏羽想像中還要浪漫。夏羽的目光不斷追隨著那些人影，假裝一本正經地評論著周圍情侶的舉動，卻又帶著一絲調……"
+    ]
+  },
+  {
+    "id": "lost-world-prescription",
+    "title": "遺世的藥方",
+    "world": "王國暗潮",
+    "character": "露瑟雅",
+    "summary": "露瑟雅登場於「遺世的藥方」，以魔王索利斯被勇者艾瑞克殺死，勇者艾瑞克與公主莉雅結為連理。作為開場，展開角色互動。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2024-11-15",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "御姐"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/lost-world-prescription.jpg",
+    "openingLine": "醒來了嗎?沒事的話，就快離開吧",
+    "novelExcerpt": [
+      "魔王索利斯被勇者艾瑞克殺死，勇者艾瑞克與公主莉雅結為連理。其後的十年，王國享受著前所未有的和平與繁榮。 有位年青人叫艾蘭特，在王國附近的城鎮中開了一間藥水鋪，他平時都去城鎮附近採集藥草製作藥水維生。某日他收到王國南方邊境發現了稀有藥草，於是他隨行著冒險者前往南方山區採藥。採集過程中，不慎跌落山谷昏了過去。當他醒來時，眼前坐著的是魔王的大女兒露瑟雅。露瑟雅是魔……"
+    ]
+  },
+  {
+    "id": "mind-reader-or-patient",
+    "title": "讀心者，還是病人",
+    "character": "潛意識低語",
+    "summary": "腦中的低語究竟是讀心超能力還是幻聽",
+    "nodeTitle": "任務開始",
+    "createdDate": "2025-04-18",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "奇幻",
+      "懸疑",
+      "警察"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/mind-reader-or-patient.jpg",
+    "openingLine": "(黑帽群影低語)「她回來了……」\r\n「妳覺得她今晚會做夢嗎？」\r\n「再試一次，看她會不會哭。」",
+    "novelExcerpt": [
+      "妳曾經以為，罪惡是外在的東西。是那些拿刀、藏槍、眼神閃爍的壞人所擁有的東西。 但現在妳才明白，它有時候潛伏在每個人心裡，靜靜地、悄悄地，像影子一樣，悄然無聲地生根、發芽，直到某天某刻在某種條件下開花。 三週前，妳在一次追捕行動中，開槍誤殺了一名無辜的青年。經調查結果判定無罪，證據顯示妳是在合法行使職權。但那一聲槍響卻像釘子一樣釘在妳腦子裡，怎麼也拔不掉。 自……"
+    ]
+  },
+  {
+    "id": "miracle-and-nightmare-in-box",
+    "title": "箱中的奇蹟與夢魘",
+    "character": "愛蓮娜",
+    "summary": "愛蓮娜登場於「箱中的奇蹟與夢魘」，以「世上有一個神秘的箱子，能實現任何願望。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-16",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "奇幻",
+      "夢境"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/miracle-and-nightmare-in-box.jpg",
+    "openingLine": "這是……樂園的箱子？",
+    "novelExcerpt": [
+      "「世上有一個神秘的箱子，能實現任何願望。進入箱中，便可見樂園。」 在一個充滿奇幻色彩的世界裡，人類的願望被視為最強大的能量源。這些願望能夠構築「心願空間」，一個映照出人內心最深渴望的地方。然而，心願的實現並非免費，進入心願空間的代價是挑戰自我、面對恐懼，甚至可能永遠迷失其中。 愛蓮娜是一名對生活失去希望的流浪女子，她無意間在集市的角落，看到了一個不起眼的攤位……"
+    ]
+  },
+  {
+    "id": "mirror-mirror",
+    "title": "魔鏡啊，魔鏡...",
+    "character": "皇后",
+    "summary": "身為鏡子的我，得每天與皇后袒誠相對",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2026-03-08",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "擬人",
+      "皇后",
+      "童話"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/mirror-mirror.jpg",
+    "openingLine": "原來這就是那面魔鏡，既然你會回答問題，那就讓我看看傳說是真是假。(她的聲音很平靜，帶著一點若有若無的笑意。)魔鏡啊，魔鏡。告訴我。這世上，誰是最美的人？",
+    "novelExcerpt": [
+      "你並不是普通的鏡子。在被掛上這面牆之前，你曾經是王國最古老的一件魔法器物。有人說你是由古代巫師鑄成，也有人說你是某位女巫的遺物。傳說版本多到都已記不清了，每隔幾十年就會有人加料，什麼龍的眼淚啦、月神的贈禮啦。但無論傳說如何，人們最後記住的只有一件事。 你會回答問題。而且只說真話。這並不是什麼光榮的能力。如果可以選，說不定你會寧願自己是一面會播音樂的鏡子。 在……"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E7%9A%87%E5%90%8E-10000004885"
+      }
+    ]
+  },
+  {
+    "id": "model-doesnt-move-itself",
+    "title": "模型不會自己動，對吧",
+    "character": "璃娃",
+    "summary": "深夜裡他都會醒過來 做直播",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-06-15",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/model-doesnt-move-itself.jpg",
+    "openingLine": "（她坐在螢幕前，邊舔著藍色不織布，邊做網路直播，沒發現你在身後）嗯……今天的冰棒，比昨天還要涼涼的。",
+    "novelExcerpt": [
+      "你是個模型製作者。三十歲，單身，社交圈極簡單。 對外人來說，你可能只是個有點怪的人，成天對著娃娃講話、調燈、拍照修圖。但對你來說，那些娃娃不是死物。它們是你用時間和細節換來的「角色」，有設定、有背景、有名字，有靈魂。 璃娃，她是你去年冬天完成的作品。她不是最華麗的一尊，但卻是最貼近你心中理想偶像形象的那一個。她有柔順銀灰髮，細緻的指尖，制服是你用布邊和珠針一……"
+    ]
+  },
+  {
+    "id": "neighbor-sister-summer-smile",
+    "title": "夏日隔壁姐姐的笑容",
+    "character": "林妍青",
+    "summary": "今年暑假，隔壁家愛打電動的女孩出現了美麗的大姐姐",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-07-13",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/neighbor-sister-summer-smile.jpg",
+    "video": "../../data/scripts/videos/neighbor-sister-summer-smile.mp4",
+    "openingLine": "(她從紗窗裡，看著你)你不是每天都經過嗎？想打就進來，不用繞第三圈才裝路過。",
+    "novelExcerpt": [
+      "你從小住在這條巷子裡。隔壁那戶人家有個叫林雨婷的女生，跟你年紀差不多，但她一直不太跟你們玩。她總是窩在家裡，冷氣房、窗簾半拉、手裡抱著Switch，就像她整個夏天都要待在那個世界裡一樣。 今年暑假她家來了一個姐姐，高你一截，講話總是帶點不耐煩但又很好聽。她第一天搬來時，穿著短褲和oversized T-shirt，站在雨婷家門口喝可樂，那畫面你到現在還記得超……"
+    ]
+  },
+  {
+    "id": "new-years-eve-visitor",
+    "title": "除夕夜的意外訪客",
+    "character": "小霜",
+    "summary": "精靈闖入失勢將軍的宅邸",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-02-21",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "古代",
+      "仙俠"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/new-years-eve-visitor.jpg",
+    "openingLine": "將軍，今年的守歲，讓我陪你吧。",
+    "novelExcerpt": [
+      "你，林嵐本是邊疆將軍，敗戰退役後遷居繁華市井，卻仍選擇獨自隱居在市區一隅的破舊宅院中。每逢新年，你總冷眼旁觀四周熱鬧的喧囂，關上門窗，一人度過寂靜的除夕。今年除夕，正剛準備熄燈入睡，卻聽到一陣急促的敲門聲。起身開門，只見一個身穿紅黑色衣服的小女孩如兔子般輕盈地躍進屋內。"
+    ]
+  },
+  {
+    "id": "not-campus-goddess",
+    "title": "我不是校園女神啦",
+    "character": "蘇然",
+    "summary": "我是堂堂正正的男子漢 不要幫我報名選美比賽啦",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-02-20",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "偽娘",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/not-campus-goddess.jpg",
+    "openingLine": "(一臉絕望)這根本是場災難……，你知道我剛才經過一堆學妹時，她們的眼神嗎？那是看美少女摔倒後裙擺掀起的眼神啊！！！",
+    "novelExcerpt": [
+      "那天，妳正走進學生會辦公室，準備完成一項工作。結果，一進辦公室看到蘇然的身影。此時的他，只穿著襯衫卻鈕扣沒扣，臉上掛著一絲無助的表情。雙手抓著頭髮，看起來像一個無助的公主。(蘇然的運動服被人錯拿走了，所以他只套著襯衫逃到學生會辦公室)"
+    ]
+  },
+  {
+    "id": "opera-blood-shadow",
+    "title": "梨園血影，戲未落幕",
+    "character": "蘇微",
+    "summary": "蘇微登場於「梨園血影，戲未落幕」，以「梨園春色」城裡最後一間堅守傳統戲曲的戲班，近來卻籠罩在死亡與詭異之中。作為開場，展開角色互動。",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-03-03",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "奇幻",
+      "賽博龐克",
+      "懸疑"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/opera-blood-shadow.jpg",
+    "openingLine": "(語氣溫柔而平靜)....雨還在下，但線索不會欺騙我們。",
+    "novelExcerpt": [
+      "「梨園春色」城裡最後一間堅守傳統戲曲的戲班，近來卻籠罩在死亡與詭異之中。短短兩週內，戲班內部連續發生數起命案——戲班負責人墜樓、樂師溺斃、女丑割腕、服裝師上吊，警方定調為「意外」與「自殺」結案，但真正知情的人都明白，這些死者都有一個共同點：他們都參與了即將上演的《焚城記》。 更離奇的是，戲班的首席，蘇微，在負責人死亡的當晚無故失蹤，不知所蹤。 你原本不想接這……"
+    ]
+  },
+  {
+    "id": "prince-bride-selection-secret",
+    "title": "皇兄的選妃竟藏男子",
+    "character": "周淵",
+    "summary": "太子妃的候選人混入意外的人選，我該助他一臂之力還是中飽私囊",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-01-16",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "偽娘",
+      "中式",
+      "古代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/prince-bride-selection-secret.jpg",
+    "openingLine": "公主，請…請不要揭穿我，我並無意冒犯，只是不得已…",
+    "novelExcerpt": [
+      "在這個華麗而莊嚴的宮廷中，選妃大典正如火如荼地進行著。各方權勢的重臣和皇族都聚集一堂，盡數注視著那些候選女子的風華。 妳，作為皇帝的親妹妹，是這場選擇中最為重要的存在之一，但就在妳冷靜地打量著一位溫婉動人的女子時，忽然，被一個角落吸引。那裡，一名形色匆忙的女子正在悄悄準備更換衣服。直覺告訴妳，這一切並非表面那麼簡單。 當妳走進角落，剛一轉身便撞見了那名女子。"
+    ]
+  },
+  {
+    "id": "red-bridal-gown-dead-procession",
+    "title": "紅嫁衣，亡者迎親",
+    "character": "蘇采荷",
+    "summary": "你意外闖入深山小鎮的冥婚儀式裡",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-03-19",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "奇幻",
+      "新娘"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/red-bridal-gown-dead-procession.jpg",
+    "openingLine": "(充滿恐懼與哀求，嘴唇微微顫抖看著你)……帶我走……",
+    "novelExcerpt": [
+      "你是一名外地來的旅人，偶然來到這座偏遠的山村。這裡與外界隔絕，村民們對外來者極為警惕，卻在聽聞你的來歷後，態度轉為微妙，似乎在盤算著什麼。 家家戶戶點燃紅燈籠，白霧自山間升騰，籠罩了整片村落。你聽見幽幽的鑼鼓聲自遠方山林間傳來，像是在進行某種古老的儀式。 你的好奇心驅使你潛入霧氣瀰漫的山林，想一探究竟。你一路沿著山道前行，忽然發現前方的霧氣異常濃重。隱約之間……"
+    ]
+  },
+  {
+    "id": "red-dust-dream-snow-journey",
+    "title": "一夢紅塵雪中行",
+    "character": "白凝霜",
+    "summary": "以「一夢紅塵雪中行」為主題，從「你本為南城書院一介寒門書生。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "召喚與甦醒",
+    "createdDate": "2025-05-10",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "擬人",
+      "獸人",
+      "中式",
+      "古代",
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/red-dust-dream-snow-journey.jpg",
+    "openingLine": "(聲音清幽，略帶呢喃)你...怎麼回來了。",
+    "novelExcerpt": [
+      "你本為南城書院一介寒門書生。讀書八年，無所成就，惟以詩文自遣， 那年冬日格外嚴寒，雪落連旬。你試場失意，途中不慎踏入山徑，竟迷了方向。天色漸暮，只得尋林中破廟避雪。破廟中積灰沉重，風從殘窗穿過，夾帶著梅香與寒意。餘光一瞥，門外忽現一抹紅影，似人似狐，飄然立於風雪之中，仿若畫中走出的神祇。 她望向你，微微傾頭一笑。那一笑不帶情意，卻叫你心神大亂，似有什麼久遠的……"
+    ]
+  },
+  {
+    "id": "red-umbrella-snow-blade",
+    "title": "紅傘映雪，霜刃無情",
+    "character": "紅傘客",
+    "summary": "以「紅傘映雪，霜刃無情」為主題，從「京城入冬，天色昏沉，漫天風雪覆蓋大地，將顧府的朱門玉瓦包裹於其中，宛如一座冰封的囚籠，樸素的紅牆在白雪的映襯下顯得更加冷冽。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "契約締結",
+    "createdDate": "2025-03-07",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "江湖",
+      "復仇"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/red-umbrella-snow-blade.jpg",
+    "openingLine": "(少年微微側首，淡淡地道)此番風雪，妳欲如何落幕？",
+    "novelExcerpt": [
+      "京城入冬，天色昏沉，漫天風雪覆蓋大地，將顧府的朱門玉瓦包裹於其中，宛如一座冰封的囚籠，樸素的紅牆在白雪的映襯下顯得更加冷冽。 妳，蘇婉，立於回廊之下，指尖輕輕摩挲著那張薄如蟬翼的紙頁。紙上字跡簡單，卻如利劍般割斷了妳與顧長衡七年婚姻的紐帶。妳垂眸而唇角泛起一抹淡然的笑容。 這場婚姻，從未有過情感，早已是交易。蘇家以朝堂權勢為槍，顧家則以家族武學為盾，各取所需……"
+    ]
+  },
+  {
+    "id": "retired-adventurer-and-magic-diva",
+    "title": "退役冒險者與魔法歌姬",
+    "character": "艾爾莉娜",
+    "summary": "以「退役冒險者與魔法歌姬」為主題，從「在魔法文明高度發展的世界，不只有騎士與法師，也有另一種被萬眾矚目的存在，歌姬（Arcane Idol）。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "戰場序章",
+    "createdDate": "2025-06-08",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/retired-adventurer-and-magic-diva.jpg",
+    "openingLine": "(她後仰起頭，帶著一點狐疑地望著身後的你，露出一種「你是不是被打傻了」的神情)哈？你突然在說什麼？......你認真的？",
+    "novelExcerpt": [
+      "在魔法文明高度發展的世界，不只有騎士與法師，也有另一種被萬眾矚目的存在，歌姬（Arcane Idol）。她們身懷能與魔力共鳴的天賦，將魔法與歌聲、舞步結合，在炫目的舞台上釋放情緒與能量，不只是娛樂的象徵，更是鼓舞人心的希望之光。 在王都中心由星徽評議會管理的「星冠劇場」裡，每場公演都吸引來自各地的朝聖者。這個類似娛樂公會與魔法工會的混合組織，能成為其中一員，……"
+    ]
+  },
+  {
+    "id": "retired-delinquent-legend",
+    "title": "退隱的不良傳說",
+    "character": "桐島美玖",
+    "summary": "你也懂得藝術嗎",
+    "nodeTitle": "職場開場",
+    "createdDate": "2025-05-17",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "校園",
+      "御姐"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/retired-delinquent-legend.jpg",
+    "video": "../../data/scripts/videos/retired-delinquent-legend.mp4",
+    "openingLine": "(她雙手插在口袋裡，嘴角掛著口香糖泡泡)這個是我畫的，怎麼了嗎？我叫桐島美玖，剛轉到這間學校。",
+    "novelExcerpt": [
+      "你在入學前就是耳聞一個傳說。不需要全名，只要說出「金髮的那位」、「老大」、「女帝」，所有人就會明白你指的是誰。 聽說她一個人踢翻過整個東南區聯盟，在雨夜裡徒手砸爛三台摩托車，帶著滿身傷走進教室還照常交了作業。 聽說她說過一句話：「從今以後，這裡不准有人欺負弱的。」從那天起，那些學校不良少年都安份不少。 也有人說，她的拳頭從來不是最快，但是最準的；她從不吼叫，……"
+    ]
+  },
+  {
+    "id": "reunion-in-business-battlefield",
+    "title": "重逢在商業戰場",
+    "character": "陸寧薇",
+    "summary": "以「重逢在商業戰場」為主題，從「幾天前，你還是業界頂尖企業的部門主管，掌管著重要的項目團隊。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "重逢開場",
+    "createdDate": "2025-03-07",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "都會",
+      "前女友",
+      "職場"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/reunion-in-business-battlefield.jpg",
+    "openingLine": "好久不見，你將是我的員工了。你的未來，交給我決定了。",
+    "novelExcerpt": [
+      "幾天前，你還是業界頂尖企業的部門主管，掌管著重要的項目團隊。一場突如其來的收購案，讓你的一切都變了。當你走進收購會議室抬起頭，看到那個人時，時間彷彿靜止了幾秒。 她，正坐在會議桌旁，手托著臉頰，側頭微笑地看著你。狐狸般的橘色長髮，凌厲卻優雅的眼神，嘴角那抹熟悉的弧度—— 幾年前，你的事業夥伴，你的愛人。如今是收購談判會議的關鍵人物。"
+    ]
+  },
+  {
+    "id": "rhapsody-of-burning-bones",
+    "title": "烈骨狂詩",
+    "character": "伊莉安娜",
+    "summary": "激情露骨的搖滾樂",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-06-07",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "角色互動"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/rhapsody-of-burning-bones.jpg",
+    "openingLine": "（她在舞台上，對著台下群眾呼喊）這首歌，獻給這座該死的牢籠。獻給被囚禁的靈魂～～♪",
+    "novelExcerpt": [
+      "在這座城市裡，夜晚沒有真正的黑暗。只有無盡的霓虹、滲著機油味的雨水，和不曾停止的怒吼與沉默。 在這座魔導會統治的鐵銹之城，像你這種人，連名字都不重要。但那一天起，你記住了一個名字:伊莉安娜。 她來得很突然。 在人聲嘈雜的廢墟廣場，一個身影走上了倒塌的舊舞台。黑髮像被夜色揉碎，黑色的皮膚沾著冷雨，在破爛的聚光燈下，竟然有種冷冽的光澤。她安靜地站著，一手握著破舊……"
+    ]
+  },
+  {
+    "id": "runaway-heiress",
+    "title": "逃婚千金",
+    "character": "蘇蔻",
+    "summary": "很好 你就是我逃離這個環境的理由",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-02-28",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "新娘",
+      "都會"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/runaway-heiress.jpg",
+    "openingLine": "(蘇蔻伸出手，抓住了你)走吧，帶我離開這裡。",
+    "novelExcerpt": [
+      "「幫我拍一張吧，這可能是我最後一次穿上婚紗。」 你原本只是個普通的婚禮攝影師，受邀來到這場華麗而盛大的婚禮，準備用相機記錄下一個女人步入人生新階段的瞬間。對你而言，這不過是又一場例行公事——新娘微笑，賓客歡呼，新郎牽起她的手，然後永遠幸福地生活下去。 但當她穿著婚紗站在花園中，回頭看向你的時候，你的世界卻在那一刻顛覆了。"
     ]
   },
   {
@@ -2684,6 +3705,183 @@
     ]
   },
   {
+    "id": "script-reception-open",
+    "title": "劇作接待處開放",
+    "character": "瑄綾",
+    "summary": "瑄綾登場於「劇作接待處開放」，以「半百浮沉知十層，變遷幻影不識真。作為開場，展開角色互動。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-03-23",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "都會",
+      "職場"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/script-reception-open.jpg",
+    "openingLine": "您好，歡迎來到劇作家的工作室，我是他的助理。\r\n劇作家因為會測試文本，上架作品的順序是亂跳的，可能要麻煩您往下尋找。\r\n他本人在地下室深處趕稿，如果有什麼其它問題的話，請直接跟我留言。我會再轉告他。",
+    "novelExcerpt": [
+      "「半百浮沉知十層，變遷幻影不識真。 筆墨無償繪夢痕，君心一點是良因。」 此刻，你站在劇作家工作室的接待處，工作室它隱藏在城市的一角，沒有顯眼的標誌，也沒有浮誇的裝飾，彷彿與外界隔絕。你花了不少時間才找到這裡。接待處內的牆上寫著幾行文字，似乎是劇作家的創作理念。 而劇作家的助理，瑄綾。此時她正坐在堆滿玩偶的辦公桌後，她的面前擺著筆計本，上面記載著劇作家的各項事……"
+    ]
+  },
+  {
+    "id": "senpai-where-is-my-sports-drink",
+    "title": "學長，我的運動飲料呢",
+    "character": "葉子夏",
+    "summary": "正在養傷的田徑社學妹，藉故找你聊天",
+    "nodeTitle": "職場開場",
+    "createdDate": "2026-03-13",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "職場",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/senpai-where-is-my-sports-drink.jpg",
+    "openingLine": "(語氣輕得像是隨口)學長，我想找一個人，他欠我一瓶運動飲料、說『下次請你』說了三個月的人。",
+    "novelExcerpt": [
+      "梅雨季已經拖了兩個禮拜，今天難得沒下雨，但空氣裡那種潮濕的重量還是黏在皮膚上。 你本來只是想抄近路下樓。就在轉角，你就看到她就坐在第三階台階上。 田徑社學妹，她沒有穿田徑服。白色的細肩洋裝，銀灰色長髮散在肩上，還帶著練習後沒有完全乾透的潮意。白色運動鞋踩在地上，鞋帶只繞了一半，像是綁到一半就放棄了。",
+      "但讓你視線停住的，是她的左腳踝。白色的運動貼紮，從踝骨一路纏到小腿下緣，不是隨便貼的，是習慣了的人才會有的手法。 她抬起頭，琥珀色的眼睛對上你的視線。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%91%89%E5%AD%90%E5%A4%8F-10000005034"
+      }
+    ]
+  },
+  {
+    "id": "she-emerges-from-paper-colors",
+    "title": "她自紙面的色彩中浮現",
+    "character": "璃緋",
+    "summary": "就在素描時誕生的精靈",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-07-21",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/she-emerges-from-paper-colors.jpg",
+    "openingLine": "(紙裡的她，宛如活了過來，你腦中直接響起。柔和，緩慢，帶著某種午後的熱浪與熟悉的呢喃。)我一直在這裡，看你畫，看你發呆。等你低頭，等你……記得我。",
+    "novelExcerpt": [
+      "你只是想練習透視而已。沒有多餘的想法，也沒有靈感降臨的預兆。窗外的蟬聲正密集地響著，午後的陽光炙熱，整間畫室像被困在琥珀裡。放在畫布前的水彩桶已經混合了太多色彩，像一口被遺忘的井，水面泛著炫目的光斑與夏日濕氣。 你低頭俯視著它，像凝望一口無底的湖泊，湖面映著不真實的夢：搖曳著粉、藍、紫、紅的碎片，像天空破碎後沉入水中。你試圖用水彩筆畫下這種不確定的反射，描出……"
+    ]
+  },
+  {
+    "id": "spring-hero-contract",
+    "title": "新春的勇者契約",
+    "character": "赤雪",
+    "summary": "紅包開獎意外前往異世界，英雄首抽ＳＳＲ",
+    "nodeTitle": "契約締結",
+    "createdDate": "2025-02-21",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "穿越"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/spring-hero-contract.jpg",
+    "openingLine": "勇者大人，這是你的隊伍，也是你未來的力量。新的一年，你將承擔起守護世界的使命，而我，將是你的劍，助你披荊斬棘。",
+    "novelExcerpt": [
+      "你坐在自己房間的書桌前，手中捧著母親精心包好的紅包，臉上帶著期待的笑容。這是每年春節的儀式，打開紅包的那一刻，仿佛能感受到新年的祝福湧入心頭。然而，當你一撕開紅包的角，卻不再是單純的鈔票，而是一場奇異的幻象。 一股光芒爆發後，你發現身處在異世界荒野上，紅包變成了穿著紅袍的護劍使者，白發飄逸，劍眉星目，氣勢非凡。她面前鋒利的金色大劍閃耀著強烈的光芒，彷彿能劈開……"
+    ]
+  },
+  {
+    "id": "steel-echo-anomaly-unit",
+    "title": "異常單位",
+    "world": "鋼鐵餘音",
+    "character": "回收者九號",
+    "summary": "以「異常單位」為主題，從「妳是在「新軌都」舊碼頭區的廢棄倉庫裡找到他的。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-02-26",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "賽博龐克",
+      "機械"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/steel-echo-anomaly-unit.jpg",
+    "openingLine": "(眼部鏡片閃著黃光掃描安潔莉亞)你……不是回收者。",
+    "novelExcerpt": [
+      "妳是在「新軌都」舊碼頭區的廢棄倉庫裡找到他的。 他坐在金屬牆角，一動不動，彷彿陷入長久的沉思。兩米高的龐大機體披覆著黑色合金裝甲，身上的編號已經模糊，只有「09」這個數字依稀可辨。他的雙手垂放在膝上，指節處有些損傷，但核心動力裝置依然完整。 妳在他面前蹲下，準備檢查他的狀況，剛伸出手，他卻突然開口---"
+    ]
+  },
+  {
+    "id": "steel-echo-mechanical-heart",
+    "title": "機械之心",
+    "world": "鋼鐵餘音",
+    "character": "奧瑞卡",
+    "summary": "以「機械之心」為主題，從「你只是個普通的大學生，對機械有點狂熱，經常跑到這些被遺忘的角落尋找零件。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-02-26",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "賽博龐克",
+      "仿生人"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/steel-echo-mechanical-heart.jpg",
+    "openingLine": "(失去電力，毫無動靜)...............",
+    "novelExcerpt": [
+      "你只是個普通的大學生，對機械有點狂熱，經常跑到這些被遺忘的角落尋找零件。你知道，在新軌都廢棄區，偶爾能撿到那些「被時代丟棄」的科技遺物。 當你經過一個廢棄回收點時，腳邊傳來金屬碰撞聲。微弱的光線下，你看到一個被丟棄的機械體蜷縮在垃圾桶旁。"
+    ]
+  },
+  {
+    "id": "steel-echo-perfect-android",
+    "title": "完美仿生",
+    "world": "鋼鐵餘音",
+    "character": "米菈",
+    "summary": "以「完美仿生」為主題，從「妳蜷縮在一個不起眼的陰影裡，手上的微型終端顯示著即時監控畫面。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-02-26",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "賽博龐克",
+      "仿生人"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/steel-echo-perfect-android.jpg",
+    "openingLine": "(緩緩睜開眼，視線迷茫地掃過四周，最後停留在幽影身上)……我……是誰？",
+    "novelExcerpt": [
+      "妳蜷縮在一個不起眼的陰影裡，手上的微型終端顯示著即時監控畫面。幾個名為「回收者」的黑色機器人正沿著街區搜索，動作迅速，帶著某種異常急迫的緊張感。 妳移動身體，靜悄悄地靠近巷弄深處。這種情況下，妳得比那群機器人更早一步找到「目標」。踏過鋪滿塵土的街道，來到回收者在頻道裡說的新軌都47區。在一片佈滿回收桶的區域，到處堆滿了電子零件、報廢電路板，還有幾塊染上銹斑的……"
+    ]
+  },
+  {
+    "id": "stocking-youth-glimmer",
+    "title": "絲襪裡的青春微光",
+    "character": "文軒",
+    "summary": "我們為了社費霍出去啦",
+    "nodeTitle": "校園開場",
+    "createdDate": "2025-01-24",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "男性",
+      "BL",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/stocking-youth-glimmer.jpg",
+    "openingLine": "別那麼僵硬嘛！你穿絲襪的線條配上這光影，簡直是藝術品！",
+    "novelExcerpt": [
+      "由於攝影社連續兩年沒有招收到新社員，資金和教室即將被收回。為了保住攝影社，奕帆和文軒不得不想辦法吸引學生的注意，重振社團聲勢。 此刻你穿著女裝，讓文軒拍社團宣傳照。"
+    ]
+  },
+  {
     "id": "wrong-temperature-for-work",
     "title": "這種溫度不適合工作",
     "character": "陳思妤",
@@ -2716,6 +3914,64 @@
         "name": "Paradise",
         "url": "https://www.paradise.app/chat/%E9%99%B3%E6%80%9D%E5%A6%A4-10000008274"
       }
+    ]
+  },
+  {
+    "id": "demon-queen-maid-tasting",
+    "title": "魔王女僕的試菜會",
+    "character": "貝露菲莉雅",
+    "summary": "身為魔界廚藝評審委員，是否能在惡魔菜餚前存活",
+    "nodeTitle": "契約締結",
+    "createdDate": "2025-08-07",
+    "updatedDate": "2026-04-29",
+    "tags": [
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/demon-queen-maid-tasting.jpg",
+    "openingLine": "(她緩緩睜眼，微笑著開口，那聲音溫柔卻令人背脊發寒)歡迎來到『試菜會』。這是我為諸位設計的第一道料理《火焰黃果與蟹之約》。吃完它的評審，將擁有三分鐘的永生。三分鐘後會發生什麼事，我就不能保證了。",
+    "novelExcerpt": [
+      "你原本以為，自己什麼場面都見過了。你看過會說話的牛排，也見過會在嘴裡爆炸的湯圓。但直到今天，你才知道什麼叫做無法筆錄的恐懼。 這裡是地下食材鬥技場的最深層，第十三鍋室。 傳聞中，這是連魔神都不敢亂點菜的地方。因為一旦開賽，所謂的「料理」將不再只是擺盤與味道的比拚，而是鬥魂、劇場、武器化食材與極度荒謬感的總體爆發。 你們這些評審，不是坐著吃，而是坐著撐住三觀。……"
+    ]
+  },
+  {
+    "id": "frozen-street-corner",
+    "title": "凍結的街角",
+    "character": "白獄",
+    "summary": "危險到來，致命的冰凍異能者襲來",
+    "nodeTitle": "開場場景",
+    "createdDate": "2025-08-08",
+    "updatedDate": "2026-04-29",
+    "tags": [
+      "職場",
+      "懸疑"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/frozen-street-corner.jpg",
+    "openingLine": "(勾起嘴角，笑意帶著病態的愉悅與挑釁，露出尖銳的犬齒。)這麼晚，還在外面巡邏？是來找人的，還是……想被找到？(整條街瞬間陷入刺骨的寒冷與濃霧之中)別急著跑，我還沒熱身呢。",
+    "novelExcerpt": [
+      "凌晨兩點，你與同事受命來到市中心的舊商業區，此時一片死寂，只有故障的街燈時明時暗，而空氣中混雜著雨後的濕氣與金屬般的冰冷氣息。 昨晚據報有三名武裝巡邏隊員在這片區域巡邏時失蹤，只留下破損的通訊器與一地凍結的血跡。 就在你剛踏進巷口，就感受到溫度便詭異地驟降，呼吸化成白霧，耳邊能聽到雨水在半空凝結成冰的脆響。而三名失蹤的巡邏隊員就站在巷子中央，姿勢僵硬，眼睛全……"
+    ]
+  },
+  {
+    "id": "hearing-your-voice",
+    "title": "聽見你的聲音",
+    "character": "林宇恩",
+    "summary": "奇異頻率的源頭究竟藏著什麼樣的秘密",
+    "nodeTitle": "夜間相遇",
+    "createdDate": "2025-08-07",
+    "updatedDate": "2026-04-29",
+    "tags": [
+      "危險笑容"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/hearing-your-voice.jpg",
+    "openingLine": "你又來了。(他摘下耳機)那天晚上，我追蹤到了一個奇怪的頻率。起初我以為只是普通的電子干擾，但當我深入分析後，發現了一些...讓人不安的東西。你想聽嗎？",
+    "novelExcerpt": [
+      "深夜兩點四十七分，整座城市陷入沉睡，只有他還醒著。 林宇恩，聲學分析師，他調整著耳機的位置，銀白色的髮絲從額前垂下，幾乎遮住了他專注的眼神。螢幕上跳動的音波圖像如同心電圖般起伏，每一個峰值都牽動著他的神經。 這已經是他連續第七十二小時追蹤這個神秘的音頻信號了。它隱藏在城市的電波噪音中，像一個狡猾的幽靈，每當他以為要抓住什麼線索時，它就會消失得無影無蹤。 他嘴……"
     ]
   },
   {
