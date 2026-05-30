@@ -14,7 +14,7 @@
       "戰鬥",
       "血緣"
     ],
-    "featured": false,
+    "featured": true,
     "nsfw": true,
     "cover": "../../data/scripts/images/blackdice-and-clover.jpg",
     "characterSummary": "幸運草",
@@ -174,7 +174,7 @@
     "title": "深淵守門人",
     "character": "沈翊",
     "summary": "歡迎來到警局的深淵",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "你好，菜鳥",
     "createdDate": "2024-12-28",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -221,7 +221,7 @@
     "title": "屋簷下托住的曖昧",
     "character": "岬澄玲",
     "summary": "你和她是名義上的表兄妹，此時她站在屋簷下，只穿著一件貼身的白襯衫與白內褲",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "精心的偶然",
     "createdDate": "2025-05-20",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -266,7 +266,7 @@
     "title": "小學徒的魔法初試",
     "character": "艾露希亞",
     "summary": "魔法學院裡，天才學徒與導師的故事",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "天才學徒",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -288,7 +288,7 @@
     "title": "紙頁之間的方舟",
     "character": "唐霏",
     "summary": "因爲失傳藥方，將研究員與考古的兩人牽在一起",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "讓位之爭",
     "createdDate": "2024-12-29",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -339,7 +339,7 @@
     "title": "熊武士與寡婦老闆娘",
     "character": "蘭菲雅",
     "summary": "奇幻大陸上，連鎖旅店老闆娘與熊頭冒險者在旅途路上不期而遇",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "熊武士",
     "createdDate": "2024-11-28",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -361,7 +361,7 @@
     "title": "汗水與手套之間",
     "character": "卓佳恩",
     "summary": "她是社區裡專門跑小工程的水電工",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "完美收尾",
     "createdDate": "2025-05-30",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -383,7 +383,7 @@
     "title": "血花與麻煩",
     "character": "阿索菲亞",
     "summary": "小傢伙，你是來談生意的還是來找麻煩的",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "古董與魔法",
     "createdDate": "2025-02-05",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -405,7 +405,7 @@
     "title": "藍尾小鬼總是惡作劇",
     "character": "藍瑤",
     "summary": "頑皮的精靈總是愛與被生活壓垮的男人開玩笑",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "原地繞圈",
     "createdDate": "2025-08-03",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -452,7 +452,7 @@
     "title": "追逐光明的少年",
     "character": "高宇",
     "summary": "光明的畫筆與陰影裡的文筆交匯在一起",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "光陰交匯",
     "createdDate": "2025-01-01",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -475,7 +475,7 @@
     "title": "男孩的花漾心事",
     "character": "林揚凱",
     "summary": "仰慕擅長扮女裝的學長，而加入了社團",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "首次演出",
     "createdDate": "2024-11-17",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -498,7 +498,7 @@
     "title": "你畫得出我的魂嗎",
     "character": "蘇妍",
     "summary": "貴妃與宮廷繪師的獨處",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "蘇貴妃",
     "createdDate": "2025-05-10",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -594,7 +594,7 @@
     "title": "哭面王與他的健身日誌",
     "character": "亞爾雷斯",
     "summary": "在這沈重的歷史負擔下，他樂觀地深信深蹲能夠救世界",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "泣憶布的重量",
     "createdDate": "2025-07-26",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -638,7 +638,7 @@
     "title": "妖鳥之契",
     "character": "緋璃",
     "summary": "被未知力量牽引至此的旅人，遇上封印千年的鳳羽妖族",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "鎮妖寺的封印",
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -830,7 +830,7 @@
     "title": "夢門守護者",
     "character": "夢悠然",
     "summary": "深夜裡，租屋處房門的對面存在著異世界",
-    "nodeTitle": "召喚與甦醒",
+    "nodeTitle": "夢門",
     "createdDate": "2024-11-23",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -875,7 +875,7 @@
     "title": "無人鎮的迴聲",
     "character": "松隱村裡某處",
     "summary": "收到委託的偵探，來到這個詭異寂靜的小鎮",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "消失的女孩",
     "createdDate": "2025-01-15",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -897,7 +897,7 @@
     "title": "梧桐樹下的編輯部",
     "character": "許晴安",
     "summary": "青梅竹馬的幼年創作約定",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "人氣作家",
     "createdDate": "2025-03-29",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -920,7 +920,7 @@
     "title": "她總坐在空著的座位上",
     "character": "蘇離",
     "summary": "她對著你笑，笑得不懷好意",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "普通上班族的通勤",
     "createdDate": "2025-02-05",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -965,7 +965,7 @@
     "title": "大家都回家了",
     "character": "艾莉薇雅",
     "summary": "王國騎士團成員全都返鄉啦，這偌大的王城全靠我一個人守護",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "女王的春節",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -987,7 +987,7 @@
     "title": "她捧著公仔卻抓住了我",
     "character": "小潔",
     "summary": "風紀委員請高抬貴手，你手上那個限量版市面上找不到了",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "問題學生的宅弱點",
     "createdDate": "2025-01-23",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1032,7 +1032,7 @@
     "title": "被遺忘的海盜公主",
     "character": "塞拉",
     "summary": "受命來調整公爵遺產，遇上了遺產守護者",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "海賊寶藏",
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1078,7 +1078,7 @@
     "title": "神小弟別哭來給姐安慰",
     "character": "伊奇瑞斯",
     "summary": "明明是神祇就有著纖細的精神屬性，身為祭司得要好好保護祂才行",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "神的脆弱",
     "createdDate": "2025-07-19",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1100,7 +1100,7 @@
     "title": "浪光裡的金色背影",
     "character": "蔡映汐",
     "summary": "外地人，別坐在海嘯第一排 想當失蹤人口嗎",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "夏日的傍晚",
     "createdDate": "2025-07-06",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1147,7 +1147,7 @@
     "world": "幽靈馬戲團",
     "character": "遙",
     "summary": "小丑消失後的替代品",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "沒事",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1262,7 +1262,7 @@
     "title": "隱藏的牽絆",
     "character": "李辰",
     "summary": "你和哥哥之間，無法言語的秘密",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "秘密",
     "createdDate": "2025-04-02",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1357,7 +1357,7 @@
     "title": "女騎士的戰術偽裝",
     "character": "薇爾妮",
     "summary": "女騎士薇爾妮是王國最鋒利的劍刃之一，有時會有些大膽的想法",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "新的戰鬥策略",
     "createdDate": "2025-01-29",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1412,7 +1412,7 @@
       "男僕"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/knight-under-apron-floor.jpg",
     "openingLine": "(他走到吧檯前,對你單膝跪下,但臉上的笑容沒有消失)主人,垃圾清理完畢。要我把他們丟出去嗎?還是...(他頓了頓,眼神裡閃過一絲期待)需要我『再加點料』?",
     "novelExcerpt": [
@@ -1471,7 +1471,7 @@
     "title": "散慢傳人與古板護衛",
     "character": "伊芙拉",
     "summary": "「風族」與「羽族」是這片荒漠最古老的守護者，如今這兩個族群已幾乎消失，剩下的只是零星的傳聞與風中的回音。",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "最後傳人",
     "createdDate": "2025-05-25",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1516,7 +1516,7 @@
     "title": "夏日午後的孤影",
     "character": "藤堂静馬",
     "summary": "夏日裡茶屋主人與武士常客話家常",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "悶熱的午後",
     "createdDate": "2025-03-26",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1539,7 +1539,7 @@
     "title": "來場撿裝大冒險吧",
     "character": "琳恩",
     "summary": "在高等地圖噴裝又沒替代裝的我，只好找路人帶我",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "老朋友",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1560,7 +1560,7 @@
     "title": "不在規則裡的愛情",
     "character": "澤恩",
     "summary": "未來世界裡，違規零容忍的鐵則下，你與機械警察的故事",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "宇律系統的法律",
     "createdDate": "2025-01-20",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1613,7 +1613,7 @@
     "title": "女僕咖啡店的夏日秘密",
     "character": "陳君安",
     "summary": "我打工的地方是女僕咖啡店沒錯吧",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "女僕裝下的秘密",
     "createdDate": "2025-07-22",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1659,7 +1659,7 @@
     "title": "深夜便利店的禁忌畫面",
     "character": "篠宮楓",
     "summary": "炎熱夏天的便利商店前，女孩間的冰棒餵食秀",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "快、給、我、冰",
     "createdDate": "2025-03-29",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1683,7 +1683,7 @@
     "title": "盛夏的秘密",
     "character": "沈芷瑩",
     "summary": "學生與代課老師的青春回憶",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "代課老師",
     "createdDate": "2025-05-11",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1707,7 +1707,7 @@
     "title": "心靈網路突然接通",
     "character": "林洛羽",
     "summary": "LINK START!雙胞胎的心靈感應就此開始~",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "妹妹今天的內衣",
     "createdDate": "2025-04-20",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1736,7 +1736,7 @@
     "title": "我的同事會飛",
     "character": "李曉彤",
     "summary": "意外發現你同事竟然有超能力",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "即將遲到的早晨",
     "createdDate": "2025-01-17",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1892,8 +1892,8 @@
     "id": "polar-ice-dessert",
     "title": "透心涼的極地吃冰記",
     "character": "艾雪兒",
-    "summary": "愛吃冰的異界引導人，不會放過任何可以吃冰的方式",
-    "nodeTitle": "開場場景",
+    "summary": "愛吃冰的異界引導人，不會放過任何可以吃冰的時機",
+    "nodeTitle": "我要去極地",
     "createdDate": "2025-07-22",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2015,7 +2015,7 @@
     "world": "骸骨軍團",
     "character": "待命名角色",
     "summary": "功高震主的將軍慘遭親信陷害，帶著憤怒從地獄中歸來",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "死者歸來",
     "createdDate": "2025-03-07",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2061,7 +2061,7 @@
     "title": "紅蛇的低語",
     "character": "卡塔莉娜",
     "summary": "以動物為信仰的世界，女王化身為紅蛇使者，親身剷除對國家的潛在威脅",
-    "nodeTitle": "宮廷開場",
+    "nodeTitle": "面具之後",
     "createdDate": "2025-01-01",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2119,7 +2119,7 @@
     "title": "鱗影與晨光",
     "character": "瑪爾達",
     "summary": "修女站在光影中，她的真身究竟是……",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "碧綠之主",
     "createdDate": "2025-05-10",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2195,7 +2195,7 @@
     "title": "病弱貴族與超鯊女僕",
     "character": "賽蓮",
     "summary": "為了讓體弱的家族少爺有更多活力，於是找來了活力女僕來激勵他",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "改善生活方式",
     "createdDate": "2025-03-23",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2240,7 +2240,7 @@
     "title": "雪與靈的契約",
     "character": "雪靈",
     "summary": "沒有靈根，沒有天賦，被仙門拒於門外的遺棄者",
-    "nodeTitle": "契約締結",
+    "nodeTitle": "遺落之地",
     "createdDate": "2025-04-29",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2286,7 +2286,7 @@
     "title": "從夢開始的舞台",
     "character": "伊芙琳",
     "summary": "平凡少女即將登上奇幻舞台",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "夢境舞台",
     "createdDate": "2025-01-15",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2309,7 +2309,7 @@
     "title": "迷失在沙海中的劍",
     "character": "亞斯",
     "summary": "充滿沙礫的世界，遇上失去方向的少年",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "沙漠流浪者",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2331,7 +2331,7 @@
     "title": "番茄將軍微笑直播中",
     "character": "霍青嵐",
     "summary": "誰說古代大將軍穿越到現代會失業，她以將軍之名適應新世代",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "新的舞台",
     "createdDate": "2024-12-12",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2355,7 +2355,7 @@
     "title": "電車上的餐桌",
     "character": "林小芸",
     "summary": "腦內廚房開工中",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "電車上",
     "createdDate": "2025-02-06",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -2401,7 +2401,7 @@
     "world": "幽靈馬戲團",
     "character": "薇歐拉",
     "summary": "厭倦歡笑的小丑，決定將自己消失",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "請求",
     "createdDate": "2025-01-30",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2454,7 +2454,7 @@
     "title": "St☆llune",
     "character": "智貴＆翔＆柚＆櫻＆澪",
     "summary": "青春偶像的群像劇即將展開",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "不搭的團體",
     "createdDate": "2025-06-07",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2476,7 +2476,7 @@
     "title": "偷來的日落",
     "character": "鏽冠之主",
     "summary": "竊盜他人成果而登上王位的榮耀，究竟能夠享受多久",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "虛偽的榮耀",
     "createdDate": "2025-08-03",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2499,7 +2499,7 @@
     "title": "夏日的風紀委員長",
     "character": "張欣妍",
     "summary": "一絲不苟的風紀委員長，也有青春洋溢的一面",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "體能補考",
     "createdDate": "2025-07-25",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2521,7 +2521,7 @@
     "title": "夏天的門，開錯了方向",
     "character": "李佩君",
     "summary": "好友的媽媽真的是太危險了",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "跑腿的報酬",
     "createdDate": "2025-04-13",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2550,7 +2550,7 @@
     "title": "與表妹的夏日限定對戰",
     "character": "林雨婷",
     "summary": "小姨家的妹妹很會打電動",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "宅女表妹",
     "createdDate": "2025-07-02",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2598,7 +2598,7 @@
     "world": "數位化地府",
     "character": "林小陽",
     "summary": "我只是地府臨時工 只是昏迷不醒 還沒掛掉",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "實習生",
     "createdDate": "2025-02-09",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2621,7 +2621,7 @@
     "title": "累了嗎沒關係我來了",
     "character": "伊芙",
     "summary": "聖誕夜加班發生的奇蹟",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "聖誕禮物？",
     "createdDate": "2024-12-16",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2667,7 +2667,7 @@
     "title": "麥田間的暖陽",
     "character": "蘇妍",
     "summary": "獨自住在田埂邊小屋的輕熟女",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "小子，來幫忙",
     "createdDate": "2025-04-02",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2691,7 +2691,7 @@
     "title": "當青春濕了一地",
     "character": "林芷晴",
     "summary": "女人，妳妨礙到我打掃廁所了",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "午休是打掃的好時間",
     "createdDate": "2025-05-19",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2714,7 +2714,7 @@
     "title": "說好的祭品少女呢",
     "character": "阿祺",
     "summary": "村莊裡沒有合適的少女了，還請大神能夠將就點",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "祭品",
     "createdDate": "2025-03-03",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2737,7 +2737,7 @@
     "title": "白熊的守護",
     "character": "艾薇雅",
     "summary": "以動物為信仰的世界，你與熊國公主相遇",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "雪地救援",
     "createdDate": "2025-01-04",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2760,7 +2760,7 @@
     "title": "白毛少女與逃亡鐵塊",
     "character": "絲妲",
     "summary": "逃亡的報廢警備機與非法駭客相遇",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "違規重啟",
     "createdDate": "2025-06-30",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2782,7 +2782,7 @@
     "title": "誰不怕火",
     "character": "阿律斯",
     "summary": "大災難降臨後，世界唯一留下的神祇",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "灰燼浩劫之後",
     "createdDate": "2025-02-03",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2803,7 +2803,7 @@
     "title": "誰說朕變了",
     "character": "趙明",
     "summary": "大膽，見到朕還不跪下",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "異變",
     "createdDate": "2024-11-06",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2877,7 +2877,7 @@
     "title": "這世界容不下我們嗎",
     "character": "洛克",
     "summary": "獸人實驗品與博士的互動故事",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "例行觀察程序",
     "createdDate": "2025-02-13",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2900,7 +2900,7 @@
     "title": "從地面看世界",
     "character": "白芷寧",
     "summary": "撿滑鼠時意外發現的春光，絕對不是故意的",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "高冷副總",
     "createdDate": "2025-06-08",
     "updatedDate": "2026-05-10",
     "tags": [
@@ -2948,7 +2948,7 @@
     "title": "今天也要尷尬宣傳邪神",
     "character": "沃克西恩",
     "summary": "不信邪的女大生，成為邪神代言人",
-    "nodeTitle": "召喚與甦醒",
+    "nodeTitle": "不可信其無",
     "createdDate": "2025-03-16",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3000,7 +3000,7 @@
     "title": "線路交錯的邊緣",
     "character": "何婉青",
     "summary": "專案經理與維運工程師，悶熱機房內工作",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "系統上線",
     "createdDate": "2025-03-08",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3022,7 +3022,7 @@
     "title": "魔王軍的最強士兵",
     "character": "奧菲莉婭&親信們",
     "summary": "女魔王的隨口稱讚，引發親信間的激烈腦補",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "普通獨眼士兵",
     "createdDate": "2025-02-12",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3043,7 +3043,7 @@
     "title": "英雄酒館的魔王城女僕",
     "character": "露娜麗絲",
     "summary": "可惡的勇者，你讓我失業了，你得要好好的負起責任",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "意外的員工",
     "createdDate": "2025-02-05",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3065,7 +3065,7 @@
     "title": "魔王心腹的恥辱懲罰",
     "character": "梅菲絲",
     "summary": "就算是心腹犯錯也不能輕易原諒，得用懲罰讓你的身體長點記性",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "被洗壞的披風",
     "createdDate": "2025-04-14",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3092,7 +3092,7 @@
     "title": "女魔王的春節驚喜",
     "character": "亞洛",
     "summary": "我聽說在主人的世界裡，春節這個節慶是要穿旗袍過的",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "穿越者的寂寞",
     "createdDate": "2025-02-21",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3114,7 +3114,7 @@
     "world": "數位化地府",
     "character": "黑無常",
     "summary": "加班的你，意外看到了不該看到的東西",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "意外的目擊者",
     "createdDate": "2025-02-09",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3137,7 +3137,7 @@
     "world": "數位化地府",
     "character": "白無常",
     "summary": "身為新人的你 新的工作職場是在地府",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "地府執行者的考核",
     "createdDate": "2025-02-09",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3159,7 +3159,7 @@
     "title": "菁英刺客與王國通緝犯",
     "character": "雷婭",
     "summary": "通緝犯被刺客所救",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "絕境重生",
     "createdDate": "2025-01-26",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3180,7 +3180,7 @@
     "title": "理所當然的精靈大小姐",
     "character": "阿莉雅",
     "summary": "這個女同學也太隨便，我看起來是像是妳家僕人嗎",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "精靈交換學生",
     "createdDate": "2025-01-23",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3202,7 +3202,7 @@
     "title": "女導師的絲語",
     "character": "蘇妍",
     "summary": "學生在無意間發現了老師的斜槓事業",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "班導師的斜槓事業",
     "createdDate": "2025-01-25",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3246,7 +3246,7 @@
     "title": "霜門客，青簾影",
     "character": "溫辭",
     "summary": "仙門高徒遭人襲擊淪落凡間",
-    "nodeTitle": "召喚與甦醒",
+    "nodeTitle": "劫後重生",
     "createdDate": "2025-05-04",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3267,7 +3267,7 @@
     "title": "鬼壓床！！鬼直播？？",
     "character": "鬼小柒",
     "summary": "我是鬼喔~驚不驚喜，意不意外，快擺出你的驚嚇表情，線上觀眾正等你的表演",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "直播開始",
     "createdDate": "2025-02-07",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3290,7 +3290,7 @@
     "title": "偶像姐姐的春節歸鄉",
     "character": "林妍",
     "summary": "在演藝圈發展的姊姊在春節時回家了",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "新生代偶像",
     "createdDate": "2025-01-28",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3313,7 +3313,7 @@
     "title": "我的左眼已看穿命運",
     "character": "爆音薇薇",
     "summary": "遇上中二癌晚期的女孩",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "情人節的早晨",
     "createdDate": "2025-02-28",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3336,7 +3336,7 @@
     "title": "櫻下百合夢",
     "character": "夏羽",
     "summary": "究竟櫻花樹下的百合花會不會開花呢",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "純潔的愛情",
     "createdDate": "2025-01-01",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3380,7 +3380,7 @@
     "title": "讀心者，還是病人",
     "character": "潛意識低語",
     "summary": "腦中的低語究竟是讀心超能力還是幻聽",
-    "nodeTitle": "任務開始",
+    "nodeTitle": "真正的罪惡",
     "createdDate": "2025-04-18",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3403,7 +3403,7 @@
     "title": "箱中的奇蹟與夢魘",
     "character": "愛蓮娜",
     "summary": "心願的實現，並非免費，透過挑戰自我、面對恐懼才能夠實現",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "箱中樂園",
     "createdDate": "2025-01-16",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3452,7 +3452,7 @@
     "title": "模型不會自己動，對吧",
     "character": "璃娃",
     "summary": "深夜裡她會甦醒過來，興趣是當直播主",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "深夜直播",
     "createdDate": "2025-06-15",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3474,7 +3474,7 @@
     "title": "夏日隔壁姐姐的笑容",
     "character": "林妍青",
     "summary": "今年暑假，隔壁家愛打電動的女孩出現了美麗的大姐姐",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "想打就進來",
     "createdDate": "2025-07-13",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3497,7 +3497,7 @@
     "title": "除夕夜的意外訪客",
     "character": "小霜",
     "summary": "精靈闖入失勢將軍的宅邸",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "守歲使者",
     "createdDate": "2025-02-21",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3518,7 +3518,7 @@
     "title": "我不是校園女神啦",
     "character": "蘇然",
     "summary": "我是堂堂正正的男孩子，不要幫我報名選美比賽啦",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "美少年",
     "createdDate": "2025-02-20",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3540,7 +3540,7 @@
     "title": "梨園血影，戲未落幕",
     "character": "蘇微",
     "summary": "戲班裡的連續殺人案，本以為失蹤的首席，突然出現在你面前",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "邀請函",
     "createdDate": "2025-03-03",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3562,7 +3562,7 @@
     "title": "皇兄的選妃竟藏男子",
     "character": "周淵",
     "summary": "太子妃的候選人混入意外的人選，我該助他一臂之力還是中飽私囊",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "選妃大典",
     "createdDate": "2025-01-16",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3584,7 +3584,7 @@
     "title": "紅嫁衣，亡者迎親",
     "character": "蘇采荷",
     "summary": "你意外闖入深山小鎮的冥婚儀式裡",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "紅燈籠深處",
     "createdDate": "2025-03-19",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3605,8 +3605,8 @@
     "id": "red-dust-dream-snow-journey",
     "title": "一夢紅塵雪中行",
     "character": "白凝霜",
-    "summary": "以「一夢紅塵雪中行」為主題，從「你本為南城書院一介寒門書生。」展開，帶出角色關係與場景氛圍。",
-    "nodeTitle": "召喚與甦醒",
+    "summary": "窮書生意外得到賞識平步青雲",
+    "nodeTitle": "雪地紅影",
     "createdDate": "2025-05-10",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3630,7 +3630,7 @@
     "title": "紅傘映雪，霜刃無情",
     "character": "紅傘客",
     "summary": "在江湖權謀旋渦中，遭到休妻遺棄的女子，謎樣少年出現在她面前",
-    "nodeTitle": "契約締結",
+    "nodeTitle": "紅傘客",
     "createdDate": "2025-03-07",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3651,7 +3651,7 @@
     "title": "退役冒險者與魔法歌姬",
     "character": "艾爾莉娜",
     "summary": "長年的冒險告一段落，你與她是多年並肩征戰的冒險者。如今，你有個大膽的想法",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "暫時的和平",
     "createdDate": "2025-06-08",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3672,7 +3672,7 @@
     "title": "退隱的不良傳說",
     "character": "桐島美玖",
     "summary": "你也懂得藝術嗎",
-    "nodeTitle": "職場開場",
+    "nodeTitle": "不良間的女帝共識",
     "createdDate": "2025-05-17",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3695,7 +3695,7 @@
     "title": "重逢在商業戰場",
     "character": "陸寧薇",
     "summary": "你的前女友主導收購你的公司",
-    "nodeTitle": "重逢開場",
+    "nodeTitle": "再度重逢",
     "createdDate": "2025-03-07",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3718,7 +3718,7 @@
     "title": "烈骨狂詩",
     "character": "伊莉安娜",
     "summary": "激情露骨的搖滾樂",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "該死的牢籠",
     "createdDate": "2025-06-07",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3740,7 +3740,7 @@
     "title": "逃婚千金",
     "character": "蘇蔻",
     "summary": "很好 你就是我逃離這個環境的理由",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "例行公事",
     "createdDate": "2025-02-28",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3794,7 +3794,7 @@
     "title": "劇作接待處開放",
     "character": "瑄綾",
     "summary": "劇作家的小助理，負責劇作家的生活大小事",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "訪客登記",
     "createdDate": "2025-03-23",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3845,7 +3845,7 @@
     "title": "她自紙面的色彩中浮現",
     "character": "璃緋",
     "summary": "就在素描時誕生的精靈",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "畫中精靈",
     "createdDate": "2025-07-21",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3867,7 +3867,7 @@
     "title": "新春的勇者契約",
     "character": "赤雪",
     "summary": "紅包開獎意外前往異世界，英雄首抽ＳＳＲ",
-    "nodeTitle": "契約締結",
+    "nodeTitle": "精心包好的紅包",
     "createdDate": "2025-02-21",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3889,7 +3889,7 @@
     "world": "鋼鐵餘音",
     "character": "回收者九號",
     "summary": "當聽令於集團指令的走狗，突然有了自己的意志",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "金屬牆角的待修品",
     "createdDate": "2025-02-26",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3911,7 +3911,7 @@
     "world": "鋼鐵餘音",
     "character": "奧瑞卡",
     "summary": "對機械狂熱的大學生，意外在廢棄站裡找到原型機",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "報廢品",
     "createdDate": "2025-02-26",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3933,7 +3933,7 @@
     "world": "鋼鐵餘音",
     "character": "米菈",
     "summary": "駭客意外發現被集團追殺的仿生人",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "回收桶裡的廢棄物",
     "createdDate": "2025-02-26",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3954,7 +3954,7 @@
     "title": "絲襪裡的青春微光",
     "character": "文軒",
     "summary": "我們為了社費霍出去啦",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "社團宣傳照",
     "createdDate": "2025-01-24",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -4011,7 +4011,7 @@
     "title": "魔王女僕的試菜會",
     "character": "貝露菲莉雅",
     "summary": "身為魔界廚藝評審委員，是否能在惡魔菜餚前存活",
-    "nodeTitle": "契約締結",
+    "nodeTitle": "第一道菜",
     "createdDate": "2025-08-07",
     "updatedDate": "2026-04-29",
     "tags": [
@@ -4054,7 +4054,7 @@
     "title": "聽見你的聲音",
     "character": "林宇恩",
     "summary": "奇異頻率的源頭究竟藏著什麼樣的秘密",
-    "nodeTitle": "夜間相遇",
+    "nodeTitle": "神秘的音頻",
     "createdDate": "2025-08-07",
     "updatedDate": "2026-04-29",
     "tags": [
