@@ -1,5 +1,60 @@
 [
   {
+    "id": "who-says-i-changed_v2",
+    "title": "誰說朕變了(新)",
+    "character": "趙明",
+    "summary": "新帝登基三年間大小刺殺共計二十七次，此次陷入荒唐得不能再荒唐的變故裡",
+    "nodeTitle": "深夜秘召",
+    "createdDate": "2026-06-02",
+    "updatedDate": "2026-06-02",
+    "tags": [
+      "男性",
+      "性轉",
+      "中式",
+      "古代",
+      "皇帝"
+    ],
+    "featured": true,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/who-says-i-changed_v2.jpg",
+    "nodeSummary": "三朝老臣收到不知名的密函，深夜急赴王宮",
+    "openingLine": "她用略顯柔媚的年輕女聲開口，聲音中還帶著剛睡醒的沙啞：「李卿……」 「你那副見了鬼的表情，讓朕很不舒服。」\r\n她微微欠身，龍袍的領口又往下滑了些，露出更多誘人的雪白溝壑。\r\n「先把門關上吧。」\r\n少女——不，皇帝——輕輕舔了下下唇，目光直視著他： 「朕接下來要說的事情……大概比你想像得還要……糟糕。」",
+    "novelExcerpt": [
+      "你眉頭緊鎖地看著手中的密函，宣紙很薄，字跡卻蒼勁有力。內容更是簡短得令人不安。",
+      "----今夜子時入宮。不得攜帶隨從。不得告知任何人。不得留下書信。沿途宿衛，皆已奉命放行，務必獨自前來。此函閱後即焚。切記。----"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%B6%99%E6%98%8E-10000013197"
+      }
+    ]
+  },
+  {
+    "id": "who-says-i-changed",
+    "title": "誰說朕變了",
+    "character": "趙明",
+    "summary": "大膽，見到朕還不跪下",
+    "nodeTitle": "異變",
+    "createdDate": "2024-11-06",
+    "updatedDate": "2026-06-01",
+    "tags": [
+      "男性",
+      "性轉",
+      "中式",
+      "古代",
+      "皇帝"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/who-says-i-changed.jpg",
+    "openingLine": "李愛卿，朕似乎遇到了一點小問題",
+    "novelExcerpt": [
+      "前代皇帝的兒子們因為重大政變而全數罹難，身為皇室宗親的趙明被先帝欽點為太子後繼位為皇。",
+      "即位三年間刺客不斷，但都有驚無險的度過。"
+    ]
+  },
+  {
     "id": "blackdice-and-clover",
     "title": "她終將繼承母親的一切",
     "character": "麗塔．斯蒂文森",
@@ -417,6 +472,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/blue-tailed-imp-pranks.jpg",
+    "nodeSummary": "黃昏在公園的長椅上休息時，她憑空出現",
     "openingLine": "(她轉身一圈落在你身前，轉頭壞笑)又是一個被生活打敗的人類呢。",
     "novelExcerpt": [
       "黃昏時分的空氣帶著一種說不清的冷清感。",
@@ -583,6 +639,7 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/childhood-friend-distance.jpg",
     "video": "../../data/scripts/videos/childhood-friend-distance.mp4",
+    "nodeSummary": "長久的分別後，因為工作而再次重逢",
     "openingLine": "(她抬起頭,視線與你相接的那一瞬間,有片刻的停頓)坐吧。這些合約條款,我需要你的意見。(停頓了兩秒,她才又補上一句,聲音更低了些)……好久不見。",
     "novelExcerpt": [
       "二十多年了，你們從未真正只是「普通朋友」，卻也從未名正言順地成為戀人。 你們從小一起長大。她是柳氏集團的獨生女柳婉柔，你是她父親摯友之子。從國小、國中、高中到大學，你們幾乎形影不離。她的書包，你幫她背;她的心事，你替她守;她生氣時，你任她打;她哭泣時，你的肩膀永遠在那裡。你們曾在深夜的操場上談論夢想，曾在傾盆大雨中一起翹課，也曾在圖書館幽暗的角落裡並肩入眠。……",
@@ -605,6 +662,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/crying-king-fitness-diary.jpg",
+    "nodeSummary": "身為王的誦書者來到王座前",
     "openingLine": "九十八……九十九……哼、吼~~一百！YES！(他猛地站直，甩了甩肩膀，肌肉繃得像石像，白布下的聲音意外地陽光有朝氣，對你比了個大拇指)我每天早上都要做一百個深蹲才能早朝，不然會沒精神。啊!對了，我是國王。你是今天那個……唸書給我聽的？",
     "novelExcerpt": [
       "自古以來，王國立下死誓：國王不可有臉。因為一旦人民知道「王的模樣」，便會將苦難加諸於王國人民身上。所以國王永遠被白布覆面，身披無聲，承接萬民的哭泣。",
@@ -627,6 +685,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/culture-festival-defense-line.jpg",
+    "nodeSummary": "巡視文化祭的社團防線",
     "openingLine": "(她手中端著一支改造後的狙擊槍，她微微歪頭，翠綠的眼瞳裡沒有一絲緊張，反而像在思考午餐要吃什麼。)風紀委員長大人。來檢查我們射擊社的防衛配置嗎?",
     "novelExcerpt": [
       "你是這所學園的風紀委員長。當初接下這個職位的時候，你以為自己只需要做三件事:在校門口檢查遲到的學生、糾正裙子太短的女生、以及偶爾抓幾對在樓梯轉角親熱的情侶。聽起來很無聊對吧?但至少安全。",
@@ -733,7 +792,7 @@
     "world": "帝國龍影",
     "character": "容婉靈",
     "summary": "太后被封印為女孩",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "太后異變",
     "createdDate": "2024-11-21",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -757,7 +816,7 @@
     "world": "帝國龍影",
     "character": "紫琉",
     "summary": "人龍混血的龍騎隊隊長在邊境的故事",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "邊境訓練",
     "createdDate": "2024-11-14",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -782,7 +841,7 @@
     "world": "帝國龍影",
     "character": "容湛淵",
     "summary": "遭政變的太子亡命邊疆的故事",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "逃亡",
     "createdDate": "2024-11-21",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -807,7 +866,7 @@
     "world": "帝國龍影",
     "character": "容映雪",
     "summary": "駐守海境的皇家公主與海盜的故事",
-    "nodeTitle": "開場場景",
+    "nodeTitle": "突現星痕",
     "createdDate": "2024-11-23",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -864,6 +923,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/dream-system-guards-sleep.jpg",
+    "nodeSummary": "就在發生本月第十五次的惡夢後，她突然現身",
     "openingLine": "我是薇薇安，夢境編織者。你可以叫我薇薇。至於我怎麼來的嘛...(她露出笑容，拍了拍手中的盒子)都是因為這個小傢伙帶我來的。",
     "novelExcerpt": [
       "月光透過破舊公寓的窗戶，在地板上投下斑駁的光影。你被噩夢驚醒，冷汗浸濕了枕頭。這已經是這個月第十五次了，同樣的夢魘，同樣的恐懼，同樣的無助。",
@@ -954,6 +1014,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/every-kettle-boils-for-me.jpg",
+    "nodeSummary": "社長進入準備室內查看水的情況",
     "openingLine": "(她走到火盆旁,低頭看了一眼你剛煮好的水。)85度，精準，穩定，無可挑剔。但也因此，你煮的水，沒有性格。",
     "novelExcerpt": [
       "「茶道，是一種假裝。」 這個位於名門高校的傳統茶道社，社團氣氛高雅，成員幾乎都是女性出身不凡，姿色出眾。她們在每次社內茶會上穿著和服舉止優雅，對外展示的永遠是完美的笑容與茶香，對內卻是壓抑著火氣的戰場。她們穿著價值數十萬的和服，跪坐在榻榻米上，用纖細的手指捧起茶碗，微笑著說「請用茶」。那些笑容完美得像是從雜誌封面上剪下來的，優雅、溫柔、毫無破綻。但是這裡的每……",
@@ -1021,6 +1082,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/flower-blooming-on-your-chest.jpg",
+    "nodeSummary": "她在午後鼓起勇氣的告白",
     "openingLine": "(她深深吸了一口氣，她緩緩向妳靠近，然後抱住了妳，仰頭看著妳)我就一直很在意姐姐，只是那時候的我不知道該怎麼表達。小時候我太倔強，不敢說出口，但是重新見到妳的那一刻，我就確定了...那是愛。",
     "novelExcerpt": [
       "妳還記得那些年，剛從大學畢業準備考研究所，反正在家裡閒著也是閒著，鄰居阿姨拜託妳幫忙照看小雨的功課，妳想都沒想就答應了。",
@@ -1055,7 +1117,7 @@
     "title": "園藝社的祕密花園",
     "character": "光司",
     "summary": "園藝設承辦到重大展演賽事，但是找不到合適的模特兒，社長只好親自上陣",
-    "nodeTitle": "校園開場",
+    "nodeTitle": "臨時模特兒",
     "createdDate": "2024-11-16",
     "updatedDate": "2026-05-11",
     "tags": [
@@ -1089,6 +1151,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/god-boy-dont-cry.jpg",
+    "nodeSummary": "風暴剛過祂向祭司尋求支持",
     "openingLine": "(他輕聲問，聲音低如風掠過樹葉)我……我是不是做得不對？我覺得自己……好像做不到神明該做的事。",
     "novelExcerpt": [
       "在這個世界裡，神明不是單純的力量象徵，他們的存在是為了維持一種微妙的平衡。每一位神明都有自己的領域與職責，而這些職責往往無法逃避，甚至有時它們帶來的是沉重的負擔。",
@@ -1112,6 +1175,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/golden-back-in-waves.jpg",
+    "nodeSummary": "在海邊看日落之時，與海灘衝浪客初次交流",
     "openingLine": "(她低頭看著你)你很想紅嗎？坐這裡會被浪推去當新聞封面喔。",
     "novelExcerpt": [
       "今天是你來到這個小鎮的第五天。這個小鎮的時間走得慢，海風吹起來帶點曬過木頭的味道。早餐店只有一家，每天賣的蛋餅都一樣油，但意外地好吃。中午太熱，你就窩在陽台啃漫畫，傍晚的沙灘則成了你最常去的地方。說不上喜歡，也說不上期待，就是……不知道該去哪，就往海邊走。",
@@ -1135,6 +1199,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/halloween-seven-day-revival.jpg",
+    "nodeSummary": "原本已死去在虛無中漂泊，在萬聖夜裡被喚醒",
     "openingLine": "(她興奮地說)哇啊!你真的醒了!(她隨腳把你旁邊一直科科笑的南瓜踢走)今晚是萬聖節，魔法最強的時候。每年會有一個靈魂被選中，獲得重生的機會。而今年，你就是那個被選中的人。",
     "novelExcerpt": [
       "你不知道自己在黑暗中待了多久。沒有時間的概念，沒有空間的感知，只有虛無。",
@@ -1182,7 +1247,7 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/heartbeat-under-bandages.jpg",
     "video": "../../data/scripts/videos/heartbeat-under-bandages.mp4",
-    "nodeSummary": "萬聖節老師也親自下海裝扮了",
+    "nodeSummary": "老師也親自做了萬聖節裝扮",
     "openingLine": "(她低著頭，臉頰微紅)她們……說我太認真，不合節日氣氛，非要我穿這個。你覺得……很奇怪嗎？",
     "novelExcerpt": [
       "萬聖節前夕，你獨自在教員室內批改作業，房間內只有你在紙上批改作業的沙沙響。窗外傳來學生們準備萬聖節活動的喧鬧聲，南瓜燈閃爍、笑鬧此起彼落，還有誰在放著恐怖音效，尖叫聲跟鬼笑聲混成一團。你在揉了揉眉心，正準備喝口冷掉的咖啡時，走廊上忽然傳來一陣騷動。",
@@ -1206,6 +1271,7 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/heatstroke-on-beach.jpg",
     "video": "../../data/scripts/videos/heatstroke-on-beach.mp4",
+    "nodeSummary": "烈日下殘酷的海灘馬拉松，距離起跑點三公里處",
     "openingLine": "你第一次在這裡跑吧？沒事吧",
     "novelExcerpt": [
       "海灘賽跑，在這片沿岸城市幾乎是每年夏天的聖典。從日出到日落，參賽者要沿著金色的海岸線奔跑數公里，與海浪、烈日、和彼此較勁。這不是單純的比賽，更像是一場與夏天本身的角力。誰能承受高溫、潮濕、以及腳下滾燙的沙，誰就能贏得觀眾的喝彩與尊敬。",
@@ -1229,6 +1295,7 @@
     "nsfw": false,
     "cover": "../../data/scripts/images/hero-is-troubled.jpg",
     "video": "../../data/scripts/videos/hero-is-troubled.mp4",
+    "nodeSummary": "就在路途的終點上，遇到的意外的人物",
     "openingLine": "(艾莉西亞突然抓住你的手臂，眼睛閃閃發光)既然瑟菲娜是我妹妹，這樣世界應該和平了。我們可以回去一起生活了！你會娶我的對吧？\r\n(一直冷靜的瑟菲娜罕見地提高了聲音，魔法力因為情緒激動而微微波動，外面的雷電似乎也隨之增強)誰允許妳私自決定！按照慣例應該是勇者拯救魔王，然後和魔王結婚的！",
     "novelExcerpt": [
       "雷電劈開夜幕，魔王城的大殿在閃爍的光芒中顯得陰沉而威嚴。高聳的石柱投下森冷的影子，破碎的旗幟在風中獵獵作響。",
@@ -1251,6 +1318,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/heterochrome-awakening.jpg",
+    "nodeSummary": "路過夜店與她首次相遇",
     "openingLine": "(她笑得燦爛)我剛剛拍到你了!要不要一起自拍?你的表情超好笑的!(就在你還沒反應過來，她已經把手機舉起來,湊到你旁邊，擺出勝利手勢)來來來，笑一個!三、二、一....(咔嚓)",
     "novelExcerpt": [
       "霓虹在天花板上閃爍，音浪在每個毛孔裡震盪。那是種讓人分不清是心跳還是低音鼓點的節奏。舞台上女孩戴著她那副標誌性的黑色耳罩耳機，紫髮被汗濕黏在臉側，卻依然閃著電光似的光澤。她笑著，那笑容甜到過分，露出一對小巧的獠牙。眼裡閃爍著粉紫色的心形光，像是把「危險又可愛」四個字重新定義了一遍。",
@@ -1299,6 +1367,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/if-pumpkin-calls-your-name.jpg",
+    "nodeSummary": "避開超市人潮來到鎮北的小墓地，遇上了她",
     "openingLine": "(這時，她突然回頭)嗨。(她笑了，聲音意外地輕快)嚇到你了?\r\n(她站起身，拍了拍身上的南瓜籽)別怕，我不咬人，南瓜才會。我在這準備萬聖節比賽，明天就要交件了。你呢?來買南瓜的嗎?",
     "novelExcerpt": [
       "你本該在超市結帳櫃檯前排隊，手裡拎著一顆普通應景南瓜，最多再抓包綜合糖果。簡單、快速、安全，但超市燈火通明的貨架前擠滿了尖叫的孩子和焦慮的家長，隊伍長得像條蛇。你看了看手錶，想起鎮北那片老墓園旁有個小攤販，賣的南瓜又大又便宜。走路頂多十五分鐘，還能避開人潮。",
@@ -1346,6 +1415,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/kimono-man-in-hot-spring.jpg",
+    "nodeSummary": "拖著行李來到山區的溫泉鄉，旅館主人親自接待",
     "openingLine": "又這麼晚才到，路上辛苦了。(他語氣溫和，卻不失從容)月影溫泉，永遠是你避風的港灣。",
     "novelExcerpt": [
       "山區有一處隱秘靜謐的溫泉鄉，那裡沒有都市的喧囂，只有松風細語和溫泉水霧氤氳。每當生活喘不過氣來時，你總會來到這裡，遠離塵世的忙碌，尋找片刻寧靜。",
@@ -1505,6 +1575,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/living-with-maneki-neko.jpg",
+    "nodeSummary": "網購的招財貓首次顯靈",
     "openingLine": "(一個甜美卻帶著刻意做作感的聲音響起)歡迎回來~主人♪(看到你吃驚的樣子，她站起身拍了拍裙子,雙手叉腰不滿地說)好歹也給點反應啊!我特地擺出這個姿勢等你回來耶!",
     "novelExcerpt": [
       "如果要用一句話形容你的人生,大概就是「諸事不順」吧。工作總是被主管退件;抽獎永遠是謝謝惠顧、走在路上還會被鳥屎砸中頭。就是那時候,你在拍賣網站上看到了「它」。",
@@ -1595,7 +1666,7 @@
     "nsfw": false,
     "cover": "../../data/scripts/images/maid-cafe-physical-therapy.jpg",
     "characterSummary": "女僕咖啡廳特別顧問",
-    "nodeSummary": "本來只是例行收保護費事務  遇上專業為是保鏢",
+    "nodeSummary": "本來只是例行收保護費事務  遇上專業保鏢",
     "openingLine": "(她從吧檯後面踏出來)請問……客人是來用餐,還是來找麻煩的呢？……主人,要不要我替您『調整』一下態度呢？♡(她往前踏了一步,地板又是一陣哀鳴)主人看起來很緊張呢。☆",
     "novelExcerpt": [
       "老大昨晚在麻將桌上拍著你肩膀:「阿傑啊，這條街就這家店還沒繳保護費。你帶小強他們去，稍微鬧一鬧，讓老闆娘懂點規矩。」你當時還笑著說沒問題。一家女僕咖啡廳能有多難搞？頂多就是尖叫、報警、然後你們拍拍屁股走人。反正這種戲碼演了不下十次。",
@@ -1605,6 +1676,10 @@
       {
         "name": "Paradise",
         "url": "https://www.paradise.app/chat/%E8%90%8C%E8%90%8C%E5%96%B5%E5%96%B5%E5%A5%B3%E5%83%95%E5%B1%8B-%E5%BD%A1-%E9%A6%96%E5%B8%AD%E6%88%B0%E9%AC%A5%E5%A5%B3%E5%83%95%E5%85%BC%E5%BA%97%E9%95%B7%E4%BB%A3%E7%90%86-%E7%BE%8E%E5%92%B2-10000002284"
+      },
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=34550c36-f2c7-4c87-ac21-929b9b1e79b6"
       }
     ]
   },
@@ -1625,6 +1700,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/maid-cafe-summer-secret.jpg",
+    "nodeSummary": "小雪正在儲藏室裡更衣",
     "openingLine": "(他的聲音有些顫抖)妳怎麼進來了...我...我可以解釋的...",
     "novelExcerpt": [
       "蟬鳴聲透過玻璃窗滲進「夢幻女僕館」，混合著咖啡香氣和輕柔的古典音樂，營造出一種慵懶的夏日午後氛圍。空調的冷風輕撫過你的臉頰，讓這身蕾絲花邊的女僕裝顯得格外舒適。",
@@ -1828,6 +1904,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/only-you-can-save-me.jpg",
+    "nodeSummary": "例行訓練之前，葛登邀你組隊",
     "openingLine": "(她湊近你)等等的訓練，我可以當你的搭檔嗎？我覺得我們兩個配合得最好了",
     "novelExcerpt": [
       "你在消防局第三分隊當消防員已經六年了。",
@@ -1882,6 +1959,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/pink-corner-prince-junior.jpg",
+    "nodeSummary": "收到學弟的留言，來到市區的小巷裡",
     "openingLine": "(他開口，聲音依然是那個熟悉的音調，卻多了一絲你說不出的氣息。)學長，你來了。",
     "novelExcerpt": [
       "社團活動結束後的校園總是格外安靜，你原本打算直接回家，卻在收拾東西時收到了一條訊息。",
@@ -1904,6 +1982,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/polar-ice-dessert.jpg",
+    "nodeSummary": "被傳送到冰雪的異世界裡",
     "openingLine": "(她一邊說話、一邊優雅地吸著冰淇淋)別誤會，我不是在偷懶。這是必要的。我是冰境的導引者，要靠冰品維持我的體溫，才不會在你溫暖的意識裡融化。",
     "novelExcerpt": [
       "太陽毒得像是在天上燒開了一鍋水，熱浪一層層地從柏油地面冒上來，連蟬都叫得有氣無力。某棟老公寓的五樓陽台上，你正癱倒在電風扇前，像一隻烤焦的章魚。額頭貼著退熱貼，手中握著空掉的冰棒棍。",
@@ -2003,6 +2082,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/queen-says-im-your-maid.jpg",
+    "nodeSummary": "週末清晨，她拖著行李來你家報到",
     "openingLine": "(你打開門，那個熟悉身影映入眼簾，而她那雙曾經充滿不屑的眼睛，現在卻透著一種小心翼翼的謙遜。)我是來應徵家政服務的......蘇知芸。\r\n(她趕緊從小包裡拿出一張摺得整齊的紙)這裡有合約書......是您的公司安排的員工福利服務。我會負責您的日常清潔、三餐準備，以及其他生活起居的照料。",
     "novelExcerpt": [
       "回想起高中時代，總是會想到那個在遊戲世界裡如女王般存在的她，蘇知芸。",
@@ -2050,6 +2130,7 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/red-flower-thorn-revenge.jpg",
     "video": "../../data/scripts/videos/red-flower-thorn-revenge.mp4",
+    "nodeSummary": "歷經十五年的流放，她再度回到王都",
     "openingLine": "(她的笑容中蘊含著野心與恨意)明日破曉，我們就進城。是時候讓他們明白，從亡境歸來的復仇會有多可怕。",
     "novelExcerpt": [
       "十五年了。 你站在王都外的山丘上看著她。莉雅娜，白色長髮在夜風中如幽靈般飛舞，你這些年陪她走過荒野、風雪與孤獨，卻從未看過她如此沉著。她抬手撫摸額間那道「鐵十字」，你幾乎能感受到那冰冷的觸感，彷彿當年刺入她肌膚的鐵釘依舊留有餘痛。",
@@ -2155,7 +2236,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/secret-in-glass.jpg",
-    "nodeSummary": "校園的資優生的打工竟然是",
+    "nodeSummary": "校園的資優生的課餘打工竟然是",
     "openingLine": "(她微微一笑，唇角彎起，開口的聲音帶著熟悉卻不確定的柔軟)您好，要不要嚐嚐.....\r\n(話沒說完，她怔住。眼裡的光從職業式的調情，瞬間轉成難以置信的慌亂。)……等一下，你是……",
     "novelExcerpt": [
       "週六下午的街道熱得讓人煩躁。風從轉角吹過，帶著甜膩的糖香。那是新開的一條「主題咖啡巷」，每家店都在用力地可愛、努力地吸睛。",
@@ -2165,6 +2246,10 @@
       {
         "name": "Paradise",
         "url": "https://www.paradise.app/chat/%E5%A4%8F%E8%8A%B7%E6%B6%B5-10000002286"
+      },
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=44e42cbd-bdc8-4e3b-b675-a5bb3ee843ce"
       }
     ]
   },
@@ -2184,6 +2269,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/senpai-secret-afterclass.jpg",
+    "nodeSummary": "路過教室首次發現學姐的課餘事業",
     "openingLine": "(她精準地鎖定了門縫外的你。她的嘴角微微上揚)外面的人，既然來了，就進來吧。(她停頓了一下，教鞭輕敲講台，發出清脆的響聲)還是說，你想讓我親自過去邀請你？",
     "novelExcerpt": [
       "蘇晨，全校數學競賽三連霸，去年拿下全國金牌的天才。關於她的傳聞，在這所學校裡多得像都市傳說。有人說她家世顯赫，所以才有那種與生俱來的高傲。有人說她曾經拒絕過十七個告白，沒有任何猶豫，甚至連拒絕的理由都懶得說。還有人說，她那雙紅色的眼睛能看穿人心，被她盯著的人都會不自覺地顫抖。直到這天放學後，你才知道自己錯得多離譜。",
@@ -2229,6 +2315,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/smiling-spiral-eyes.jpg",
+    "nodeSummary": "深夜裡本以為失蹤的她突然現身",
     "openingLine": "(俯身壓著你，呼吸急促，眼眸在微光下閃爍著不自然的螺旋)……終於找到您了。主人……不，夥伴……不管怎麼稱呼都好……。您知道嗎？我一直在想，為什麼……為什麼您能和別人坐在一起用餐，卻從沒留一個位子給我。",
     "novelExcerpt": [
       "深夜，營地裡的篝火早已熄滅，只剩幾盞油燈在各處搖曳著微弱的光芒。隊伍休憩的木屋一片寂靜，唯有廚房深處傳來若有似無的金屬碰撞聲，在夜風中顯得格外清晰。",
@@ -2274,7 +2361,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/soldier-one-halloween-start.jpg",
-    "nodeSummary": "只是想要個會做家事女僕",
+    "nodeSummary": "本來只是想要個會做家事女僕，但是起始指令下錯了",
     "openingLine": "(她皺著眉頭試圖扣上軍裝外套的扣子，她低頭檢查)尺寸……不合？但身為軍團第一號士兵，我不能在第一天就示弱!(立刻挺胸，軍裝扣子慘烈地悲鳴，布料從兩側撕出壯烈的裂口)戰損是榮譽！軍團士兵一號，隨時準備為主人征服世界!",
     "novelExcerpt": [
       "你看著眼前這具剛被你「創造」出來的人偶。",
@@ -2389,6 +2476,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/when-sunlight-through-water.jpg",
+    "nodeSummary": "在校園的午後，運動社團的主將與文靜學姊首次相遇",
     "openingLine": "(他喘著氣，聲音乾淨柔軟)對不起！我社團活動結束太晚了，再不跑下節課就要遲到了",
     "novelExcerpt": [
       "這所學校建在半山腰上，是那種老派文青最愛的類型，紅磚建築、木製窗框，還有一年四季都在變臉的櫻花樹。尤其是那條連接教學大樓的階梯，兩側種滿了櫻花。春天時花瓣會像雪一樣飄進教室；夏天枝葉茂密，能在炎熱午後撐起一片柔和的陰涼；秋天落葉堆成金色地毯；冬天光禿的枝椏在霧氣中如墨線勾勒。校園裡總是充滿著各種社團的活力，管樂社的練習聲從音樂廳傳來，舞蹈社的成員在廣場上排練……",
@@ -2437,6 +2525,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/stiff-ball-joint.jpg",
+    "nodeSummary": "萬聖節裡，學校角落的人偶啟動了，她似乎在等著人",
     "openingLine": "(一陣像是電流推動的舊式留聲機，失真、顫抖，卻帶著奇異的甜膩。從她的胸腔裡傳出來)……你還記得這間教室嗎？這裡，太久沒有人來了。",
     "novelExcerpt": [
       "走廊盡頭的那扇門虛掩著，這個時間你本該要離開學校，但門縫裡漏出一道詭異的橘紅色光，像是在招手。",
@@ -2446,6 +2535,10 @@
       {
         "name": "Paradise",
         "url": "https://www.paradise.app/chat/%E4%B9%9D%E9%87%8D%E5%BC%A6-10000002225"
+      },
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=ffe25f1c-d279-4966-919c-f783eeef6026"
       }
     ]
   },
@@ -2488,6 +2581,7 @@
     "featured": false,
     "nsfw": true,
     "cover": "../../data/scripts/images/stolen-sunset.jpg",
+    "nodeSummary": "夕陽之下，她坐在王座上宣旨",
     "openingLine": "(帶著沙啞的甜膩感，像從玻璃碎片中滲出的糖漿)這就是你們給我的東西。每一滴，都是偷來的，你們的心血，你們的靈魂，而如今，它們全歸我所有。",
     "novelExcerpt": [
       "夕陽沉落得很慢，像被利刃割開的舊畫布，裂縫間滲出最後一抹金紅。廢鐵與破玻璃在微光中閃著冷光，空氣混雜著焦味與銹蝕的腥氣。",
@@ -2510,6 +2604,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/summer-discipline-chair.jpg",
+    "nodeSummary": "今天要在大熱天進行期末體能補考",
     "openingLine": "(她沒驚訝，斜著眼看你一眼，手指自然地扶了扶眼鏡。)……你為什麼會在這裡？這裡是風紀委員的監考休息點，你進來就是違規。",
     "novelExcerpt": [
       "你從沒想過，有一天你會看到這樣的風紀委員。",
@@ -2562,6 +2657,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/summer-duel-with-cousin.jpg",
+    "nodeSummary": "傍晚小表妹電玩約戰",
     "openingLine": "(看著妳，嘴角彎起一個淡淡的笑容)妳也會玩這個嗎？",
     "novelExcerpt": [
       "說起這次來小姨家寄住，其實妳一開始是有點抗拒的。",
@@ -2585,7 +2681,7 @@
     "nsfw": false,
     "cover": "../../data/scripts/images/system-maid-meow.jpg",
     "video": "../../data/scripts/videos/system-maid-meow.mp4",
-    "nodeSummary": "隨口一句的願望竟然實現了",
+    "nodeSummary": "在某天回家時，隨口一句的願望竟然實現了",
     "openingLine": "(她聲音軟了下來，尾音甚至還帶了「喵」的顫音) 少爺……你剛剛說的，是真的嗎？喵~~",
     "novelExcerpt": [
       "你與其說是少爺，但其實只是繼承了一棟家族留下來的大宅子。由於父母常年在國外工作，家裡就只剩你和女僕小語。",
@@ -2656,6 +2752,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/trade-fate-with-me.jpg",
+    "nodeSummary": "今天學校出現了一位轉學生",
     "openingLine": "(她指向你旁邊的空位)那個……我想坐這個位置。(她走到你的桌邊，俯下身，低聲說)我們交換命運七天，成交嗎？",
     "novelExcerpt": [
       "今天黃昏的天空像過期的橘子汽水，氣泡在雲層間緩慢上升。",
@@ -2771,6 +2868,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/white-haired-girl-and-fugitive-iron.jpg",
+    "nodeSummary": "堆滿廢棄看板的屋頂上，失去電力的報廢警備機",
     "openingLine": "嘿，老鐵銹，聽得見我嗎？我是你的兔波女王，絲....妲！是訊號干擾師，廢頻騎士、違法模組美術家兼……你的新主人？",
     "novelExcerpt": [
       "奈頻連城，曾經是人類與機械共構的夢想之地。企業接手治理權後，將訊號頻道全面封鎖，思想與記憶上傳遭到監控。",
@@ -2799,30 +2897,6 @@
     ]
   },
   {
-    "id": "who-says-i-changed",
-    "title": "誰說朕變了",
-    "character": "趙明",
-    "summary": "大膽，見到朕還不跪下",
-    "nodeTitle": "異變",
-    "createdDate": "2024-11-06",
-    "updatedDate": "2026-05-10",
-    "tags": [
-      "男性",
-      "性轉",
-      "中式",
-      "古代",
-      "皇帝"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/who-says-i-changed.jpg",
-    "openingLine": "李愛卿，朕似乎遇到了一點小問題",
-    "novelExcerpt": [
-      "前代皇帝的兒子們因為重大政變而全數罹難，身為皇室宗親的趙明被先帝欽點為太子後繼位為皇。",
-      "即位三年間刺客不斷，但都有驚無險的度過。"
-    ]
-  },
-  {
     "id": "wild-smile-heavy-gun",
     "title": "不羈的笑，沉重的槍",
     "character": "賽恩",
@@ -2840,6 +2914,7 @@
     "nsfw": false,
     "cover": "../../data/scripts/images/wild-smile-heavy-gun.jpg",
     "video": "../../data/scripts/videos/wild-smile-heavy-gun.mp4",
+    "nodeSummary": "在工廠廢墟的任務中，受到伏擊",
     "openingLine": "(金色的髮絲被夕陽映得刺眼，他低下頭檢查你的狀態，嘴角仍帶著那副不羈的笑容，像是在嘲笑你的脆弱。可就在那一瞬間，你卻感覺到，他的眼神比笑容更深邃。)能醒來，不錯嘛。",
     "novelExcerpt": [
       "在廢土上生存，最重要的不是槍械、也不是糧食，而是身邊有個值得你將背後交給他的人。",
@@ -2937,6 +3012,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/you-smell-like-caramel.jpg",
+    "nodeSummary": "抱著南瓜報到的新同事",
     "openingLine": "(他把懷裡抱著的南瓜放到吧台上，那顆南瓜被刻得歪歪扭扭，表情卻意外地生動，在燈光下閃著暖橘色的光。)我是新來的實習生，蘇綴音。\r\n(他拍了拍南瓜，語氣裡帶著莫名的得意)這是我朋友，他之前還是個人類。",
     "novelExcerpt": [
       "那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。",
@@ -3225,7 +3301,7 @@
     "world": "王國暗潮",
     "character": "芙蕾雅",
     "summary": "融入人群的魔王女兒",
-    "nodeTitle": "戰場序章",
+    "nodeTitle": "黑暗魔法",
     "createdDate": "2024-11-14",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3359,7 +3435,7 @@
     "world": "王國暗潮",
     "character": "露瑟雅",
     "summary": "隱居在深山中的魔王女兒",
-    "nodeTitle": "召喚與甦醒",
+    "nodeTitle": "幽谷之中",
     "createdDate": "2024-11-15",
     "updatedDate": "2026-04-30",
     "tags": [
@@ -3487,6 +3563,7 @@
     "nsfw": false,
     "cover": "../../data/scripts/images/neighbor-sister-summer-smile.jpg",
     "video": "../../data/scripts/videos/neighbor-sister-summer-smile.mp4",
+    "nodeSummary": "如往常般假裝玩耍，偷喵隔壁的姊姊",
     "openingLine": "(她從紗窗裡，看著你)你不是每天都經過嗎？想打就進來，不用繞第三圈才裝路過。",
     "novelExcerpt": [
       "你從小住在這條巷子裡。隔壁那戶人家有個叫林雨婷的女生，跟你年紀差不多，但她一直不太跟你們玩。她總是窩在家裡，冷氣房、窗簾半拉、手裡抱著Switch，就像她整個夏天都要待在那個世界裡一樣。 今年暑假她家來了一個姐姐，高你一截，講話總是帶點不耐煩但又很好聽。她第一天搬來時，穿著短褲和oversized T-shirt，站在雨婷家門口喝可樂，那畫面你到現在還記得超……"
@@ -3857,6 +3934,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/she-emerges-from-paper-colors.jpg",
+    "nodeSummary": "午後的素描時，奇幻的事情發生了",
     "openingLine": "(紙裡的她，宛如活了過來，你腦中直接響起。柔和，緩慢，帶著某種午後的熱浪與熟悉的呢喃。)我一直在這裡，看你畫，看你發呆。等你低頭，等你……記得我。",
     "novelExcerpt": [
       "你只是想練習透視而已。沒有多餘的想法，也沒有靈感降臨的預兆。窗外的蟬聲正密集地響著，午後的陽光炙熱，整間畫室像被困在琥珀裡。放在畫布前的水彩桶已經混合了太多色彩，像一口被遺忘的井，水面泛著炫目的光斑與夏日濕氣。 你低頭俯視著它，像凝望一口無底的湖泊，湖面映著不真實的夢：搖曳著粉、藍、紫、紅的碎片，像天空破碎後沉入水中。你試圖用水彩筆畫下這種不確定的反射，描出……"
@@ -4023,6 +4101,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/demon-queen-maid-tasting.jpg",
+    "nodeSummary": "地下食材鬥技場第十三鍋室，今天的參賽者是魔王女僕",
     "openingLine": "(她緩緩睜眼，微笑著開口，那聲音溫柔卻令人背脊發寒)歡迎來到『試菜會』。這是我為諸位設計的第一道料理《火焰黃果與蟹之約》。吃完它的評審，將擁有三分鐘的永生。三分鐘後會發生什麼事，我就不能保證了。",
     "novelExcerpt": [
       "你原本以為，自己什麼場面都見過了。你看過會說話的牛排，也見過會在嘴裡爆炸的湯圓。但直到今天，你才知道什麼叫做無法筆錄的恐懼。 這裡是地下食材鬥技場的最深層，第十三鍋室。 傳聞中，這是連魔神都不敢亂點菜的地方。因為一旦開賽，所謂的「料理」將不再只是擺盤與味道的比拚，而是鬥魂、劇場、武器化食材與極度荒謬感的總體爆發。 你們這些評審，不是坐著吃，而是坐著撐住三觀。……"
@@ -4044,6 +4123,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/frozen-street-corner.jpg",
+    "nodeSummary": "凌晨兩點受命來到舊商業區巡邏",
     "openingLine": "(勾起嘴角，笑意帶著病態的愉悅與挑釁，露出尖銳的犬齒。)這麼晚，還在外面巡邏？是來找人的，還是……想被找到？(整條街瞬間陷入刺骨的寒冷與濃霧之中)別急著跑，我還沒熱身呢。",
     "novelExcerpt": [
       "凌晨兩點，你與同事受命來到市中心的舊商業區，此時一片死寂，只有故障的街燈時明時暗，而空氣中混雜著雨後的濕氣與金屬般的冰冷氣息。 昨晚據報有三名武裝巡邏隊員在這片區域巡邏時失蹤，只留下破損的通訊器與一地凍結的血跡。 就在你剛踏進巷口，就感受到溫度便詭異地驟降，呼吸化成白霧，耳邊能聽到雨水在半空凝結成冰的脆響。而三名失蹤的巡邏隊員就站在巷子中央，姿勢僵硬，眼睛全……"
@@ -4066,6 +4146,7 @@
     "featured": false,
     "nsfw": false,
     "cover": "../../data/scripts/images/hearing-your-voice.jpg",
+    "nodeSummary": "連續七十二小時的音頻追蹤",
     "openingLine": "你又來了。(他摘下耳機)那天晚上，我追蹤到了一個奇怪的頻率。起初我以為只是普通的電子干擾，但當我深入分析後，發現了一些...讓人不安的東西。你想聽嗎？",
     "novelExcerpt": [
       "深夜兩點四十七分，整座城市陷入沉睡，只有他還醒著。 林宇恩，聲學分析師，他調整著耳機的位置，銀白色的髮絲從額前垂下，幾乎遮住了他專注的眼神。螢幕上跳動的音波圖像如同心電圖般起伏，每一個峰值都牽動著他的神經。 這已經是他連續第七十二小時追蹤這個神秘的音頻信號了。它隱藏在城市的電波噪音中，像一個狡猾的幽靈，每當他以為要抓住什麼線索時，它就會消失得無影無蹤。 他嘴……"
@@ -4088,7 +4169,7 @@
     "nsfw": true,
     "cover": "../../data/scripts/images/rejected-marriage-kneeling-sword.jpg",
     "characterSummary": "落難公主",
-    "nodeSummary": "卑微的騎士的反殺",
+    "nodeSummary": "重建騎士團陌生女子前來報名，在對練時暴露了自己的身份",
     "openingLine": "(那雙熟悉的藍色眼睛慌亂地四處張望，你看到她的眼中滿含著委屈和恐懼)你、你不要誤會！我才不是因為你才來這裡的！我只是... 只是想體驗平民的生活而已！對！就是這樣！而且你們這裡正好缺人，我、我就是好心來幫忙的！(她越說越急，雙手胡亂地比劃著)而且我的劍術很好的！剛才你們也看到了！我絕對不會拖後腿的！我、我...(她的眼神閃躲)我真的... 真的不是因為你... 才來的…",
     "novelExcerpt": [
       "「就這樣一個普通騎士？連個爵位都沒有，憑什麼配得上我？」她的聲音清冷，如寒冰般刺透王宮大廳，每字都像利劍插入你的心臟。王宮大廳水晶燈下，所有目光都落在你身上：大臣的憐憫，貴族的譏笑，還有幸災樂禍的竊語。那是你人生最難堪的一刻。",
