@@ -3,12 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>創作支持方案｜九境書庫</title>
-  <meta name="description" content="支持九境書庫的個人原創小說創作，協助網站主機、網域與創作開發維護。">
+  <title>創作支持方案｜九境書庫 NineSense Archive</title>
+  <meta name="description" content="九境書庫 NineSense Archive 的創作支持方案。支持個人原創小說與 AI 劇本創作，協助網站維護、網域續費與作品更新。">
   <meta property="og:title" content="創作支持方案｜九境書庫">
-  <meta property="og:description" content="九境書庫為個人原創小說創作網站。您的支持將用於網站主機維護、網域費用與創作開發。">
+  <meta property="og:description" content="支持九境書庫 NineSense Archive 的個人原創小說與 AI 劇本創作，協助網站維護、網域續費與作品更新。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://bluesense.tw/pages/support/index.html">
+  <link rel="canonical" href="https://bluesense.tw/pages/support/index.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:image" content="https://bluesense.tw/images/support-og.jpg">
   <meta name="theme-color" content="#0f0b12">
   <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png?v=1">
   <style>
@@ -308,7 +311,44 @@
       .actions { flex-direction: column; }
       .btn { width: 100%; }
     }
+    .plan.disabled{
+      opacity:.45;
+      cursor:not-allowed;
+      pointer-events:none;
+      filter:grayscale(40%);
+    }
+
+    .plan.disabled .price{
+      color:#aaa;
+    }
+
+    .disabled-btn{
+      opacity:.5;
+      cursor:not-allowed;
+      background:rgba(255,255,255,.05);
+      border-color:rgba(255,255,255,.1);
+      color:#b5b5b5;
+    }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "創作支持方案｜九境書庫 NineSense Archive",
+    "url": "https://bluesense.tw/pages/support/index.html",
+    "description": "九境書庫 NineSense Archive 的創作支持方案。支持個人原創小說與 AI 劇本創作，協助網站維護、網域續費與作品更新。",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "九境書庫 NineSense Archive",
+      "url": "https://bluesense.tw/ninesensearchive"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "九境書庫 NineSense Archive",
+      "url": "https://bluesense.tw"
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- 將下方綠界網址替換成你的正式付款頁網址。三個支持方案目前共用同一個付款頁。 -->
@@ -321,8 +361,18 @@
 
           <p class="intro">
             九境書庫是個人經營的原創劇本網站。<br>
-            如果剛好有喜歡的作品，歡迎請作者喝杯飲料。<br>
-            您的支持將用於網站維護、網域續費與創作更新。
+            <!-- 如果剛好有喜歡的作品，歡迎請作者喝杯飲料。<br>
+            您的支持將用於網站維護、網域續費與創作更新。 -->
+
+            目前綠界與 Ko-fi 付款功能仍在審核與設定階段，
+            暫時無法接受贊助。<br>
+            
+            若一切順利，
+            支持功能將於近期開放。<br>
+
+            如果剛好有喜歡的作品，不妨先把故事分享給更多人。
+            等到功能開放後，再來請作者喝杯飲料也不遲。<br>
+
           </p>
         </div>
 
@@ -339,7 +389,8 @@
       </ul>
 
       <h2 class="section-title">支持方案：</h2>
-      <div class="plans" aria-label="支持方案列表">
+      <!-- <div class="plans" aria-label="支持方案列表"> -->
+      <div class="plan disabled">
         <a class="plan" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">
           <span class="price">NT$50</span>
           <span class="label">小額支持</span>
@@ -355,7 +406,8 @@
       </div>
 
       <h2 class="section-title">其他支持方式：</h2>
-      <div class="plans single">
+      <!-- <div class="plans single"> -->
+      <div class="plan disabled">
         <a class="plan"
           href="https://ko-fi.com/ninesense"
           target="_blank"
@@ -369,7 +421,8 @@
       </div>
 
       <div class="actions">
-        <a class="btn primary" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">前往綠界付款頁</a>
+        <!-- <a class="btn primary" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">前往綠界付款頁</a> -->
+        <div class="btn disabled-btn"> 綠界審核中</div>
         <a class="btn" href="https://bluesense.tw/ninesensearchive">返回首頁</a>
       </div>
 
@@ -379,7 +432,7 @@
           <h2 class="section-title" id="contactTitle">聯絡資訊</h2>
           <p class="note">
             九境書庫（NineSense Archive）<br>
-            聯絡信箱：<a href="mailto:contact@bluesense.tw">contact@bluesense.tw</a><br>
+            聯絡信箱：<a href="mailto:support@bluesense.tw">support@bluesense.tw</a><br>
             如有付款相關問題，或需聯繫作者，歡迎來信。
           </p>
         </div>
