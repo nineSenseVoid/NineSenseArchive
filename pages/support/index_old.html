@@ -23,7 +23,6 @@
       --gold: #e8c878;
       --rose: #d888b8;
       --shadow: 0 24px 70px rgba(0,0,0,.38);
-      --gold-soft: rgba(232,200,120,.32);
     }
 
     * { box-sizing: border-box; }
@@ -120,20 +119,10 @@
     }
 
     .section-title {
-      display: flex;
-      align-items: center;
-      gap: 14px;
       margin: 36px 0 14px;
       color: var(--gold);
       font-size: 18px;
       letter-spacing: .08em;
-    }
-
-    .section-title::after {
-      content: "";
-      width: 42px;
-      height: 1px;
-      background: linear-gradient(90deg, var(--gold-soft), transparent);
     }
 
     .use-list {
@@ -145,25 +134,11 @@
     }
 
     .use-list li {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      min-height: 62px;
-      padding: 14px 18px;
+      padding: 14px 16px;
       border: 1px solid var(--line);
       border-radius: 16px;
       background: rgba(0,0,0,.16);
       color: #f1e6f8;
-      font-size: 17px;
-    }
-
-    .use-icon {
-      width: 28px;
-      flex: 0 0 28px;
-      color: var(--gold);
-      opacity: .95;
-      text-align: center;
-      font-size: 22px;
     }
 
     .plans {
@@ -171,24 +146,6 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 14px;
       margin-top: 14px;
-    }
-
-    .plans.single {
-      grid-template-columns: 1fr;
-    }
-
-    .plans.single .plan {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      max-width: none;
-    }
-
-    .ko-fi-icon {
-      width: 54px;
-      flex: 0 0 54px;
-      font-size: 32px;
-      line-height: 1;
     }
 
     .plan {
@@ -253,46 +210,6 @@
       line-height: 1.7;
     }
 
-    .contact-card {
-      display: grid;
-      grid-template-columns: 74px minmax(0, 1fr);
-      gap: 18px;
-      margin-top: 34px;
-      padding: 22px 24px;
-      border: 1px solid rgba(232,200,120,.24);
-      border-radius: 18px;
-      background: rgba(0,0,0,.13);
-    }
-
-    .contact-icon {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 54px;
-      height: 54px;
-      color: var(--gold);
-      font-size: 32px;
-    }
-
-    .contact-card .section-title {
-      margin: 0 0 8px;
-    }
-
-    .contact-card .section-title::after {
-      display: none;
-    }
-
-    .contact-card .note {
-      margin: 0;
-      font-size: 15px;
-    }
-
-    .contact-card a {
-      color: var(--text);
-      text-decoration-color: rgba(232,200,120,.46);
-      text-underline-offset: 3px;
-    }
-
     @media (max-width: 720px) {
       .support-wrap { padding-top: 36px; }
       .support-hero { grid-template-columns: 1fr; }
@@ -303,8 +220,6 @@
       }
       .support-logo { width: min(220px, 70vw); }
       .plans { grid-template-columns: 1fr; }
-      .plans.single .plan { align-items: flex-start; }
-      .contact-card { grid-template-columns: 1fr; }
       .actions { flex-direction: column; }
       .btn { width: 100%; }
     }
@@ -333,9 +248,9 @@
 
       <h2 class="section-title">您的支持將用於：</h2>
       <ul class="use-list">
-        <li><span class="use-icon" aria-hidden="true">◎</span><span>網域費用</span></li>
-        <li><span class="use-icon" aria-hidden="true">▣</span><span>網站開發與維護</span></li>
-        <li><span class="use-icon" aria-hidden="true">▱</span><span>原創作品創作與整理</span></li>
+        <li>網域費用</li>
+        <li>網站開發與維護</li>
+        <li>原創作品創作與整理</li>
       </ul>
 
       <h2 class="section-title">支持方案：</h2>
@@ -355,35 +270,26 @@
       </div>
 
       <h2 class="section-title">其他支持方式：</h2>
-      <div class="plans single">
+      <div class="plans">
         <a class="plan"
           href="https://ko-fi.com/ninesense"
           target="_blank"
           rel="noopener">
-          <span class="ko-fi-icon" aria-hidden="true">☕</span>
-          <span>
-            <span class="price">Ko-fi</span>
-            <span class="label">使用 Ko-fi 支持創作</span>
-          </span>
+          <span class="price">☕ Ko-fi</span>
+          <span class="label">使用 Ko-fi 支持創作</span>
         </a>
       </div>
 
       <div class="actions">
         <a class="btn primary" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">前往綠界付款頁</a>
-        <a class="btn" href="https://bluesense.tw/ninesensearchive">返回首頁</a>
+        <a class="btn" href="/ninesensearchive">返回首頁</a>
       </div>
 
-      <section class="contact-card" aria-labelledby="contactTitle">
-        <div class="contact-icon" aria-hidden="true">✉</div>
-        <div>
-          <h2 class="section-title" id="contactTitle">聯絡資訊</h2>
-          <p class="note">
-            九境書庫（NineSense Archive）<br>
-            聯絡信箱：<a href="mailto:contact@bluesense.tw">contact@bluesense.tw</a><br>
-            如有付款相關問題，或需聯繫作者，歡迎來信。
-          </p>
-        </div>
-      </section>
+      <h2 class="section-title">聯絡資訊</h2>
+      <p class="note">
+        九境書庫（NineSense Archive）
+        聯絡信箱：contact@bluesense.tw<br>
+      </p>
      <!--  <p class="note">
         備註：正式上線前，請把本頁所有 <code>REPLACE_WITH_ECPAY_PAYMENT_URL</code> 換成綠界付款頁網址。
       </p> -->
