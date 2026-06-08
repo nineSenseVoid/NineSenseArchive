@@ -857,11 +857,23 @@
         return [...arr].sort(() => Math.random() - 0.5);
       }
 
-      return [
+      const grouped = [
+        ...featured,
+        ...normalWithCover,
+        ...noCover
+      ];
+
+      const order = getStableShelfOrder(grouped);
+
+      return [...grouped].sort((a, b) =>
+        order.indexOf(a.id) - order.indexOf(b.id)
+      );
+
+      /* return [
         ...shuffle(featured),
         ...shuffle(normalWithCover),
         ...shuffle(noCover)
-      ];
+      ]; */
     }
 
     async function renderHeroFloatingCovers() {
@@ -1319,6 +1331,29 @@
       }, 120);
     });
 
+    // 書櫃固定隨機排序
+    const SHELF_ORDER_KEY = 'ninesense_shelf_random_order_v1';
+
+    function getStableShelfOrder(list) {
+      const ids = list.map(item => item.id);
+
+      try {
+        const saved = JSON.parse(sessionStorage.getItem(SHELF_ORDER_KEY) || '[]');
+
+        const validSaved = saved.filter(id => ids.includes(id));
+        const newIds = ids.filter(id => !validSaved.includes(id));
+
+        const shuffledNewIds = [...newIds].sort(() => Math.random() - 0.5);
+        const finalOrder = [...validSaved, ...shuffledNewIds];
+
+        sessionStorage.setItem(SHELF_ORDER_KEY, JSON.stringify(finalOrder));
+        return finalOrder;
+      } catch {
+        const shuffled = [...ids].sort(() => Math.random() - 0.5);
+        sessionStorage.setItem(SHELF_ORDER_KEY, JSON.stringify(shuffled));
+        return shuffled;
+      }
+    }
   </script>
 
   <footer class="site-footer">
