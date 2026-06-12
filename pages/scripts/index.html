@@ -797,8 +797,11 @@
         heroUpdate.textContent =
           `✦ 最新上架：${latestDate} ${latestTitles.join('、')}`;
       } else {
-        const featured = visibleItems
-          .filter(x => x.featured === true)
+        const featuredPool = visibleItems
+          .filter(x => x.featured === true);
+
+        const featured = [...featuredPool]
+          .sort(() => Math.random() - 0.5)
           .slice(0, 3);
 
         const titles = featured.map(x => `《${x.title}》`);
