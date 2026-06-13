@@ -329,6 +329,21 @@
       border-color:rgba(255,255,255,.1);
       color:#b5b5b5;
     }
+
+    .payment-notice {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border: 1px solid rgba(232,200,120,.24);
+      border-radius: 16px;
+      background: rgba(0,0,0,.13);
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .payment-notice strong {
+      color: var(--gold);
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -361,9 +376,9 @@
 
           <p class="intro">
             九境書庫是個人經營的原創劇本網站。<br>
-            <!-- 如果剛好有喜歡的作品，歡迎請作者喝杯飲料。<br>
-            您的支持將用於網站維護、網域續費與創作更新。 -->
-
+            如果剛好有喜歡的作品，歡迎請作者喝杯飲料。<br>
+            您的支持將用於網站維護、網域續費與創作更新。
+<!-- 
             目前綠界與 Ko-fi 付款功能仍在審核與設定階段，
             暫時無法接受贊助。<br>
             
@@ -371,7 +386,7 @@
             支持功能將於近期開放。<br>
 
             如果剛好有喜歡的作品，不妨先把故事分享給更多人。
-            等到支持方案開啟後，再來請作者喝杯飲料也不遲。<br>
+            等到支持方案開啟後，再來請作者喝杯飲料也不遲。<br> -->
 
           </p>
         </div>
@@ -389,25 +404,31 @@
       </ul>
 
       <h2 class="section-title">支持方案：</h2>
-      <!-- <div class="plans" aria-label="支持方案列表"> -->
-      <div class="plan disabled">
-        <a class="plan" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">
+      <div class="plans" aria-label="支持方案列表">
+      <!-- <div class="plan disabled"> -->
+        <a class="plan" href="https://p.ecpay.com.tw/0D38110" target="_blank" rel="noopener">
           <span class="price">NT$50</span>
           <span class="label">小額支持</span>
         </a>
-        <a class="plan" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">
+        <a class="plan" href="https://p.ecpay.com.tw/E0843A6" target="_blank" rel="noopener">
           <span class="price">NT$100</span>
           <span class="label">支持創作</span>
         </a>
-        <a class="plan" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">
+        <a class="plan" href="https://p.ecpay.com.tw/4107654" target="_blank" rel="noopener">
           <span class="price">NT$300</span>
           <span class="label">特別支持</span>
         </a>
       </div>
+      <div class="payment-notice">
+        <strong>💳 安全付款說明</strong><br>
+        本網站使用綠界科技 ECPay 提供金流服務，
+        付款時將跳轉至綠界官方頁面完成交易。<br>
+        支援信用卡、Apple Pay、ATM 與超商付款等方式。
+      </div>
 
       <h2 class="section-title">其他支持方式：</h2>
-      <!-- <div class="plans single"> -->
-      <div class="plan disabled">
+      <div class="plans single">
+      <!-- <div class="plan disabled"> -->
         <a class="plan"
           href="https://ko-fi.com/ninesense"
           target="_blank"
@@ -422,7 +443,7 @@
 
       <div class="actions">
         <!-- <a class="btn primary" href="REPLACE_WITH_ECPAY_PAYMENT_URL" target="_blank" rel="noopener">前往綠界付款頁</a> -->
-        <div class="btn disabled-btn"> 綠界審核中</div>
+       <!--  <div class="btn disabled-btn"> 綠界審核中</div> -->
         <a class="btn" href="https://bluesense.tw/ninesensearchive">返回首頁</a>
       </div>
 
