@@ -301,10 +301,30 @@
       `; */
     }
 
-    const getIdFromHash = () => decodeURIComponent(location.hash.replace('#', '').trim());
+    /* const getIdFromHash = () => decodeURIComponent(location.hash.replace('#', '').trim());*/
+
+    function getIdFromUrl() {
+      const params = new URLSearchParams(location.search);
+
+      const id = params.get('id');
+
+      if (id) {
+        return decodeURIComponent(id.trim());
+      }
+
+      // 相容舊網址
+      return decodeURIComponent(
+        location.hash.replace('#', '').trim()
+      );
+    }
 
     function setQueryId(id) {
-      history.replaceState({}, '', `#${encodeURIComponent(id)}`);
+      /* history.replaceState({}, '', `#${encodeURIComponent(id)}`); */
+       history.replaceState(
+        {},
+        '',
+        `?id=${encodeURIComponent(id)}`
+      );
     }
 
     function scrollToDetailTop() {
@@ -580,7 +600,7 @@
       .join('');
 
       linkRow.innerHTML = `
-        <a class="btn primary" href="./reading.html#${encodeURIComponent(item.id)}">庫內閱讀</a>
+        <a class="btn primary" href="./reading.html?id=${encodeURIComponent(item.id)}"">庫內閱讀</a>
         ${(item.links || []).map(link => `
           <a class="btn ghost"
             href="${esc(link.url)}"
@@ -732,7 +752,8 @@
           safeItems[0] ||
           items[0];
 
-        activeId = getIdFromHash() || defaultItem?.id || '';
+        /*  activeId = getIdFromHash() || defaultItem?.id || '';*/
+        activeId = getIdFromUrl() || defaultItem?.id || '';
 
         activeWorld =
           items.find(item => item.id === activeId)?.world ||

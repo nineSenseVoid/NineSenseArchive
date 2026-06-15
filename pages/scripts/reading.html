@@ -120,7 +120,21 @@
       '"':'&quot;'
     }[m]));
 
-    const getIdFromHash = () => decodeURIComponent(location.hash.replace('#', '').trim());
+    /* const getIdFromHash = () => decodeURIComponent(location.hash.replace('#', '').trim()); */
+
+    function getIdFromUrl() {
+      const params = new URLSearchParams(location.search);
+
+      const id = params.get('id');
+
+      if (id) {
+        return decodeURIComponent(id.trim());
+      }
+
+      return decodeURIComponent(
+        location.hash.replace('#', '').trim()
+      );
+    }
 
     function hideReadingAfterword() {
       if (readingAfterword) readingAfterword.hidden = true;
@@ -156,7 +170,7 @@
       const sep = () => `<span class="separator">|</span>`;
 
       breadcrumbNav.innerHTML = [
-        link(`./detail.html#${encodeURIComponent(id)}`, titleText),
+        link( `./detail.html?id=${encodeURIComponent(id)}`, titleText),
         sep(),
         current('庫內閱讀')
       ].join('');
@@ -201,7 +215,8 @@
     }
 
     async function initReadingPage() {
-      let id = getIdFromHash();
+      let id = getIdFromUrl();
+      /* let id = getIdFromHash(); */
 
      /*  if (!id) {
         titleEl.textContent = '找不到劇本';
@@ -241,7 +256,8 @@
           id = featuredItem?.id || recentItem?.id || safeItems[0]?.id || scriptsData[0]?.id || '';
 
           if (id) {
-            history.replaceState({}, '', `#${encodeURIComponent(id)}`);
+            /* history.replaceState({}, '', `#${encodeURIComponent(id)}`); */
+            history.replaceState(  {},  '',  `?id=${encodeURIComponent(id)}`);
           }
         }
 
@@ -302,7 +318,8 @@
           linksEl.innerHTML = '';
         } */
 
-        const detailHref = `./detail.html#${encodeURIComponent(id)}`;
+       /*  const detailHref = `./detail.html#${encodeURIComponent(id)}`; */
+       const detailHref = `./detail.html?id=${encodeURIComponent(id)}`;
         backToDetailEl.href = detailHref;
 
         const hasExternalLinks =

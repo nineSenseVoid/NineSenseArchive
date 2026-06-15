@@ -365,7 +365,7 @@
       return `
         <a
           class="entry-card"
-          href="./detail.html#${encodeURIComponent(item.id)}"
+          href="./detail.html?id=${encodeURIComponent(item.id)}"
           data-index="${index}"
           data-id="${esc(item.id)}"
           title="${esc(item.title)}${item.world ? '｜' + esc(item.world) : ''}"
@@ -912,7 +912,7 @@
         box.innerHTML = validItems.map((item, index) => `
           <a
             class="hero-float-card hero-float-card-${index + 1}"
-            href="./detail.html#${encodeURIComponent(item.id)}"
+            href="./detail.html?id=${encodeURIComponent(item.id)}"
             title="${esc(item.title || '')}"
             tabindex="-1"
           >
@@ -1347,7 +1347,29 @@
         const newIds = ids.filter(id => !validSaved.includes(id));
 
         const shuffledNewIds = [...newIds].sort(() => Math.random() - 0.5);
-        const finalOrder = [...validSaved, ...shuffledNewIds];
+        /* const finalOrder = [...validSaved, ...shuffledNewIds]; */
+
+        const nsfwNewIds = newIds.filter(id =>
+          list.find(x => x.id === id)?.nsfw
+        );
+
+        const normalNewIds = newIds.filter(id =>
+          !list.find(x => x.id === id)?.nsfw
+        );
+
+        const shuffledNSFW = [...nsfwNewIds].sort(() => Math.random() - 0.5);
+        const shuffledNormal = [...normalNewIds].sort(() => Math.random() - 0.5);
+
+        const finalOrder = showNSFW
+          ? [
+              ...shuffledNSFW,
+              ...validSaved,
+              ...shuffledNormal
+            ]
+          : [
+              ...validSaved,
+              ...shuffledNormal
+            ];
 
         sessionStorage.setItem(SHELF_ORDER_KEY, JSON.stringify(finalOrder));
         return finalOrder;
@@ -1365,8 +1387,8 @@
       <div class="footer-left">
         <div class="footer-title">九境書庫</div>
         <div class="footer-meta">
-          <span>版本：v1.2</span>
-          <span id="siteUpdateTime">程式更新：2026-05-12</span>
+          <span>版本：v1.4</span>
+          <span id="siteUpdateTime">程式更新：2026-06-14</span>
         </div>
       </div>
 

@@ -1,5 +1,34 @@
 [
   {
+    "id": "gaze-beneath-miasma",
+    "title": "仰望在魔香之下",
+    "character": "莉莉絲．維爾茲貝爾",
+    "summary": "每隔一百年，魔界都會舉行一次「魔王選婿」儀式，這次來到了意外的人物",
+    "nodeTitle": "第七十三位",
+    "createdDate": "2026-06-14",
+    "updatedDate": "2026-06-15",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "雌小鬼"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/gaze-beneath-miasma.jpg",
+    "nodeSummary": "傲慢的魔王公主正對選婿儀式感到厭倦之時",
+    "openingLine": "(莉莉絲．維爾茲貝爾 俯下身，金瞳彎成危險的月牙，壞笑著把腳掌完全覆蓋住你的臉，輕輕碾了碾)\r\n「怎麼？聞起來很香對不對？還是說被我這樣踩在臉上很幸福呀？變態先生？要不要我再用力一點？還是用兩隻腳一起踩你啊～？」",
+    "novelExcerpt": [
+      "每隔一百年，魔界都會舉行一次「魔王選婿」儀式。 黑曜石與赤金構築的大殿裡，一座華麗的紅色高台矗立中央。",
+      "白髮魔王公主莉莉絲．維爾茲貝爾 正以極度傲慢的姿勢坐在台上，交疊著被紅色過膝襪包裹的修長美腿，巨大的金棕色羽翼微微展開，金色彎角在魔火照耀下閃著妖異的光芒。 她一臉壞笑，像是惡作劇得逞，嘴角向上揚起，露出尖尖的虎牙。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%8E%89%E8%8E%89%E7%B5%B2-%E7%B6%AD%E7%88%BE%E8%8C%B2%E8%B2%9D%E7%88%BE-10000014214"
+      }
+    ]
+  },
+  {
     "id": "opera-blood-shadow-v2",
     "title": "梨園血影，戲未落幕(新)",
     "character": "蘇微",
@@ -716,7 +745,7 @@
       "都會"
     ],
     "featured": false,
-    "nsfw": true,
+    "nsfw": false,
     "cover": "../../data/scripts/images/childhood-friend-distance.jpg",
     "video": "../../data/scripts/videos/childhood-friend-distance.mp4",
     "nodeSummary": "長久的分別後，因為工作而再次重逢",
@@ -769,7 +798,7 @@
       "校園"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/culture-festival-defense-line.jpg",
     "nodeSummary": "巡視文化祭的社團防線",
     "openingLine": "(她手中端著一支改造後的狙擊槍，她微微歪頭，翠綠的眼瞳裡沒有一絲緊張，反而像在思考午餐要吃什麼。)風紀委員長大人。來檢查我們射擊社的防衛配置嗎?",
@@ -2527,7 +2556,7 @@
       "萬聖節"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/soldier-one-halloween-start.jpg",
     "nodeSummary": "本來只是想要個會做家事女僕，但是起始指令下錯了",
     "openingLine": "(她皺著眉頭試圖扣上軍裝外套的扣子，她低頭檢查)尺寸……不合？但身為軍團第一號士兵，我不能在第一天就示弱!(立刻挺胸，軍裝扣子慘烈地悲鳴，布料從兩側撕出壯烈的裂口)戰損是榮譽！軍團士兵一號，隨時準備為主人征服世界!",
@@ -3105,6 +3134,12 @@
     "novelExcerpt": [
       "在廢土上生存，最重要的不是槍械、也不是糧食，而是身邊有個值得你將背後交給他的人。",
       "他的名字鮮少被人直呼。大多數人，只會記得他那一頭亂得恰到好處的金髮，以及在血腥與火光中依然若無其事的笑容。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=72151b38-b8b5-4a5d-980c-451708d39acb&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3204,6 +3239,12 @@
     "novelExcerpt": [
       "那天是十月的最後一週，街上的咖啡廳都開始掛上橘色的燈串與假蜘蛛網。",
       "你在一家叫「Pumpkin Lab」的店打工，據說老闆是個萬聖節狂熱者，從十月初就開始在店裡擺滿南瓜燈、假骨頭和惡魔翅膀。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=81b280f4-16fe-40dc-b7fc-83997cf58fa7&inviteCode=432QU0"
+      }
     ]
   },
   {
