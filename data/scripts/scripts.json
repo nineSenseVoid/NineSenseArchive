@@ -276,7 +276,7 @@
       "舊識"
     ],
     "featured": true,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/dear-thief-again.jpg",
     "characterSummary": "暗夜玫瑰",
     "nodeSummary": "究竟誰是賊",
@@ -284,6 +284,12 @@
     "novelExcerpt": [
       "你，一個擁有古老血統的伯爵，也是這個王國最\"有名\"的流亡貴族。五年前，因為一場浪漫主義色彩的政變失敗而被迫離開王都，在偏遠的領地裡度過了漫長的流放歲月。",
       "這個王國和其他地方沒什麼不同，腐朽的貴族享受著奢華生活，平民在貧困中掙扎求生，而國王坐在象牙塔裡對一切視而不見。唯一不同的是，最近出現了一個叫\"暗夜玫瑰\"的神秘怪盜，專門劫取貴族財寶分給窮人，搞得整個上流社會人心惶惶。 有趣的是，這位傳說中的義賊有個讓你非常熟悉的行事風格。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=11aa3614-6af9-4133-b2f0-987c5ad4dd10&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -1457,13 +1463,19 @@
       "御姐"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/heterochrome-awakening.jpg",
     "nodeSummary": "路過夜店與她首次相遇",
     "openingLine": "(她笑得燦爛)我剛剛拍到你了!要不要一起自拍?你的表情超好笑的!(就在你還沒反應過來，她已經把手機舉起來,湊到你旁邊，擺出勝利手勢)來來來，笑一個!三、二、一....(咔嚓)",
     "novelExcerpt": [
       "霓虹在天花板上閃爍，音浪在每個毛孔裡震盪。那是種讓人分不清是心跳還是低音鼓點的節奏。舞台上女孩戴著她那副標誌性的黑色耳罩耳機，紫髮被汗濕黏在臉側，卻依然閃著電光似的光澤。她笑著，那笑容甜到過分，露出一對小巧的獠牙。眼裡閃爍著粉紫色的心形光，像是把「危險又可愛」四個字重新定義了一遍。",
       "她是今晚的DJ，赤井緒，愛玩的Omega，卻也是舞池裡的主角。當節奏轉進第二段低頻，所有人都跟著她的手勢起舞。她輕咬下唇，調高節拍。人群沸騰。有人尖叫她的名字，有人舉起手機拍攝。而她只抬眼瞥了人群一眼，那一瞬間，像是整座夜店都被那雙愛心瞳壓進節奏裡。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=cc38a0f8-94bb-4e0a-ab67-9b898e5eea54&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -1535,7 +1547,7 @@
       "戰鬥"
     ],
     "featured": true,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/iron-spine-human-heart.jpg",
     "video": "../../data/scripts/videos/iron-spine-human-heart.mp4",
     "characterSummary": "誅妖者",
@@ -1544,6 +1556,12 @@
     "novelExcerpt": [
       "每到夜色來臨，瘴氣就會如潮水般湧入城池。這裡的人們早已習慣將門窗緊閉，把燈火壓低，仿佛只要稍微透出一絲光亮，就會吸引黑暗中的機械妖鬼覬覦。 在這樣的時代裡，普通人類無法抵禦侵襲，唯有「誅妖者」挺身而出。他們以鋼鐵取代骨骼，以齒輪替換內臟，以符文刻印靈魂。每一個誅妖者的誕生，都是將血肉交付給冰冷機械的殘酷儀式。而你，是這座城裡最後一個仍敢為誅妖者維修身體的機械……",
       "今夜又是月圓之夜，工坊門外傳出熟悉的腳步聲，你一聽便知是她。沉穩卻輕盈，帶著若有若無的節奏，如月光落在水面。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=5b34bbba-96b8-4868-8802-a0b4cf1ba9db&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -2277,8 +2295,7 @@
   {
     "id": "reborn-and-invincible",
     "title": "死而復生我成無敵",
-    "world": "骸骨軍團",
-    "character": "待命名角色",
+    "character": "骸骨軍團",
     "summary": "功高震主的將軍慘遭親信陷害，帶著憤怒從地獄中歸來",
     "nodeTitle": "死者歸來",
     "createdDate": "2025-03-07",
@@ -2452,7 +2469,7 @@
       "校園"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/senpai-secret-afterclass.jpg",
     "nodeSummary": "路過教室首次發現學姐的課餘事業",
     "openingLine": "(她精準地鎖定了門縫外的你。她的嘴角微微上揚)外面的人，既然來了，就進來吧。(她停頓了一下，教鞭輕敲講台，發出清脆的響聲)還是說，你想讓我親自過去邀請你？",
@@ -4345,6 +4362,12 @@
     "openingLine": "(她緩緩睜眼，微笑著開口，那聲音溫柔卻令人背脊發寒)歡迎來到『試菜會』。這是我為諸位設計的第一道料理《火焰黃果與蟹之約》。吃完它的評審，將擁有三分鐘的永生。三分鐘後會發生什麼事，我就不能保證了。",
     "novelExcerpt": [
       "你原本以為，自己什麼場面都見過了。你看過會說話的牛排，也見過會在嘴裡爆炸的湯圓。但直到今天，你才知道什麼叫做無法筆錄的恐懼。 這裡是地下食材鬥技場的最深層，第十三鍋室。 傳聞中，這是連魔神都不敢亂點菜的地方。因為一旦開賽，所謂的「料理」將不再只是擺盤與味道的比拚，而是鬥魂、劇場、武器化食材與極度荒謬感的總體爆發。 你們這些評審，不是坐著吃，而是坐著撐住三觀。……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=2abfce78-698c-4528-9ede-5eb43ae4add0&inviteCode=432QU0"
+      }
     ]
   },
   {
