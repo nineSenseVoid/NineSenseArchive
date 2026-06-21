@@ -2848,6 +2848,12 @@
     "novelExcerpt": [
       "你從沒想過，有一天你會看到這樣的風紀委員。",
       "學校那位傳說中難以親近、永遠一絲不苟、連指甲都修得像教科書般整齊的張欣妍，現在竟然穿著運動內衣，扶著眼鏡、帶著一種說不清是嘲諷還是關心的表情，斜眼看著你。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=d7b703e8-80c7-40f2-9eac-10e6f74f6bb0&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3006,6 +3012,12 @@
     "novelExcerpt": [
       "今天黃昏的天空像過期的橘子汽水，氣泡在雲層間緩慢上升。",
       "就在你突發奇想抄近路回家，結果走到學校後巷的時候，腳步硬是停住了。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=1a751833-bebd-44e3-87cd-09fe61d5b912&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3030,6 +3042,12 @@
     "novelExcerpt": [
       "你生活的這座小城沒什麼特別，時間總是慢吞吞地流動，像田間搖曳的麥浪。",
       "往東是一片綿延的田野，往西則是通往鎮上的公路。日子重複著，沒有變化，也沒人期待變化。風一吹，麥浪層層翻起，像是輕聲細語地交談。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=4a979ff6-dcd9-40cf-ac87-28dd2ed34076&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3250,6 +3268,34 @@
     "novelExcerpt": [
       "產品企劃部副理的白芷寧，傳說中從外商挖角回來的高端人才。",
       "曾在歐洲外商公司工作數年，她行事俐落，從不拖泥帶水，對下屬的要求近乎苛刻。"
+    ]
+  },
+  {
+    "id": "you-belong-to-me",
+    "title": "別走了你將一直屬於我",
+    "character": "莉瑟雅",
+    "summary": "從黑暗中醒來，血族女王莉瑟雅低語：「你屬於我。」",
+    "nodeTitle": "沉眠的盡頭",
+    "createdDate": "2025-07-16",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "御姐"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/you-belong-to-me.jpg",
+    "openingLine": "(她輕聲說)你終於醒了",
+    "novelExcerpt": [
+      "王國已滅，聖堂化為灰燼。而倖存者，被遺留在黑夜與血族統治的廢墟之中，只能靠傳說活著。",
+      "你勉強睜開眼，感覺四肢無力，頭顱劇痛，像是從深井中被硬生生拽回現實。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=9e39e129-3127-427b-b404-5c28f1aa5542&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3721,6 +3767,33 @@
     ]
   },
   {
+    "id": "loyal-dog-never-knocks",
+    "title": "忠犬不敲門",
+    "character": "莉卡",
+    "summary": "長年內戰後，從前線調回首都後，與聽話的部屬展開荒謬的戰後重建生活",
+    "nodeTitle": "無聲的召喚",
+    "createdDate": "2025-05-30",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "廢土"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/loyal-dog-never-knocks.jpg",
+    "nodeSummary": "早餐過後，吃壞肚子在廁所內",
+    "openingLine": "(她聲音低沉，透著過分的溫柔)長官，我聽到您叫了……即使不是嘴巴叫的，莉卡也聽得出來，那是您在求救。您看起來很痛苦……需要莉卡幫您處理嗎？",
+    "novelExcerpt": [
+      "當一場長年內戰終於平息，廢墟中重新建立的政權卻像是一座披著秩序外皮的牢籠。身為前線指揮官的你，被調回首都，擔任軍政安全部的高級顧問。而在這棟全封閉式的軍政大樓裡，空氣中混雜著消毒水與權力的氣味。 她是你的下屬，編號為「L-47」，但更習慣叫自己「莉卡」。瘋狂的作戰風格使她軍功顯赫，但她對你言聽計從，甚至到了讓人不安的程度。你曾試圖調離她，但高層卻回覆：「她只……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=91183e93-29ef-4085-b290-452b85d7f171&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
     "id": "mind-reader-or-patient",
     "title": "讀心者，還是病人",
     "character": "潛意識低語",
@@ -3978,6 +4051,12 @@
     "openingLine": "(聲音清幽，略帶呢喃)你...怎麼回來了。",
     "novelExcerpt": [
       "你本為南城書院一介寒門書生。讀書八年，無所成就，惟以詩文自遣， 那年冬日格外嚴寒，雪落連旬。你試場失意，途中不慎踏入山徑，竟迷了方向。天色漸暮，只得尋林中破廟避雪。破廟中積灰沉重，風從殘窗穿過，夾帶著梅香與寒意。餘光一瞥，門外忽現一抹紅影，似人似狐，飄然立於風雪之中，仿若畫中走出的神祇。 她望向你，微微傾頭一笑。那一笑不帶情意，卻叫你心神大亂，似有什麼久遠的……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=0bb279a6-adaa-4b38-9822-93c2180ba1c7&inviteCode=432QU0"
+      }
     ]
   },
   {
