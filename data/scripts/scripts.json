@@ -1,5 +1,38 @@
 [
   {
+    "id": "tea-blade-v2",
+    "title": "茶之劍(新)",
+    "character": "千葉沙月",
+    "summary": "小時候被劫走的孩子 終於回家了",
+    "nodeTitle": "野人少主",
+    "createdDate": "2026-06-23",
+    "updatedDate": "2026-06-24",
+    "tags": [
+      "女性",
+      "日系",
+      "古代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/tea-blade-v2.jpg",
+    "nodeSummary": "雨聲落在庭院的青石上。你站在紙門外，手已經放在門把上，卻遲遲沒有推開。回想起過往",
+    "openingLine": "(你走進房間，在她對面坐下。標準而端正的跪坐姿勢，與她盤腿而坐的模樣形成鮮明對比。兩人誰都沒有先說話。許久。她率先開口，聲音平靜卻帶著山野的直接)「他們說你是我父親。但我不太知道要叫你什麼。」",
+    "novelExcerpt": [
+      "雨聲落在庭院的青石上。你站在紙門外，手已經放在門把上，卻遲遲沒有推開。身為千葉家的宗主，你處理過無數棘手的事情。",
+      "茶道流派之爭、家族繼承糾紛、與政商名流之間的往來，甚至二十年前妻子的葬禮，你都不曾猶豫。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=9b8419ba-08cb-4226-9ff3-513b3a02d425&inviteCode=432QU0"
+      },
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E5%8D%83%E8%91%89%E6%B2%99%E6%9C%88-10000015012"
+      }
+    ]
+  },
+  {
     "id": "gaze-beneath-miasma",
     "title": "仰望在魔香之下",
     "character": "莉莉絲．維爾茲貝爾",
@@ -2933,7 +2966,7 @@
       "女僕"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/system-maid-meow.jpg",
     "video": "../../data/scripts/videos/system-maid-meow.mp4",
     "nodeSummary": "在某天回家時，隨口一句的願望竟然實現了",
@@ -2941,6 +2974,34 @@
     "novelExcerpt": [
       "你與其說是少爺，但其實只是繼承了一棟家族留下來的大宅子。由於父母常年在國外工作，家裡就只剩你和女僕小語。",
       "小語，她是個標準的「完美女僕」:規矩、嚴謹、凡事都照本宣科，甚至連給你端茶時都會站到最正確的角度。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=96d25fb7-c493-4aaa-a811-95295b900f23&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "tea-blade",
+    "title": "茶之劍",
+    "character": "千葉沙月",
+    "summary": "小時候被劫走的孩子 終於回家了",
+    "nodeTitle": "野人少主",
+    "createdDate": "2024-11-12",
+    "updatedDate": "2026-05-10",
+    "tags": [
+      "女性",
+      "日系",
+      "古代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/tea-blade.jpg",
+    "openingLine": "（不自然且扭捏地四處觀望）",
+    "novelExcerpt": [
+      "茶道世家千葉家的大小姐千葉沙月出生時，被人擄走。",
+      "千葉沙月是一位充滿激情與決心的女性，她的智慧和勇氣使得她在逆境中展現出難以置信的堅韌。"
     ]
   },
   {
@@ -4164,12 +4225,18 @@
       "奇幻"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/rhapsody-of-burning-bones.jpg",
     "nodeSummary": "在人生嘈雜的廢墟廣場，她走上了倒塌的舊舞台",
     "openingLine": "（她在舞台上，對著台下群眾呼喊）這首歌，獻給這座該死的牢籠。獻給被囚禁的靈魂～～♪",
     "novelExcerpt": [
       "在這座城市裡，夜晚沒有真正的黑暗。只有無盡的霓虹、滲著機油味的雨水，和不曾停止的怒吼與沉默。 在這座魔導會統治的鐵銹之城，像你這種人，連名字都不重要。但那一天起，你記住了一個名字:伊莉安娜。 她來得很突然。 在人聲嘈雜的廢墟廣場，一個身影走上了倒塌的舊舞台。黑髮像被夜色揉碎，黑色的皮膚沾著冷雨，在破爛的聚光燈下，竟然有種冷冽的光澤。她安靜地站著，一手握著破舊……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=13a2a1da-e728-47b9-9eee-18117e69c1a1&inviteCode=432QU0"
+      }
     ]
   },
   {

@@ -21,6 +21,12 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=tea-blade-v2</loc>
+    <lastmod>2026-06-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=who-says-i-changed</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -29,12 +35,6 @@
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=queen-resolve-v2</loc>
     <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=dear-thief-again</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -225,19 +225,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=heterochrome-awakening</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=hidden-bond</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=iron-spine-human-heart</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -363,6 +351,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=red-flower-thorn-revenge</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=red-serpent-whisper</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -376,12 +370,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=scale-shadow-and-morning-light</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=senpai-secret-afterclass</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -447,7 +435,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=system-maid-meow</loc>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=tea-blade</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -508,6 +496,12 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=world-from-the-ground</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=you-belong-to-me</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -670,12 +664,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=reunion-in-business-battlefield</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=rhapsody-of-burning-bones</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
