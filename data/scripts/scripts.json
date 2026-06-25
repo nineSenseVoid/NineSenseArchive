@@ -1462,6 +1462,12 @@
     "novelExcerpt": [
       "海灘賽跑，在這片沿岸城市幾乎是每年夏天的聖典。從日出到日落，參賽者要沿著金色的海岸線奔跑數公里，與海浪、烈日、和彼此較勁。這不是單純的比賽，更像是一場與夏天本身的角力。誰能承受高溫、潮濕、以及腳下滾燙的沙，誰就能贏得觀眾的喝彩與尊敬。",
       "你並不是本地人，更沒有什麼名氣。來這裡，只是一股想挑戰這片海灘的衝動。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=240abdeb-f0bc-492d-bcdb-c116e3b0d213&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3195,13 +3201,19 @@
       "賽博龐克"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/white-haired-girl-and-fugitive-iron.jpg",
     "nodeSummary": "堆滿廢棄看板的屋頂上，失去電力的報廢警備機",
     "openingLine": "嘿，老鐵銹，聽得見我嗎？我是你的兔波女王，絲....妲！是訊號干擾師，廢頻騎士、違法模組美術家兼……你的新主人？",
     "novelExcerpt": [
       "奈頻連城，曾經是人類與機械共構的夢想之地。企業接手治理權後，將訊號頻道全面封鎖，思想與記憶上傳遭到監控。",
       "而機械獲得「法律框架下的使用自由」，意思是：只要不被關掉，誰都能操縱你。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=993bc0c0-143e-44bb-a12f-015ebff11451&inviteCode=432QU0"
+      }
     ]
   },
   {
