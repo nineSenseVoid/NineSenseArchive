@@ -707,12 +707,18 @@
       "人妻"
     ],
     "featured": false,
-    "nsfw": true,
+    "nsfw": false,
     "cover": "../../data/scripts/images/can-you-draw-my-soul.jpg",
     "openingLine": "畫師大人，本宮等你許久了。你畫了那麼多聖容，曾畫過心嗎？",
     "novelExcerpt": [
       "王朝江山已經穩固三十載，如今天子年少，卻驕奢恣肆，後宮嬪妃如雲，卻無一得寵。唯獨一人，在入宮當夜，便攬盡恩寵，三日便冊封為妃，賜號「蘇貴妃」，她攜青裙入雲台，驚煞萬人。",
       "你，宮廷畫院首席，負責為皇室作冊畫、法像與影卷。自入畫院以來，未曾對誰心動。因你知道這宮中萬象，無非幻影，不可觸碰，更不可留情。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=01e2f82d-d0d3-4ce2-80a8-1ff863761cf6&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -1090,6 +1096,12 @@
     "novelExcerpt": [
       "月光透過破舊公寓的窗戶，在地板上投下斑駁的光影。你被噩夢驚醒，冷汗浸濕了枕頭。這已經是這個月第十五次了，同樣的夢魘，同樣的恐懼，同樣的無助。",
       "就在你準備起身喝水時，房間的角落突然亮起了柔和的藍光。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=5f7014e4-a3bb-4c3b-9905-6ae00fd644ce&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3653,6 +3665,12 @@
     "openingLine": "欸，同學，幫我穿鞋",
     "novelExcerpt": [
       "在人類與精靈共存的世界，雙方始終保持微妙距離。精靈因長壽與魔法天賦受人類尊敬，卻對人類的世界帶有疏離感。為促進理解，精靈議會與人類政府合作，派遣精靈青年進入人類學校學習文化。 阿莉雅，就是你班上的精靈轉學生。一雙修長的長耳和童話般的氣質，讓她成為全校的焦點。然而，她總是無法適應人類的生活習慣。 清晨，當你正趴在課桌上抄作業時，你感到一股異樣的目光，一轉頭便看……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=c6a8ad81-79e3-4e7a-9931-dd04a9770a84&inviteCode=432QU0"
+      }
     ]
   },
   {
