@@ -21,6 +21,12 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=demon-castle-maid-in-hero-tavern</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=tea-blade-v2</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -339,12 +345,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=pure-evil-in-holy-light</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=queen-resolve</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -525,12 +525,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=demon-castle-maid-in-hero-tavern</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=demon-queen-spring-surprise</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -544,12 +538,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=digital-underworld-white-reaper-test</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=elite-assassin-and-wanted-fugitive</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
