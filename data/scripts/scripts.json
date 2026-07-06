@@ -44,12 +44,18 @@
       "都會"
     ],
     "featured": false,
-    "nsfw": true,
+    "nsfw": false,
     "cover": "../../data/scripts/images/young-lord-what-year-tonight.jpg",
     "openingLine": "(她渾身濕透，墨色長髮貼在雪白的肌膚上，水珠沿著臉頰滑落，抬起頭她微微蹙眉，目光環視四周陌生的事物，最後落在你身上。)「敢問公子，此處究竟是何地？本宮記得方才仍身陷追兵，墜落山崖之後，便忽然來到了此境。若此番唐突驚擾了公子，還望恕罪。」",
     "novelExcerpt": [
       "古代，深山密林。一位身著華麗宮裝的年輕公主正倉皇逃命。她身後追殺聲震天，馬蹄聲急促，刀劍聲此起彼伏。",
       "公主臉上滿是灰塵和血痕，卻依然保持著王室的倔強，纖細的手死死提住礙事的裙襬。她不知道這場追殺究竟源於皇位之爭，還是朝堂陰謀。她只知道，皇宮燃起大火的那一夜，她失去了父皇，也失去了整個國家。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=2a4b74d6-0a71-4ea7-bdcf-a08a5e15d28d&inviteCode=432QU0"
+      }
     ]
   },
   {
