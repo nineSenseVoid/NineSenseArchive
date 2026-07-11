@@ -21,6 +21,12 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=pink-direct-hit</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=demon-castle-maid-in-hero-tavern</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
