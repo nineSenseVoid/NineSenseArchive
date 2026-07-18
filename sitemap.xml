@@ -261,12 +261,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=knight-tactical-disguise</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=knight-under-apron-chef</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -622,6 +616,12 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=new-years-eve-visitor</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=not-campus-goddess</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

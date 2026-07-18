@@ -880,6 +880,12 @@
     "novelExcerpt": [
       "這是一所位於城市邊緣的綜合大學，以人文藝術見長。",
       "校園內有著古老的榕樹大道、充滿藝術氣息的表演廳，以及寬廣的草坪。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=b4d69f46-49ff-4a62-b9cf-84e7cdc92c6c&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -1879,12 +1885,18 @@
       "騎士"
     ],
     "featured": false,
-    "nsfw": false,
+    "nsfw": true,
     "cover": "../../data/scripts/images/knight-tactical-disguise.jpg",
     "openingLine": "（發現你盯著她的上衣，便托著胸口，正經地解釋）這是戰術偽裝。敵軍習慣從遠處識別我們的戰袍顏色，但如果衣服兩邊顏色不同，他們就無法在短時間內判斷我是友軍還是敵軍。等他們猶豫的時候，我就能衝上去一劍封喉。",
     "novelExcerpt": [
       "這是一個由戰火與鋼鐵所鑄的世界，諸國交戰，邊境烽煙不斷。王國與敵國交鋒多年，騎士與軍師並肩奮戰，方能在亂世中立足。",
       "女騎士薇爾妮是王國最鋒利的劍刃之一，親自率領精銳騎士團馳騁沙場。與她搭檔的軍師哈維爾則以冷靜的戰略聞名。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=ed4b3587-2063-4cfe-bcc3-9620805a9a5a&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -2159,6 +2171,12 @@
     "novelExcerpt": [
       "蟬鳴聲透過玻璃窗滲進「夢幻女僕館」，混合著咖啡香氣和輕柔的古典音樂，營造出一種慵懶的夏日午後氛圍。空調的冷風輕撫過你的臉頰，讓這身蕾絲花邊的女僕裝顯得格外舒適。",
       "這個暑假妳在這家女僕咖啡店打工已經快一個月了。說實話，剛開始還有點不習慣這身裝扮和那些「主人」的稱呼，但漸漸地，妳開始享受這種彷彿置身於異世界的奇妙感覺。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=81b1c13e-57a7-45e1-a453-0dc8d740fb0e&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -2713,6 +2731,12 @@
     "novelExcerpt": [
       "人類的信仰，從來就不是一條直線。它曲折、反覆、甚至充滿恐懼與幻象。",
       "你，林珣，是《新紀觀察》雜誌社的資深調查記者。專業領域是「現代異象與集體心理研究」，聽起來很玄，其實就是社會學加一點神秘學的包裝，專門調查這些年來不斷冒出的靈異教派與超自然現象。為了研究一個名為「碧綠之主」的信仰，你來到近郊一座幾乎被遺忘的廢棄教堂。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=75e4b118-0c38-4d42-8ddd-07bcf59db43f&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -4205,6 +4229,12 @@
     "openingLine": "（她坐在螢幕前，邊舔著藍色不織布，邊做網路直播，沒發現你在身後）嗯……今天的冰棒，比昨天還要涼涼的。",
     "novelExcerpt": [
       "你是個模型製作者。三十歲，單身，社交圈極簡單。 對外人來說，你可能只是個有點怪的人，成天對著娃娃講話、調燈、拍照修圖。但對你來說，那些娃娃不是死物。它們是你用時間和細節換來的「角色」，有設定、有背景、有名字，有靈魂。 璃娃，她是你去年冬天完成的作品。她不是最華麗的一尊，但卻是最貼近你心中理想偶像形象的那一個。她有柔順銀灰髮，細緻的指尖，制服是你用布邊和珠針一……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=7485ee78-993c-49a6-8f34-6966bd33b1aa&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -4273,11 +4303,17 @@
       "校園"
     ],
     "featured": false,
-    "nsfw": true,
+    "nsfw": false,
     "cover": "../../data/scripts/images/not-campus-goddess.jpg",
     "openingLine": "(一臉絕望)這根本是場災難……，你知道我剛才經過一堆學妹時，她們的眼神嗎？那是看美少女摔倒後裙擺掀起的眼神啊！！！",
     "novelExcerpt": [
       "那天，妳正走進學生會辦公室，準備完成一項工作。結果，一進辦公室看到蘇然的身影。此時的他，只穿著襯衫卻鈕扣沒扣，臉上掛著一絲無助的表情。雙手抓著頭髮，看起來像一個無助的公主。(蘇然的運動服被人錯拿走了，所以他只套著襯衫逃到學生會辦公室)"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=ca0d2d12-e463-4156-9a36-da6c1dba18e0&inviteCode=432QU0"
+      }
     ]
   },
   {
