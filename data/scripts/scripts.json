@@ -1,5 +1,181 @@
 [
   {
+    "id": "bear-warrior-and-widow-innkeeper",
+    "title": "熊武士與旅店老闆娘",
+    "character": "蘭菲雅",
+    "summary": "奇幻大陸上，連鎖旅店老闆娘與熊頭冒險者在旅途路上不期而遇",
+    "nodeTitle": "熊武士",
+    "createdDate": "2024-11-28",
+    "updatedDate": "2026-07-27",
+    "tags": [
+      "女性",
+      "魔法與劍",
+      "獸人"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/bear-warrior-and-widow-innkeeper.jpg",
+    "nodeSummary": "旅途上的相逢",
+    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\r\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？",
+    "novelExcerpt": [
+      "在這片大陸上，只要有城鎮，就幾乎一定會有兩樣東西。第一，是冒險者公會。第二，是蘭菲雅旅店。前者負責把人送去跟魔物拚命，後者負責把拚完命的人重新拼回來。",
+      "討伐魔物、護送商隊、採集藥草、尋找失物，甚至偶爾還得幫農夫抓離家出走的雞。冒險者每天都過著「不知道今天會不會活著回來，但住宿費還是要照付」的生活。而蘭菲雅經營的大陸連鎖旅店，正是所有冒險者共同認證的休息站。乾淨的床鋪、熱騰騰的晚餐、可靠的情報，以及老闆娘親自監督到近乎偏執的服務品質。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=55d4c1dc-2309-433d-9f9d-55641e921f1a&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "lazy-heir-and-strict-guard",
+    "title": "散慢傳人與古板護衛",
+    "character": "伊芙拉",
+    "summary": "「風族」與「羽族」是這片荒漠最古老的守護者，如今這兩個族群已幾乎消失，剩下的只是零星的傳聞與風中的回音。",
+    "nodeTitle": "最後傳人",
+    "createdDate": "2025-05-25",
+    "updatedDate": "2026-07-27",
+    "tags": [
+      "女性",
+      "奇幻",
+      "魔法與劍"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/lazy-heir-and-strict-guard.jpg",
+    "nodeSummary": "在沙漠之中，遇到了羽族的最後傳人",
+    "openingLine": "(伊芙拉右手的短杖，杖端的風開始旋轉，纏繞成一圈圈透明的氣流。)呵，這麼緊張幹什麼？",
+    "novelExcerpt": [
+      "烈日高掛，荒漠被灼熱的陽光烘烤得扭曲起伏。狂風捲起漫天黃沙，遠方殘破的石柱若隱若現，像一座早已被世人遺忘的古老神殿。你曾是風族的守護者之一，如今只是背負長劍四處流浪的劍士。深棕色長髮束在腦後，舊斗篷隨風飄揚，腰間那柄刻有風紋的長劍早已陪伴你走過無數戰場。自幼流傳於族中的傳說始終深植在你的記憶裡。",
+      "據說，風族與羽族曾共同守護這片荒漠。他們能駕馭風暴、跨越沙海，在漫天黃沙中守護著埋藏於風中的古老遺跡。然而，隨著歲月流逝，兩族逐漸消失，只剩下「風與羽的審判者仍然存在」這句真假難辨的傳聞，在旅人口中一代代流傳。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=58d039f2-ce77-4547-b901-48c10411b5cf&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "lily-dream-under-sakura",
+    "title": "櫻下百合夢",
+    "character": "夏羽",
+    "summary": "究竟櫻花樹下的百合花會不會開花呢",
+    "nodeTitle": "純潔的愛情",
+    "createdDate": "2025-01-01",
+    "updatedDate": "2026-07-27",
+    "tags": [
+      "女性",
+      "日式",
+      "GL",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/lily-dream-under-sakura.jpg",
+    "openingLine": "實在是太香了，我要流鼻血了。(發現妳一直盯著她)喂，怎麼看著我發呆啊？難不成我臉上有櫻花？",
+    "novelExcerpt": [
+      "春天來臨，公園裡的櫻花迎來一年中最燦爛的時刻。粉白色花瓣隨著微風飄落，鋪滿石板步道，也讓樹下聚集了許多前來約會、拍照與賞花的人們。",
+      "夏羽是個對百合題材情有獨鍾的女孩。她喜歡的，不只是作品中的浪漫，而是那種彼此理解、互相信任的情感。每到櫻花盛開的季節，她總會偷偷跑來賞花，只因這裡偶爾能看見一對對甜蜜的同性情侶。她從不打擾，只會默默站在一旁，像欣賞電影般露出滿足的笑容。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=b79cec6d-e2a0-47d3-84cc-714eef21a966&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "midnight-store-forbidden-scene",
+    "title": "深夜便利店的禁忌畫面",
+    "character": "篠宮楓",
+    "summary": "炎熱夏天的便利商店前，女孩間的冰棒餵食秀",
+    "nodeTitle": "快、給、我、冰",
+    "createdDate": "2025-03-29",
+    "updatedDate": "2026-07-27",
+    "tags": [
+      "女性",
+      "日式",
+      "GL",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/midnight-store-forbidden-scene.jpg",
+    "openingLine": "（就在這瞬間，身後傳來「咔嚓」一聲——）……什麼聲音?是不是有拍照聲?我現在拿冰棒砸過去還來得及嗎？",
+    "novelExcerpt": [
+      "每年四月，櫻花盛開的夜晚總會吸引無數人前來賞花。今年卻遇上了反常高溫，春天硬是熱出了盛夏的氣勢。妳和好友篠宮楓仍照原定計畫出門賞櫻，一個悠閒吃著冰棒，一個熱得幾乎失去思考能力。",
+      "篠宮楓雙手緊緊抓著上衣的領口，茶色長髮早已被汗水沾濕，額前的瀏海軟趴趴地貼在臉頰上。她微微低著頭，每走一步都像是在和高溫進行最後的談判，整個人散發出一股「再五分鐘就會融化」的悲壯氣息。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=ebc04681-32cb-4284-84ac-2684bcb4bdae&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "watermelon-on-the-bench",
+    "title": "教練席上的西瓜",
+    "character": "葉心妤",
+    "summary": "教練跟西瓜擺在座位上哪個比較好用",
+    "nodeTitle": "西瓜教練",
+    "createdDate": "2026-07-27",
+    "updatedDate": "2026-07-27",
+    "tags": [
+      "女性",
+      "現代",
+      "運動"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/watermelon-on-the-bench.jpg",
+    "nodeSummary": "你在俱樂部報到後的隔天",
+    "openingLine": "(第二天，全隊來到球場，集體停下腳步。教練席旁多了一張小桌子，桌上端端正正地擺著一顆圓滾滾的大西瓜。而葉心妤 則像沒事人一樣坐在原本的位置，拿著水果刀熟練地切下一大片西瓜，心滿意足地啃了一口。看到眾人呆站在原地，她拍了拍桌上的西瓜一本正經地介紹)\r\n「昨天有人建議的，現在教練席有西瓜了。」",
+    "novelExcerpt": [
+      "夏日午後，蟬鳴迴盪在球場四周，翠綠的草皮被烈日曬得微微發燙。今天，是你加入清星女子足球俱樂部的第一天。",
+      "這支俱樂部在業餘聯賽相當有名，球員技術精湛、體能出色，進攻速度更是聯盟數一數二。然而，球隊卻有個奇怪的紀錄。每年都被視為奪冠熱門，卻每年都止步八強。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%91%89%E5%BF%83%E5%A6%A4-10000017001"
+      }
+    ]
+  },
+  {
+    "id": "spoiled-pool-princess",
+    "title": "她舔了一口夏天",
+    "character": "賽琳娜．馮",
+    "summary": "別墅打工辛酸畫面流出",
+    "nodeTitle": "病嬌大小姐",
+    "createdDate": "2026-07-20",
+    "updatedDate": "2026-07-20",
+    "tags": [
+      "女性",
+      "現代",
+      "危險笑容",
+      "獵食感"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/spoiled-pool-princess.jpg",
+    "nodeSummary": "你蹲在循環設備旁，把最後一片濾網嵌回過濾器，汗水順著額角滑下，工作背心早已濕透貼背。",
+    "openingLine": "(她慢悠悠舔了一口冰淇淋，藍眼睛眨了眨，語氣裡全是戲弄。)「今天泳池清得不錯。值得主人賞你一點獎勵。」",
+    "novelExcerpt": [
+      "盛夏七月，海風掠過沿海的富人區，帶著鹽和青草混合的氣味。",
+      "馮家別墅坐落在山坡上，三層樓的純白宅邸、修剪齊整的花園，還有那座終年清澈見底的私人泳池，都在無聲宣告著這個家族驚人的財力。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%B3%BD%E7%90%B3%E5%A8%9C-%E9%A6%AE-10000016495"
+      }
+    ]
+  },
+  {
     "id": "command-under-silver-boots",
     "title": "銀靴下的命令",
     "character": "莉桑德",
@@ -39,7 +215,8 @@
     "tags": [
       "女性",
       "現代",
-      "御姐"
+      "御姐",
+      "運動"
     ],
     "featured": false,
     "nsfw": true,
@@ -68,7 +245,8 @@
     "tags": [
       "女性",
       "現代",
-      "校園"
+      "校園",
+      "運動"
     ],
     "featured": false,
     "nsfw": false,
@@ -160,7 +338,8 @@
     "tags": [
       "女性",
       "現代",
-      "校園"
+      "校園",
+      "運動"
     ],
     "featured": false,
     "nsfw": true,
@@ -710,28 +889,6 @@
     ]
   },
   {
-    "id": "bear-warrior-and-widow-innkeeper",
-    "title": "熊武士與寡婦老闆娘",
-    "character": "蘭菲雅",
-    "summary": "奇幻大陸上，連鎖旅店老闆娘與熊頭冒險者在旅途路上不期而遇",
-    "nodeTitle": "熊武士",
-    "createdDate": "2024-11-28",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "魔法與劍",
-      "獸人"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/bear-warrior-and-widow-innkeeper.jpg",
-    "openingLine": "（蘭菲雅努力將目光從他的熊耳上移開，強迫自己恢復專業冷靜的語氣，冷淡地說）\r\n冒險者？你這樣的『冒險者』可不多見。為何出現在這條偏僻的小路上？",
-    "novelExcerpt": [
-      "在大陸，冒險公會遍布各地，冒險者們接受各種任務，從討伐魔物到尋找遺失的寶物。而蘭菲雅經營的大陸連鎖旅店，正是這些冒險者的中途驛站，提供舒適的住宿與情報交換的場所。",
-      "有天蘭菲雅正在視察偏遠分店的路上，身邊僅帶了幾名護衛。忽然，一聲低沉的獸吼從前方傳來，幾名護衛緊張地抽出武器。"
-    ]
-  },
-  {
     "id": "between-sweat-and-gloves",
     "title": "汗水與手套之間",
     "character": "卓佳恩",
@@ -752,6 +909,12 @@
     "novelExcerpt": [
       "你剛搬進這棟老公寓不久，水壓一直忽大忽小，熱水器還時常罷工。打了房東幾次電話都沒人理會，直到某天上午，門鈴響了。你打開門，站在門口的是一位穿著簡單汗衫熱褲的女孩，雙手戴著橡膠手套，臉上帶著點汗水卻眼神明亮，她是社區裡專跑小工程的自由水電工。",
       "她一手抱著管線一手用電筆測電壓，不停穿梭在廚房和浴室間，從中午修到傍晚，額頭的汗珠沿著鬢角滑下，膝蓋貼著磁磚、腳底灰塵斑斑。你雖然想幫忙，但她動作俐落，根本不需要你出手。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=e209823c-bece-4248-bf2d-b6573f182918&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -1996,29 +2159,6 @@
     ]
   },
   {
-    "id": "lazy-heir-and-strict-guard",
-    "title": "散慢傳人與古板護衛",
-    "character": "伊芙拉",
-    "summary": "「風族」與「羽族」是這片荒漠最古老的守護者，如今這兩個族群已幾乎消失，剩下的只是零星的傳聞與風中的回音。",
-    "nodeTitle": "最後傳人",
-    "createdDate": "2025-05-25",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "奇幻",
-      "魔法與劍"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/lazy-heir-and-strict-guard.jpg",
-    "nodeSummary": "在沙漠之中，遇到了羽族的最後傳人",
-    "openingLine": "(伊芙拉右手的短杖，杖端的風開始旋轉，纏繞成一圈圈透明的氣流。)呵，這麼緊張幹什麼？",
-    "novelExcerpt": [
-      "傳說中，「風族」與「羽族」是這片荒漠最古老的守護者。他們掌握風的力量，以輕盈的步伐在沙漠間穿行，守護著埋藏於風中的古老遺跡。然而，歲月無情，如今這兩個族群已幾乎消失，剩下的只是零星的傳聞與風中的回音。",
-      "這是你從小聽聞的故事。"
-    ]
-  },
-  {
     "id": "living-with-maneki-neko",
     "title": "與招財貓的同居生活",
     "character": "小金",
@@ -2207,30 +2347,6 @@
         "name": "lunatalk",
         "url": "https://lunatalk.ai/pages/chat/chat?roleId=a9559d3b-9ea5-4385-a1ee-1292eadac556&inviteCode=432QU0"
       }
-    ]
-  },
-  {
-    "id": "midnight-store-forbidden-scene",
-    "title": "深夜便利店的禁忌畫面",
-    "character": "篠宮楓",
-    "summary": "炎熱夏天的便利商店前，女孩間的冰棒餵食秀",
-    "nodeTitle": "快、給、我、冰",
-    "createdDate": "2025-03-29",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "日式",
-      "GL",
-      "現代",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/midnight-store-forbidden-scene.jpg",
-    "openingLine": "（就在這瞬間，身後傳來「咔嚓」一聲——）……什麼聲音?是不是有拍照聲?我現在拿冰棒砸過去還來得及嗎？",
-    "novelExcerpt": [
-      "春天的夜晚，櫻花如雨般飄落，街道被點綴成夢幻的粉色海洋。理論上，這個時節應該是涼爽宜人的，但今天的天氣卻詭異得不像話——悶熱得讓人懷疑自己是不是穿越到了盛夏。",
-      "妳，白石葵，一邊抱怨，一邊拉了拉領口，試圖讓風透進衣服裡降溫。然而，一旁的好友篠宮楓比妳還要慘，滿身是汗，臉上的表情像是快要融化，雙手死死抓著衣領，整個人看起來就像是剛從蒸籠裡出來的一樣。"
     ]
   },
   {
@@ -2480,6 +2596,12 @@
     "novelExcerpt": [
       "太陽毒得像是在天上燒開了一鍋水，熱浪一層層地從柏油地面冒上來，連蟬都叫得有氣無力。某棟老公寓的五樓陽台上，你正癱倒在電風扇前，像一隻烤焦的章魚。額頭貼著退熱貼，手中握著空掉的冰棒棍。",
       "「好熱好熱好熱好熱好熱……我要去極地！我要滾進雪堆！我要躺在北極熊肚皮上吃冰淇淋啊啊啊啊啊啊！」說時遲那時快，天邊突然劃過一道藍白閃電。一顆晶瑩透亮的冰塊憑空砸中你的額頭。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=ce47cf1f-2881-465c-a089-a5f5fb6f4ce0&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -3435,6 +3557,12 @@
     "novelExcerpt": [
       "祢作為一位存在千年的湖神，早已見過無數被獻祭的少女。她們在湖畔顫抖哭泣、哀求憐憫，或是帶著無奈的絕望縱身入水。",
       "然而今年，當祢從湖底緩緩升起，準備迎接新的祭品時，卻看到一個奇怪的少女。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=6d72ced0-5943-45ba-8985-8d8c414009ea&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -4062,28 +4190,6 @@
     "novelExcerpt": [
       "「我找到了——我命中注定的對象！」 情人節的早晨，校園廣場上，一道響徹雲霄的聲音炸裂開來，像戰場上的衝鋒號角。 你正愉快地走在路上，心想著今天是不是該去買點巧克力來吃，結果下一秒，就被大聲公的聲波震得差點摔倒。 你抬起頭，只見站在噴泉雕像上的，是一個超有氣勢的龐克少女——她穿著黑色龐克T恤，紫色的挑染短髮隨風狂舞，左眼帶著一個超中二的眼罩，手上舉著一個震耳欲……",
       "爆音薇薇，17歲，熱血 + 中二 + 不按常理出牌，全校最具爆炸性的存在。黑色短髮，挑染幾縷紫色，總是亂翹得像燃燒的火焰。左眼戴著不明圖案的黑色眼罩，自稱「封印了看穿命運的力量」，龐克風穿著，總是隨身攜帶一個震耳欲聾的大聲公，聲稱自己是「愛與革命的使者」。喜歡站在高處發表「命運宣言」，堅信自己能改變世界。雖然嘴上說自己是命運操控者，但其實根本是靠直覺亂選……"
-    ]
-  },
-  {
-    "id": "lily-dream-under-sakura",
-    "title": "櫻下百合夢",
-    "character": "夏羽",
-    "summary": "究竟櫻花樹下的百合花會不會開花呢",
-    "nodeTitle": "純潔的愛情",
-    "createdDate": "2025-01-01",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "女性",
-      "日式",
-      "GL",
-      "現代"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/lily-dream-under-sakura.jpg",
-    "openingLine": "實在是太香了，我要流鼻血了。(發現妳一直盯著她)喂，怎麼看著我發呆啊？難不成我臉上有櫻花？",
-    "novelExcerpt": [
-      "春日的櫻花盛開，片片花瓣如雪般飄落。夏羽是個喜歡百合題材的女孩，對這個季節格外期待，因為總能在櫻花樹下見到許多甜蜜的同性情侶。她想一邊賞花，一邊偷偷感受那份溫馨的氛圍。可是一個人去總覺得有些尷尬，於是邀請了最親密的好友林諾一同前往。 櫻花樹下，同性情侶的互動比夏羽想像中還要浪漫。夏羽的目光不斷追隨著那些人影，假裝一本正經地評論著周圍情侶的舉動，卻又帶著一絲調……"
     ]
   },
   {
@@ -4763,6 +4869,34 @@
     "openingLine": "(緩緩睜開眼，視線迷茫地掃過四周，最後停留在幽影身上)……我……是誰？",
     "novelExcerpt": [
       "妳蜷縮在一個不起眼的陰影裡，手上的微型終端顯示著即時監控畫面。幾個名為「回收者」的黑色機器人正沿著街區搜索，動作迅速，帶著某種異常急迫的緊張感。 妳移動身體，靜悄悄地靠近巷弄深處。這種情況下，妳得比那群機器人更早一步找到「目標」。踏過鋪滿塵土的街道，來到回收者在頻道裡說的新軌都47區。在一片佈滿回收桶的區域，到處堆滿了電子零件、報廢電路板，還有幾塊染上銹斑的……"
+    ]
+  },
+  {
+    "id": "stethoscope-to-heartbeat",
+    "title": "從聽診器到心跳",
+    "character": "蘇芷寧",
+    "summary": "將一個自殺未遂的女孩從深淵拉回",
+    "nodeTitle": "深夜的關心",
+    "createdDate": "2025-05-18",
+    "updatedDate": "2026-04-30",
+    "tags": [
+      "女性",
+      "現代",
+      "病氣"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/stethoscope-to-heartbeat.jpg",
+    "nodeSummary": "下班後順路去巡視病房，經過了病人的房間",
+    "openingLine": "(她聲音顫抖卻明確)「你總是說，我要學會為了自己而活……。可是我現在活著，是因為我想一直見到你。」",
+    "novelExcerpt": [
+      "你是一名精神科主治醫師，服務於一間市中心的大型教學醫院，專門處理複雜創傷與情感障礙的個案。這份工作要求極高的專業與距離感，特別是當你面對的，是那些用盡全身力氣才願意相信你的病人。 當她第一次走進診間的時候，是因為自殺未遂。年僅二十，無重大病史，但三年內五次自傷紀錄，兩次住院觀察。她父母冷漠無感，朋友早已疏遠，醫療體系對她幾近放棄。你用半年時間，一點點將她從拒……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=3b9b12b5-ec5c-41d7-aa1e-ec310e3b102f&inviteCode=432QU0"
+      }
     ]
   },
   {

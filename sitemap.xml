@@ -21,6 +21,24 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=bear-warrior-and-widow-innkeeper</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=lazy-heir-and-strict-guard</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=lily-dream-under-sakura</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=pink-direct-hit</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -76,12 +94,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=ark-between-pages</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=bear-warrior-and-widow-innkeeper</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -274,12 +286,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=knight-under-apron-receptionist</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=lazy-heir-and-strict-guard</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -574,12 +580,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=left-eye-sees-fate</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=lily-dream-under-sakura</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
