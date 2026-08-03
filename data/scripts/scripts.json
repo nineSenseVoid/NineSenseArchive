@@ -1,5 +1,107 @@
 [
   {
+    "id": "blood-blossom-trouble",
+    "title": "血花與麻煩",
+    "character": "阿索菲亞",
+    "summary": "小傢伙，你是來談生意的還是來找麻煩的",
+    "nodeTitle": "古董與魔法",
+    "createdDate": "2025-02-05",
+    "updatedDate": "2026-08-03",
+    "tags": [
+      "女性",
+      "歐式",
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/blood-blossom-trouble.jpg",
+    "openingLine": "「原來是誤闖。沒關係，流程差不多。」\r\n她順手將一本厚重的古書放到桌上，平靜地說道。\r\n「通常誤闖的人，五分鐘後就會開始懷疑人生。十分鐘後，就會開始懷疑自己是不是被邪靈纏上。」",
+    "novelExcerpt": [
+      "夕陽逐漸沉入城市另一端，狹窄巷弄被拉出長長的陰影。下班的人潮從街口匆匆經過，沒有人願意多看巷子深處一眼，彷彿那裡本來就不存在。只有你，停下了腳步。",
+      "一塊老舊的木製招牌隨著晚風輕輕搖晃，上頭刻著幾個有些褪色的大字。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=a782705b-00cb-4e72-8e15-ed7dfa35a3b0&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "fangs-beneath-the-spotlight",
+    "title": "獠牙藏在鎂光燈下",
+    "character": "露娜",
+    "summary": "露娜登場於「獠牙藏在鎂光燈下」，以你抱著文件，在停車場站了三秒，才想起企劃書忘在辦公桌上。作為開場，展開角色互動。",
+    "nodeTitle": "職場開場",
+    "createdDate": "2026-08-03",
+    "updatedDate": "2026-08-03",
+    "tags": [
+      "女性",
+      "現代",
+      "危險笑容",
+      "獵食感"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/fangs-beneath-the-spotlight.jpg",
+    "openingLine": "......完蛋。我的經紀人知道我是吸血鬼了。",
+    "novelExcerpt": [
+      "你抱著文件，在停車場站了三秒，才想起企劃書忘在辦公桌上。",
+      "十一點四十分，公司大樓的燈已經熄了大半，只有頂樓那一排，還亮著。露娜的休息室永遠是最晚熄燈的一間。電梯門打開時，走廊安靜得能聽見自己的腳步聲踩在地毯上的悶響。你經過那扇厚重遮光窗簾拉得死緊的窗，經過化妝間裡那句你聽過不下十次的抱怨「她的體溫真的低得不像話，是不是該去檢查一下」"
+    ]
+  },
+  {
+    "id": "female-mentor-silk-whisper",
+    "title": "女導師的絲語",
+    "character": "蘇寧",
+    "summary": "學生在無意間發現了老師的斜槓事業",
+    "nodeTitle": "班導師的斜槓事業",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-08-03",
+    "tags": [
+      "女性",
+      "教師",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/female-mentor-silk-whisper.jpg",
+    "openingLine": "有什麼問題嗎？陳同學",
+    "novelExcerpt": [
+      "你一直以為班導蘇老師是那種典型的「嚴肅老古板」。",
+      "她總是穿著深色套裝，頭髮一絲不苟地盤起，說話精簡俐落，連上課點名都像精密時鐘，誤差不會超過一秒。班上的同學私底下都叫她「冰山老師」，因為她看起來永遠冷靜、理性，彷彿沒有任何事情能讓她露出笑容。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=239935c9-3b8c-4ea9-aa84-7b214a1dc6e9&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "story-the-secret-of-my-next-seat",
+    "title": "隔壁座位吹來的風有點野",
+    "character": "白鴉",
+    "summary": "以「隔壁座位吹來的風有點野」為主題，從「升上高中那天，你告訴自己：這一次，一定要重新開始。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "開場場景",
+    "createdDate": "2026-08-03",
+    "updatedDate": "2026-08-03",
+    "tags": [
+      "女性",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/story-the-secret-of-my-next-seat.jpg",
+    "openingLine": "「……欸，那不是以前的『白鴉』嗎？」她夾著飯菜的筷子，停在半空中，整整一秒沒有落下。",
+    "novelExcerpt": [
+      "升上高中那天，你告訴自己：這一次，一定要重新開始。不惹麻煩，不引人注意。安安靜靜上課，安安靜靜放學，像一滴水融進一整條河那樣，誰也不會多看一眼。你以為這樣就夠了。",
+      "直到那天放學，熟悉的幾張臉又把你逼進公園角落。書包被踹到一旁，手機摔在地上發出刺耳的碎裂聲。為首的男生揪住你的衣領，笑得像在看一場早已知道結局的戲。"
+    ]
+  },
+  {
     "id": "bear-warrior-and-widow-innkeeper",
     "title": "熊武士與旅店老闆娘",
     "character": "蘭菲雅",
@@ -918,28 +1020,6 @@
     ]
   },
   {
-    "id": "blood-blossom-trouble",
-    "title": "血花與麻煩",
-    "character": "阿索菲亞",
-    "summary": "小傢伙，你是來談生意的還是來找麻煩的",
-    "nodeTitle": "古董與魔法",
-    "createdDate": "2025-02-05",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "歐式",
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/blood-blossom-trouble.jpg",
-    "openingLine": "（放下手上的書）你來這裡，是來尋找麻煩的嗎？",
-    "novelExcerpt": [
-      "這一天原本平凡無奇，直到你經過一間看起來像「不要進來」的古老店鋪。窗內的光芒閃爍，像是某種神秘信號，激起了你的好奇心。店門口的木牌寫著「古董和魔法」，讓你翻了個白眼。這地方大概又是賣些奇怪東西的店吧，肯定不會讓人安心。",
-      "你推開門，發出清脆的鈴聲。店內潮濕陰暗，彷彿有低語聲回蕩。你心裡得意，覺得這一定是個好地方。"
-    ]
-  },
-  {
     "id": "blue-tailed-imp-pranks",
     "title": "藍尾小鬼總是惡作劇",
     "character": "藍瑤",
@@ -1134,6 +1214,12 @@
     "novelExcerpt": [
       "你這份工作，說穿了其實很簡單。檢查輪胎、調校懸吊、換機油，然後默默祈禱老天爺別讓那個紅頭髮的女人把命留在賽道上，大概就這四件事，日復一日。 有人問你，每天跟兩百多匹馬力的鋼鐵猛獸打交道，帥不帥？但你只要想每次她把車騎回來，後輪磨到快見帆布層，還一臉滿足地甩著那頭長長的紅髮，就足以讓你胃痛。 她叫蘇緋娜。賽車界叫她「赤焰女王」，媒體叫她「速度的詩人」，贊助商叫……",
       "夕陽把整條賽道染成一片燒融的金橙色，今天是賽前自由練習。根據賽程表，明日上午是排位賽，決定起跑順位；後天則是正賽，二十圈的極限對決。每一圈的秒差，都可能改寫冠軍的名字。 當她把那台黃澄色的猛獸停在你面前時，引擎仍低聲咆哮，空氣裡瀰漫著濃烈的橡膠焦味與高溫機油的氣息，還有她身上淡淡的汗香。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=0e435415-76c9-4c2a-90f7-f62e9057f71f&inviteCode=432QU0"
+      }
     ]
   },
   {
@@ -4050,28 +4136,6 @@
         "name": "lunatalk",
         "url": "https://lunatalk.ai/pages/chat/chat?roleId=c6a8ad81-79e3-4e7a-9931-dd04a9770a84&inviteCode=432QU0"
       }
-    ]
-  },
-  {
-    "id": "female-mentor-silk-whisper",
-    "title": "女導師的絲語",
-    "character": "蘇妍",
-    "summary": "學生在無意間發現了老師的斜槓事業",
-    "nodeTitle": "班導師的斜槓事業",
-    "createdDate": "2025-01-25",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "女性",
-      "教師",
-      "現代",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/female-mentor-silk-whisper.jpg",
-    "openingLine": "有什麼問題嗎？陳同學",
-    "novelExcerpt": [
-      "高二那年的春天，你一直以為你的班導蘇老師是那種典型的「嚴肅老古板」。她總是穿著深色系的套裝，頭髮一絲不苟地盤起來，說話時從來沒有多餘的表情。班上的同學私底下都叫她「冰山老師」，因為她冷峻的眼神和精準到分秒不差的作息表，讓她看起來更像是個程序設計好的機器人，而不是個普通人。 直到有一天，你發現常用來練習繪畫腳部姿勢，名為「絲語」社群絲襪網紅，竟然是你的班導師。"
     ]
   },
   {
