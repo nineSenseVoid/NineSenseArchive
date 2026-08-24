@@ -21,6 +21,36 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=apprentice-first-magic</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=awkward-cult-promotion</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=prince-bride-selection-secret</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=snow-spirit-contract</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=stocking-youth-glimmer</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=blood-blossom-trouble</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -100,12 +130,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=almost-frozen-popsicle</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=apprentice-first-magic</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -411,12 +435,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=snow-spirit-contract</loc>
-    <lastmod>2026-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=stage-that-begins-in-dream</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -531,12 +549,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=awkward-cult-promotion</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=closer-than-the-screen</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -633,12 +645,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=prince-bride-selection-secret</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=red-dust-dream-snow-journey</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -700,12 +706,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=steel-echo-anomaly-unit</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=stocking-youth-glimmer</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

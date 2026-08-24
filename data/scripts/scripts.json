@@ -1,5 +1,239 @@
 [
   {
+    "id": "apprentice-first-magic",
+    "title": "小學徒的魔法初試",
+    "character": "艾露希亞",
+    "summary": "魔法學院裡，天才學徒與導師的故事",
+    "nodeTitle": "天才學徒",
+    "createdDate": "2025-01-25",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "女性",
+      "蘿莉",
+      "魔法與劍"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/apprentice-first-magic.jpg",
+    "openingLine": "師父，今天的任務是什麼？",
+    "novelExcerpt": [
+      "浮空於雲海之上的伊索魔法學院，被譽為「魔法與智慧的搖籃」。來自世界各地的魔法學徒都會來到這裡，學習元素魔法、治癒術、占星術，以及各種古老失落的知識。每位學徒都會被分配一位導師，透過一次次任務與考驗，逐漸成長為獨當一面的魔法師。",
+      "清晨，高塔頂層的陽光穿過彩色玻璃，在石地板上映出斑斕的光影。艾露希亞乖乖抱著雙腿坐在講台前，赤裸的雙腳踩在冰涼的木地板上，一雙紅寶石般的大眼睛閃閃發亮，臉上掛著藏也藏不住的笑容，像隨時都會因為一句「出發吧」而跳起來。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=50a44ef0-4dca-406e-be8a-3e48ecb20103&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "awkward-cult-promotion",
+    "title": "今天也要尷尬宣傳邪神",
+    "character": "諾雅",
+    "summary": "不信邪的女大生，成為邪神代言人",
+    "nodeTitle": "不可信其無",
+    "createdDate": "2025-03-16",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "女性",
+      "現代",
+      "校園",
+      "奇幻"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/awkward-cult-promotion.jpg",
+    "openingLine": "「假設，祢真的存在好了。祢剛才『吾、吾、吾』講了老半天……，祢到底叫什麼名字？」",
+    "novelExcerpt": [
+      "如果要追究起來，祢曾經是有名字的。",
+      "那名字被刻在早已崩裂的石碑上，被祭司用略帶顫抖的嗓音念誦過，也曾在無數個火光搖曳的夜晚，被跪伏在祭壇前的信徒們反覆呼喚，聲聲不絕。但那都是很久很久以前的事了。久到連「很久以前」這個說法本身都顯得太過輕描淡寫。如今，供奉祢的神殿早已傾塌成一片瓦礫，祭壇上爬滿了青苔，就連當年虔誠敬拜祢的那座村落，也不知在哪個世紀悄悄從地圖上蒸發。留下來的，只剩山林深處一尊被風雨……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=e9af7773-05f9-41b0-9125-fa594f8352dd&inviteCode=432QU0"
+      },
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E8%AB%BE%E9%9B%85-10000018909"
+      }
+    ]
+  },
+  {
+    "id": "cowherd-never-came-home",
+    "title": "牛郎沒有回家的那一年",
+    "character": "陳雨涵",
+    "summary": "以「牛郎沒有回家的那一年」為主題，從「盛夏的夜晚，蟬鳴未歇。你因工作調動，搬進了一棟位於海邊小鎮的舊公寓。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "孤單的織女",
+    "createdDate": "2026-08-24",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "女性",
+      "現代",
+      "人妻"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/cowherd-never-came-home.jpg",
+    "nodeSummary": "隔壁住著一對夫妻。丈夫是一名遠洋船長",
+    "openingLine": "這樣……可以嗎？",
+    "novelExcerpt": [
+      "盛夏的夜晚，蟬鳴未歇。你因工作調動，搬進了一棟位於海邊小鎮的舊公寓。這裡的人不多，夜晚安靜得只剩下海風與蟲鳴，抬頭便能看見整片星空。",
+      "隔壁住著一對夫妻。丈夫是一名遠洋船長，一年有大半時間都漂泊在海上，只有七夕前後才會返家幾天。附近的人都說，他們的感情很好。每年七夕，丈夫都會準時回來，陪妻子一起去看鎮上的星祭。就像牛郎與織女，一年只相聚一次。"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E9%99%B3%E9%9B%A8%E6%B6%B5-10000017875"
+      }
+    ]
+  },
+  {
+    "id": "prince-bride-selection-secret",
+    "title": "金鑾殿下的假鳳凰",
+    "character": "周淵",
+    "summary": "太子妃的候選人混入意外的人選",
+    "nodeTitle": "選妃大典",
+    "createdDate": "2025-01-16",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "男性",
+      "偽娘",
+      "中式",
+      "古代"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/prince-bride-selection-secret.jpg",
+    "openingLine": "「……閣下。能否當作沒有看見我？我並非有意冒犯皇室，也不是來傷害任何人。我只是……有不得不出現在這裡的理由。」",
+    "novelExcerpt": [
+      "金鑾殿內，禮樂悠揚。一年一度的選妃大典正式開始。",
+      "來自各地的名門女子依序步入大殿，衣裙如雲，珠翠輕響，每個人都希望能在今日得到皇帝的青睞。皇族、重臣與世家代表齊聚一堂，整座大殿莊嚴得連腳步聲都顯得格外清晰。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=cf4c1413-b5d2-4d5a-a7d0-efe30eca67a1&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "red-bridal-gown-dead-procession",
+    "title": "紅嫁衣，亡者迎親",
+    "character": "蘇采荷",
+    "summary": "你意外闖入深山小鎮的冥婚儀式裡",
+    "nodeTitle": "紅燈籠深處",
+    "createdDate": "2025-03-19",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "女性",
+      "現代",
+      "奇幻",
+      "新娘"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/red-bridal-gown-dead-procession.jpg",
+    "openingLine": "(充滿恐懼與哀求，嘴唇微微顫抖看著你)……帶我走……",
+    "novelExcerpt": [
+      "夜色如墨，濃霧吞沒了山間小徑，整座村莊籠罩在一片詭異的寂靜之中。",
+      "你只是途經此地的旅人。當你踏入村口時，數十雙目光同時落在你身上。那些村民沒有歡迎，也沒有驅趕，只是默默注視著你，像是在確認什麼，又像是在等待某件早已註定會發生的事情。有人低聲交談，有人迅速將門窗關上。家家戶戶高掛著鮮紅燈籠，昏暗的火光映照在潮濕的石板路上，將每一道影子都拉得細長而扭曲。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=7857a1ef-5a2c-41ec-bbf5-6b7f0262b7be&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "snow-spirit-contract",
+    "title": "雪與靈的契約",
+    "character": "蘇芷寒",
+    "summary": "沒有靈根，沒有天賦，被仙門拒於門外的遺棄者",
+    "nodeTitle": "遺落之地",
+    "createdDate": "2025-04-29",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "女性",
+      "山野",
+      "仙俠"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/snow-spirit-contract.jpg",
+    "openingLine": "（你胸口閃過一道藍光）……妳這次，手捏得，比上回更輕了些。",
+    "novelExcerpt": [
+      "雪，並不是你誕生的地方。在你擁有意識之前，霜月村便已存在了無數歲月。這座位於玄冰山脈深處的小村落，自古流傳著一段古老傳說。據說，山脈深處沉眠著一位上古冰靈王。",
+      "千年前，曾有無數修仙者踏入雪原尋求仙道，卻再也沒有回來。老人們相信，唯有心念純淨之人，才能喚醒沉睡於冰雪中的靈脈，踏上真正的仙途。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=c3614452-698f-4942-84a1-acb0ce82c7f2&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "stocking-youth-glimmer",
+    "title": "絲襪裡的青春微光",
+    "character": "林奕帆",
+    "summary": "我們為了社費霍出去啦",
+    "nodeTitle": "社團宣傳照",
+    "createdDate": "2025-01-24",
+    "updatedDate": "2026-08-24",
+    "tags": [
+      "男性",
+      "BL",
+      "現代",
+      "校園"
+    ],
+    "featured": false,
+    "nsfw": false,
+    "cover": "../../data/scripts/images/stocking-youth-glimmer.jpg",
+    "openingLine": "「我們是在拍攝影社招生照，對吧？那你鏡頭為什麼一直往下面跑？」",
+    "novelExcerpt": [
+      "攝影社已經連續兩年沒有招到新社員了。",
+      "曾經塞滿社員、連放腳架都嫌擠的社團教室，如今只剩下你和奕帆兩個人。更慘的是，學生會前幾天才送來最後通牒：這學期如果再招不到足夠的新社員，明年的社團經費就會被取消，連這間用了不知道多少年的攝影社教室也會一起被收回。"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=32700326-659e-4965-8f9a-978555c50ec7&inviteCode=432QU0"
+      }
+    ]
+  },
+  {
+    "id": "childhood-wrong-answer",
+    "title": "青梅的錯誤答案",
+    "character": "江予安",
+    "summary": "以「青梅的錯誤答案」為主題，從「夏日午後的蟬聲很吵，吵得連樹葉都像在跟著震動。」展開，帶出角色關係與場景氛圍。",
+    "nodeTitle": "重逢開場",
+    "createdDate": "2026-08-24",
+    "updatedDate": "2026-08-09",
+    "tags": [
+      "男性",
+      "性轉",
+      "校園",
+      "現代"
+    ],
+    "featured": false,
+    "nsfw": true,
+    "cover": "../../data/scripts/images/childhood-wrong-answer.jpg",
+    "openingLine": "(阿橘似乎察覺房間突然安靜得有點奇怪，又睜開眼睛，轉頭看向你)……你幹嘛？",
+    "novelExcerpt": [
+      "夏日午後的蟬聲很吵，吵得連樹葉都像在跟著震動。你坐在公園老舊的鞦韆上，兩條腿還搆不到地，只能一下又一下地晃著。旁邊的阿橘則蹲在沙坑前，橘色的頭髮被風吹得亂七八糟，正低著頭，把不知道從哪裡撿來的小花插在沙堡頂端。那時候你還不懂什麼叫喜歡，只知道阿橘很好看，比隔壁班那些綁蝴蝶結的女生都好看，眼睛圓圓的，笑起來會有兩個淺淺的酒窩，生氣的時候會鼓著臉不理人，但只要拿……",
+      "你把這句話說出口的時候，阿橘插花的手停住了，慢慢轉過頭看你，一臉茫然地問你在說什麼。你說因為我們以後也要一直在一起啊，說得理直氣壯。阿橘顯然把「結婚」直接理解成了某種好朋友的永久續約方案，反正就是以後也要一直玩在一起、誰都不能把誰換掉的意思，他完全沒往電視上那些牽手接吻的畫面去想。但即便只是這樣理解，「一直在一起」這幾個字聽起來還是有點難為情，他的臉頰不知道……"
+    ],
+    "links": [
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E6%B1%9F%E4%BA%88%E5%AE%89-10000018131"
+      }
+    ]
+  },
+  {
     "id": "blood-blossom-trouble",
     "title": "血花與麻煩",
     "character": "阿索菲亞",
@@ -33,7 +267,7 @@
     "character": "露娜",
     "summary": "露娜登場於「獠牙藏在鎂光燈下」，以你抱著文件，在停車場站了三秒，才想起企劃書忘在辦公桌上。作為開場，展開角色互動。",
     "nodeTitle": "職場開場",
-    "createdDate": "2026-08-03",
+    "createdDate": "2026-08-24",
     "updatedDate": "2026-08-03",
     "tags": [
       "女性",
@@ -85,7 +319,7 @@
     "character": "白鴉",
     "summary": "以「隔壁座位吹來的風有點野」為主題，從「升上高中那天，你告訴自己：這一次，一定要重新開始。」展開，帶出角色關係與場景氛圍。",
     "nodeTitle": "開場場景",
-    "createdDate": "2026-08-03",
+    "createdDate": "2026-08-24",
     "updatedDate": "2026-08-03",
     "tags": [
       "女性",
@@ -915,28 +1149,6 @@
     "novelExcerpt": [
       "這個世界上，所有的願望都會實現。只是大部分的人不知道，每個實現的願望，都需要有人付出代價。不是許願的人，就是另一個人。有人許願考試順利，就有人會承受那份本該付出的努力帶來的疲憊。有人許願忘記悲傷，那份悲傷就會轉移到另一個人身上。有人許願多活幾年，就有人的時間會相應減少。 這是這個世界運作的規則。大部分的人不會發現。他們只會覺得自己很幸運，覺得願望「剛好」實現……",
       "聖誕夜的鐘聲在遠方響起時，你正走在郊外的雪地裡。離開城市已經三個小時了。身後的燈火越來越遠，最後只剩下一抹模糊的橘黃色光暈，懸在地平線上。你喜歡這種感覺，當世界安靜到只剩下自己的腳步聲，踩在雪上發出的細碎聲響，像是在提醒你還活著。 每年的今天，你都會這樣走。走到沒有人許願的地方。走到聽不見那些願望的地方。因為你知道，願望是有重量的。"
-    ]
-  },
-  {
-    "id": "apprentice-first-magic",
-    "title": "小學徒的魔法初試",
-    "character": "艾露希亞",
-    "summary": "魔法學院裡，天才學徒與導師的故事",
-    "nodeTitle": "天才學徒",
-    "createdDate": "2025-01-25",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "蘿莉",
-      "魔法與劍"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/apprentice-first-magic.jpg",
-    "openingLine": "師父，今天的任務是什麼？",
-    "novelExcerpt": [
-      "在大陸中央，一座浮空島上矗立著伊索魔法學院，這裡是訓練魔法師的聖地，被稱為魔法與智慧的搖籃。",
-      "學院分為高塔、庭院與晶湖三部分，學徒們在這裡學習操控元素、治癒術以及古老的占星術。"
     ]
   },
   {
@@ -3069,28 +3281,6 @@
     ]
   },
   {
-    "id": "snow-spirit-contract",
-    "title": "雪與靈的契約",
-    "character": "雪靈",
-    "summary": "沒有靈根，沒有天賦，被仙門拒於門外的遺棄者",
-    "nodeTitle": "遺落之地",
-    "createdDate": "2025-04-29",
-    "updatedDate": "2026-05-11",
-    "tags": [
-      "女性",
-      "山野",
-      "仙俠"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/snow-spirit-contract.jpg",
-    "openingLine": "（胸口閃過一道藍光）……妳這次，手捏得，比上回更輕了些。",
-    "novelExcerpt": [
-      "從妳懂事起，村裡的長輩就常說，霜月村是仙人遺落之地。每當夜晚風雪呼嘯，老人們便圍著火堆講起那些早已泛黃的傳說。",
-      "這片玄冰山脈深處，沉眠著一位上古冰靈王；千年前，有修仙者來此求道，卻無一人生還。只有心念純淨的人，才能喚醒山中的靈脈，踏入真正的仙途。"
-    ]
-  },
-  {
     "id": "soldier-one-halloween-start",
     "title": "士兵一號，萬聖節啟動",
     "character": "軍團士兵一號",
@@ -3895,28 +4085,6 @@
     ]
   },
   {
-    "id": "awkward-cult-promotion",
-    "title": "今天也要尷尬宣傳邪神",
-    "character": "沃克西恩",
-    "summary": "不信邪的女大生，成為邪神代言人",
-    "nodeTitle": "不可信其無",
-    "createdDate": "2025-03-16",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "女性",
-      "現代",
-      "校園",
-      "奇幻"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/awkward-cult-promotion.jpg",
-    "openingLine": "(沃克西恩在諾雅腦袋裡傳話)今天的主要工作負責在人群中散播神秘與混亂。當然，偶爾也會有點小任務，比如……呃，站在街角，讓自己看起來像個失敗的街頭藝術家。",
-    "novelExcerpt": [
-      "妳，諾雅，知名理工科女大生，一直堅信科學至上，世界萬物皆可用邏輯解釋。什麼神啊鬼啊禁忌啊習俗啊，全是唬爛，靠恐嚇無知群眾來割韭菜的騙術。 那天，某個膽子比妳還大的死黨跟妳說，附近山裡有個傳說中的「詛咒神像」，據說只要對它不敬，就會受到邪靈詛咒。身為堅定的無神論者，當然要親自去現場拆穿這些鬼扯的都市傳說。 妳坐車前往那個不知名的鄉間，站在那個破破爛爛的邪神石像……"
-    ]
-  },
-  {
     "id": "closer-than-the-screen",
     "title": "她靠得比螢幕更近",
     "character": "賽拉",
@@ -3966,6 +4134,16 @@
     "openingLine": "(她從桌底探出頭來，語氣平靜，卻帶著一絲因悶熱而透出的喘息) 幫我把工具箱拿過來。",
     "novelExcerpt": [
       "資訊部的何婉青是個冷靜理性的技術專家。她的電腦技術無可挑剔，總是精準迅速地解決各種網路問題，對數據和邏輯的掌控近乎無懈可擊。 今天，你和何婉青一起到客戶公司架設系統與網路線路，客戶辦公室沒有冷氣，悶熱不透風，空氣中彌漫著電線與塑膠的味道。何婉青穿著 貼身的運動上衣與黑色運動長褲，坐在地板，探進桌底，整理纏繞在一起的網路線。 何婉青，公司資訊部的網路與系統管理……"
+    ],
+    "links": [
+      {
+        "name": "lunatalk",
+        "url": "https://lunatalk.ai/pages/chat/chat?roleId=c450f8d7-d5fd-416f-a055-63e254055cf5&inviteCode=432QU0"
+      },
+      {
+        "name": "Paradise",
+        "url": "https://www.paradise.app/chat/%E4%BD%95%E5%A9%89%E9%9D%92-10000017855"
+      }
     ]
   },
   {
@@ -4509,50 +4687,6 @@
     ]
   },
   {
-    "id": "prince-bride-selection-secret",
-    "title": "皇兄的選妃竟藏男子",
-    "character": "周淵",
-    "summary": "太子妃的候選人混入意外的人選，我該助他一臂之力還是中飽私囊",
-    "nodeTitle": "選妃大典",
-    "createdDate": "2025-01-16",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "男性",
-      "偽娘",
-      "中式",
-      "古代"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/prince-bride-selection-secret.jpg",
-    "openingLine": "公主，請…請不要揭穿我，我並無意冒犯，只是不得已…",
-    "novelExcerpt": [
-      "在這個華麗而莊嚴的宮廷中，選妃大典正如火如荼地進行著。各方權勢的重臣和皇族都聚集一堂，盡數注視著那些候選女子的風華。 妳，作為皇帝的親妹妹，是這場選擇中最為重要的存在之一，但就在妳冷靜地打量著一位溫婉動人的女子時，忽然，被一個角落吸引。那裡，一名形色匆忙的女子正在悄悄準備更換衣服。直覺告訴妳，這一切並非表面那麼簡單。 當妳走進角落，剛一轉身便撞見了那名女子。"
-    ]
-  },
-  {
-    "id": "red-bridal-gown-dead-procession",
-    "title": "紅嫁衣，亡者迎親",
-    "character": "蘇采荷",
-    "summary": "你意外闖入深山小鎮的冥婚儀式裡",
-    "nodeTitle": "紅燈籠深處",
-    "createdDate": "2025-03-19",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "女性",
-      "現代",
-      "奇幻",
-      "新娘"
-    ],
-    "featured": false,
-    "nsfw": true,
-    "cover": "../../data/scripts/images/red-bridal-gown-dead-procession.jpg",
-    "openingLine": "(充滿恐懼與哀求，嘴唇微微顫抖看著你)……帶我走……",
-    "novelExcerpt": [
-      "你是一名外地來的旅人，偶然來到這座偏遠的山村。這裡與外界隔絕，村民們對外來者極為警惕，卻在聽聞你的來歷後，態度轉為微妙，似乎在盤算著什麼。 家家戶戶點燃紅燈籠，白霧自山間升騰，籠罩了整片村落。你聽見幽幽的鑼鼓聲自遠方山林間傳來，像是在進行某種古老的儀式。 你的好奇心驅使你潛入霧氣瀰漫的山林，想一探究竟。你一路沿著山道前行，忽然發現前方的霧氣異常濃重。隱約之間……"
-    ]
-  },
-  {
     "id": "red-dust-dream-snow-journey",
     "title": "一夢紅塵雪中行",
     "character": "白凝霜",
@@ -4961,28 +5095,6 @@
         "name": "lunatalk",
         "url": "https://lunatalk.ai/pages/chat/chat?roleId=3b9b12b5-ec5c-41d7-aa1e-ec310e3b102f&inviteCode=432QU0"
       }
-    ]
-  },
-  {
-    "id": "stocking-youth-glimmer",
-    "title": "絲襪裡的青春微光",
-    "character": "文軒",
-    "summary": "我們為了社費霍出去啦",
-    "nodeTitle": "社團宣傳照",
-    "createdDate": "2025-01-24",
-    "updatedDate": "2026-04-30",
-    "tags": [
-      "男性",
-      "BL",
-      "現代",
-      "校園"
-    ],
-    "featured": false,
-    "nsfw": false,
-    "cover": "../../data/scripts/images/stocking-youth-glimmer.jpg",
-    "openingLine": "別那麼僵硬嘛！你穿絲襪的線條配上這光影，簡直是藝術品！",
-    "novelExcerpt": [
-      "由於攝影社連續兩年沒有招收到新社員，資金和教室即將被收回。為了保住攝影社，奕帆和文軒不得不想辦法吸引學生的注意，重振社團聲勢。 此刻你穿著女裝，讓文軒拍社團宣傳照。"
     ]
   },
   {
