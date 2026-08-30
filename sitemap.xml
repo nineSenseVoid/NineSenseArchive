@@ -21,6 +21,12 @@
   <!-- 精選且非 NSFW 劇本 -->
 
   <url>
+    <loc>https://bluesense.tw/pages/scripts/detail.html?id=left-eye-sees-fate</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=apprentice-first-magic</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -592,12 +598,6 @@
   </url>
   <url>
     <loc>https://bluesense.tw/pages/scripts/detail.html?id=idol-sister-new-year-homecoming</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bluesense.tw/pages/scripts/detail.html?id=left-eye-sees-fate</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
